@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diagram version="1" name="ER diagram">
+	<entities>
+		<data-source id="postgres-jdbc-175126d36f0-70fbf8d03878017a">
+			<entity id="1" name="acudir" fq-name="web_data.acudir">
+				<path name="web_data"/>
+				<path name="covid_free"/>
+			</entity>
+			<entity id="2" name="lugares" fq-name="web_data.lugares">
+				<path name="web_data"/>
+				<path name="covid_free"/>
+			</entity>
+			<entity id="3" name="positivos" fq-name="web_data.positivos">
+				<path name="web_data"/>
+				<path name="covid_free"/>
+			</entity>
+			<entity id="4" name="usuarios" fq-name="web_data.usuarios">
+				<path name="web_data"/>
+				<path name="covid_free"/>
+			</entity>
+		</data-source>
+	</entities>
+	<relations>
+		<relation name="lugar_acudir_fk" fq-name="web_data.acudir.lugar_acudir_fk" type="fk" pk-ref="2" fk-ref="1"/>
+		<relation name="correo_acudir_fk" fq-name="web_data.acudir.correo_acudir_fk" type="fk" pk-ref="4" fk-ref="1"/>
+		<relation name="correo_positivos_fk" fq-name="web_data.positivos.correo_positivos_fk" type="fk" pk-ref="4" fk-ref="3"/>
+	</relations>
+</diagram>

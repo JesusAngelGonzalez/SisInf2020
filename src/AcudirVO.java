@@ -1,6 +1,6 @@
 package es.unizar.sisinf.grp1.model;
 
-import java.sql.Date;
+import java.sql.Timestamp;
 
 /**
  * tabla users
@@ -8,8 +8,8 @@ import java.sql.Date;
  *
  */
 public class AcudirVO {
-	private Date inicio;
-	private Date fin;
+	private Timestamp inicio;
+	private Timestamp fin;
 	private String correo_electronico;
 	private Integer id;
 	private Integer id_ubicacion;
@@ -20,7 +20,7 @@ public class AcudirVO {
 	 * @param nombre
 	 * @param ubicacion
 	 */
-	public AcudirVO(Integer id, String correo_electronico, Date inicio, Date fin, Integer id_ubicacion) {
+	public AcudirVO(Integer id, String correo_electronico, Timestamp inicio, Timestamp fin, Integer id_ubicacion) {
 		this.id = id;
 		this.correo_electronico = correo_electronico;
 		this.id_ubicacion = id_ubicacion;
@@ -36,19 +36,19 @@ public class AcudirVO {
 		this.id = id;
 	}
 
-	public Date getInicio() {
+	public Timestamp getInicio() {
 		return inicio;
 	}
 
-	public void setInicio(Date inicio) {
+	public void setInicio(Timestamp inicio) {
 		this.inicio = inicio;
 	}
 
-	public Date getFin() {
+	public Timestamp getFin() {
 		return fin;
 	}
 
-	public void setFin(Date fin) {
+	public void setFin(Timestamp fin) {
 		this.fin = fin;
 	}
 

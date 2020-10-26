@@ -1,6 +1,6 @@
 package es.unizar.sisinf.grp1.model;
 
-import java.sql.Date;
+import java.sql.Timestamp;
 
 /**
  * tabla users
@@ -8,7 +8,7 @@ import java.sql.Date;
  *
  */
 public class PositivoVO {
-	private Date fecha;
+	private Timestamp fecha;
 	private String correo_electronico;
 	
 	/**
@@ -17,16 +17,16 @@ public class PositivoVO {
 	 * @param nombre
 	 * @param ubicacion
 	 */
-	public PositivoVO(String correo_electronico, Date fecha) {
+	public PositivoVO(String correo_electronico, Timestamp fecha) {
 		this.correo_electronico = correo_electronico;
 		this.fecha = fecha;
 	}
 
-	public Date getFecha() {
+	public Timestamp getFecha() {
 		return fecha;
 	}
 
-	public void setInicio(Date fecha) {
+	public void setInicio(Timestamp fecha) {
 		this.fecha = fecha;
 	}
 

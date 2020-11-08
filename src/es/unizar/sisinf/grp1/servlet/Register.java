@@ -14,13 +14,13 @@ import es.unizar.sisinf.grp1.model.UsuariosVO;
  * Servlet implementation class Signin
  */
 @WebServlet(description = "Servlet de autenticación del usuario", urlPatterns = { "/register" })
-public class Signin extends HttpServlet {
+public class Register extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public Signin() {
+    public Register() {
         super();
         // TODO Auto-generated constructor stub
     }
@@ -42,13 +42,13 @@ public class Signin extends HttpServlet {
 					Integer.valueOf(request.getParameter("telefono")), request.getParameter("user"));
 			int valido = dao.insertUser(user);
 			if (valido == 0) {
-				request.setAttribute("exito", "registro exitoso");
+				request.setAttribute("exito", "Registro Exitoso");
 				request.getRequestDispatcher("login.jsp").forward(request, response);
 			} else if(valido == 1){
-				request.setAttribute("errorCorreo", "correo ya introducido");
+				request.setAttribute("errorCorreo", "Correo ya registrado");
 				request.getRequestDispatcher("register.jsp").forward(request, response);
 			} else { //error de la BD o de la conexion con ella
-				request.setAttribute("error2", "error en el registro");
+				request.setAttribute("error2", "Error en el registro");
 				request.getRequestDispatcher("register.jsp").forward(request, response);
 			}
 		}

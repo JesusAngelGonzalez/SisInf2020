@@ -27,8 +27,8 @@ public class UsuariosVO {
 	}
 	
 	public UsuariosVO(String correo_electronico, String contrasenya) {
-		this.nombre = nombre;
-		this.contrasenya = "";
+		this.nombre = "";
+		this.contrasenya = contrasenya;
 		this.correo_electronico = correo_electronico;
 		this.numero_telefono = 0;
 	}

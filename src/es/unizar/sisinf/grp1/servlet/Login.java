@@ -13,7 +13,7 @@ import es.unizar.sisinf.grp1.model.UsuariosVO;
 /**
  * Servlet implementation class Signin
  */
-@WebServlet(description = "Servlet de autenticación del usuario", urlPatterns = { "/login" })
+@WebServlet(description = "Servlet de login del usuario", urlPatterns = { "/login" })
 public class Login extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
@@ -31,23 +31,23 @@ public class Login extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		UsuariosFacade dao = new UsuariosFacade();		
 		
-		if (request.getParameter("inputEmail") == null || request.getParameter("inputContrasenya") == null) {
+		/*if (request.getParameter("email") == null || request.getParameter("password") == null) {
 			request.getRequestDispatcher("login.jsp").forward(request, response);
 			
 			request.setAttribute("error2", "introduzca usuario y contraseña");
 			request.getRequestDispatcher("login.jsp").forward(request, response);
+		} else {*/
+		UsuariosVO user = new UsuariosVO(request.getParameter("email"), request.getParameter("password"));
+		boolean valido = dao.validateUser(user);
+		if (valido) {
+			user.setContrasenya(null);
+			request.getSession().setAttribute("user",user);
+			request.getRequestDispatcher("dashboard.jsp").forward(request, response);
 		} else {
-			UsuariosVO user = new UsuariosVO(request.getParameter("inputEmail"), request.getParameter("inputPassword"));
-			boolean valido = dao.validateUser(user);
-			if (valido) {
-				user.setContrasenya(null);
-				request.getSession().setAttribute("user",user);
-				request.getRequestDispatcher("home.jsp").forward(request, response);
-			} else {
-				request.setAttribute("error", "invalid password or email");
-				request.getRequestDispatcher("login.jsp").forward(request, response);
-			}
+			request.setAttribute("errorLogin", "invalid password or email");
+			request.getRequestDispatcher("login.jsp").forward(request, response);
 		}
+		//}
 	}
 
 	/**

@@ -49,7 +49,7 @@ public class UsuariosFacade {
 				// Comparamos contraseñas
 				findRs.next();
 				String dbpwd = findRs.getString("contrasenya");
-				if (dbpwd.contentEquals(user.getContrasenya())) {
+				if (dbpwd.equals(user.getContrasenya())) {
 					result = true;
 				}
 			} else { 
@@ -96,9 +96,10 @@ public class UsuariosFacade {
 
 		} catch(SQLException se) {
 			final String ss = se.getSQLState();
-			if(ss == "23505") { // el correo ya está cogido
+			if(ss.equals("23505")) { // el correo ya está cogido
 				return 1;
 			}
+			System.err.println(ss);
 			se.printStackTrace();
 			return -1;
 		

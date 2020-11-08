@@ -31,10 +31,14 @@
                                     <div class="text-center">
                                         <h4 class="text-dark mb-4">¡Bienvenido!</h4>
                                     </div>
-                                    <form class="user">
+                                    <form class="user" method="post" action="login">
                                         <div class="form-group"><input class="form-control form-control-user" type="email" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Introduzca su Correo Electrónico..." name="email" autocomplete="on"></div>
                                         <div class="form-group"><input class="form-control form-control-user" type="password" id="exampleInputPassword" placeholder="Contraseña" name="password"></div>
-                                        <div class="alert alert-danger bounce animated" role="alert"><span><strong>Correo o contraseña incorrectos</strong><br></span></div>
+                                        <% if (request.getAttribute("errorLogin") != null) { %> 
+                                    	<div class="alert alert-danger bounce animated" role="alert">
+                                    		<span><strong><%= request.getAttribute("errorLogin") %></strong></span>
+                                   	 	</div>
+                                    	<% } %>
                                         <div class="form-group">
                                             <div class="custom-control custom-checkbox small">
                                                 <div class="form-check"><input class="form-check-input custom-control-input" type="checkbox" id="formCheck-1"><label class="form-check-label custom-control-label" for="formCheck-1">Mantener sesión iniciada</label></div>

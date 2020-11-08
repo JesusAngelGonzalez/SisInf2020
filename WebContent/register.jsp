@@ -39,10 +39,14 @@
                             <div class="text-center">
                                 <h4 class="text-dark mb-4">Crear una cuenta</h4>
                             </div>
-                            <form class="user">
+                            <form class="user" method="post" action="register">
                                 <div class="form-group"><input class="form-control form-control-user" type="text" id="Usuario" placeholder="Nombre Usuario" name="user" required=""></div>
                                 <div class="form-group"><input class="form-control form-control-user" type="email" id="InputEmail" aria-describedby="emailHelp" placeholder="Correo Electrónico" name="email" required="">
-                                    <div class="alert alert-danger bounce animated" id="error-correo" name="error-correo" role="alert"><span><strong>Correo Electrónico ya registrado</strong>.</span></div>
+                                    <% if (request.getAttribute("errorCorreo") != null) { %> 
+                                    <div class="alert alert-danger bounce animated" role="alert">
+                                    <span><strong><%= request.getAttribute("errorCorreo") %></strong></span>
+                                    </div>
+                                    <% } %>
                                 </div>
                                 <div class="form-group"><input class="form-control form-control-user" type="text" id="Usuario" placeholder="Teléfono (ej: 666 66 66 66)" name="telefono" required=""></div>
                                 <div class="form-group row">
@@ -51,7 +55,7 @@
                                             class="form-text text-muted">Longitud entre 8 y 20 caracteres. Debe contener al menos una mayuscula, una minúscula y un dígito</small>
                                     </div>
                                     <div class="col-sm-6"><input class="form-control form-control-user" type="password" id="RepeatPasswordInput" placeholder="Repita la Contraseña" name="password_repeat" required=""  onkeyup='check();'>
-                                        <div class="alert alert-danger bounce animated" id="message-error-repeat" role="alert" style="visibility: hidden;"><span><strong>No coincide la contraseña</strong>.</span></div>
+                                        <div class="alert alert-danger bounce animated" id="message-error-repeat" role="alert" style="visibility: hidden;"><span><strong>No coincide la contrase�a</strong>.</span></div>
                                     </div>
                                 </div><button class="btn btn-primary btn-block text-white btn-user" type="submit">Registrarse</button>
                                 <hr>

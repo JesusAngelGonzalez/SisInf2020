@@ -1,11 +1,11 @@
-package es.unizar.sisinf.grp1.model;
+package es.covid_free.model;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-import es.unizar.sisinf.grp1.db.PoolConnectionManager;
+import es.covid_free.db.PoolConnectionManager;
 
 /* Crear Usuario; Validar Usuario; Actualizar Usuario; Añadir Lugar; Registrar Acudir; Añadir Positivo; Dejar de ser positivo */
 

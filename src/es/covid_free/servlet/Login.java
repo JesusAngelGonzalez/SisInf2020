@@ -1,4 +1,4 @@
-package es.unizar.sisinf.grp1.servlet;
+package es.covid_free.servlet;
 
 import java.io.IOException;
 import javax.servlet.ServletException;
@@ -7,8 +7,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import es.unizar.sisinf.grp1.model.UsuariosFacade;
-import es.unizar.sisinf.grp1.model.UsuariosVO;
+import es.covid_free.model.UsuariosFacade;
+import es.covid_free.model.UsuariosVO;
 
 /**
  * Servlet implementation class Signin

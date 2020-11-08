@@ -1,4 +1,4 @@
-package es.unizar.sisinf.grp1.model;
+package es.covid_free.model;
 
 /**
  * tabla users

@@ -1,4 +1,4 @@
-package es.unizar.sisinf.grp1.servlet;
+package es.covid_free.servlet;
 
 import java.io.IOException;
 import javax.servlet.ServletException;

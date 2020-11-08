@@ -11,11 +11,11 @@ import es.unizar.sisinf.grp1.db.PoolConnectionManager;
 
 public class UsuariosFacade {
 	
-	private static String countBycorreo_electronico = "SELECT count(*) cuenta FROM web_data.usuario WHERE correo_electronico = ?";
-	private static String findBycorreo_electronico = "SELECT * FROM web_data.usuario WHERE correo_electronico = ?";
-	private static String insertUser = "INSERT INTO web_data.usuario(correo_electronico, contrasenya, numero_telefono, nombre) " + 
+	private static String countBycorreo_electronico = "SELECT count(*) cuenta FROM web_data.usuarios WHERE correo_electronico = ?";
+	private static String findBycorreo_electronico = "SELECT * FROM web_data.usuarios WHERE correo_electronico = ?";
+	private static String insertUser = "INSERT INTO web_data.usuarios(correo_electronico, contrasenya, numero_telefono, nombre) " + 
 			"VALUES (?, ?, ?,?);";
-	private static String updateUser = "UPDATE web_data.usuario SET contrasenya = ?, numero_telefono = ?, nombre = ? "
+	private static String updateUser = "UPDATE web_data.usuarios SET contrasenya = ?, numero_telefono = ?, nombre = ? "
 			+ "WHERE correo_electronico = ?;";
 	
 	/** * Busca un registro en la tabla DEMO por ID * 
@@ -74,7 +74,7 @@ public class UsuariosFacade {
 		return result;
 	}
 	
-	public boolean insertUser(UsuariosVO user) { 
+	public int insertUser(UsuariosVO user) { 
 		Connection conn = null;
 		
 		try {
@@ -95,18 +95,22 @@ public class UsuariosFacade {
 			
 
 		} catch(SQLException se) {
+			final String ss = se.getSQLState();
+			if(ss == "23505") { // el correo ya está cogido
+				return 1;
+			}
 			se.printStackTrace();
-			return false;
+			return -1;
 		
 		} catch(Exception e) {
 			e.printStackTrace(System.err);
-			return false;
+			return -1;
 			
 		} finally {
 			PoolConnectionManager.releaseConnection(conn); 
 		}
 		
-		return true;
+		return 0;
 	}
 	
 	public boolean updateUser(UsuariosVO user) { 

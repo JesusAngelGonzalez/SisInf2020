@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+	<Resource auth="Container" 
+  			defaultAutoCommit="true" 
+  			description="JCG Example MySQL database." 
+  			driverClassName="org.postgresql.Driver" 
+  			factory="org.apache.tomcat.jdbc.pool.DataSourceFactory" 
+  			global="jdbc/covid_free" 
+  			maxIdle="10" 
+  			maxTotal="10" 
+  			maxWaitMillis="10000" 
+  			name="jdbc/covid_free" 
+  			password="sisinf2020" 
+  			type="javax.sql.DataSource" 
+  			url="jdbc:postgresql://localhost:5432/covid_free?currentSchema=web_data" 
+  			username="postgres"
+  		/>
+ </Context>

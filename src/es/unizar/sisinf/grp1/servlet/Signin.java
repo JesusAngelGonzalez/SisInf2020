@@ -13,7 +13,7 @@ import es.unizar.sisinf.grp1.model.UsuariosVO;
 /**
  * Servlet implementation class Signin
  */
-@WebServlet(description = "Servlet de autenticación del usuario", urlPatterns = { "/signin" })
+@WebServlet(description = "Servlet de autenticación del usuario", urlPatterns = { "/register" })
 public class Signin extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
@@ -31,25 +31,25 @@ public class Signin extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		UsuariosFacade dao = new UsuariosFacade();		
 		
-		if (request.getParameter("inputEmail") == null || request.getParameter("inputTelefono") == null ||
-			request.getParameter("inputUsername") == null || request.getParameter("inputContrasenya") == null) {
+		if (request.getParameter("email") == null || request.getParameter("telefono") == null ||
+			request.getParameter("user") == null || request.getParameter("password") == null) {
 			
 			request.setAttribute("error3", "hay que rellenar todos los campos");
-			request.getRequestDispatcher("signin.jsp").forward(request, response);
+			request.getRequestDispatcher("register.jsp").forward(request, response);
 		} else {
 			//public UsuariosVO(String correo_electronico, String contrasenya, Integer numero_telefono, String nombre)
-			UsuariosVO user = new UsuariosVO(request.getParameter("inputEmail"), request.getParameter("inputPassword"),
-					Integer.valueOf(request.getParameter("inputTelefono")), request.getParameter("inputUsername"));
+			UsuariosVO user = new UsuariosVO(request.getParameter("email"), request.getParameter("password"),
+					Integer.valueOf(request.getParameter("telefono")), request.getParameter("user"));
 			int valido = dao.insertUser(user);
 			if (valido == 0) {
 				request.setAttribute("exito", "registro exitoso");
 				request.getRequestDispatcher("login.jsp").forward(request, response);
 			} else if(valido == 1){
-				request.setAttribute("error", "correo ya introducido");
-				request.getRequestDispatcher("signin.jsp").forward(request, response);
+				request.setAttribute("errorCorreo", "correo ya introducido");
+				request.getRequestDispatcher("register.jsp").forward(request, response);
 			} else { //error de la BD o de la conexion con ella
 				request.setAttribute("error2", "error en el registro");
-				request.getRequestDispatcher("signin.jsp").forward(request, response);
+				request.getRequestDispatcher("register.jsp").forward(request, response);
 			}
 		}
 	}

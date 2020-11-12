@@ -11,16 +11,16 @@ import es.covid_free.model.UsuariosFacade;
 import es.covid_free.model.UsuariosVO;
 
 /**
- * Servlet implementation class Signin
+ * Servlet implementation class Perfil
  */
-@WebServlet(description = "Servlet de login del usuario", urlPatterns = { "/login" })
-public class Login extends HttpServlet {
+@WebServlet(description = "Servlet de perfil del usuario", urlPatterns = { "/profile"})
+public class Profile extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public Login() {
+    public Profile() {
         super();
         // TODO Auto-generated constructor stub
     }
@@ -29,26 +29,29 @@ public class Login extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		UsuariosFacade dao = new UsuariosFacade();	
-		
-		
-		/*if (request.getParameter("email") == null || request.getParameter("password") == null) {
-			request.getRequestDispatcher("login.jsp").forward(request, response);
 			
-			request.setAttribute("error2", "introduzca usuario y contraseña");
-			request.getRequestDispatcher("login.jsp").forward(request, response);
-		} else {*/
-		UsuariosVO user = new UsuariosVO(request.getParameter("email"), request.getParameter("password"));
-		boolean valido = dao.validateUser(user);
-		if (valido) {
-			user.setContrasenya(null);
-			request.getSession().setAttribute("user",user);
-			request.getRequestDispatcher("dashboard.jsp").forward(request, response);
-		} else {
-			request.setAttribute("errorLogin", "invalid password or email");
-			request.getRequestDispatcher("login.jsp").forward(request, response);
+		UsuariosFacade dao = new UsuariosFacade();
+		UsuariosVO user = (UsuariosVO) request.getSession().getAttribute("user");
+		
+		System.out.print(user.getCorreo_electronico());
+		
+		request.setAttribute("user.name", user.getNombre());
+		request.getRequestDispatcher("profile.jsp").forward(request, response);
+		request.setAttribute("actualMail", "aaaaaaa");
+		request.getRequestDispatcher("profile.jsp").forward(request, response);
+		
+		String usuario = request.getParameter("username");
+		Integer telefono = Integer.valueOf(request.getParameter("first_name"));
+		if (!usuario.isEmpty()) {
+			user.setNombre(usuario);
 		}
-		//}
+		if(telefono != 0) {
+			user.setNumero_telefono(telefono);
+		}
+		dao.updateUser(user);
+		request.getRequestDispatcher("perfil.jsp").forward(request, response);
+		System.out.println(user.getNombre());
+		
 	}
 
 	/**
@@ -56,6 +59,7 @@ public class Login extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
+		
 		doGet(request, response);
 	}
 	

@@ -15,7 +15,7 @@ public class UsuariosFacade {
 	private static String findBycorreo_electronico = "SELECT * FROM web_data.usuarios WHERE correo_electronico = ?";
 	private static String insertUser = "INSERT INTO web_data.usuarios(correo_electronico, contrasenya, numero_telefono, nombre) " + 
 			"VALUES (?, ?, ?,?);";
-	private static String updateUser = "UPDATE web_data.usuarios SET contrasenya = ?, numero_telefono = ?, nombre = ? "
+	private static String updateUser = "UPDATE web_data.usuarios SET  numero_telefono = ?, nombre = ? "
 			+ "WHERE correo_electronico = ?;";
 	
 	/** * Busca un registro en la tabla DEMO por ID * 
@@ -121,10 +121,9 @@ public class UsuariosFacade {
 			// Abrimos la conexión e inicializamos los parámetros 
 			conn = PoolConnectionManager.getConnection(); 
 			PreparedStatement updateU = conn.prepareStatement(updateUser);
-			updateU.setString(1, user.getContrasenya());
-			updateU.setInt(2, user.getNumero_telefono());
-			updateU.setString(3, user.getNombre());
-			updateU.setString(4, user.getCorreo_electronico());
+			updateU.setInt(1, user.getNumero_telefono());
+			updateU.setString(2, user.getNombre());
+			updateU.setString(3, user.getCorreo_electronico());
 			
 			// Ejecutamos la orden
 			updateU.execute();

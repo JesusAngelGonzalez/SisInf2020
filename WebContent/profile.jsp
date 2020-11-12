@@ -119,15 +119,15 @@
                                             <form>
                                                 <div class="form-row">
                                                     <div class="col">
-                                                        <div class="form-group"><label for="username"><strong>Nombre de Usuario</strong></label><input class="form-control" type="text" placeholder="user.name" name="username"></div>
+                                                        <div class="form-group"><label for="username"><strong>Nombre de Usuario</strong></label><input class="form-control" type="text" placeholder=<%=request.getAttribute("user.name")%> name="username"></div>
                                                     </div>
                                                 </div>
                                                 <div class="form-row">
                                                     <div class="col">
-                                                        <div class="form-group"><label for="email"><strong>Correo Electrónico</strong></label><input class="form-control" type="email" placeholder="user@example.com" name="email" readonly=""></div>
+                                                        <div class="form-group"><label for="email"><strong>Correo Electrónico</strong></label><input class="form-control" type="email" placeholder=<%=request.getAttribute("actualMail")%> name="email" readonly=""></div>
                                                     </div>
                                                     <div class="col">
-                                                        <div class="form-group"><label for="first_name"><strong>Número de Teléfono</strong></label><input class="form-control" type="text" placeholder="666 66 66 66" name="first_name"></div>
+                                                        <div class="form-group"><label for="first_name"><strong>Número de Teléfono</strong></label><input class="form-control" type="text" placeholder= "666 66 66 66" name="first_name"></div>
                                                     </div>
                                                 </div>
                                                 <div class="form-group"><button class="btn btn-primary btn-sm" type="submit">Guardar Cambios</button></div>

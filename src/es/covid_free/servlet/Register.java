@@ -29,7 +29,8 @@ public class Register extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		UsuariosFacade dao = new UsuariosFacade();		
+		UsuariosFacade dao = new UsuariosFacade();
+		
 		
 		if (request.getParameter("email") == null || request.getParameter("telefono") == null ||
 			request.getParameter("user") == null || request.getParameter("password") == null) {

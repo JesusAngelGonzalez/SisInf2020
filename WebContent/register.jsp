@@ -40,7 +40,7 @@
                                 <h4 class="text-dark mb-4">Crear una cuenta</h4>
                             </div>
                             <form class="user" method="post" action="register">
-                                <div class="form-group"><input class="form-control form-control-user" type="text" id="Usuario" placeholder="Nombre Usuario" name="user" required=""></div>
+                                <div class="form-group"><input class="form-control form-control-user" type="text" id="Usuario" placeholder=<%=request.getAttribute("nombreusuario")%> name="user" required=""></div>
                                 <div class="form-group"><input class="form-control form-control-user" type="email" id="InputEmail" aria-describedby="emailHelp" placeholder="Correo Electrónico" name="email" required="">
                                     <% if (request.getAttribute("errorCorreo") != null) { %> 
                                     <div class="alert alert-danger bounce animated" role="alert">

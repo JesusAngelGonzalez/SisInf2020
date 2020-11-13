@@ -151,25 +151,24 @@ public class UsuariosFacade {
 	
 		
 	
-	/*public UserVO getUser(String nombre) {
+	public String getName(UsuariosVO user) {
 		Connection conn = null;
-		UserVO user = null;
-
+		String name = "";
 		try {
 			// Abrimos la conexión e inicializamos los parámetros 
 			conn = PoolConnectionManager.getConnection(); 
-			PreparedStatement ps = conn.prepareStatement("Select * from users where nombre= ?");
-			ps.setString(1, nombre);
-			ResultSet rset = ps.executeQuery();
+			PreparedStatement findPs = conn.prepareStatement(findBycorreo_electronico);
+			findPs.setString(1, user.getCorreo_electronico());
+			ResultSet rset = findPs.executeQuery();
 			rset.next();
-			user = new UserVO(rset.getString("nombre"), rset.getString("contrasenya"));
+			name = rset.getString("nombre");
 		} catch (Exception e) {
 			e.printStackTrace();
 		} finally {
 			PoolConnectionManager.releaseConnection(conn);
 		}
-		return user;
-	}*/
+		return name;
+	}
 	
 }
 

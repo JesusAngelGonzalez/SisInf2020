@@ -60,7 +60,7 @@ public class PositivoFacade {
 		@param id Identificador del registro buscado * 
 		@returnObjeto DemoVO con el identificador buscado, o null si no seencuentra 
 	*/
-	public boolean insertLugar(PositivoVO positivo) { 
+	public boolean insertPositivo(PositivoVO positivo) { 
 		Connection conn = null;
 		
 		try {

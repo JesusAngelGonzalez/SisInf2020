@@ -1,26 +1,31 @@
 package es.covid_free.servlet;
 
 import java.io.IOException;
+import java.util.List;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import es.covid_free.model.AcudirFacade;
+import es.covid_free.model.LugaresFacade;
+import es.covid_free.model.LugaresVO;
 import es.covid_free.model.UsuariosFacade;
 import es.covid_free.model.UsuariosVO;
 
 /**
- * Servlet implementation class Perfil
+ * Servlet implementation class Logged
  */
-@WebServlet(description = "Servlet de perfil del usuario", urlPatterns = { "/profile"})
-public class Profile extends HttpServlet {
+@WebServlet(description = "Servlet de dashboard", urlPatterns = { "/dashboard" })
+public class Dashboard extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public Profile() {
+    public Dashboard() {
         super();
         // TODO Auto-generated constructor stub
     }
@@ -29,31 +34,26 @@ public class Profile extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-			
-		UsuariosFacade dao = new UsuariosFacade();
+		System.out.println("llega aqui");
 		UsuariosVO user = (UsuariosVO) request.getSession().getAttribute("user");
-		
-		System.out.println(user);
-		
-		System.out.print(user.getCorreo_electronico());
-		
-		request.setAttribute("user.name", user.getNombre());
-		request.getRequestDispatcher("profile.jsp").forward(request, response);
-		request.setAttribute("actualMail", "aaaaaaa");
-		request.getRequestDispatcher("profile.jsp").forward(request, response);
-		
-		String usuario = request.getParameter("username");
-		Integer telefono = Integer.valueOf(request.getParameter("first_name"));
-		if (!usuario.isEmpty()) {
-			user.setNombre(usuario);
+		if (user == null) {
+			//request.getSession().setAttribute("user",null);
+			request.getRequestDispatcher("login.jsp").forward(request, response);
+		} else {
+			String correo = user.getCorreo_electronico();
+			AcudirFacade af = new AcudirFacade(); 
+			UsuariosFacade uf = new UsuariosFacade();
+			System.out.println(correo);
+			System.out.println("llega aqui");
+			List<LugaresVO> lista = af.getUltimosLugares(user);
+			request.setAttribute("listaLugares", lista);
+			String name = uf.getName(user);
+			System.out.println(name);
+			request.setAttribute("userName", name);
+			
+			//request.getSession().setAttribute("user", user);
+			request.getRequestDispatcher("dashboard.jsp").forward(request, response);
 		}
-		if(telefono != 0) {
-			user.setNumero_telefono(telefono);
-		}
-		dao.updateUser(user);
-		request.getRequestDispatcher("perfil.jsp").forward(request, response);
-		System.out.println(user.getNombre());
-		
 	}
 
 	/**
@@ -61,8 +61,8 @@ public class Profile extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		
+		System.out.println("llega aqui");
 		doGet(request, response);
 	}
-	
+
 }

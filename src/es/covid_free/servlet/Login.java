@@ -38,12 +38,14 @@ public class Login extends HttpServlet {
 			request.setAttribute("error2", "introduzca usuario y contraseña");
 			request.getRequestDispatcher("login.jsp").forward(request, response);
 		} else {*/
+		System.out.println("Ejecutando login");
 		UsuariosVO user = new UsuariosVO(request.getParameter("email"), request.getParameter("password"));
 		boolean valido = dao.validateUser(user);
 		if (valido) {
 			user.setContrasenya(null);
 			request.getSession().setAttribute("user",user);
-			request.getRequestDispatcher("dashboard.jsp").forward(request, response);
+			//request.getRequestDispatcher("dashboard.jsp").forward(request, response);
+			response.sendRedirect("dashboard");
 		} else {
 			request.setAttribute("errorLogin", "invalid password or email");
 			request.getRequestDispatcher("login.jsp").forward(request, response);

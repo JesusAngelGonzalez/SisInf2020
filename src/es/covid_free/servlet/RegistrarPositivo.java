@@ -26,16 +26,18 @@ public class RegistrarPositivo  extends HttpServlet {
 	
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		UsuariosVO user = (UsuariosVO) request.getSession().getAttribute("user");
+		System.out.println("Registrando covid klk");
 		if (user == null) {
 			//request.getSession().setAttribute("user",null);
-			request.getRequestDispatcher("login.jsp").forward(request, response);
+			//request.getRequestDispatcher("login.jsp").forward(request, response);
+			response.sendRedirect("login.jsp");
 		} else {
 			String correo = user.getCorreo_electronico();
 			PositivoFacade pf = new PositivoFacade(); 
 			UsuariosFacade uf = new UsuariosFacade();
 			AcudirFacade af = new AcudirFacade();
 			
-			System.out.println(correo);
+			System.out.println(correo + "Registrando covid klk");
 			Date now = new Date();
 			PositivoVO positivo = new PositivoVO(user.getCorreo_electronico(), new Timestamp(now.getTime()) );
 			pf.insertPositivo(positivo);
@@ -48,14 +50,10 @@ public class RegistrarPositivo  extends HttpServlet {
 				 * Añadir notificacion*/
 			}
 			
-			List<LugaresVO> list = af.getUltimosLugares(user);
-			
-			request.setAttribute("listaLugares", list);
-			request.setAttribute("userName", uf.getName(user));
 			request.setAttribute("positivoConf", "klk manin");
 			
 			//request.getSession().setAttribute("user", user);
-			request.getRequestDispatcher("dashboard.jsp").forward(request, response);
+			request.getRequestDispatcher("dashboard").forward(request, response);
 		}
 	}
 	

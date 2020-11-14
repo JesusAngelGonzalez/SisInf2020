@@ -45,7 +45,8 @@ public class Login extends HttpServlet {
 			user.setContrasenya(null);
 			request.getSession().setAttribute("user",user);
 			//request.getRequestDispatcher("dashboard.jsp").forward(request, response);
-			response.sendRedirect("dashboard");
+			//response.sendRedirect("dashboard");
+			request.getRequestDispatcher("dashboard").forward(request, response);
 		} else {
 			request.setAttribute("errorLogin", "invalid password or email");
 			request.getRequestDispatcher("login.jsp").forward(request, response);

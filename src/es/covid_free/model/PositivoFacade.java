@@ -13,7 +13,7 @@ import java.sql.Timestamp;
 
 public class PositivoFacade {
 	
-	private static String insertPositivo = "INSERT INTO web_data.acudir(fecha, correo_electronico) " + 
+	private static String insertPositivo = "INSERT INTO web_data.positivos(fecha, correo_electronico) " + 
 			"VALUES (?, ?);";
 	private static String posiblesPositivos = "SELECT a3.correo_electronico, u.numero_telefono, u.contrasenya, u.nombre \n" + 
 			"FROM web_data.acudir a3, web_data.acudir a4, web_data.usuarios u \n" + 

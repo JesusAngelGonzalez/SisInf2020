@@ -10,6 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import es.covid_free.model.AcudirFacade;
+import es.covid_free.model.AcudirLugares;
 import es.covid_free.model.LugaresFacade;
 import es.covid_free.model.LugaresVO;
 import es.covid_free.model.UsuariosFacade;
@@ -38,14 +39,15 @@ public class Dashboard extends HttpServlet {
 		UsuariosVO user = (UsuariosVO) request.getSession().getAttribute("user");
 		if (user == null) {
 			//request.getSession().setAttribute("user",null);
-			request.getRequestDispatcher("login.jsp").forward(request, response);
+			//request.getRequestDispatcher("login.jsp").forward(request, response);
+			response.sendRedirect("login.jsp");
 		} else {
 			String correo = user.getCorreo_electronico();
 			AcudirFacade af = new AcudirFacade(); 
 			UsuariosFacade uf = new UsuariosFacade();
 			System.out.println(correo);
 			System.out.println("llega aqui");
-			List<LugaresVO> lista = af.getUltimosLugares(user);
+			List<AcudirLugares> lista = af.getUltimosLugares(user);
 			request.setAttribute("listaLugares", lista);
 			String name = uf.getName(user);
 			System.out.println(name);

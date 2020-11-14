@@ -7,21 +7,20 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import es.covid_free.model.LugaresFacade;
-import es.covid_free.model.LugaresVO;
 import es.covid_free.model.UsuariosFacade;
+import es.covid_free.model.UsuariosVO;
 
 /**
- * Servlet implementation class Logged
+ * Servlet implementation class Signin
  */
-@WebServlet("/anadirlugar")
-public class Anadirlugar extends HttpServlet {
+@WebServlet(description = "Servlet de logout del usuario", urlPatterns = { "/logout" })
+public class Logout extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public Anadirlugar() {
+    public Logout() {
         super();
         // TODO Auto-generated constructor stub
     }
@@ -30,12 +29,8 @@ public class Anadirlugar extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		LugaresFacade dao = new LugaresFacade();
-		
-		//LugaresVO lugar = new LugaresVO (request.getParameter("email"), request.getParameter("nombre"), request.getParameter("ubicación"));
-		
-		
-		
+		request.getSession(false).invalidate();
+		response.sendRedirect("login.jsp");
 	}
 
 	/**
@@ -45,5 +40,5 @@ public class Anadirlugar extends HttpServlet {
 		// TODO Auto-generated method stub
 		doGet(request, response);
 	}
-
+	
 }

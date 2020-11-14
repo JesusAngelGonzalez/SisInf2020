@@ -59,9 +59,9 @@ public class AcudirFacade {
 		return true;
 	}
 		
-	public List<LugaresVO> getUltimosLugares(UsuariosVO usuario) {
+	public List<AcudirLugares> getUltimosLugares(UsuariosVO usuario) {
 		Connection conn = null;
-		List<LugaresVO> lista = new ArrayList<>();
+		List<AcudirLugares> lista = new ArrayList<>();
 
 		try {
 			// Abrimos la conexión e inicializamos los parámetros 
@@ -71,7 +71,8 @@ public class AcudirFacade {
 			
 			ResultSet rset = ps.executeQuery();
 			while(rset.next()) {
-				lista.add(new LugaresVO(rset.getInt("id"), rset.getString("nombre"),  rset.getString("ubicacion")));
+				lista.add(new AcudirLugares(rset.getTimestamp("inicio"), rset.getTimestamp("final"), 
+											rset.getString("nombre"),  rset.getString("ubicacion")));
 				//debería devolver también la fecha de inicio y de fin (el statement ya esta preparado para ello)
 			}
 		} catch (Exception e) {

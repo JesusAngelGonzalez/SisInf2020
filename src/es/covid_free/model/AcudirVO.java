@@ -16,9 +16,11 @@ public class AcudirVO {
 	
 	/**
 	 * Constructor
-	 * @param id
-	 * @param nombre
-	 * @param ubicacion
+	 * @param Integer id
+	 * @param String correo_electronico
+	 * @param Timestamp inicio
+	 * @param Timestamp fin
+	 * @param Integer id_ubicacion
 	 */
 	public AcudirVO(Integer id, String correo_electronico, Timestamp inicio, Timestamp fin, Integer id_ubicacion) {
 		this.id = id;

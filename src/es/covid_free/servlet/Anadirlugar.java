@@ -31,9 +31,9 @@ public class Anadirlugar extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		LugaresFacade dao = new LugaresFacade();
-		
+		// TODO
 		//LugaresVO lugar = new LugaresVO (request.getParameter("email"), request.getParameter("nombre"), request.getParameter("ubicación"));
-		
+		request.getRequestDispatcher("dashboard").forward(request, response);
 		
 		
 	}

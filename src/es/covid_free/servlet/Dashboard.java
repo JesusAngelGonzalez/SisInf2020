@@ -54,7 +54,7 @@ public class Dashboard extends HttpServlet {
 			request.setAttribute("userName", name);
 			
 			//request.getSession().setAttribute("user", user);
-			request.getRequestDispatcher("dashboard.jsp").forward(request, response);
+			request.getRequestDispatcher("/WEB-INF/dashboard.jsp").forward(request, response);
 		}
 	}
 

@@ -11,7 +11,6 @@ public class AcudirVO {
 	private Timestamp inicio;
 	private Timestamp fin;
 	private String correo_electronico;
-	private Integer id;
 	private Integer id_ubicacion;
 	
 	/**
@@ -22,20 +21,11 @@ public class AcudirVO {
 	 * @param Timestamp fin
 	 * @param Integer id_ubicacion
 	 */
-	public AcudirVO(Integer id, String correo_electronico, Timestamp inicio, Timestamp fin, Integer id_ubicacion) {
-		this.id = id;
+	public AcudirVO(String correo_electronico, Timestamp inicio, Timestamp fin, Integer id_ubicacion) {
 		this.correo_electronico = correo_electronico;
 		this.id_ubicacion = id_ubicacion;
 		this.inicio = inicio;
 		this.fin = fin;
-	}
-
-	public Integer getId() {
-		return id;
-	}
-
-	public void setId(Integer id) {
-		this.id = id;
 	}
 
 	public Timestamp getInicio() {

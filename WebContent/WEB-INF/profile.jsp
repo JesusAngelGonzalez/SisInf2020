@@ -66,7 +66,10 @@
                             </li>
                             <div class="d-none d-sm-block topbar-divider"></div>
                             <li class="nav-item dropdown no-arrow" role="presentation">
-                                <div class="nav-item dropdown no-arrow"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#"><span class="d-none d-lg-inline mr-2 text-gray-600 small">Valerie Luna</span></a>
+                            	<%if (request.getAttribute("user.name")!= null) { 
+                            	 System.out.println(request.getAttribute("user.name"));%>
+                                <div class="nav-item dropdown no-arrow"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#"><span class="d-none d-lg-inline mr-2 text-gray-600 small"><%= request.getAttribute("user.name") %></span></a>
+                                 <%} %>
                                     <div class="dropdown-menu shadow dropdown-menu-right animated--grow-in"
                                         role="menu"><a class="dropdown-item" role="presentation" href="profile.jsp"><i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>&nbsp;Perfil</a>
                                         <div class="dropdown-divider"></div><a class="dropdown-item" role="presentation" href="login.jsp"><i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>&nbsp;Cerrar Sesión</a></div>
@@ -116,7 +119,7 @@
                                             <p class="text-primary m-0 font-weight-bold">Configuración de Usuario</p>
                                         </div>
                                         <div class="card-body">
-                                            <form>
+                                            <form class="user" method="post" action="profile">
                                                 <div class="form-row">
                                                     <div class="col">
                                                         <div class="form-group"><label for="username"><strong>Nombre de Usuario</strong></label><input class="form-control" type="text" placeholder=<%=request.getAttribute("user.name")%> name="username"></div>
@@ -127,7 +130,7 @@
                                                         <div class="form-group"><label for="email"><strong>Correo Electrónico</strong></label><input class="form-control" type="email" placeholder=<%=request.getAttribute("actualMail")%> name="email" readonly=""></div>
                                                     </div>
                                                     <div class="col">
-                                                        <div class="form-group"><label for="first_name"><strong>Número de Teléfono</strong></label><input class="form-control" type="text" placeholder= "666 66 66 66" name="first_name"></div>
+                                                        <div class="form-group"><label for="numero_telefono"><strong>Número de Teléfono</strong></label><input class="form-control" type="text" pattern="[0-9.]+" placeholder=<%=request.getAttribute("numero_telefono")%> name="numero_telefono"></div>
                                                     </div>
                                                 </div>
                                                 <div class="form-group"><button class="btn btn-primary btn-sm" type="submit">Guardar Cambios</button></div>

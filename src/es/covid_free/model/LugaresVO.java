@@ -8,7 +8,6 @@ package es.covid_free.model;
 public class LugaresVO {
 	private String nombre;
 	private String ubicacion;
-	private Integer id;
 	
 	/**
 	 * Constructor
@@ -16,8 +15,7 @@ public class LugaresVO {
 	 * @param nombre
 	 * @param ubicacion
 	 */
-	public LugaresVO(Integer id, String nombre, String ubicacion) {
-		this.id = id;
+	public LugaresVO(String nombre, String ubicacion) {
 		this.nombre = nombre;
 		this.ubicacion = ubicacion;
 	}
@@ -28,14 +26,6 @@ public class LugaresVO {
 
 	public void setUbicacion(String ubicacion) {
 		this.ubicacion = ubicacion;
-	}
-
-	public Integer getId() {
-		return id;
-	}
-
-	public void setId(Integer id) {
-		this.id = id;
 	}
 
 	public String getNombre() {

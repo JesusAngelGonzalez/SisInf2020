@@ -11,14 +11,15 @@ import es.covid_free.db.PoolConnectionManager;
 
 public class LugaresFacade {
 	
-	private static String insertLugar = "INSERT INTO web_data.lugares(id, nombre, ubicacion) " + 
-			"VALUES (?, ?, ?);";
+	private static String insertLugar = "INSERT INTO web_data.lugares(nombre, ubicacion) " + 
+			"VALUES (?, ?);";
 	private static String rankingVisitas = "select l.id, l.nombre, l.ubicacion, count(*) n\n" + 
 			"from web_data.acudir a, web_data.lugares l\n" + 
 			"where a.id_ubicacion = l.id\n" + 
 			"group by l.id \n" + 
 			"order by n desc\n" + 
 			"limit 100;";
+	private static String findByName = "SELECT * FROM web_data.lugares WHERE id = ?";
 	private static String rankingMasPositivos = "SELECT l.id, l.nombre, l.ubicacion, COUNT(*) n\n" + 
 			"FROM web_data.acudir a, web_data.lugares l, web_data.positivos p\n" + 
 			"WHERE a.correo_electronico = p.correo_electronico and l.id = a.id_ubicacion \n" + 
@@ -57,9 +58,8 @@ public class LugaresFacade {
 			// Abrimos la conexión e inicializamos los parámetros 
 			conn = PoolConnectionManager.getConnection(); 
 			PreparedStatement insertL = conn.prepareStatement(insertLugar);
-			insertL.setInt(1, lugar.getId());
-			insertL.setString(2, lugar.getNombre());
-			insertL.setString(3, lugar.getUbicacion());
+			insertL.setString(1, lugar.getNombre());
+			insertL.setString(2, lugar.getUbicacion());
 			
 			// Ejecutamos la orden
 			insertL.execute();
@@ -95,7 +95,7 @@ public class LugaresFacade {
 			
 			ResultSet rset = ps.executeQuery();
 			while(rset.next()) {
-				lista.add(new LugaresVO(rset.getInt("id"), rset.getString("nombre"),  rset.getString("ubicacion")));
+				lista.add(new LugaresVO(rset.getString("nombre"),  rset.getString("ubicacion")));
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -118,14 +118,14 @@ public class LugaresFacade {
 			ResultSet rset = ps.executeQuery();
 			while(rset.next()) {
 				count ++;
-				lista.add(new LugaresVO(rset.getInt("id"), rset.getString("nombre"),  rset.getString("ubicacion")));
+				lista.add(new LugaresVO(rset.getString("nombre"),  rset.getString("ubicacion")));
 			}
 			if(count < 100) {
 				PreparedStatement ps2 = conn.prepareStatement(queryFreeCovid);
 				ps2.setInt(1, 100 - count);
 				ResultSet rset2 = ps2.executeQuery();
 				while(rset2.next()) {
-					lista.add(new LugaresVO(rset2.getInt("id"), rset2.getString("nombre"),  rset2.getString("ubicacion")));
+					lista.add(new LugaresVO(rset2.getString("nombre"),  rset2.getString("ubicacion")));
 				}
 			}
 		} catch (Exception e) {
@@ -149,14 +149,14 @@ public class LugaresFacade {
 			ResultSet rset = ps.executeQuery();
 			while(rset.next()) {
 				count ++;
-				lista.add(new LugaresVO(rset.getInt("id"), rset.getString("nombre"),  rset.getString("ubicacion")));
+				lista.add(new LugaresVO(rset.getString("nombre"),  rset.getString("ubicacion")));
 			}
 			if(count < 100) {
 				PreparedStatement ps2 = conn.prepareStatement(queryFreeCovid);
 				ps2.setInt(1, 100 - count);
 				ResultSet rset2 = ps2.executeQuery();
 				while(rset2.next()) {
-					lista.add(new LugaresVO(rset2.getInt("id"), rset2.getString("nombre"),  rset2.getString("ubicacion")));
+					lista.add(new LugaresVO(rset2.getString("nombre"),  rset2.getString("ubicacion")));
 				}
 			}
 		} catch (Exception e) {
@@ -166,6 +166,46 @@ public class LugaresFacade {
 			PoolConnectionManager.releaseConnection(conn);
 		}
 		return lista;
+	}
+	
+	public String comprobarLugar(LugaresVO lugar) {
+		Connection conn = null;
+		String nombreLugar = "";
+		try {
+			// Abrimos la conexión e inicializamos los parámetros 
+			conn = PoolConnectionManager.getConnection(); 
+			PreparedStatement findPs = conn.prepareStatement(findByName);
+			findPs.setString(1, lugar.getNombre());
+			ResultSet rset = findPs.executeQuery();
+			rset.next();
+			nombreLugar = rset.getString("nombre");
+		} catch (Exception e) {
+			e.printStackTrace();
+		} finally {
+			PoolConnectionManager.releaseConnection(conn);
+		}
+		return nombreLugar;
+		
+		
+	}
+	
+	public Integer getLugarId(LugaresVO lugar) {
+		Connection conn = null;
+		Integer idLugar = 0;
+		try {
+			// Abrimos la conexión e inicializamos los parámetros 
+			conn = PoolConnectionManager.getConnection(); 
+			PreparedStatement findPs = conn.prepareStatement(findByName);
+			findPs.setString(1, lugar.getNombre());
+			ResultSet rset = findPs.executeQuery();
+			rset.next();
+			idLugar = Integer.valueOf(rset.getString("id"));
+		} catch (Exception e) {
+			e.printStackTrace();
+		} finally {
+			PoolConnectionManager.releaseConnection(conn);
+		}
+		return idLugar;
 	}
 	
 }

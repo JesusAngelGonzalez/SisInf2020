@@ -11,8 +11,8 @@ import es.covid_free.db.PoolConnectionManager;
 
 public class AcudirFacade {
 	
-	private static String insertAcudir = "INSERT INTO web_data.acudir(id, id_ubicacion, correo_electronico, inicio, final) " + 
-			"VALUES (?, ?, ?, ?, ?);";
+	private static String insertAcudir = "INSERT INTO web_data.acudir(id_ubicacion, correo_electronico, inicio, final) " + 
+			"VALUES (?, ?, ?, ?);";
 	private static String queryUltimosLugares = "SELECT l.id, l.nombre, l.ubicacion, a.inicio, a.final \n" + 
 			"FROM web_data.acudir a, web_data.lugares l \n" + 
 			"WHERE a.correo_electronico = ? and l.id = a.id_ubicacion \n" + 
@@ -23,18 +23,17 @@ public class AcudirFacade {
 		@param id Identificador del registro buscado * 
 		@returnObjeto DemoVO con el identificador buscado, o null si no se encuentra 
 	*/
-	public boolean insertLugar(AcudirVO acudir) { 
+	public boolean insertAcudir(AcudirVO acudir) { 
 		Connection conn = null;
 		
 		try {
 			// Abrimos la conexión e inicializamos los parámetros 
 			conn = PoolConnectionManager.getConnection(); 
 			PreparedStatement insertA = conn.prepareStatement(insertAcudir);
-			insertA.setInt(1, acudir.getId());
-			insertA.setInt(2, acudir.getId_ubicacion());
-			insertA.setString(3, acudir.getCorreo_electronico());
-			insertA.setTimestamp(4, acudir.getInicio());
-			insertA.setTimestamp(5, acudir.getFin());
+			insertA.setInt(1, acudir.getId_ubicacion());
+			insertA.setString(2, acudir.getCorreo_electronico());
+			insertA.setTimestamp(3, acudir.getInicio());
+			insertA.setTimestamp(4, acudir.getFin());
 			
 			// Ejecutamos la orden
 			insertA.execute();

@@ -26,6 +26,13 @@ public class UsuariosVO {
 		this.numero_telefono = numero_telefono;
 	}
 	
+	public UsuariosVO() {
+		this.nombre = "";
+		this.contrasenya = "";
+		this.correo_electronico = "";
+		this.numero_telefono = 0;
+	}
+	
 	public UsuariosVO(String correo_electronico, String contrasenya) {
 		this.nombre = "";
 		this.contrasenya = contrasenya;

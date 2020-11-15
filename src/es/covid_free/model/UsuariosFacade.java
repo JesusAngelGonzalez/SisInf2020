@@ -170,5 +170,24 @@ public class UsuariosFacade {
 		return name;
 	}
 	
+	public Integer getNumero_telefono(UsuariosVO user) {
+		Connection conn = null;
+		Integer numero = 0;
+		try {
+			// Abrimos la conexión e inicializamos los parámetros 
+			conn = PoolConnectionManager.getConnection(); 
+			PreparedStatement findPs = conn.prepareStatement(findBycorreo_electronico);
+			findPs.setString(1, user.getCorreo_electronico());
+			ResultSet rset = findPs.executeQuery();
+			rset.next();
+			numero = Integer.valueOf(rset.getString("numero_telefono"));
+		} catch (Exception e) {
+			e.printStackTrace();
+		} finally {
+			PoolConnectionManager.releaseConnection(conn);
+		}
+		return numero;
+	}
+	
 }
 

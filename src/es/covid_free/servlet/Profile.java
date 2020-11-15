@@ -33,26 +33,39 @@ public class Profile extends HttpServlet {
 		UsuariosFacade dao = new UsuariosFacade();
 		UsuariosVO user = (UsuariosVO) request.getSession().getAttribute("user");
 		
-		System.out.println(user);
+		boolean actualizar = false;
+		String usuario = "";
+		Integer telefono = 0;
 		
-		System.out.print(user.getCorreo_electronico());
+		request.setAttribute("user.name", dao.getName(user));
+		request.setAttribute("actualMail", user.getCorreo_electronico());
+		request.setAttribute("numero_telefono", dao.getNumero_telefono(user));
 		
-		request.setAttribute("user.name", user.getNombre());
-		request.getRequestDispatcher("profile.jsp").forward(request, response);
-		request.setAttribute("actualMail", "aaaaaaa");
-		request.getRequestDispatcher("profile.jsp").forward(request, response);
+		if(request.getParameter("username") != null) {
+			usuario = request.getParameter("username");
+			actualizar = true;
+		}
+		else {
+			usuario = dao.getName(user);
+		}
+		if((request.getParameter("numero_telefono") != null && !request.getParameter("numero_telefono").isEmpty())){
+			telefono = Integer.valueOf(request.getParameter("numero_telefono"));
+			actualizar = true;
+		}
+		else {
+			telefono = dao.getNumero_telefono(user);
+		}
 		
-		String usuario = request.getParameter("username");
-		Integer telefono = Integer.valueOf(request.getParameter("first_name"));
 		if (!usuario.isEmpty()) {
 			user.setNombre(usuario);
 		}
 		if(telefono != 0) {
 			user.setNumero_telefono(telefono);
 		}
-		dao.updateUser(user);
-		request.getRequestDispatcher("perfil.jsp").forward(request, response);
-		System.out.println(user.getNombre());
+		if(actualizar) {
+			dao.updateUser(user);
+		}
+		request.getRequestDispatcher("/WEB-INF/profile.jsp").forward(request, response);
 		
 	}
 
@@ -60,8 +73,7 @@ public class Profile extends HttpServlet {
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
-		
+		// TODO Auto-generated method stub		
 		doGet(request, response);
 	}
 	

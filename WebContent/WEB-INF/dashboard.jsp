@@ -29,7 +29,7 @@
                 <hr class="sidebar-divider my-0">
                 <ul class="nav navbar-nav text-light" id="accordionSidebar">
                     <li class="nav-item" role="presentation"><a class="nav-link active" href="dashboard"><i class="fas fa-tachometer-alt"></i><span>Inicio</span></a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="new-place"><i class="far fa-building"></i><span>Añadir Lugar</span></a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="newPlace"><i class="far fa-building"></i><span>Añadir Lugar</span></a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="ranking.jsp"><i class="fas fa-table"></i><span>Ranking</span></a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="profile"><i class="fas fa-user"></i><span>Perfil de Usuario</span></a></li>
                 </ul>
@@ -88,7 +88,7 @@
                             <div class="card shadow mb-4"><a class="btn btn-danger btn-lg" role="button" href="positivo">Registrar Positivo</a></div>
                         </div>
                         <div class="col">
-                            <div class="card shadow mb-4"><a class="btn btn-primary btn-lg" role="button" href="new-place">Añadir Lugar</a></div>
+                            <div class="card shadow mb-4"><a class="btn btn-primary btn-lg" role="button" href="newPlace">Añadir Lugar</a></div>
                         </div>
                     </div>
                     <div class="row">

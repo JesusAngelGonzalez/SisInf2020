@@ -37,7 +37,6 @@ public class AcudirFacade {
 			
 			// Ejecutamos la orden
 			insertA.execute();
-		
 			
 			// liberamos los recursos utilizados
 			insertA.close();

@@ -64,6 +64,8 @@ public class Profile extends HttpServlet {
 		}
 		if(actualizar) {
 			dao.updateUser(user);
+			request.setAttribute("user.name", dao.getName(user));
+			request.setAttribute("numero_telefono", dao.getNumero_telefono(user));
 		}
 		request.getRequestDispatcher("/WEB-INF/profile.jsp").forward(request, response);
 		

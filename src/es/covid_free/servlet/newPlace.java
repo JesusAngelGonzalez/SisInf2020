@@ -2,13 +2,23 @@ package es.covid_free.servlet;
 
 import java.io.IOException;
 import java.sql.Timestamp;
+import java.time.Instant;
+import java.time.LocalDateTime;
+import java.time.Month;
+import java.time.ZoneId;
+
+import java.util.*;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.xml.parsers.ParserConfigurationException;
 
+import org.xml.sax.SAXException;
+
+import es.covid_free.OSM.OSMWrapperAPI;
 import es.covid_free.model.AcudirFacade;
 import es.covid_free.model.AcudirVO;
 import es.covid_free.model.LugaresFacade;
@@ -19,7 +29,7 @@ import es.covid_free.model.UsuariosVO;
 /**
  * Servlet implementation class Logged
  */
-@WebServlet("/new-place")
+@WebServlet("/newPlace")
 public class newPlace extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
@@ -34,27 +44,52 @@ public class newPlace extends HttpServlet {
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
-	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		LugaresFacade dao = new LugaresFacade();
-		LugaresVO nuevoLugar = new LugaresVO(request.getParameter("Lugar"), request.getParameter("Localizacion"));
-		
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {	
 		UsuariosVO user = (UsuariosVO) request.getSession().getAttribute("user");
-		
-		String existe = dao.comprobarLugar(nuevoLugar);
-		
-		if(existe.isEmpty()) {
-			dao.insertLugar(nuevoLugar);
-			
+		if(user == null) {
+			request.getRequestDispatcher("signin.jsp").forward(request, response);
 		}
-		Integer lugarId = dao.getLugarId(nuevoLugar);
-		AcudirFacade dao2 = new AcudirFacade();
-		AcudirVO nuevoAcudir = new AcudirVO(user.getCorreo_electronico(), Timestamp.valueOf(request.getParameter("Inico")),
-				Timestamp.valueOf(request.getParameter("Fin")), lugarId);
-		dao2.insertAcudir(nuevoAcudir);
-		
-
-		//LugaresVO lugar = new LugaresVO (request.getParameter("email"), request.getParameter("nombre"), request.getParameter("ubicación"));
-		request.getRequestDispatcher("/WEB-INF/new-place.jsp").forward(request, response);
+		if(request.getParameter("Localizacion") != null && request.getParameter("Lugar")!= null) {
+			LugaresFacade dao = new LugaresFacade();
+			String direccion = "";
+			try {
+				direccion = OSMWrapperAPI.getCorrectaDireccion(request.getParameter("Localizacion"), request.getParameter("Lugar"));
+			} catch (IOException | ParserConfigurationException | SAXException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			String direccionCompleta[] = direccion.split(",");
+			String localizacionCompleta = direccionCompleta[1] + " , " + direccionCompleta[2];
+			LugaresVO nuevoLugar = new LugaresVO(direccionCompleta[0], localizacionCompleta);
+			String existe = dao.comprobarLugar(nuevoLugar);
+			
+			if(existe == "") {
+				dao.insertLugar(nuevoLugar);
+				
+			}
+			if(request.getParameter("Lugar")!= null  && request.getParameter("Localizacion")!= null   && 
+					request.getParameter("Fin")!= null   && request.getParameter("Inicio")!= null  ) {
+				Integer lugarId = dao.getLugarId(nuevoLugar);
+				AcudirFacade dao2 = new AcudirFacade();
+				String divisionInicio[] = request.getParameter("Inicio").split("T");
+				String fechaI[] = divisionInicio[0].split("-");
+				String horaI[] = divisionInicio[1].split(":");
+				Instant horaInicio = LocalDateTime.of(Integer.valueOf(fechaI[0]), Month.of(Integer.valueOf(fechaI[1])), Integer.valueOf(fechaI[2]), Integer.valueOf(horaI[0]),Integer.valueOf(horaI[1] )).atZone(ZoneId.of("Europe/Paris")).toInstant();
+				Timestamp horaIni = Timestamp.from(horaInicio);
+				
+				String divisionFinal[] = request.getParameter("Fin").split("T");
+				String fechaF[] = divisionFinal[0].split("-");
+				String horaF[] = divisionFinal[1].split(":");
+				Instant horaFinal = LocalDateTime.of(Integer.valueOf(fechaF[0]), Month.of(Integer.valueOf(fechaF[1])), Integer.valueOf(fechaF[2]), Integer.valueOf(horaF[0]),Integer.valueOf(horaF[1] )).atZone(ZoneId.of("Europe/Paris")).toInstant();
+				Timestamp horaFin = Timestamp.from(horaFinal);
+					AcudirVO nuevoAcudir = new AcudirVO(user.getCorreo_electronico(), horaIni,horaFin, lugarId);
+					dao2.insertAcudir(nuevoAcudir);
+					request.getRequestDispatcher("/WEB-INF/dashboard.jsp").forward(request, response);
+			}
+		}
+		else{
+			request.getRequestDispatcher("/WEB-INF/newPlace.jsp").forward(request, response);
+		}
 		
 		
 	}

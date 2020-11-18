@@ -19,7 +19,7 @@ public class LugaresFacade {
 			"group by l.id \n" + 
 			"order by n desc\n" + 
 			"limit 100;";
-	private static String findByName = "SELECT * FROM web_data.lugares WHERE id = ?";
+	private static String findByName = "SELECT * FROM web_data.lugares WHERE nombre = ?";
 	private static String rankingMasPositivos = "SELECT l.id, l.nombre, l.ubicacion, COUNT(*) n\n" + 
 			"FROM web_data.acudir a, web_data.lugares l, web_data.positivos p\n" + 
 			"WHERE a.correo_electronico = p.correo_electronico and l.id = a.id_ubicacion \n" + 
@@ -177,8 +177,9 @@ public class LugaresFacade {
 			PreparedStatement findPs = conn.prepareStatement(findByName);
 			findPs.setString(1, lugar.getNombre());
 			ResultSet rset = findPs.executeQuery();
-			rset.next();
-			nombreLugar = rset.getString("nombre");
+			if(rset.next()) {
+				nombreLugar = rset.getString("nombre");
+			}
 		} catch (Exception e) {
 			e.printStackTrace();
 		} finally {
@@ -199,7 +200,9 @@ public class LugaresFacade {
 			findPs.setString(1, lugar.getNombre());
 			ResultSet rset = findPs.executeQuery();
 			rset.next();
-			idLugar = Integer.valueOf(rset.getString("id"));
+			if(!rset.getString("id").isEmpty()){
+				idLugar = Integer.valueOf(rset.getString("id"));
+			}
 		} catch (Exception e) {
 			e.printStackTrace();
 		} finally {

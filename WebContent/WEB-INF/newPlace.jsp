@@ -27,7 +27,7 @@
                 <hr class="sidebar-divider my-0">
                 <ul class="nav navbar-nav text-light" id="accordionSidebar">
                     <li class="nav-item" role="presentation"><a class="nav-link" href="dashboard"><i class="fas fa-tachometer-alt"></i><span>Inicio</span></a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link active" href="new-place"><i class="far fa-building"></i><span>A帽adir Lugar</span></a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link active" href="newPlace"><i class="far fa-building"></i><span>A帽adir Lugar</span></a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="ranking"><i class="fas fa-table"></i><span>Ranking</span></a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="profile"><i class="fas fa-user"></i><span>Perfil de Usuario</span></a></li>
                 </ul>
@@ -79,20 +79,20 @@
                     <div class="text-center">
                         <h4 class="text-dark mb-4">A帽adir un lugar</h4>
                     </div>
-                    <form>
-                        <div class="form-group"><label for="Lugar">Lugar</label><input class="form-control" type="text" name="Lugar" value="Restaurante Pepe" placeholder="Lugar"></div>
-                        <div class="form-group"><label for="Localizacion">Localizaci贸n</label><input class="form-control" type="text" name="Localizacion" value="Calle Pepe, Madrid" placeholder="Localizacion">
+                    <form class="user" method="post" action="newPlace">
+                        <div class="form-group"><label for="Lugar">Lugar</label><input class="form-control" type="text" name="Lugar" value="" placeholder="Lugar"></div>
+                        <div class="form-group"><label for="Localizacion">Localizaci贸n</label><input class="form-control" type="text" name="Localizacion" value="" placeholder="Localizacion">
                             <div class="alert alert-danger" role="alert"><span><strong>No existe este lugar</strong></span></div>
                         </div>
                         <div class="form-group">
                             <div class="form-row">
-                                <div class="col"><label>Llegada</label><input class="form-control" type="datetime-local" required=""></div>
-                                <div class="col"><label>Salida</label><input class="form-control" type="datetime-local" required=""></div>
+                                <div class="col"><label>Llegada</label><input class="form-control" type="datetime-local" required="" placeholder="a駉-mes-dia"name="Inicio"></div>
+                                <div class="col"><label>Salida</label><input class="form-control" type="datetime-local" required="" placeholder = "a駉-mes-dia"name="Fin"></div>
                             </div>
                         </div>
-                        <div class="form-group"><label for="Lugar">Informaci贸n Extra</label><input class="form-control" type="text" name="Lugar" value="No hab铆a nadie" placeholder="Lugar"></div>
+                        <div class="form-group"><label for="Lugar">Informaci贸n Extra</label><input class="form-control" type="text" name="Extra" value="" placeholder="Lugar"></div>
                         <div class="form-row">
-                            <div class="col"><button class="btn btn-primary" type="button">Guardar Cambios</button></div>
+                            <div class="col"><button class="btn btn-primary" type="submit">Guardar Cambios</button></div>
                             <div class="col"><button class="btn btn-secondary" type="button">Cerrar</button></div>
                         </div>
                         <hr>

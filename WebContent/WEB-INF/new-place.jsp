@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>AÃ±adir Lugar - CovidFree</title>
+    <title>Añadir Lugar - CovidFree</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
     <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
@@ -27,7 +27,7 @@
                 <hr class="sidebar-divider my-0">
                 <ul class="nav navbar-nav text-light" id="accordionSidebar">
                     <li class="nav-item" role="presentation"><a class="nav-link" href="dashboard"><i class="fas fa-tachometer-alt"></i><span>Inicio</span></a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link active" href="new-place"><i class="far fa-building"></i><span>AÃ±adir Lugar</span></a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link active" href="new-place"><i class="far fa-building"></i><span>Añadir Lugar</span></a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="ranking"><i class="fas fa-table"></i><span>Ranking</span></a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="profile"><i class="fas fa-user"></i><span>Perfil de Usuario</span></a></li>
                 </ul>
@@ -69,7 +69,7 @@
                                 <div class="nav-item dropdown no-arrow"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#"><span class="d-none d-lg-inline mr-2 text-gray-600 small">Valerie Luna</span></a>
                                     <div class="dropdown-menu shadow dropdown-menu-right animated--grow-in"
                                         role="menu"><a class="dropdown-item" role="presentation" href="profile.jsp"><i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>&nbsp;Perfil</a>
-                                        <div class="dropdown-divider"></div><a class="dropdown-item" role="presentation" href="login.jsp"><i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>&nbsp;Cerrar SesiÃ³n</a></div>
+                                        <div class="dropdown-divider"></div><a class="dropdown-item" role="presentation" href="login.jsp"><i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>&nbsp;Cerrar Sesión</a></div>
                                 </div>
                             </li>
                         </ul>
@@ -77,11 +77,11 @@
                 </nav>
                 <div class="container-fluid">
                     <div class="text-center">
-                        <h4 class="text-dark mb-4">AÃ±adir un lugar</h4>
+                        <h4 class="text-dark mb-4">Añadir un lugar</h4>
                     </div>
                     <form>
                         <div class="form-group"><label for="Lugar">Lugar</label><input class="form-control" type="text" name="Lugar" value="Restaurante Pepe" placeholder="Lugar"></div>
-                        <div class="form-group"><label for="Localizacion">LocalizaciÃ³n</label><input class="form-control" type="text" name="Localizacion" value="Calle Pepe, Madrid" placeholder="Localizacion">
+                        <div class="form-group"><label for="Localizacion">Localización</label><input class="form-control" type="text" name="Localizacion" value="Calle Pepe, Madrid" placeholder="Localizacion">
                             <div class="alert alert-danger" role="alert"><span><strong>No existe este lugar</strong></span></div>
                         </div>
                         <div class="form-group">
@@ -90,7 +90,7 @@
                                 <div class="col"><label>Salida</label><input class="form-control" type="datetime-local" required=""></div>
                             </div>
                         </div>
-                        <div class="form-group"><label for="Lugar">InformaciÃ³n Extra</label><input class="form-control" type="text" name="Lugar" value="No habÃ­a nadie" placeholder="Lugar"></div>
+                        <div class="form-group"><label for="Lugar">Información Extra</label><input class="form-control" type="text" name="Lugar" value="No habÃ­a nadie" placeholder="Lugar"></div>
                         <div class="form-row">
                             <div class="col"><button class="btn btn-primary" type="button">Guardar Cambios</button></div>
                             <div class="col"><button class="btn btn-secondary" type="button">Cerrar</button></div>
@@ -101,7 +101,7 @@
             </div>
             <footer class="bg-white sticky-footer">
                 <div class="container my-auto">
-                    <div class="text-center my-auto copyright"><span>Copyright Â© CovidFree 2020</span></div>
+                    <div class="text-center my-auto copyright"><span>Copyright © CovidFree 2020</span></div>
                 </div>
             </footer>
         </div><a class="border rounded d-inline scroll-to-top" href="#page-top"><i class="fas fa-angle-up"></i></a></div>

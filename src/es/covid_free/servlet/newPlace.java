@@ -63,7 +63,7 @@ public class newPlace extends HttpServlet {
 			LugaresVO nuevoLugar = new LugaresVO(direccionCompleta[0], localizacionCompleta);
 			String existe = dao.comprobarLugar(nuevoLugar);
 			
-			if(existe == "") {
+			if(existe.isEmpty()) {
 				dao.insertLugar(nuevoLugar);
 				
 			}
@@ -82,9 +82,9 @@ public class newPlace extends HttpServlet {
 				String horaF[] = divisionFinal[1].split(":");
 				Instant horaFinal = LocalDateTime.of(Integer.valueOf(fechaF[0]), Month.of(Integer.valueOf(fechaF[1])), Integer.valueOf(fechaF[2]), Integer.valueOf(horaF[0]),Integer.valueOf(horaF[1] )).atZone(ZoneId.of("Europe/Paris")).toInstant();
 				Timestamp horaFin = Timestamp.from(horaFinal);
-					AcudirVO nuevoAcudir = new AcudirVO(user.getCorreo_electronico(), horaIni,horaFin, lugarId);
-					dao2.insertAcudir(nuevoAcudir);
-					request.getRequestDispatcher("/WEB-INF/dashboard.jsp").forward(request, response);
+				AcudirVO nuevoAcudir = new AcudirVO(user.getCorreo_electronico(), horaIni,horaFin, lugarId);
+				dao2.insertAcudir(nuevoAcudir);
+				request.getRequestDispatcher("/WEB-INF/dashboard.jsp").forward(request, response);
 			}
 		}
 		else{

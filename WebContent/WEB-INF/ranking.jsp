@@ -95,6 +95,7 @@
                                 <table class="table dataTable my-0" id="dataTable">
                                     <thead>
                                         <tr>
+                                        	<th>Posición</th>
                                             <th>Lugar</th>
                                             <th>Dirección</th>
                                             <% if(request.getAttribute("ranking").equals("TopVisitas") ){ %>

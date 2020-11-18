@@ -84,9 +84,9 @@ public class LugaresFacade {
 		return true;
 	}
 	
-	public List<LugaresVO> getRankingVisitas() {
+	public List<LugarRanking> getRankingVisitas() {
 		Connection conn = null;
-		List<LugaresVO> lista = new ArrayList<>();
+		List<LugarRanking> lista = new ArrayList<>();
 
 		try {
 			// Abrimos la conexión e inicializamos los parámetros 
@@ -94,8 +94,10 @@ public class LugaresFacade {
 			PreparedStatement ps = conn.prepareStatement(rankingVisitas);
 			
 			ResultSet rset = ps.executeQuery();
+			int count = 0;
 			while(rset.next()) {
-				lista.add(new LugaresVO(rset.getString("nombre"),  rset.getString("ubicacion")));
+				count ++;
+				lista.add(new LugarRanking(rset.getString("nombre"), rset.getString("ubicacion"), 0, rset.getInt("n"), count));
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -106,9 +108,9 @@ public class LugaresFacade {
 		return lista;
 	}
 		
-	public List<LugaresVO> getRankingMasPositivos() {
+	public List<LugarRanking> getRankingMasPositivos() {
 		Connection conn = null;
-		List<LugaresVO> lista = new ArrayList<>();
+		List<LugarRanking> lista = new ArrayList<>();
 
 		try {
 			// Abrimos la conexión e inicializamos los parámetros 
@@ -118,14 +120,15 @@ public class LugaresFacade {
 			ResultSet rset = ps.executeQuery();
 			while(rset.next()) {
 				count ++;
-				lista.add(new LugaresVO(rset.getString("nombre"),  rset.getString("ubicacion")));
+				lista.add(new LugarRanking(rset.getString("nombre"), rset.getString("ubicacion"), rset.getInt("n"), 0, count));
 			}
 			if(count < 100) {
 				PreparedStatement ps2 = conn.prepareStatement(queryFreeCovid);
 				ps2.setInt(1, 100 - count);
 				ResultSet rset2 = ps2.executeQuery();
 				while(rset2.next()) {
-					lista.add(new LugaresVO(rset2.getString("nombre"),  rset2.getString("ubicacion")));
+					count ++;
+					lista.add(new LugarRanking(rset.getString("nombre"), rset.getString("ubicacion"), 0, 0, count));
 				}
 			}
 		} catch (Exception e) {
@@ -137,9 +140,9 @@ public class LugaresFacade {
 		return lista;
 	}
 	
-	public List<LugaresVO> getRankingMenosPositivos() {
+	public List<LugarRanking> getRankingMenosPositivos() {
 		Connection conn = null;
-		List<LugaresVO> lista = new ArrayList<>();
+		List<LugarRanking> lista = new ArrayList<>();
 
 		try {
 			// Abrimos la conexión e inicializamos los parámetros 
@@ -149,14 +152,15 @@ public class LugaresFacade {
 			ResultSet rset = ps.executeQuery();
 			while(rset.next()) {
 				count ++;
-				lista.add(new LugaresVO(rset.getString("nombre"),  rset.getString("ubicacion")));
+				lista.add(new LugarRanking(rset.getString("nombre"), rset.getString("ubicacion"), 0, 0, count));
 			}
 			if(count < 100) {
 				PreparedStatement ps2 = conn.prepareStatement(rankingMenosPositivos);
 				ps2.setInt(1, 100 - count);
 				ResultSet rset2 = ps2.executeQuery();
 				while(rset2.next()) {
-					lista.add(new LugaresVO(rset2.getString("nombre"),  rset2.getString("ubicacion")));
+					count ++;
+					lista.add(new LugarRanking(rset.getString("nombre"), rset.getString("ubicacion"), rset.getInt("n"), 0, count));
 				}
 			}
 		} catch (Exception e) {

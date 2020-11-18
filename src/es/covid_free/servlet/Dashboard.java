@@ -11,8 +11,6 @@ import javax.servlet.http.HttpServletResponse;
 
 import es.covid_free.model.AcudirFacade;
 import es.covid_free.model.AcudirLugares;
-import es.covid_free.model.LugaresFacade;
-import es.covid_free.model.LugaresVO;
 import es.covid_free.model.UsuariosFacade;
 import es.covid_free.model.UsuariosVO;
 

@@ -144,7 +144,7 @@ public class LugaresFacade {
 		try {
 			// Abrimos la conexión e inicializamos los parámetros 
 			conn = PoolConnectionManager.getConnection(); 
-			PreparedStatement ps = conn.prepareStatement(rankingMenosPositivos);
+			PreparedStatement ps = conn.prepareStatement(queryFreeCovid);
 			int count = 0;
 			ResultSet rset = ps.executeQuery();
 			while(rset.next()) {
@@ -152,7 +152,7 @@ public class LugaresFacade {
 				lista.add(new LugaresVO(rset.getString("nombre"),  rset.getString("ubicacion")));
 			}
 			if(count < 100) {
-				PreparedStatement ps2 = conn.prepareStatement(queryFreeCovid);
+				PreparedStatement ps2 = conn.prepareStatement(rankingMenosPositivos);
 				ps2.setInt(1, 100 - count);
 				ResultSet rset2 = ps2.executeQuery();
 				while(rset2.next()) {

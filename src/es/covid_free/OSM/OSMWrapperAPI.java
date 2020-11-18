@@ -17,6 +17,21 @@ import org.xml.sax.SAXException;
 public class OSMWrapperAPI {
 	private static final String NOMINATIM_API = "https://nominatim.openstreetmap.org/search?q=";
 	
+	
+	/**
+	 * Dado el nombre de un lugar y su dirección, devolverá en un string una forma única
+	 * de representar a dicho lugar según OpenStreetMap. Ese string será vacio si no hay
+	 * ningún lugar o tres campos separados por comas siendo el primero el nombre del
+	 * sitio, el segundo la calle y el tercero la ciudad.
+	 * 
+	 * 
+	 * @param ubicacion Nombre del lugar a buscar
+	 * @param lugar 	Calle, ciudad u otro parametro para identificar el lugar
+	 * @return			Devuelve la dirección o vacio si no se ha encontrado
+	 * @throws IOException Lanzada al establecer una HttpURLConnection por la clase URL o el parser de DocumentBuilder
+	 * @throws ParserConfigurationException Lanzado por newDocumentBuilder() del Factory
+	 * @throws SAXException Lanzada por el parser 
+	 */
 	public static String getCorrectaDireccion(String ubicacion, String lugar) throws IOException, ParserConfigurationException, SAXException {
 		String query = NOMINATIM_API + ubicacion + ", " + lugar + "&format=xml&addressdetails=1&namedetails=1";
 		
@@ -40,19 +55,22 @@ public class OSMWrapperAPI {
 		for(  int i = 0; i < info.getChildNodes().getLength(); i++) {
 			Node child = info.getChildNodes().item(i);
 			if(child.getNodeName().equals("namedetails")) {
-				//System.out.println("Name: " + child.getFirstChild().getNodeValue().getClass());
-				dir += child.getFirstChild().getNodeValue();
+				dir += child.getFirstChild().getTextContent();
 			}else if(child.getNodeName().equals("road")) {
-				dir += child.getNodeValue();
+				dir += ", " + child.getTextContent();
 			}else  if(child.getNodeName().equals("city")) {
-				dir += child.getNodeValue();
+				dir += ", " + child.getTextContent();
 			}
 		}
 				
 		return dir;
 	}
 	
-	public static void main(String[] args) {
+	/**
+	 * Ejecución de ejemplo del OSMWrapperAPI
+	 */
+	
+	public static void main() {
 		try {
 			System.out.println(getCorrectaDireccion("Juncos", "Zaragoza"));	
 		}catch(Exception e) {

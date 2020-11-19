@@ -53,6 +53,7 @@ public class Ranking extends HttpServlet  {
 				n = 1;
 			} else {
 				n =  Integer.valueOf(request.getParameter("n"));
+				if(n == 0) n = 1;
 			}
 			
 			List<LugarRanking> lista = new ArrayList<LugarRanking>();
@@ -73,14 +74,17 @@ public class Ranking extends HttpServlet  {
 				default:
 					break;
 			}
+			int max = lista.size();
 			
 			List<LugarRanking> list = new ArrayList<LugarRanking>();
 			for(int i = (n-1)*10; i<n*10 && i<lista.size(); i++) {
 				list.add(lista.get(i));
 			}
 			request.setAttribute("rankingLista", list);
-			request.setAttribute("ranking", tipo);
+			request.setAttribute("tipoRanking", tipo);
 			request.setAttribute("userName", uf.getName(user));
+			request.setAttribute("n", n);
+			request.setAttribute("max", max);
 			
 			
 			request.getRequestDispatcher("/WEB-INF/ranking.jsp").forward(request, response);

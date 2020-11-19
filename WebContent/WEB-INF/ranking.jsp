@@ -70,7 +70,7 @@
                                 <%} %>
                                     <div class="dropdown-menu shadow dropdown-menu-right animated--grow-in"
                                         role="menu"><a class="dropdown-item" role="presentation" href="profile"><i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>&nbsp;Perfil</a>
-                                        <div class="dropdown-divider"></div><a class="dropdown-item" role="presentation" href="/logout"><i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>&nbsp;Cerrar SesiÃ³n</a></div>
+                                        <div class="dropdown-divider"></div><a class="dropdown-item" role="presentation" href="/logout"><i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>&nbsp;Cerrar Sesión</a></div>
                                 </div>
                             </li>
                         </ul>
@@ -80,15 +80,12 @@
                     <h3 class="text-dark mb-4">Estadísticas</h3>
                     <div class="card shadow">
                         <div class="card-header py-3">
-                            <p class="text-primary m-0 font-weight-bold">Employee Info</p>
+                            <p class="text-primary m-0 font-weight-bold"><%= request.getParameter("tipoRanking") %></p>
                         </div>
                         <div class="card-body">
                             <div class="row">
                                 <div class="col-md-6 text-nowrap">
-                                    <div id="dataTable_length" class="dataTables_length" aria-controls="dataTable"><label>Show&nbsp;<select class="form-control form-control-sm custom-select custom-select-sm"><option value="10" selected="">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select>&nbsp;</label></div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="text-md-right dataTables_filter" id="dataTable_filter"><label><select id="cambiarRanking" class="form-control form-control-sm custom-select custom-select-sm"><option value="TopVisitas" selected="">Más Visitados</option><option value="MenosPositivos">Menos Positivos</option><option value="MasPositivos">Más Positivos</option></select></label></div>
+                                    <div class="dataTables_filter" id="dataTable_filter"><label><select id="cambiarRanking" class="form-control form-control-sm custom-select custom-select-sm"><option value="TopVisitas" selected="">Más Visitados</option><option value="MenosPositivos">Menos Positivos</option><option value="MasPositivos">Más Positivos</option></select></label></div>
                                 </div>
                             </div>
                             <div class="table-responsive table mt-2" id="dataTable" role="grid" aria-describedby="dataTable_info">
@@ -98,7 +95,7 @@
                                         	<th>Posición</th>
                                             <th>Lugar</th>
                                             <th>Dirección</th>
-                                            <% if(request.getAttribute("ranking").equals("TopVisitas") ){ %>
+                                            <% if(request.getAttribute("tipoRanking").equals("TopVisitas") ){ %>
                                             <th>Visitantes</th>
                                             <% } else {%>
                                             <th>Numero de Casos</th>
@@ -115,7 +112,7 @@
 	                                            <td><%= sitio.getPosicion() %></td>
 	                                            <td><%= sitio.getNombre() %></td>
 	                                            <td><%= sitio.getDireccion() %></td>
-                                           		<% if(request.getAttribute("ranking").equals("TopVisitas") ){ %>
+                                           		<% if(request.getAttribute("tipoRanking").equals("TopVisitas") ){ %>
 	                                            	<td><%= sitio.getVisitantes() %></td>
                                             	<% }else{ %>
 	                                            <td><%= sitio.getCasos() %></td>
@@ -125,18 +122,23 @@
                                 </table>
                             </div>
                             <div class="row">
+                            	<%
+                            		int n = (int)request.getAttribute("n");
+                            		int max = (int)request.getAttribute("max");
+                            	
+                            	%>
+                                                      
                                 <div class="col-md-6 align-self-center">
-                                	<!--  -->
-                                    <p id="dataTable_info" class="dataTables_info" role="status" aria-live="polite">Showing 1 to 10 of 27</p>
+                                    <p id="dataTable_info" class="dataTables_info" role="status" aria-live="polite">Mostrando del <%= (n-1)*10+1 %> al <%= n*10 %> de <%= max %></p>
                                 </div>
                                 <div class="col-md-6">
                                     <nav class="d-lg-flex justify-content-lg-end dataTables_paginate paging_simple_numbers">
                                         <ul class="pagination">
-                                            <li class="page-item disabled"><a class="page-link" href="ranking?page=<%= request.getAttribute("page") %>" aria-label="Previous"><span aria-hidden="true">«</span></a></li>
-                                            <li class="page-item active"><a class="page-link" href="#">1</a></li>
-                                            <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                            <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                            <li class="page-item"><a class="page-link" href="#" aria-label="Next"><span aria-hidden="true">»</span></a></li>
+                                            <li class="page-item <%if(n == 1){%>disabled <%}%>"><a class="page-link" href="ranking?n=<%= n-1 %>" aria-label="Previous"><span aria-hidden="true">«</span></a></li>
+                                            <li class="page-item active"><a class="page-link" href="ranking?n=<%= request.getAttribute("n") %>"><%= request.getAttribute("n") %></a></li>
+                                           	<li class="page-item <% if(n*10 > max){ %>disabled<% } %>"><a class="page-link" href="ranking?n=<%= n+1 %>"><%= n+1 %></a></li>
+                                            <li class="page-item <% if((n+1)*10 > max){ %>disabled<% } %>"><a class="page-link" href="ranking?n=<%= n+2 %>"><%= n+2 %></a></li>
+                                            <li class="page-item <% if((n+2)*10 > max){ %>disabled<% } %>"><a class="page-link" href="ranking?n=<%= n+3 %>" aria-label="Next"><span aria-hidden="true">»</span></a></li>
                                         </ul>
                                     </nav>
                                 </div>

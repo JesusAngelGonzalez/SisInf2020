@@ -1,1 +1,1 @@
-{"resources":{"script_tablas.sql":{"default-schema":"public","sql-editor-data-source-id":"postgres-jdbc-175126d36f0-70fbf8d03878017a","default-datasource":"postgres-jdbc-175126d36f0-70fbf8d03878017a","default-catalog":"postgres"}}}
+{"resources":{"fix.sql":{"sql-editor-data-source-id":"postgres-jdbc-175126d36f0-70fbf8d03878017a"},"script_tablas.sql":{"default-schema":"web_data","sql-editor-data-source-id":"postgres-jdbc-175126d36f0-70fbf8d03878017a","default-datasource":"postgres-jdbc-175126d36f0-70fbf8d03878017a","default-catalog":"covid_free"}}}

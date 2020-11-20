@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>CovidFree</title>
-    <meta name="description" content="PÃ¡gina principal de CovidFree">
+    <meta name="description" content="Página principal de CovidFree">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
     <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
@@ -26,7 +26,7 @@
                 <ul class="nav navbar-nav mr-auto">
                     <li class="nav-item" role="presentation"></li>
                     <li class="nav-item" role="presentation"></li>
-                </ul><span class="navbar-text actions"> <a class="login" href="login.jsp">Iniciar SesiÃ³n</a><a class="btn btn-light action-button" role="button" href="register.jsp">Registrarse</a></span></div>
+                </ul><span class="navbar-text actions"> <a class="login" href="login.jsp">Iniciar Sesión</a><a class="btn btn-light action-button" role="button" href="register.jsp">Registrarse</a></span></div>
         </div>
     </nav>
     <!-- End: Navigation with Button -->
@@ -36,11 +36,11 @@
             <!-- Start: Intro -->
             <div class="intro">
                 <h2 class="text-center">CovidFree te mantiene seguro</h2>
-                <p class="text-center">Gracias por confiar en nosotros para asegurarte de que estÃ¡s a salvo del nuevo COVID-19. Inicia sesiÃ³n, si ya tenÃ­as una cuenta, o registrate para realizar tu seguimiento.</p>
+                <p class="text-center">Gracias por confiar en nosotros para asegurarte de que estás a salvo del nuevo COVID-19. Inicia sesión, si ya tenías una cuenta, o registrate para realizar tu seguimiento.</p>
             </div>
             <!-- End: Intro -->
             <!-- Start: Buttons -->
-            <div class="buttons"><a class="btn btn-primary" role="button" href="login.jsp">INICIAR SESIÃ“N</a><a class="btn btn-primary" role="button" href="register.jsp">REGISTRARSE</a></div>
+            <div class="buttons"><a class="btn btn-primary" role="button" href="login.jsp">INICIAR SESIÓN</a><a class="btn btn-primary" role="button" href="register.jsp">REGISTRARSE</a></div>
             <!-- End: Buttons -->
         </div>
     </div>
@@ -50,35 +50,35 @@
         <div class="container">
             <!-- Start: Intro -->
             <div class="intro">
-                <h2 class="text-center">Â¡ConÃ³cenos!</h2>
-                <p class="text-center">Proporcionamos muchas ventajas con respecto al resto. Â¿No las conoces? Â¡DescÃºbrelas!</p>
+                <h2 class="text-center">¡Conócenos!</h2>
+                <p class="text-center">Proporcionamos muchas ventajas con respecto al resto. ¿No las conoces? ¡Descúbrelas!</p>
             </div>
             <!-- End: Intro -->
             <!-- Start: Features -->
             <div class="row features">
                 <div class="col-sm-6 col-lg-4 item"><i class="fa fa-map-marker icon"></i>
                     <h3 class="name">Funciona en todos los sitios</h3>
-                    <p class="description">No importa en quÃ© lugar del mundo te encuentres, siempre que tengas una conexiÃ³n a internet puedes utilizarlo.</p>
+                    <p class="description">No importa en qué lugar del mundo te encuentres, siempre que tengas una conexión a internet puedes utilizarlo.</p>
                 </div>
                 <div class="col-sm-6 col-lg-4 item"><i class="fa fa-clock-o icon"></i>
                     <h3 class="name">Siempre disponible</h3>
-                    <p class="description">Sin restricciÃ³n de horario. Cuando tÃº quieras, nosotros estamos para tÃ­.</p>
+                    <p class="description">Sin restricción de horario. Cuando tú quieras, nosotros estamos para tí.</p>
                 </div>
                 <div class="col-sm-6 col-lg-4 item"><i class="fa fa-battery icon"></i>
-                    <h3 class="name">Ahorra baterÃ­a</h3>
-                    <p class="description">Al contrario que otras aplicaciones, no estÃ¡ consumiendo continuamente baterÃ­a.&nbsp;</p>
+                    <h3 class="name">Ahorra batería</h3>
+                    <p class="description">Al contrario que otras aplicaciones, no está consumiendo continuamente batería.&nbsp;</p>
                 </div>
                 <div class="col-sm-6 col-lg-4 item"><i class="fa fa-leaf icon"></i>
-                    <h3 class="name">OrgÃ¡nico</h3>
-                    <p class="description">Su funcionamiento es muy simple, te resultarÃ¡ muy natural su funcionamiento.</p>
+                    <h3 class="name">Orgánico</h3>
+                    <p class="description">Su funcionamiento es muy simple, te resultará muy natural su funcionamiento.</p>
                 </div>
                 <div class="col-sm-6 col-lg-4 item"><i class="fa fa-plane icon"></i>
-                    <h3 class="name">RÃ¡pido</h3>
+                    <h3 class="name">Rápido</h3>
                     <p class="description">Sabemos que es importante tu tiempo, por eso nosotros te notificamos tan pronto como suceden los contactos para evitar que todo vaya a peor.</p>
                 </div>
                 <div class="col-sm-6 col-lg-4 item"><i class="fa fa-phone icon"></i>
                     <h3 class="name">Notificaciones</h3>
-                    <p class="description">Cuando has estado en contacto con un positivo nosotros te notificamos. Â¿DÃ³nde? En todos lados, te tienes que enterar. Un correo y un SMS, tampoco hay que ser muy pesados.</p>
+                    <p class="description">Cuando has estado en contacto con un positivo nosotros te notificamos. ¿Dónde? En todos lados, te tienes que enterar. Un correo y un SMS, tampoco hay que ser muy pesados.</p>
                 </div>
             </div>
             <!-- End: Features -->

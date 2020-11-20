@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Iniciar Sesi贸n - CovidFree</title>
+    <title>Iniciar Sesi髇 - CovidFree</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
     <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
@@ -29,11 +29,11 @@
                             <div class="col-lg-6">
                                 <div class="p-5">
                                     <div class="text-center">
-                                        <h4 class="text-dark mb-4">隆Bienvenido!</h4>
+                                        <h4 class="text-dark mb-4">ienvenido!</h4>
                                     </div>
                                     <form class="user" method="post" action="login">
-                                        <div class="form-group"><input class="form-control form-control-user" type="email" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Introduzca su Correo Electr贸nico..." name="email" autocomplete="on"></div>
-                                        <div class="form-group"><input class="form-control form-control-user" type="password" id="exampleInputPassword" placeholder="Contrase帽a" name="password"></div>
+                                        <div class="form-group"><input class="form-control form-control-user" type="email" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Introduzca su Correo Electr髇ico..." name="email" autocomplete="on"></div>
+                                        <div class="form-group"><input class="form-control form-control-user" type="password" id="exampleInputPassword" placeholder="Contrase馻" name="password"></div>
                                         <% if (request.getAttribute("errorLogin") != null) { %> 
                                     	<div class="alert alert-danger bounce animated" role="alert">
                                     		<span><strong><%= request.getAttribute("errorLogin") %></strong></span>
@@ -41,12 +41,12 @@
                                     	<% } %>
                                         <div class="form-group">
                                             <div class="custom-control custom-checkbox small">
-                                                <div class="form-check"><input class="form-check-input custom-control-input" type="checkbox" id="formCheck-1"><label class="form-check-label custom-control-label" for="formCheck-1">Mantener sesi贸n iniciada</label></div>
+                                                <div class="form-check"><input class="form-check-input custom-control-input" type="checkbox" id="formCheck-1"><label class="form-check-label custom-control-label" for="formCheck-1">Mantener sesi髇 iniciada</label></div>
                                             </div>
-                                        </div><button class="btn btn-primary btn-block text-white btn-user" type="submit">Iniciar Sesi贸n</button>
+                                        </div><button class="btn btn-primary btn-block text-white btn-user" type="submit">Iniciar Sesi髇</button>
                                         <hr>
                                     </form>
-                                    <div class="text-center"><a class="small" href="forgot-password.jsp">驴Olvidaste la contrase帽a?</a></div>
+                                    <div class="text-center"><a class="small" href="forgot-password.jsp">縊lvidaste la contrase馻?</a></div>
                                     <div class="text-center"><a class="small" href="register.jsp">Crear una nueva cuenta</a></div>
                                 </div>
                             </div>

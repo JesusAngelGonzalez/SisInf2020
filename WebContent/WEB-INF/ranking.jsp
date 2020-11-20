@@ -16,11 +16,6 @@
     <link rel="stylesheet" href="assets/css/Highlight-Blue.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="assets/css/Navigation-with-Button.css">
-    <script>
-    	document.getElementById("cambiarRanking").onchange = function(){
-    		document.location.href = "ranking?tipoRanking=" + this.children[this.selectedIndex].getAttribute("value");
-    	}
-    </script>
 </head>
 
 <body id="page-top">
@@ -80,12 +75,18 @@
                     <h3 class="text-dark mb-4">Estadísticas</h3>
                     <div class="card shadow">
                         <div class="card-header py-3">
-                            <p class="text-primary m-0 font-weight-bold"><%= request.getParameter("tipoRanking") %></p>
+                            <p class="text-primary m-0 font-weight-bold"><%= request.getAttribute("tipoRanking") %></p>
                         </div>
                         <div class="card-body">
                             <div class="row">
                                 <div class="col-md-6 text-nowrap">
-                                    <div class="dataTables_filter" id="dataTable_filter"><label><select id="cambiarRanking" class="form-control form-control-sm custom-select custom-select-sm"><option value="TopVisitas" selected="">Más Visitados</option><option value="MenosPositivos">Menos Positivos</option><option value="MasPositivos">Más Positivos</option></select></label></div>
+                                    <div class="dataTables_filter" id="dataTable_filter"><label>
+                                    	<select id="cambiarRanking" class="form-control form-control-sm custom-select custom-select-sm">
+                                    		<option value="TopVisitas" <% if(request.getAttribute("tipoRanking").equals("TopVisitas")){ %>selected<% } %>>Más Visitados</option>
+                                    		<option value="MenosPositivos" <% if(request.getAttribute("tipoRanking").equals("MenosPositivos")){ %>selected<% } %>>Menos Positivos</option>
+                                    	 	<option value="MasPositivos" <% if(request.getAttribute("tipoRanking").equals("MasPositivos")){ %>selected<% } %>>Más Positivos</option>
+                                    	</select>
+                                    </label></div>
                                 </div>
                             </div>
                             <div class="table-responsive table mt-2" id="dataTable" role="grid" aria-describedby="dataTable_info">
@@ -134,11 +135,11 @@
                                 <div class="col-md-6">
                                     <nav class="d-lg-flex justify-content-lg-end dataTables_paginate paging_simple_numbers">
                                         <ul class="pagination">
-                                            <li class="page-item <%if(n == 1){%>disabled <%}%>"><a class="page-link" href="ranking?n=<%= n-1 %>" aria-label="Previous"><span aria-hidden="true">«</span></a></li>
-                                            <li class="page-item active"><a class="page-link" href="ranking?n=<%= request.getAttribute("n") %>"><%= request.getAttribute("n") %></a></li>
-                                           	<li class="page-item <% if(n*10 > max){ %>disabled<% } %>"><a class="page-link" href="ranking?n=<%= n+1 %>"><%= n+1 %></a></li>
-                                            <li class="page-item <% if((n+1)*10 > max){ %>disabled<% } %>"><a class="page-link" href="ranking?n=<%= n+2 %>"><%= n+2 %></a></li>
-                                            <li class="page-item <% if((n+2)*10 > max){ %>disabled<% } %>"><a class="page-link" href="ranking?n=<%= n+3 %>" aria-label="Next"><span aria-hidden="true">»</span></a></li>
+                                            <li class="page-item <%if(n == 1){%>disabled <%}%>"><a class="page-link" href="ranking?tipoRanking=<%= request.getAttribute("tipoRanking") %>&n=<%= n-1 %>" aria-label="Previous"><span aria-hidden="true">«</span></a></li>
+                                            <li class="page-item active"><a class="page-link" href="ranking?tipoRanking=<%= request.getAttribute("tipoRanking") %>&n=<%= request.getAttribute("n") %>"><%= request.getAttribute("n") %></a></li>
+                                           	<li class="page-item <% if(n*10 > max){ %>disabled<% } %>"><a class="page-link" href="ranking?tipoRanking=<%= request.getAttribute("tipoRanking") %>&n=<%= n+1 %>"><%= n+1 %></a></li>
+                                            <li class="page-item <% if((n+1)*10 > max){ %>disabled<% } %>"><a class="page-link" href="ranking?tipoRanking=<%= request.getAttribute("tipoRanking") %>&n=<%= n+2 %>"><%= n+2 %></a></li>
+                                            <li class="page-item <% if((n+2)*10 > max){ %>disabled<% } %>"><a class="page-link" href="ranking?tipoRanking=<%= request.getAttribute("tipoRanking") %>&n=<%= n+3 %>" aria-label="Next"><span aria-hidden="true">»</span></a></li>
                                         </ul>
                                     </nav>
                                 </div>
@@ -157,6 +158,11 @@
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.js"></script>
     <script src="assets/js/theme.js"></script>
+    <script>
+    	document.getElementById("cambiarRanking").onchange = function(){
+    		document.location.href = "ranking?tipoRanking=" + this.children[this.selectedIndex].getAttribute("value");
+    	}
+    </script>
 </body>
 
 </html>

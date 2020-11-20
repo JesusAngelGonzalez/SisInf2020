@@ -49,6 +49,9 @@ public class Ranking extends HttpServlet  {
 			} else {
 				tipo = request.getParameter("tipoRanking");
 			}
+			
+			System.out.println("Tipo = " + tipo + "		tipoRanking = " + request.getParameter("tipoRanking"));
+			
 			if (request.getParameter("n") == null) {
 				n = 1;
 			} else {
@@ -58,6 +61,17 @@ public class Ranking extends HttpServlet  {
 			
 			List<LugarRanking> lista = new ArrayList<LugarRanking>();
 			
+			if(tipo.equals(TOP_VISITAS)) {
+				System.out.println("top visitas");
+				lista = dao.getRankingVisitas();
+			}else if(tipo.equals(MAS_POSITIVOS)) {
+				lista = dao.getRankingMasPositivos();
+				System.out.println("mas positivos");
+			}else if(tipo.equals(MENOS_POSITIVOS)) {
+				lista = dao.getRankingMenosPositivos();
+				System.out.println("menos positivos");
+			}
+			/*
 			switch(tipo) {
 				case TOP_VISITAS:
 					System.out.println("top visitas");
@@ -73,7 +87,7 @@ public class Ranking extends HttpServlet  {
 					break;
 				default:
 					break;
-			}
+			}*/
 			int max = lista.size();
 			
 			List<LugarRanking> list = new ArrayList<LugarRanking>();

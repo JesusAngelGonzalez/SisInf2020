@@ -47,7 +47,8 @@ public class newPlace extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {	
 		UsuariosVO user = (UsuariosVO) request.getSession().getAttribute("user");
 		if(user == null) {
-			request.getRequestDispatcher("signin.jsp").forward(request, response);
+			response.sendRedirect("login.jsp");
+			return;
 		}
 		if(request.getParameter("Localizacion") != null && request.getParameter("Lugar")!= null) {
 			LugaresFacade dao = new LugaresFacade();

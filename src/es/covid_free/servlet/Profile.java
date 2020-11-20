@@ -29,9 +29,16 @@ public class Profile extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-			
+		
+		
 		UsuariosFacade dao = new UsuariosFacade();
 		UsuariosVO user = (UsuariosVO) request.getSession().getAttribute("user");
+		
+		if(user == null) {
+			System.out.println("sale de aqui");
+			response.sendRedirect("login.jsp");
+			return;
+		}
 		
 		boolean actualizar = false;
 		String usuario = "";

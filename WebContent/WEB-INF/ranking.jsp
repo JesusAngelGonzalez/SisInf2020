@@ -65,7 +65,7 @@
                                 <%} %>
                                     <div class="dropdown-menu shadow dropdown-menu-right animated--grow-in"
                                         role="menu"><a class="dropdown-item" role="presentation" href="profile"><i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>&nbsp;Perfil</a>
-                                        <div class="dropdown-divider"></div><a class="dropdown-item" role="presentation" href="/logout"><i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>&nbsp;Cerrar Sesión</a></div>
+                                        <div class="dropdown-divider"></div><a class="dropdown-item" role="presentation" href="logout"><i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>&nbsp;Cerrar Sesión</a></div>
                                 </div>
                             </li>
                         </ul>
@@ -139,7 +139,7 @@
                                             <li class="page-item active"><a class="page-link" href="ranking?tipoRanking=<%= request.getAttribute("tipoRanking") %>&n=<%= request.getAttribute("n") %>"><%= request.getAttribute("n") %></a></li>
                                            	<li class="page-item <% if(n*10 > max){ %>disabled<% } %>"><a class="page-link" href="ranking?tipoRanking=<%= request.getAttribute("tipoRanking") %>&n=<%= n+1 %>"><%= n+1 %></a></li>
                                             <li class="page-item <% if((n+1)*10 > max){ %>disabled<% } %>"><a class="page-link" href="ranking?tipoRanking=<%= request.getAttribute("tipoRanking") %>&n=<%= n+2 %>"><%= n+2 %></a></li>
-                                            <li class="page-item <% if((n+2)*10 > max){ %>disabled<% } %>"><a class="page-link" href="ranking?tipoRanking=<%= request.getAttribute("tipoRanking") %>&n=<%= n+3 %>" aria-label="Next"><span aria-hidden="true">»</span></a></li>
+                                            <li class="page-item <% if(n*10 > max){ %>disabled<% } %>"><a class="page-link" href="ranking?tipoRanking=<%= request.getAttribute("tipoRanking") %>&n=<%= n+1 %>" aria-label="Next"><span aria-hidden="true">»</span></a></li>
                                         </ul>
                                     </nav>
                                 </div>

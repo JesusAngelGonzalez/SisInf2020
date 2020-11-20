@@ -11,7 +11,7 @@ CREATE TABLE web_data.usuarios (
 );
 
 CREATE TABLE web_data.lugares (
-	id integer NOT NULL,
+	id SERIAL NOT NULL,
 	nombre text NOT NULL,
 	ubicacion text NOT NULL,
 	CONSTRAINT lugares_pk PRIMARY KEY (id)
@@ -25,7 +25,7 @@ CREATE TABLE web_data.positivos (
 );
 
 CREATE TABLE web_data.acudir (
-	id			integer NOT NULL,
+	id			SERIAL NOT NULL,
 	correo_electronico	text 	NOT NULL,
 	id_ubicacion		integer 	NOT NULL,
 	inicio		timestamp	NOT NULL,

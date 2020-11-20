@@ -128,7 +128,7 @@ public class LugaresFacade {
 				ResultSet rset2 = ps2.executeQuery();
 				while(rset2.next()) {
 					count ++;
-					lista.add(new LugarRanking(rset.getString("nombre"), rset.getString("ubicacion"), 0, 0, count));
+					lista.add(new LugarRanking(rset2.getString("nombre"), rset2.getString("ubicacion"), 0, 0, count));
 				}
 			}
 		} catch (Exception e) {
@@ -160,7 +160,7 @@ public class LugaresFacade {
 				ResultSet rset2 = ps2.executeQuery();
 				while(rset2.next()) {
 					count ++;
-					lista.add(new LugarRanking(rset.getString("nombre"), rset.getString("ubicacion"), rset.getInt("n"), 0, count));
+					lista.add(new LugarRanking(rset2.getString("nombre"), rset2.getString("ubicacion"), rset2.getInt("n"), 0, count));
 				}
 			}
 		} catch (Exception e) {

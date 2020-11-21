@@ -5,6 +5,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
+import es.covid_free.HASH.HashWrapper;
 import es.covid_free.db.PoolConnectionManager;
 
 /* Crear Usuario; Validar Usuario; Actualizar Usuario; Añadir Lugar; Registrar Acudir; Añadir Positivo; Dejar de ser positivo */
@@ -48,8 +49,9 @@ public class UsuariosFacade {
 			if(n == 1) {
 				// Comparamos contraseñas
 				findRs.next();
+				HashWrapper hw = new HashWrapper();
 				String dbpwd = findRs.getString("contrasenya");
-				if (dbpwd.equals(user.getContrasenya())) {
+				if (hw.authenticate(user.getContrasenya().toCharArray(), dbpwd)) {
 					result = true;
 				}
 			} else { 
@@ -79,10 +81,11 @@ public class UsuariosFacade {
 		
 		try {
 			// Abrimos la conexión e inicializamos los parámetros 
-			conn = PoolConnectionManager.getConnection(); 
+			conn = PoolConnectionManager.getConnection();
+			HashWrapper hw = new HashWrapper();
 			PreparedStatement insertU = conn.prepareStatement(insertUser);
 			insertU.setString(1, user.getCorreo_electronico());
-			insertU.setString(2, user.getContrasenya());
+			insertU.setString(2, hw.hash(user.getContrasenya().toCharArray()));
 			insertU.setInt(3, user.getNumero_telefono());
 			insertU.setString(4, user.getNombre());
 			

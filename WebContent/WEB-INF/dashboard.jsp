@@ -19,6 +19,11 @@
 </head>
 
 <body id="page-top">
+	<% if (request.getAttribute("exito") != null) { %> 
+                     <script type="text/javascript">
+                     alert("Lugar añadido con exito");
+                     </script>
+    <% } %>
     <div id="wrapper">
         <nav class="navbar navbar-dark align-items-start sidebar sidebar-dark accordion bg-gradient-primary p-0">
             <div class="container-fluid d-flex flex-column p-0">

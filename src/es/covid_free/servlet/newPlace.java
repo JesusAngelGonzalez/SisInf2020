@@ -60,17 +60,21 @@ public class newPlace extends HttpServlet {
 				e.printStackTrace();
 			}
 			String direccionCompleta[] = direccion.split(",");
-			String localizacionCompleta = direccionCompleta[1] + " , " + direccionCompleta[2];
+			String localizacionCompleta = "";
+			for(int i = 1;i < direccionCompleta.length-1;i++) {
+				localizacionCompleta =localizacionCompleta + direccionCompleta[i] + " , ";
+			}
+			localizacionCompleta =localizacionCompleta + direccionCompleta[direccionCompleta.length-1];
 			LugaresVO nuevoLugar = new LugaresVO(direccionCompleta[0], localizacionCompleta);
-			String existe = dao.comprobarLugar(nuevoLugar);
+			Integer lugarId = dao.comprobarLugar(nuevoLugar);
 			
-			if(existe.isEmpty()) {
+			if(lugarId == -1) {
 				dao.insertLugar(nuevoLugar);
+				lugarId = dao.comprobarLugar(nuevoLugar);
 				
 			}
 			if(request.getParameter("Lugar")!= null  && request.getParameter("Localizacion")!= null   && 
 					request.getParameter("Fin")!= null   && request.getParameter("Inicio")!= null  ) {
-				Integer lugarId = dao.getLugarId(nuevoLugar);
 				AcudirFacade dao2 = new AcudirFacade();
 				String divisionInicio[] = request.getParameter("Inicio").split("T");
 				String fechaI[] = divisionInicio[0].split("-");
@@ -85,14 +89,17 @@ public class newPlace extends HttpServlet {
 				Timestamp horaFin = Timestamp.from(horaFinal);
 				AcudirVO nuevoAcudir = new AcudirVO(user.getCorreo_electronico(), horaIni,horaFin, lugarId);
 				dao2.insertAcudir(nuevoAcudir);
+				request.setAttribute("exito", direccionCompleta[0] + localizacionCompleta);
 				request.getRequestDispatcher("/WEB-INF/dashboard.jsp").forward(request, response);
 			}
+			else {
+				request.getRequestDispatcher("/WEB-INF/newPlace.jsp").forward(request, response);
+			}
 		}
-		else{
+		else {
 			request.getRequestDispatcher("/WEB-INF/newPlace.jsp").forward(request, response);
 		}
-		
-		
+			
 	}
 
 	/**

@@ -7,7 +7,7 @@
 			<attribute name="owner.project.facets" value="java"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="/home/sisinf/SisInf2020/javax.mail.jar">
+	<classpathentry kind="lib" path="/home/sisinf/git/SisInf2020/javax.mail.jar">
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>
@@ -19,6 +19,6 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
-	<classpathentry kind="lib" path="/home/sisinf/SisInf2020/commons-email-1.5/commons-email-1.5.jar"/>
+	<classpathentry kind="lib" path="/home/sisinf/git/SisInf2020/commons-email-1.5/commons-email-1.5-tests.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

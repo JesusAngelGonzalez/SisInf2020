@@ -72,7 +72,7 @@ public class OSMWrapperAPI {
 	
 	public static void main(String[] args) {
 		try {
-			System.out.println(getCorrectaDireccion("a", "aa"));	
+			System.out.println(getCorrectaDireccion("Juncos", "Zaragoza"));	
 		}catch(Exception e) {
 			e.printStackTrace();
 		}

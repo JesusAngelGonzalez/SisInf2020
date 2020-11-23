@@ -19,7 +19,7 @@ public class LugaresFacade {
 			"group by l.id \n" + 
 			"order by n desc\n" + 
 			"limit 100;";
-	private static String findByName = "SELECT * FROM web_data.lugares WHERE nombre = ?";
+	private static String findByName = "SELECT * FROM web_data.lugares WHERE nombre = ? AND ubicacion = ?";
 	private static String rankingMasPositivos = "SELECT l.id, l.nombre, l.ubicacion, COUNT(*) n\n" + 
 			"FROM web_data.acudir a, web_data.lugares l, web_data.positivos p\n" + 
 			"WHERE a.correo_electronico = p.correo_electronico and l.id = a.id_ubicacion \n" + 
@@ -172,39 +172,17 @@ public class LugaresFacade {
 		return lista;
 	}
 	
-	public String comprobarLugar(LugaresVO lugar) {
+	public Integer comprobarLugar(LugaresVO lugar) {
 		Connection conn = null;
-		String nombreLugar = "";
+		Integer idLugar = -1;
 		try {
 			// Abrimos la conexión e inicializamos los parámetros 
 			conn = PoolConnectionManager.getConnection(); 
 			PreparedStatement findPs = conn.prepareStatement(findByName);
 			findPs.setString(1, lugar.getNombre());
+			findPs.setString(2, lugar.getUbicacion());
 			ResultSet rset = findPs.executeQuery();
 			if(rset.next()) {
-				nombreLugar = rset.getString("nombre");
-			}
-		} catch (Exception e) {
-			e.printStackTrace();
-		} finally {
-			PoolConnectionManager.releaseConnection(conn);
-		}
-		return nombreLugar;
-		
-		
-	}
-	
-	public Integer getLugarId(LugaresVO lugar) {
-		Connection conn = null;
-		Integer idLugar = 0;
-		try {
-			// Abrimos la conexión e inicializamos los parámetros 
-			conn = PoolConnectionManager.getConnection(); 
-			PreparedStatement findPs = conn.prepareStatement(findByName);
-			findPs.setString(1, lugar.getNombre());
-			ResultSet rset = findPs.executeQuery();
-			rset.next();
-			if(!rset.getString("id").isEmpty()){
 				idLugar = Integer.valueOf(rset.getString("id"));
 			}
 		} catch (Exception e) {
@@ -213,6 +191,8 @@ public class LugaresFacade {
 			PoolConnectionManager.releaseConnection(conn);
 		}
 		return idLugar;
+		
+		
 	}
 	
 }

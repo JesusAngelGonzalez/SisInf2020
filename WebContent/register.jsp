@@ -40,28 +40,28 @@
                                 <h4 class="text-dark mb-4">Crear una cuenta</h4>
                             </div>
                             <form class="user" method="post" action="register">
-                                <div class="form-group"><input class="form-control form-control-user" type="text" id="Usuario" placeholder=<%=request.getAttribute("nombreusuario")%> name="user" required=""></div>
-                                <div class="form-group"><input class="form-control form-control-user" type="email" id="InputEmail" aria-describedby="emailHelp" placeholder="Correo ElectrÃ³nico" name="email" required="">
+                                <div class="form-group"><input class="form-control form-control-user" type="text" id="Usuario" placeholder="Nombre de Usuario" name="user" required=""></div>
+                                <div class="form-group"><input class="form-control form-control-user" type="email" id="InputEmail" aria-describedby="emailHelp" placeholder="Correo Electrónico" name="email" required="">
                                     <% if (request.getAttribute("errorCorreo") != null) { %> 
                                     <div class="alert alert-danger bounce animated" role="alert">
                                     <span><strong><%= request.getAttribute("errorCorreo") %></strong></span>
                                     </div>
                                     <% } %>
                                 </div>
-                                <div class="form-group"><input class="form-control form-control-user" type="text" id="Usuario" placeholder="TelÃ©fono (ej: 666 66 66 66)" name="telefono" required=""></div>
+                                <div class="form-group"><input class="form-control form-control-user" type="text" id="Usuario" placeholder="Teléfono (ej: 666 66 66 66)" name="telefono" required=""></div>
                                 <div class="form-group row">
-                                    <div class="col-sm-6 mb-3 mb-sm-0"><input class="form-control form-control-user" type="password" id="PasswordInput" placeholder="ContraseÃ±a" name="password" required="" minlength="8" maxlength="20" pattern="^(?=\w*\d)(?=\w*[A-Z])(?=\w*[a-z])\S{8,20}$">
+                                    <div class="col-sm-6 mb-3 mb-sm-0"><input class="form-control form-control-user" type="password" id="PasswordInput" placeholder="Contraseña" name="password" required="" minlength="8" maxlength="20" pattern="^(?=\w*\d)(?=\w*[A-Z])(?=\w*[a-z])\S{8,20}$">
                                         <small
-                                            class="form-text text-muted">Longitud entre 8 y 20 caracteres. Debe contener al menos una mayuscula, una minÃºscula y un dÃ­gito</small>
+                                            class="form-text text-muted">Longitud entre 8 y 20 caracteres. Debe contener al menos una mayuscula, una minúscula y un dígito</small>
                                     </div>
-                                    <div class="col-sm-6"><input class="form-control form-control-user" type="password" id="RepeatPasswordInput" placeholder="Repita la ContraseÃ±a" name="password_repeat" required=""  onkeyup='check();'>
+                                    <div class="col-sm-6"><input class="form-control form-control-user" type="password" id="RepeatPasswordInput" placeholder="Repita la Contraseña" name="password_repeat" required=""  onkeyup='check();'>
                                         <div class="alert alert-danger bounce animated" id="message-error-repeat" role="alert" style="visibility: hidden;"><span><strong>No coincide la contraseña</strong>.</span></div>
                                     </div>
                                 </div><button class="btn btn-primary btn-block text-white btn-user" type="submit">Registrarse</button>
                                 <hr>
                             </form>
-                            <div class="text-center"><a class="small" href="forgot-password.jsp">Â¿Has olvidado la contraseÃ±a?</a></div>
-                            <div class="text-center"><a class="small" href="login.jsp">Â¿Ya tienes una cuenta? No tardes en Iniciar SesiÃ³n</a></div>
+                            <div class="text-center"><a class="small" href="forgot-password.jsp">¿Has olvidado la contraseña?</a></div>
+                            <div class="text-center"><a class="small" href="login.jsp">¿Ya tienes una cuenta? No tardes en Iniciar Sesión</a></div>
                         </div>
                     </div>
                 </div>

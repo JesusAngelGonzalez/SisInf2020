@@ -49,6 +49,9 @@ public class newPlace extends HttpServlet {
 		if(user == null) {
 			response.sendRedirect("login.jsp");
 			return;
+		}else {
+			UsuariosFacade uf = new UsuariosFacade();
+			request.setAttribute("userName", uf.getName(user));
 		}
 		if(request.getParameter("Localizacion") != null && request.getParameter("Lugar")!= null) {
 			LugaresFacade dao = new LugaresFacade();
@@ -60,37 +63,44 @@ public class newPlace extends HttpServlet {
 				e.printStackTrace();
 			}
 			String direccionCompleta[] = direccion.split(",");
+			if( direccionCompleta.length != 3) {
+				request.setAttribute("wrongDir", "");
+				request.getRequestDispatcher("/WEB-INF/newPlace.jsp").forward(request, response);
+			}
+			
 			String localizacionCompleta = "";
 			for(int i = 1;i < direccionCompleta.length-1;i++) {
-				localizacionCompleta =localizacionCompleta + direccionCompleta[i] + " , ";
+				localizacionCompleta =localizacionCompleta + direccionCompleta[i] + ", ";
 			}
 			localizacionCompleta =localizacionCompleta + direccionCompleta[direccionCompleta.length-1];
 			LugaresVO nuevoLugar = new LugaresVO(direccionCompleta[0], localizacionCompleta);
 			Integer lugarId = dao.comprobarLugar(nuevoLugar);
 			
 			if(lugarId == -1) {
-				dao.insertLugar(nuevoLugar);
-				lugarId = dao.comprobarLugar(nuevoLugar);
-				
+				lugarId = dao.insertLugar(nuevoLugar);				
 			}
+			
 			if(request.getParameter("Lugar")!= null  && request.getParameter("Localizacion")!= null   && 
 					request.getParameter("Fin")!= null   && request.getParameter("Inicio")!= null  ) {
 				AcudirFacade dao2 = new AcudirFacade();
-				String divisionInicio[] = request.getParameter("Inicio").split("T");
+				/*tring divisionInicio[] = request.getParameter("Inicio").split("T");
 				String fechaI[] = divisionInicio[0].split("-");
 				String horaI[] = divisionInicio[1].split(":");
 				Instant horaInicio = LocalDateTime.of(Integer.valueOf(fechaI[0]), Month.of(Integer.valueOf(fechaI[1])), Integer.valueOf(fechaI[2]), Integer.valueOf(horaI[0]),Integer.valueOf(horaI[1] )).atZone(ZoneId.of("Europe/Paris")).toInstant();
-				Timestamp horaIni = Timestamp.from(horaInicio);
+				Timestamp horaIni = Timestamp.from(horaInicio);*/
+				Timestamp horaIni = Timestamp.valueOf(request.getParameter("Inicio")+":00");
+				Timestamp horaFin = Timestamp.valueOf(request.getParameter("Fin")+":00");
 				
-				String divisionFinal[] = request.getParameter("Fin").split("T");
+				/*String divisionFinal[] = request.getParameter("Fin").split("T");
 				String fechaF[] = divisionFinal[0].split("-");
 				String horaF[] = divisionFinal[1].split(":");
 				Instant horaFinal = LocalDateTime.of(Integer.valueOf(fechaF[0]), Month.of(Integer.valueOf(fechaF[1])), Integer.valueOf(fechaF[2]), Integer.valueOf(horaF[0]),Integer.valueOf(horaF[1] )).atZone(ZoneId.of("Europe/Paris")).toInstant();
-				Timestamp horaFin = Timestamp.from(horaFinal);
+				Timestamp horaFin = Timestamp.from(horaFinal);*/
 				AcudirVO nuevoAcudir = new AcudirVO(user.getCorreo_electronico(), horaIni,horaFin, lugarId);
 				dao2.insertAcudir(nuevoAcudir);
 				request.setAttribute("exito", direccionCompleta[0] + localizacionCompleta);
-				request.getRequestDispatcher("/WEB-INF/dashboard.jsp").forward(request, response);
+				request.setAttribute("lugarConf", "klk manin");
+				response.sendRedirect("dashboard");
 			}
 			else {
 				request.getRequestDispatcher("/WEB-INF/newPlace.jsp").forward(request, response);

@@ -57,9 +57,9 @@ public class OSMWrapperAPI {
 			if(child.getNodeName().equals("namedetails")) {
 				dir += child.getFirstChild().getTextContent();
 			}else if(child.getNodeName().equals("road")) {
-				dir += ", " + child.getTextContent();
+				dir += "," + child.getTextContent();
 			}else  if(child.getNodeName().equals("city")) {
-				dir += ", " + child.getTextContent();
+				dir += "," + child.getTextContent();
 			}
 		}
 				

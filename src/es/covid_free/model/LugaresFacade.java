@@ -47,13 +47,14 @@ public class LugaresFacade {
 			"ORDER BY l.id\n" + 
 			"LIMIT ?;";
 	
-	/** * Busca un registro en la tabla DEMO por ID * 
-		@param id Identificador del registro buscado * 
-		@returnObjeto DemoVO con el identificador buscado, o null si no seencuentra 
-	*/
-	public boolean insertLugar(LugaresVO lugar) { 
+	/**
+	 * Inserta lugar en la BD
+	 * @param lugar
+	 * @return id del lugar insertado o -1 si error
+	 */
+	public int insertLugar(LugaresVO lugar) { 
 		Connection conn = null;
-		
+		int id = -1;
 		try {
 			// Abrimos la conexión e inicializamos los parámetros 
 			conn = PoolConnectionManager.getConnection(); 
@@ -63,7 +64,10 @@ public class LugaresFacade {
 			
 			// Ejecutamos la orden
 			insertL.execute();
-		
+			ResultSet rs = insertL.getGeneratedKeys();
+			if(rs.next()) {
+				id = rs.getInt("id");
+			}
 			
 			// liberamos los recursos utilizados
 			insertL.close();
@@ -71,17 +75,17 @@ public class LugaresFacade {
 
 		} catch(SQLException se) {
 			se.printStackTrace();
-			return false;
+			id = -1;
 		
 		} catch(Exception e) {
 			e.printStackTrace(System.err);
-			return false;
+			id = -1;
 			
 		} finally {
 			PoolConnectionManager.releaseConnection(conn); 
 		}
 		
-		return true;
+		return id;
 	}
 	
 	public List<LugarRanking> getRankingVisitas() {
@@ -177,13 +181,14 @@ public class LugaresFacade {
 		Integer idLugar = -1;
 		try {
 			// Abrimos la conexión e inicializamos los parámetros 
+			System.out.println(lugar.getNombre() + " Direccion: " + lugar.getUbicacion());
 			conn = PoolConnectionManager.getConnection(); 
 			PreparedStatement findPs = conn.prepareStatement(findByName);
 			findPs.setString(1, lugar.getNombre());
 			findPs.setString(2, lugar.getUbicacion());
 			ResultSet rset = findPs.executeQuery();
 			if(rset.next()) {
-				idLugar = Integer.valueOf(rset.getString("id"));
+				idLugar = rset.getInt("id");
 			}
 		} catch (Exception e) {
 			e.printStackTrace();

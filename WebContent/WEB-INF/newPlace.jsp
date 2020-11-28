@@ -37,39 +37,17 @@
         <div class="d-flex flex-column" id="content-wrapper">
             <div id="content">
                 <nav class="navbar navbar-light navbar-expand bg-white shadow mb-4 topbar static-top">
-                    <div class="container-fluid"><button class="btn btn-link d-md-none rounded-circle mr-3" id="sidebarToggleTop" type="button"><i class="fas fa-bars"></i></button>
+                    <div class="container-fluid">
                         <ul class="nav navbar-nav flex-nowrap ml-auto">
-                            <li class="nav-item dropdown d-sm-none no-arrow"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#"><i class="fas fa-search"></i></a>
-                                <div class="dropdown-menu dropdown-menu-right p-3 animated--grow-in" role="menu" aria-labelledby="searchDropdown">
-                                    <form class="form-inline mr-auto navbar-search w-100">
-                                        <div class="input-group"><input class="bg-light form-control border-0 small" type="text" placeholder="Search for ...">
-                                            <div class="input-group-append"><button class="btn btn-primary py-0" type="button"><i class="fas fa-search"></i></button></div>
-                                        </div>
-                                    </form>
-                                </div>
-                            </li>
-                            <li class="nav-item dropdown no-arrow mx-1" role="presentation">
-                                <div class="nav-item dropdown no-arrow"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#"><span class="badge badge-danger badge-counter">1</span><i class="fas fa-bell fa-fw"></i></a>
-                                    <div class="dropdown-menu dropdown-menu-right dropdown-list dropdown-menu-right animated--grow-in"
-                                        role="menu">
-                                        <h6 class="dropdown-header">Centro de notificaciones</h6>
-                                        <a class="d-flex align-items-center dropdown-item" href="#">
-                                            <div class="mr-3">
-                                                <div class="bg-primary icon-circle"><i class="far fa-bell text-white"></i></div>
-                                            </div>
-                                            <div><span class="small text-gray-500">December 12, 2019</span>
-                                                <p>Has estado en contacto con un positivo el XX/YY/ZZZZ a las AA:BB</p>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
                             <div class="d-none d-sm-block topbar-divider"></div>
                             <li class="nav-item dropdown no-arrow" role="presentation">
-                                <div class="nav-item dropdown no-arrow"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#"><span class="d-none d-lg-inline mr-2 text-gray-600 small">Valerie Luna</span></a>
+                            	<%if (request.getAttribute("userName")!= null) { 
+                            	 System.out.println(request.getAttribute("userName"));%>
+                                <div class="nav-item dropdown no-arrow"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#"><span class="d-none d-lg-inline mr-2 text-gray-600 small"><%= request.getAttribute("userName") %></span></a>
+                                <%}%>
                                     <div class="dropdown-menu shadow dropdown-menu-right animated--grow-in"
-                                        role="menu"><a class="dropdown-item" role="presentation" href="profile.jsp"><i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>&nbsp;Perfil</a>
-                                        <div class="dropdown-divider"></div><a class="dropdown-item" role="presentation" href="login.jsp"><i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>&nbsp;Cerrar Sesión</a></div>
+                                        role="menu"><a class="dropdown-item" role="presentation" href="profile"><i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>&nbsp;Perfil</a>
+                                        <div class="dropdown-divider"></div><a class="dropdown-item" role="presentation" href="logout"><i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>&nbsp;Cerrar Sesión</a></div>
                                 </div>
                             </li>
                         </ul>
@@ -82,18 +60,20 @@
                     <form class="user" method="post" action="newPlace">
                         <div class="form-group"><label for="Lugar">Lugar</label><input class="form-control" type="text" name="Lugar" value="" placeholder="Lugar"></div>
                         <div class="form-group"><label for="Localizacion">Localización</label><input class="form-control" type="text" name="Localizacion" value="" placeholder="Localizacion">
+                            <% if( request.getAttribute("wrongDir") != null ){ %>
                             <div class="alert alert-danger" role="alert"><span><strong>No existe este lugar</strong></span></div>
+                        	<%} %>
                         </div>
                         <div class="form-group">
                             <div class="form-row">
-                                <div class="col"><label>Llegada</label><input class="form-control" type="datetime-local" required="" placeholder="año-mes-dia HH:MM"name="Inicio"></div>
-                                <div class="col"><label>Salida</label><input class="form-control" type="datetime-local" required="" placeholder = "año-mes-dia HH:MM"name="Fin"></div>
+                                <div class="col"><label>Llegada</label><input class="form-control" type="datetime-local" required="[0-9]{4}-(0[1-9]|1[0-2])-(0[1-9]|[1-2][0-9]|3[0-1]) (2[0-3]|[01][0-9]):[0-5][0-9]" placeholder="año-mes-dia HH:MM" name="Inicio"></div>
+                                <div class="col"><label>Salida</label><input class="form-control" type="datetime-local" required="[0-9]{4}-(0[1-9]|1[0-2])-(0[1-9]|[1-2][0-9]|3[0-1]) (2[0-3]|[01][0-9]):[0-5][0-9]" placeholder ="año-mes-dia HH:MM" name="Fin"></div>
                             </div>
                         </div>
                         <div class="form-group"><label for="Lugar">Información Extra</label><input class="form-control" type="text" name="Extra" value="" placeholder="Lugar"></div>
                         <div class="form-row">
                             <div class="col"><button class="btn btn-primary" type="submit">Guardar Cambios</button></div>
-                            <div class="col"><button class="btn btn-secondary" type="button">Cerrar</button></div>
+                            <div class="col"><button class="btn btn-secondary" type="reset">Borrar Todo</button></div>
                         </div>
                         <hr>
                     </form>

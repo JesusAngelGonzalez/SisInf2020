@@ -60,8 +60,8 @@
                                 </div><button class="btn btn-primary btn-block text-white btn-user" type="submit">Registrarse</button>
                                 <hr>
                             </form>
-                            <div class="text-center"><a class="small" href="forgot-password.jsp">¿Has olvidado la contraseña?</a></div>
-                            <div class="text-center"><a class="small" href="login.jsp">¿Ya tienes una cuenta? No tardes en Iniciar Sesión</a></div>
+                            <!-- NO IMPLEMENTADO - NO PRESUPUESTO <div class="text-center"><a class="small" href="forgot-password.jsp">¿Has olvidado la contraseña?</a></div> -->
+                            <div class="text-center"><a class="small" href="login">¿Ya tienes una cuenta? No tardes en Iniciar Sesión</a></div>
                         </div>
                     </div>
                 </div>

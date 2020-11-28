@@ -46,8 +46,8 @@
                                         </div><button class="btn btn-primary btn-block text-white btn-user" type="submit">Iniciar Sesión</button>
                                         <hr>
                                     </form>
-                                    <div class="text-center"><a class="small" href="forgot-password.jsp">¿Olvidaste la contraseña?</a></div>
-                                    <div class="text-center"><a class="small" href="register.jsp">Crear una nueva cuenta</a></div>
+                                    <!-- NO IMPLEMENTADO - NO PRESUPUESTO <div class="text-center"><a class="small" href="forgot-password.jsp">¿Olvidaste la contraseña?</a></div> -->
+                                    <div class="text-center"><a class="small" href="register">Crear una nueva cuenta</a></div>
                                 </div>
                             </div>
                         </div>

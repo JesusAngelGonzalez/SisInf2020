@@ -26,7 +26,7 @@
                 <ul class="nav navbar-nav mr-auto">
                     <li class="nav-item" role="presentation"></li>
                     <li class="nav-item" role="presentation"></li>
-                </ul><span class="navbar-text actions"> <a class="login" href="login.jsp">Iniciar Sesión</a><a class="btn btn-light action-button" role="button" href="register.jsp">Registrarse</a></span></div>
+                </ul><span class="navbar-text actions"> <a class="login" href="login">Iniciar Sesión</a><a class="btn btn-light action-button" role="button" href="register">Registrarse</a></span></div>
         </div>
     </nav>
     <!-- End: Navigation with Button -->
@@ -40,7 +40,7 @@
             </div>
             <!-- End: Intro -->
             <!-- Start: Buttons -->
-            <div class="buttons"><a class="btn btn-primary" role="button" href="login.jsp">INICIAR SESIÓN</a><a class="btn btn-primary" role="button" href="register.jsp">REGISTRARSE</a></div>
+            <div class="buttons"><a class="btn btn-primary" role="button" href="login">INICIAR SESIÓN</a><a class="btn btn-primary" role="button" href="register">REGISTRARSE</a></div>
             <!-- End: Buttons -->
         </div>
     </div>

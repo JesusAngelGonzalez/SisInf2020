@@ -34,8 +34,6 @@ public class Register extends HttpServlet {
 		
 		if (request.getParameter("email") == null || request.getParameter("telefono") == null ||
 			request.getParameter("user") == null || request.getParameter("password") == null) {
-			
-			request.setAttribute("error3", "hay que rellenar todos los campos");
 			request.getRequestDispatcher("register.jsp").forward(request, response);
 		} else {
 			//public UsuariosVO(String correo_electronico, String contrasenya, Integer numero_telefono, String nombre)
@@ -44,12 +42,11 @@ public class Register extends HttpServlet {
 			int valido = dao.insertUser(user);
 			if (valido == 0) {
 				request.setAttribute("exito", "Registro Exitoso");
-				request.getRequestDispatcher("login.jsp").forward(request, response);
+				request.getRequestDispatcher("login").forward(request, response);
 			} else if(valido == 1){
 				request.setAttribute("errorCorreo", "Correo ya registrado");
 				request.getRequestDispatcher("register.jsp").forward(request, response);
 			} else { //error de la BD o de la conexion con ella
-				request.setAttribute("error2", "Error en el registro");
 				request.getRequestDispatcher("register.jsp").forward(request, response);
 			}
 		}

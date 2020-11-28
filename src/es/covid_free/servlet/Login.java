@@ -39,17 +39,27 @@ public class Login extends HttpServlet {
 			request.getRequestDispatcher("login.jsp").forward(request, response);
 		} else {*/
 		System.out.println("Ejecutando login");
-		UsuariosVO user = new UsuariosVO(request.getParameter("email"), request.getParameter("password"));
-		boolean valido = dao.validateUser(user);
-		if (valido) {
-			user.setContrasenya(null);
-			request.getSession().setAttribute("user",user);
-			//request.getRequestDispatcher("dashboard.jsp").forward(request, response);
-			response.sendRedirect("dashboard");
-			//request.getRequestDispatcher("dashboard").forward(request, response);
-		} else {
-			request.setAttribute("errorLogin", "invalid password or email");
+		UsuariosVO user = (UsuariosVO) request.getSession().getAttribute("user");
+        if(user != null) {
+            response.sendRedirect("dashboard");
+            return;
+        }
+		if (request.getParameter("email") == null || request.getParameter("password") == null) {	
 			request.getRequestDispatcher("login.jsp").forward(request, response);
+		} else {
+			//request.removeAttribute("noBack");
+			user = new UsuariosVO(request.getParameter("email"), request.getParameter("password"));
+			boolean valido = dao.validateUser(user);
+			if (valido) {
+				user.setContrasenya(null);
+				request.getSession().setAttribute("user",user);
+				//request.getRequestDispatcher("dashboard.jsp").forward(request, response);
+				response.sendRedirect("dashboard");
+				//request.getRequestDispatcher("dashboard").forward(request, response);
+			} else {
+				request.setAttribute("errorLogin", "invalid password or email");
+				request.getRequestDispatcher("login.jsp").forward(request, response);
+			}
 		}
 		//}
 	}

@@ -45,7 +45,6 @@ public class UsuariosFacade {
 			int n = countRs.getInt(1);
 			System.out.println("Número de registros: " + n);
 			
-			
 			// Leemos resultados 
 			if(n == 1) {
 				// Comparamos contraseñas
@@ -199,8 +198,9 @@ public class UsuariosFacade {
 		try {
 			// Abrimos la conexión e inicializamos los parámetros 
 			conn = PoolConnectionManager.getConnection(); 
-			PreparedStatement findPs = conn.prepareStatement(deleteUser);
-			findPs.setString(1, user.getCorreo_electronico());
+			PreparedStatement psDelete = conn.prepareStatement(deleteUser);
+			psDelete.setString(1, user.getCorreo_electronico());
+			psDelete.execute();
 		} catch (Exception e) {
 			e.printStackTrace();
 		} finally {

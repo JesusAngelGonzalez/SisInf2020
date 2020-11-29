@@ -27,7 +27,7 @@
                 <hr class="sidebar-divider my-0">
                 <ul class="nav navbar-nav text-light" id="accordionSidebar">
                     <li class="nav-item" role="presentation"><a class="nav-link" href="dashboard"><i class="fas fa-tachometer-alt"></i><span>Inicio</span></a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="newPlace"><i class="far fa-building"></i><span>AÃ±adir Lugar</span></a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="newPlace"><i class="far fa-building"></i><span>Añadir Lugar</span></a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="ranking"><i class="fas fa-table"></i><span>Ranking</span></a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link active" href="profile"><i class="fas fa-user"></i><span>Perfil de Usuario</span></a></li>
                 </ul>
@@ -82,41 +82,11 @@
                     <h3 class="text-dark mb-4">Perfil de Usuario</h3>
                     <div class="row mb-3">
                         <div class="col-lg-8">
-                            <div class="row mb-3 d-none">
-                                <div class="col">
-                                    <div class="card text-white bg-primary shadow">
-                                        <div class="card-body">
-                                            <div class="row mb-2">
-                                                <div class="col">
-                                                    <p class="m-0">Peformance</p>
-                                                    <p class="m-0"><strong>65.2%</strong></p>
-                                                </div>
-                                                <div class="col-auto"><i class="fas fa-rocket fa-2x"></i></div>
-                                            </div>
-                                            <p class="text-white-50 small m-0"><i class="fas fa-arrow-up"></i>&nbsp;5% since last month</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div class="card text-white bg-success shadow">
-                                        <div class="card-body">
-                                            <div class="row mb-2">
-                                                <div class="col">
-                                                    <p class="m-0">Peformance</p>
-                                                    <p class="m-0"><strong>65.2%</strong></p>
-                                                </div>
-                                                <div class="col-auto"><i class="fas fa-rocket fa-2x"></i></div>
-                                            </div>
-                                            <p class="text-white-50 small m-0"><i class="fas fa-arrow-up"></i>&nbsp;5% since last month</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
                             <div class="row">
                                 <div class="col">
                                     <div class="card shadow mb-3">
                                         <div class="card-header py-3">
-                                            <p class="text-primary m-0 font-weight-bold">ConfiguraciÃ³n de Usuario</p>
+                                            <p class="text-primary m-0 font-weight-bold">Configuración de Usuario</p>
                                         </div>
                                         <div class="card-body">
                                             <form class="user" method="post" action="profile">
@@ -127,10 +97,10 @@
                                                 </div>
                                                 <div class="form-row">
                                                     <div class="col">
-                                                        <div class="form-group"><label for="email"><strong>Correo ElectrÃ³nico</strong></label><input class="form-control" type="email" placeholder=<%=request.getAttribute("actualMail")%> name="email" readonly=""></div>
+                                                        <div class="form-group"><label for="email"><strong>Correo Electrónico</strong></label><input class="form-control" type="email" placeholder=<%=request.getAttribute("actualMail")%> name="email" readonly=""></div>
                                                     </div>
                                                     <div class="col">
-                                                        <div class="form-group"><label for="numero_telefono"><strong>NÃºmero de TelÃ©fono</strong></label><input class="form-control" type="text" pattern="[0-9.]+" placeholder=<%=request.getAttribute("numero_telefono")%> name="numero_telefono"></div>
+                                                        <div class="form-group"><label for="numero_telefono"><strong>Número de Teléfono</strong></label><input class="form-control" type="text" pattern="[0-9.]+" placeholder=<%=request.getAttribute("numero_telefono")%> name="numero_telefono"></div>
                                                     </div>
                                                 </div>
                                                 <div class="form-group"><button class="btn btn-primary btn-sm" type="submit">Guardar Cambios</button></div>
@@ -139,13 +109,27 @@
                                     </div>
                                 </div>
                             </div>
+							<div class="row mb-3 d-none">
+								<div class="card shadow mb-3">
+									<div class="card-body1">
+										<div class="form-row">
+											<div class="col">
+												<a class="badge badge-danger" href="delete">Eliminar Cuenta</a>
+											</div>
+											<div class="col">
+												<a class="badge badge-secondary" href="download">Descargar información</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
                         </div>
                     </div>
                 </div>
             </div>
             <footer class="bg-white sticky-footer">
                 <div class="container my-auto">
-                    <div class="text-center my-auto copyright"><span>Copyright Â© CovidFree 2020</span></div>
+                    <div class="text-center my-auto copyright"><span>Copyright © CovidFree 2020</span></div>
                 </div>
             </footer>
         </div><a class="border rounded d-inline scroll-to-top" href="#page-top"><i class="fas fa-angle-up"></i></a></div>

@@ -18,6 +18,7 @@ public class UsuariosFacade {
 			"VALUES (?, ?, ?,?);";
 	private static String updateUser = "UPDATE web_data.usuarios SET  numero_telefono = ?, nombre = ? "
 			+ "WHERE correo_electronico = ?;";
+	private static String deleteUser = "DELETE FROM web_data.usuarios WHERE correo_electronico = ? ";
 	
 	/** * Busca un registro en la tabla DEMO por ID * 
 		@param id Identificador del registro buscado * 
@@ -192,5 +193,19 @@ public class UsuariosFacade {
 		return numero;
 	}
 	
+	public void deleteUser(UsuariosVO user) {
+		Connection conn = null;
+		
+		try {
+			// Abrimos la conexión e inicializamos los parámetros 
+			conn = PoolConnectionManager.getConnection(); 
+			PreparedStatement findPs = conn.prepareStatement(deleteUser);
+			findPs.setString(1, user.getCorreo_electronico());
+		} catch (Exception e) {
+			e.printStackTrace();
+		} finally {
+			PoolConnectionManager.releaseConnection(conn);
+		}
+	}
 }
 

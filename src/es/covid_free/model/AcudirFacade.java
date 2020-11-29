@@ -26,6 +26,15 @@ public class AcudirFacade {
 			"ORDER BY final DESC \n" + 
 			"LIMIT 10;";
 	
+	private static String queryLugarContacto = "SELECT a3.final, a3.inicio, l.nombre, l.ubicacion \n" + 
+			"FROM web_data.acudir a3, web_data.acudir a4, web_data.lugares l \n" + 
+			"WHERE a3.id_ubicacion = a4.id_ubicacion AND  a3.correo_electronico = ?	AND l.id = a3.id_ubicacion \n" + 
+			"      AND  a3.correo_electronico != a4.correo_electronico AND ? = a4.correo_electronico \n" + 
+			"      AND ((a4.inicio between (?::timestamp - '3 days'::interval) and (?)) OR \n" + 
+			"			(a4.final between (?::timestamp - '3 days'::interval) and (?))) \n" + 
+			"		AND (((a4.inicio between a3.inicio AND a3.final) OR (a4.final between a3.inicio AND a3.final)) or \n" + 
+			"			((a3.inicio between a4.inicio AND a4.final) OR (a3.final between a4.inicio AND a4.final)));";
+	
 	/** Inserta una fila en la tabla acudir 
 		@param objeto de la tabla acudir 
 		@returnBoolean devuelve verdad si inserta y falso en caso contrario 
@@ -85,9 +94,50 @@ public class AcudirFacade {
 				lista.add(new AcudirLugares(rset.getTimestamp("inicio"), rset.getTimestamp("final"), 
 											rset.getString("nombre"),  rset.getString("ubicacion")));
 			}
+			// Liberamos recursos
+			ps.close();
+			
 		} catch (Exception e) {
 			e.printStackTrace();
-			return null;
+			return lista;
+		} finally {
+			PoolConnectionManager.releaseConnection(conn);
+		}
+		return lista;
+	}
+	
+	/** Busca en la base de datos los lugares de contacto (puede ser un solo lugar) de un usuario con un positivo
+	@param objeto de la tabla usuarios
+	@param objeto de la tabla positivo
+	@returnList devuelve la lista con los lugares de contacto de un usuario con un positivo
+ */
+	public List<AcudirLugares> getLugarContacto(UsuariosVO usuario, PositivoVO positivo) {
+		Connection conn = null;
+		List<AcudirLugares> lista = new ArrayList<>();
+
+		try {
+			// Abrimos la conexión e inicializamos los parámetros 
+			conn = PoolConnectionManager.getConnection(); 
+			PreparedStatement ps = conn.prepareStatement(queryLugarContacto);
+			ps.setString(1, usuario.getCorreo_electronico());
+			ps.setString(2, positivo.getCorreo_electronico());
+			ps.setTimestamp(3, positivo.getFecha());
+			ps.setTimestamp(4, positivo.getFecha());
+			ps.setTimestamp(5, positivo.getFecha());
+			ps.setTimestamp(6, positivo.getFecha());
+			
+			ResultSet rset = ps.executeQuery();
+			// Añadimos todas las filas encontradas a la lista que se devuelve
+			while(rset.next()) {
+				lista.add(new AcudirLugares(rset.getTimestamp("inicio"), rset.getTimestamp("final"), 
+											rset.getString("nombre"),  rset.getString("ubicacion")));
+			}
+			// Liberamos recursos
+			ps.close();
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+			return lista;
 		} finally {
 			PoolConnectionManager.releaseConnection(conn);
 		}

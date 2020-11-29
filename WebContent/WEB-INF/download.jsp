@@ -3,7 +3,7 @@
 
 	response.setContentType("APPLICATION/OCTET-STREAM");
 	response.setHeader("Content-Disposition","attachment; filename=\"" + filename + "\"");
-	java.io.FileInputStream fis = new java.io.FileInputStream("filename");
+	java.io.FileInputStream fis = new java.io.FileInputStream(filename);
 	
 	int i;
 	while((i=fis.read()) != -1){

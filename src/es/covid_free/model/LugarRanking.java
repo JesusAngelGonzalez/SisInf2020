@@ -1,12 +1,18 @@
 package es.covid_free.model;
 
+/**
+ * tabla lugares junto con información para ranking
+ * @author covid_free
+ *
+ */
+
 public class LugarRanking {
 	String nombre, direccion;
 	int casos, visitantes, posicion;
-	
+
 	
 	/**
-	 * Construcctor del lugar para la tabla ranking 
+	 * Constructor 
 	 * 
 	 * @param nombre Nombre del lugar
 	 * @param direccion Dirección del lugar

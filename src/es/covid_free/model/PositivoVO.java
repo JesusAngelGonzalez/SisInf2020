@@ -3,8 +3,8 @@ package es.covid_free.model;
 import java.sql.Timestamp;
 
 /**
- * tabla users
- * @author sisinf
+ * tabla positivo
+ * @author covid_free
  *
  */
 public class PositivoVO {
@@ -13,9 +13,8 @@ public class PositivoVO {
 	
 	/**
 	 * Constructor
-	 * @param id
-	 * @param nombre
-	 * @param ubicacion
+	 * @param correo_electronico
+	 * @param fecha
 	 */
 	public PositivoVO(String correo_electronico, Timestamp fecha) {
 		this.correo_electronico = correo_electronico;

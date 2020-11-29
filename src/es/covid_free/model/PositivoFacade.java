@@ -1,6 +1,7 @@
 package es.covid_free.model;
 
 import java.sql.Connection;
+
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -11,10 +12,18 @@ import es.covid_free.db.PoolConnectionManager;
 
 import java.sql.Timestamp;
 
+
+/**
+ * positivo facade
+ * @author covid_free
+ *
+ */
 public class PositivoFacade {
-	
+	// Query para insertar positivos
 	private static String insertPositivo = "INSERT INTO web_data.positivos(fecha, correo_electronico) " + 
 			"VALUES (?, ?);";
+	
+	// Query para conseguir las personas en contacto reciente con alguien que ha dado positivo en covid
 	private static String posiblesPositivos = "SELECT a3.correo_electronico, u.numero_telefono, u.contrasenya, u.nombre \n" + 
 			"FROM web_data.acudir a3, web_data.acudir a4, web_data.usuarios u \n" + 
 			"WHERE a3.id_ubicacion = a4.id_ubicacion AND  a3.correo_electronico = u.correo_electronico				\n" + 
@@ -56,9 +65,9 @@ public class PositivoFacade {
 								AND ((a3.inicio <= a4.final AND a3.inicio >= a4.inicio) OR (a3.final<= a4.final AND a3.final >= a4.inicio))
  */
 	
-	/** * Busca un registro en la tabla DEMO por ID * 
-		@param id Identificador del registro buscado * 
-		@returnObjeto DemoVO con el identificador buscado, o null si no seencuentra 
+	/** Inserta un caso de covid (positivo) en la tabla positivo de la BD
+		@param positivo 
+		@returnObjeto booleano que vale true si consigue insertar el positivo y false en caso contrario
 	*/
 	public boolean insertPositivo(PositivoVO positivo) { 
 		Connection conn = null;
@@ -93,7 +102,14 @@ public class PositivoFacade {
 		return true;
 	}
 	
-	//El positivo ha tenido que ser registrado
+	/**	Dado un usuario que ha dado positivo en covid, busca los usuarios que han estado 
+	 *  en contacto con él en un intervalo de tres días, es decir, que han coincidido algún 
+	 *  lugar en un momento determinado no más tarde de 3 días
+	 * 	@param positivo
+	 * 	@return devuelve la lista con los usuarios que han estado en contacto con un positivo en un intervalo de
+	 * 	tres días 
+	 * 
+	 */
 	public List<UsuariosVO> getPosiblesPositivos(PositivoVO positivo) {
 		Connection conn = null;
 		List<UsuariosVO> lista = new ArrayList<>();
@@ -108,11 +124,15 @@ public class PositivoFacade {
 			ps.setTimestamp(4, positivo.getFecha());
 			ps.setTimestamp(5, positivo.getFecha());
 			
-			
+			// Añadimos a la lista que se devuelve todos los usuarios encontrados
 			ResultSet rset = ps.executeQuery();
 			while(rset.next()) {
-				//lista.add(new UsuariosVO(rset.getString("username"), rset.getString("password")); modificar cuando este hecho UsuariosVO
+				lista.add(new UsuariosVO(rset.getString("correo_electronico"), rset.getString("contrasenya")));
 			}
+			
+			// Liberamos recursos
+			ps.close();
+			
 		} catch (Exception e) {
 			e.printStackTrace();
 			return null;

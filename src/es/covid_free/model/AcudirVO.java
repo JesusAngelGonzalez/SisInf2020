@@ -3,8 +3,8 @@ package es.covid_free.model;
 import java.sql.Timestamp;
 
 /**
- * tabla users
- * @author sisinf
+ * tabla acudir
+ * @author covid_free
  *
  */
 public class AcudirVO {

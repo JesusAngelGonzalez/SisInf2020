@@ -11,7 +11,8 @@ import es.covid_free.model.UsuariosFacade;
 import es.covid_free.model.UsuariosVO;
 
 /**
- * Servlet implementation class Signin
+ * Servlet para gestionar cerrar la sesión de un usuario
+ * @author covid_free
  */
 @WebServlet(description = "Servlet de logout del usuario", urlPatterns = { "/logout" })
 public class Logout extends HttpServlet {
@@ -22,23 +23,22 @@ public class Logout extends HttpServlet {
      */
     public Logout() {
         super();
-        // TODO Auto-generated constructor stub
     }
 
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// Invalidamos y borramos la cookie de sesión y redirigimos al servlet de login
 		request.getSession().removeAttribute("user");
 		request.getSession().invalidate();
-		response.sendRedirect("login.jsp");
+		response.sendRedirect("login");
 	}
 
 	/**
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
 		doGet(request, response);
 	}
 	

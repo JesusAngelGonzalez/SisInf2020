@@ -1,8 +1,8 @@
 package es.covid_free.model;
 
 /**
- * tabla users
- * @author sisinf
+ * tabla lugares
+ * @author covid_free
  *
  */
 public class LugaresVO {
@@ -11,7 +11,6 @@ public class LugaresVO {
 	
 	/**
 	 * Constructor
-	 * @param id
 	 * @param nombre
 	 * @param ubicacion
 	 */

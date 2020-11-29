@@ -11,7 +11,8 @@ import es.covid_free.model.UsuariosFacade;
 import es.covid_free.model.UsuariosVO;
 
 /**
- * Servlet implementation class Signin
+ * Servlet para gestionar login.jsp, que es la página de inicio de sesión del sistema
+ * @author covid_free
  */
 @WebServlet(description = "Servlet de login del usuario", urlPatterns = { "/login" })
 public class Login extends HttpServlet {
@@ -39,24 +40,35 @@ public class Login extends HttpServlet {
 			request.getRequestDispatcher("login.jsp").forward(request, response);
 		} else {*/
 		System.out.println("Ejecutando login");
+		
 		UsuariosVO user = (UsuariosVO) request.getSession().getAttribute("user");
         if(user != null) {
+        	// En caso de que hay un usuario ya logeado, redirige al servlet dashboard
+        	// que gestiona la página principal del usuario
             response.sendRedirect("dashboard");
             return;
         }
-		if (request.getParameter("email") == null || request.getParameter("password") == null) {	
+        
+		if (request.getParameter("email") == null || request.getParameter("password") == null) {
+			// Si hay algún campo del login sin rellenar (o si se pide la página por primera vez)
+			// se reenvía la página
 			request.getRequestDispatcher("login.jsp").forward(request, response);
 		} else {
 			//request.removeAttribute("noBack");
+			// En caso contrario, se procede a validar al usuario
 			user = new UsuariosVO(request.getParameter("email"), request.getParameter("password"));
 			boolean valido = dao.validateUser(user);
 			if (valido) {
+				// Si es válido, se le crea una cookie de sesión con sus datos (aunque solo esté el correo)
+				// y se le redirige al dashboard (página principal del usuario)
 				user.setContrasenya(null);
 				request.getSession().setAttribute("user",user);
 				//request.getRequestDispatcher("dashboard.jsp").forward(request, response);
 				response.sendRedirect("dashboard");
 				//request.getRequestDispatcher("dashboard").forward(request, response);
 			} else {
+				// En caso de que no sea válido, se reenvía la petición con un mensaje de error
+				// para que lo muestre en login.jsp
 				request.setAttribute("errorLogin", "invalid password or email");
 				request.getRequestDispatcher("login.jsp").forward(request, response);
 			}
@@ -68,7 +80,6 @@ public class Login extends HttpServlet {
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
 		doGet(request, response);
 	}
 	

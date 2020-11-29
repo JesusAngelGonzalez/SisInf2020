@@ -3,8 +3,8 @@ package es.covid_free.model;
 import java.sql.Timestamp;
 
 /**
- * tabla users
- * @author sisinf
+ * join de la tabla lugar y acudir (excluyendo ambas id)
+ * @author covid_free
  *
  */
 public class AcudirLugares {
@@ -15,7 +15,8 @@ public class AcudirLugares {
 	
 	/**
 	 * Constructor
-	 * @param id
+	 * @param inicio
+	 * @param fin
 	 * @param nombre
 	 * @param ubicacion
 	 */

@@ -9,19 +9,26 @@ import java.util.List;
 
 import es.covid_free.db.PoolConnectionManager;
 
+/**
+ * acudir facade
+ * @author covid_free
+ *
+ */
+
 public class AcudirFacade {
-	
+	// Query para insertar una fila en acudir
 	private static String insertAcudir = "INSERT INTO web_data.acudir(id_ubicacion, correo_electronico, inicio, final) " + 
 			"VALUES (?, ?, ?, ?);";
+	// Query para buscar los lugares más recientes en los que ha estado un usuario
 	private static String queryUltimosLugares = "SELECT l.id, l.nombre, l.ubicacion, a.inicio, a.final \n" + 
 			"FROM web_data.acudir a, web_data.lugares l \n" + 
 			"WHERE a.correo_electronico = ? and l.id = a.id_ubicacion \n" + 
 			"ORDER BY final \n" + 
 			"LIMIT 10;";
 	
-	/** * Busca un registro en la tabla DEMO por ID * 
-		@param id Identificador del registro buscado * 
-		@returnObjeto DemoVO con el identificador buscado, o null si no se encuentra 
+	/** Inserta una fila en la tabla acudir 
+		@param objeto de la tabla acudir 
+		@returnBoolean devuelve verdad si inserta y falso en caso contrario 
 	*/
 	public boolean insertAcudir(AcudirVO acudir) { 
 		Connection conn = null;
@@ -56,7 +63,12 @@ public class AcudirFacade {
 		
 		return true;
 	}
-		
+	
+	/** Busca en la base de datos los últimos lugares en los que ha estado un usuario
+		@param objeto de la tabla usuarios
+		@returnList devuelve la lista con los últimos lugares en los que ha estado un usuario
+		 			y la fecha de inicio y fin de su estancia en dicho lugar
+	 */
 	public List<AcudirLugares> getUltimosLugares(UsuariosVO usuario) {
 		Connection conn = null;
 		List<AcudirLugares> lista = new ArrayList<>();
@@ -68,10 +80,10 @@ public class AcudirFacade {
 			ps.setString(1, usuario.getCorreo_electronico());
 			
 			ResultSet rset = ps.executeQuery();
+			// Añadimos todas las filas encontradas a la lista que se devuelve
 			while(rset.next()) {
 				lista.add(new AcudirLugares(rset.getTimestamp("inicio"), rset.getTimestamp("final"), 
 											rset.getString("nombre"),  rset.getString("ubicacion")));
-				//debería devolver también la fecha de inicio y de fin (el statement ya esta preparado para ello)
 			}
 		} catch (Exception e) {
 			e.printStackTrace();

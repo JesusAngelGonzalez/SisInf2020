@@ -44,7 +44,7 @@ public class Register extends HttpServlet {
 			if (valido == 0) {
 				// Si se introduce correctamente y se reenvía petición al login junto con un mensaje de éxito
 				request.setAttribute("exito", "Registro Exitoso");
-				request.getRequestDispatcher("login").forward(request, response);
+				request.getRequestDispatcher("login.jsp").forward(request, response);
 			} else if(valido == 1){
 				// Si el correo (clave primaria) está ya en la BD se muestra la página de registro 
 				// con un mensaje de error

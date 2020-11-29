@@ -62,6 +62,7 @@ public class newPlace extends HttpServlet {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
+			System.out.println(direccion);
 			String direccionCompleta[] = direccion.split(",");
 			if( direccionCompleta.length != 3) {
 				request.setAttribute("wrongDir", "");

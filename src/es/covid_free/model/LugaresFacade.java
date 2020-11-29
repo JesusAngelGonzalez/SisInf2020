@@ -73,7 +73,7 @@ public class LugaresFacade {
 		try {
 			// Abrimos la conexión e inicializamos los parámetros 
 			conn = PoolConnectionManager.getConnection(); 
-			PreparedStatement insertL = conn.prepareStatement(insertLugar);
+			PreparedStatement insertL = conn.prepareStatement(insertLugar, PreparedStatement.RETURN_GENERATED_KEYS);
 			insertL.setString(1, lugar.getNombre());
 			insertL.setString(2, lugar.getUbicacion());
 			
@@ -83,6 +83,7 @@ public class LugaresFacade {
 			if(rs.next()) {
 				id = rs.getInt("id");
 			}
+			System.out.println("Result id = " + id);
 			
 			// liberamos los recursos utilizados
 			insertL.close();

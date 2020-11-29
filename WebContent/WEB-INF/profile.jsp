@@ -109,7 +109,7 @@
                                     </div>
                                 </div>
                             </div>
-							<div class="row mb-3 d-none">
+							<div class="row mb-3">
 								<div class="card shadow mb-3">
 									<div class="card-body1">
 										<div class="form-row">

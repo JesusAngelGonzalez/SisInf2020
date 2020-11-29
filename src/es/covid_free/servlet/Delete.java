@@ -32,9 +32,10 @@ public class Delete extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		UsuariosVO usuario = (UsuariosVO) request.getAttribute("user");
+		UsuariosVO usuario = (UsuariosVO) request.getSession().getAttribute("user");
 		if(usuario == null) {
 			// Si no hay, redirige al login
+			System.out.println("Saliendo de Delete...");
 			response.sendRedirect("login");
 			return;
 		}

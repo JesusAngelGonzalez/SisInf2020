@@ -2,6 +2,7 @@ package es.covid_free.servlet;
 
 import java.io.IOException;
 import java.sql.Timestamp;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
@@ -17,6 +18,7 @@ import es.covid_free.model.PositivoFacade;
 import es.covid_free.model.PositivoVO;
 import es.covid_free.model.UsuariosFacade;
 import es.covid_free.model.UsuariosVO;
+import es.covid_free.MAIL.MailWrapper;
 
 
 /**
@@ -53,14 +55,18 @@ public class RegistrarPositivo  extends HttpServlet {
 			// y se coge la lista de personas que hayan estado recientemente en contacto con el usuario
 			// que ha dado positivo
 			List<UsuariosVO> lista = pf.getPosiblesPositivos(positivo);
-			for(UsuariosVO usuario: lista) {
+			/*for(UsuariosVO usuario: lista) {
 				// y se le envía un email informándole de que puede que tenga el covid
 				// a cada persona que haya estado en contacto con el positivo
-				/* TODO:
-				 * Enviar correo electrónico
-				 * Enviar SMS
-				 * Añadir notificacion*/
+				MailWrapper.sendEmail(usuario.getCorreo_electronico());
+			}*/
+			List<String> correos = new ArrayList<String>();
+			for(UsuariosVO usuario : lista) {
+				correos.add(usuario.getCorreo_electronico());
 			}
+			String[] arrCorreos = new String[correos.size()];
+			arrCorreos = correos.toArray(arrCorreos);
+			MailWrapper.sendEmail(arrCorreos);
 			
 			// Por último se carga un mensaje de confirmación del registro como positivo y
 			// se reenvía la petición a dashboard

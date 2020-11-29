@@ -23,7 +23,7 @@ public class AcudirFacade {
 	private static String queryUltimosLugares = "SELECT l.id, l.nombre, l.ubicacion, a.inicio, a.final \n" + 
 			"FROM web_data.acudir a, web_data.lugares l \n" + 
 			"WHERE a.correo_electronico = ? and l.id = a.id_ubicacion \n" + 
-			"ORDER BY final \n" + 
+			"ORDER BY final DESC \n" + 
 			"LIMIT 10;";
 	
 	/** Inserta una fila en la tabla acudir 

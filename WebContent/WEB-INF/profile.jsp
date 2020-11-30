@@ -39,31 +39,6 @@
                 <nav class="navbar navbar-light navbar-expand bg-white shadow mb-4 topbar static-top">
                     <div class="container-fluid"><button class="btn btn-link d-md-none rounded-circle mr-3" id="sidebarToggleTop" type="button"><i class="fas fa-bars"></i></button>
                         <ul class="nav navbar-nav flex-nowrap ml-auto">
-                            <li class="nav-item dropdown d-sm-none no-arrow"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#"><i class="fas fa-search"></i></a>
-                                <div class="dropdown-menu dropdown-menu-right p-3 animated--grow-in" role="menu" aria-labelledby="searchDropdown">
-                                    <form class="form-inline mr-auto navbar-search w-100">
-                                        <div class="input-group"><input class="bg-light form-control border-0 small" type="text" placeholder="Search for ...">
-                                            <div class="input-group-append"><button class="btn btn-primary py-0" type="button"><i class="fas fa-search"></i></button></div>
-                                        </div>
-                                    </form>
-                                </div>
-                            </li>
-                            <li class="nav-item dropdown no-arrow mx-1" role="presentation">
-                                <div class="nav-item dropdown no-arrow"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#"><span class="badge badge-danger badge-counter">1</span><i class="fas fa-bell fa-fw"></i></a>
-                                    <div class="dropdown-menu dropdown-menu-right dropdown-list dropdown-menu-right animated--grow-in"
-                                        role="menu">
-                                        <h6 class="dropdown-header">Centro de notificaciones</h6>
-                                        <a class="d-flex align-items-center dropdown-item" href="#">
-                                            <div class="mr-3">
-                                                <div class="bg-primary icon-circle"><i class="far fa-bell text-white"></i></div>
-                                            </div>
-                                            <div><span class="small text-gray-500">December 12, 2019</span>
-                                                <p>Has estado en contacto con un positivo el XX/YY/ZZZZ a las AA:BB</p>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
                             <div class="d-none d-sm-block topbar-divider"></div>
                             <li class="nav-item dropdown no-arrow" role="presentation">
                             	<%if (request.getAttribute("user.name")!= null) { 
@@ -103,22 +78,18 @@
                                                         <div class="form-group"><label for="numero_telefono"><strong>Número de Teléfono</strong></label><input class="form-control" type="text" pattern="[0-9.]+" placeholder=<%=request.getAttribute("numero_telefono")%> name="numero_telefono"></div>
                                                     </div>
                                                 </div>
-                                                <div class="form-group"><button class="btn btn-primary btn-sm" type="submit">Guardar Cambios</button></div>
+                                                <div class="form-group"><button class="btn btn-primary" type="submit">Guardar Cambios</button></div>
                                             </form>
                                         </div>
                                     </div>
                                 </div>
                             </div>
 							<div class="row mb-3">
-								<div class="card shadow mb-3">
-									<div class="card-body1">
-										<div class="form-row">
-											<div class="col">
-												<a class="badge badge-danger" href="delete">Eliminar Cuenta</a>
-											</div>
-											<div class="col">
-												<a class="badge badge-secondary" href="download">Descargar información</a>
-											</div>
+								<div>
+									<div class="form-inline  mx-3">
+										<div class="form-row form-row-lg">
+											<a class="btn btn-danger mx-3" role="button" href="delete">Eliminar Cuenta</a>
+											<a class="btn btn-info mx-3" role="button" href="download">Descargar información</a>
 										</div>
 									</div>
 								</div>

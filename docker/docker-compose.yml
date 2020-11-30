@@ -1,0 +1,32 @@
+version: '3'
+
+services:
+	database:
+		image: postgres
+		context: ./postrgres
+		volumes:
+			- db-data: /var/lib/postgresql/data
+		enviroment:
+			POSTGRES_PASSWORD=sisinf2020
+		ports:
+			- 5432:5432
+		networks:
+			- backend
+		
+	
+	tomcat:
+		image: tomcat 
+		context: ./tomcat
+		volumes:
+			- ./website:/var/www/html
+		ports:
+			- 8080:8080
+		depends-on:
+			- database
+		networks:
+			- frontend
+			- backend
+networks:
+	frontend:
+	backend:	
+		

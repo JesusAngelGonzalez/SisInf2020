@@ -4,7 +4,6 @@
     <ResourceLink 
     	name="jdbc/covid_free"
     	global="jdbc/covid_free"
-    	type="javax.sql.DataSource"
-    />
+    	type="javax.sql.DataSource" />
      
  </Context>

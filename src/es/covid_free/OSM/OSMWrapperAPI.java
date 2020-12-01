@@ -14,6 +14,12 @@ import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
 
+/**
+ * Clase para interactuar con OSM
+ * @author covid_free
+ *
+ */
+
 public class OSMWrapperAPI {
 	private static final String NOMINATIM_API = "https://nominatim.openstreetmap.org/search?q=";
 	

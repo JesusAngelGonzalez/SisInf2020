@@ -132,7 +132,7 @@ public class LugaresFacade {
 			
 		} catch (Exception e) {
 			e.printStackTrace();
-			return null;
+			return lista;
 		} finally {
 			PoolConnectionManager.releaseConnection(conn);
 		}
@@ -177,7 +177,7 @@ public class LugaresFacade {
 	
 		} catch (Exception e) {
 			e.printStackTrace();
-			return null;
+			return lista;
 		} finally {
 			PoolConnectionManager.releaseConnection(conn);
 		}
@@ -221,7 +221,7 @@ public class LugaresFacade {
 			
 		} catch (Exception e) {
 			e.printStackTrace();
-			return null;
+			return lista;
 		} finally {
 			PoolConnectionManager.releaseConnection(conn);
 		}

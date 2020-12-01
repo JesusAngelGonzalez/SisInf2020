@@ -2,8 +2,8 @@ package es.covid_free.model;
 
 
 /**
- * tabla users
- * @author sisinf
+ * tabla usuarios
+ * @author covid_free
  *
  */
 public class UsuariosVO {
@@ -14,10 +14,10 @@ public class UsuariosVO {
 	
 	/**
 	 * Constructor
-	 * @param nombre
-	 * @param contrasenya
 	 * @param correo_electronico
+	 * @param contrasenya
 	 * @param numero_telefono
+	 * @param nombre
 	 */
 	public UsuariosVO(String correo_electronico, String contrasenya, Integer numero_telefono, String nombre) {
 		this.nombre = nombre;
@@ -26,6 +26,9 @@ public class UsuariosVO {
 		this.numero_telefono = numero_telefono;
 	}
 	
+	/**
+	 * Constructor default
+	 */
 	public UsuariosVO() {
 		this.nombre = "";
 		this.contrasenya = "";
@@ -33,6 +36,11 @@ public class UsuariosVO {
 		this.numero_telefono = 0;
 	}
 	
+	/**
+	 * Constructor
+	 * @param correo_electronico
+	 * @param contrasenya
+	 */
 	public UsuariosVO(String correo_electronico, String contrasenya) {
 		this.nombre = "";
 		this.contrasenya = contrasenya;

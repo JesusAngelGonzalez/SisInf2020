@@ -48,15 +48,20 @@ public class NewPlace extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {	
 		UsuariosVO user = (UsuariosVO) request.getSession().getAttribute("user");
 		if(user == null) {
+			// Si no hay usuarios logeados, redirigimos a login
 			response.sendRedirect("login.jsp");
 			return;
 		}else {
+			// Preparamos un atributo para mostrar el nombre del usuario
 			UsuariosFacade uf = new UsuariosFacade();
 			request.setAttribute("userName", uf.getName(user));
 		}
 		if(request.getParameter("Lugar")!= null  && request.getParameter("Localizacion")!= null   && 
 				request.getParameter("Fin")!= null   && request.getParameter("Inicio")!= null) {
+			// Si se han introducido los parámetros necesarios se procede a tratar la petición
 			LugaresFacade dao = new LugaresFacade();
+			// Comprobamos que el lugar exista y guardar los datos de forma que dos formas de escribir
+			// un mismo lugar no  afecte a que se consideren distintos lugares
 			String direccion = "";
 			try {
 				direccion = OSMWrapperAPI.getCorrectaDireccion(request.getParameter("Localizacion"), request.getParameter("Lugar"));
@@ -66,31 +71,39 @@ public class NewPlace extends HttpServlet {
 			System.out.println(direccion);
 			String direccionCompleta[] = direccion.split(",");
 			if( direccionCompleta.length != 3) {
+				// Si no existe el lugar, reenviamos newPlace.jsp mostrando un mensaje de error
 				request.setAttribute("wrongDir", "");
 				request.getRequestDispatcher("/WEB-INF/newPlace.jsp").forward(request, response);
 			}
-			
+			// Adaptamos los datos para introducirlos en la BD
 			String localizacionCompleta = "";
 			for(int i = 1;i < direccionCompleta.length-1;i++) {
 				localizacionCompleta =localizacionCompleta + direccionCompleta[i] + ", ";
 			}
 			localizacionCompleta =localizacionCompleta + direccionCompleta[direccionCompleta.length-1];
 			LugaresVO nuevoLugar = new LugaresVO(direccionCompleta[0], localizacionCompleta);
+			// Comprobamos si el lugar ya está en la BD
 			Integer lugarId = dao.comprobarLugar(nuevoLugar);
 			
 			if(lugarId == -1) {
+				// En caso de que no esté, lo introducimos
 				lugarId = dao.insertLugar(nuevoLugar);				
 			}
-			
+			// Ahora se procede a sacar los datos del formulario para introducir en la BD la información
+			// de que un usuario ha visitado un lugar en la tabla acudir
 			AcudirFacade dao2 = new AcudirFacade();
 			Timestamp horaIni = Timestamp.valueOf(request.getParameter("Inicio")+":00");
 			Timestamp horaFin = Timestamp.valueOf(request.getParameter("Fin")+":00");
 			AcudirVO nuevoAcudir = new AcudirVO(user.getCorreo_electronico(), horaIni,horaFin, lugarId);
 			dao2.insertAcudir(nuevoAcudir);
+			
+			// Una vez guardados los datos, se prepara un mensaje de confirmación y se reenvía la petición
+			// al dashboard
 			request.setAttribute("lugarConf", "");
 			request.getRequestDispatcher("dashboard").forward(request, response);
 			
 		} else {
+			// En caso contrario, reenviamos la página newPlace.jsp
 			request.getRequestDispatcher("/WEB-INF/newPlace.jsp").forward(request, response);
 		}
 		

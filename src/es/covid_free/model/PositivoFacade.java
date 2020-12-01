@@ -135,7 +135,7 @@ public class PositivoFacade {
 			
 		} catch (Exception e) {
 			e.printStackTrace();
-			return null;
+			return lista;
 		} finally {
 			PoolConnectionManager.releaseConnection(conn);
 		}
@@ -158,7 +158,7 @@ public class PositivoFacade {
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
-			return null;
+			return lista;
 		} finally {
 			PoolConnectionManager.releaseConnection(conn);
 		}
@@ -182,7 +182,7 @@ public class PositivoFacade {
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
-			return null;
+			return lista;
 		} finally {
 			PoolConnectionManager.releaseConnection(conn);
 		}

@@ -8,22 +8,36 @@ import java.sql.SQLException;
 import es.covid_free.HASH.HashWrapper;
 import es.covid_free.db.PoolConnectionManager;
 
-/* Crear Usuario; Validar Usuario; Actualizar Usuario; Añadir Lugar; Registrar Acudir; Añadir Positivo; Dejar de ser positivo */
+/**
+ * usuarios facade
+ * @author covid_free
+ *
+ */
 
 public class UsuariosFacade {
 	
+	// Query para contar el número de usuarios con un mismo correo 
 	private static String countBycorreo_electronico = "SELECT count(*) cuenta FROM web_data.usuarios WHERE correo_electronico = ?";
+	
+	// Query para obtener la información de un usuario
 	private static String findBycorreo_electronico = "SELECT * FROM web_data.usuarios WHERE correo_electronico = ?";
+	
+	// Query para insertar un usuario en la BD
 	private static String insertUser = "INSERT INTO web_data.usuarios(correo_electronico, contrasenya, numero_telefono, nombre) " + 
 			"VALUES (?, ?, ?,?);";
+	
+	// Query para actualizar los datos de un usuario en la BD
 	private static String updateUser = "UPDATE web_data.usuarios SET  numero_telefono = ?, nombre = ? "
 			+ "WHERE correo_electronico = ?;";
+	
+	// Query para borrar los datos de un usuario de la BD
 	private static String deleteUser = "DELETE FROM web_data.usuarios WHERE correo_electronico = ? ";
 	
-	/** * Busca un registro en la tabla DEMO por ID * 
-		@param id Identificador del registro buscado * 
-		@returnObjeto DemoVO con el identificador buscado, o null si no seencuentra 
-	*/
+	
+	/** Comprueba si la contraseña introducida por el usuario es la misma que la que está en la BD 
+	 *	@param objeto de la tabla usuarios 
+	 *	@returnBoolean devuelve verdad en caso coincidir las contraseñas y falso si son distintas
+	 */
 	public boolean validateUser(UsuariosVO user) { 
 		boolean result = false;
 		Connection conn = null;
@@ -45,7 +59,7 @@ public class UsuariosFacade {
 			int n = countRs.getInt(1);
 			System.out.println("Número de registros: " + n);
 			
-			// Leemos resultados 
+			// Leemos resultados y nos aseguramos de que solo haya una fila
 			if(n == 1) {
 				// Comparamos contraseñas
 				findRs.next();
@@ -76,6 +90,10 @@ public class UsuariosFacade {
 		return result;
 	}
 	
+	/** Inserta una fila en la tabla usuarios
+	* @param objeto de la tabla usuarios
+	* @returnInt devuelve -1 en caso de eror, 0 si inserta y 1 si el correo ya está en la BD
+	*/
 	public int insertUser(UsuariosVO user) { 
 		Connection conn = null;
 		
@@ -99,7 +117,8 @@ public class UsuariosFacade {
 
 		} catch(SQLException se) {
 			final String ss = se.getSQLState();
-			if(ss.equals("23505")) { // el correo ya está cogido
+			if(ss.equals("23505")) { // fallo por restricción de claves primarias distintas
+				// El correo ya está en la BD
 				return 1;
 			}
 			System.err.println(ss);
@@ -117,6 +136,10 @@ public class UsuariosFacade {
 		return 0;
 	}
 	
+	/** Actualiza un usuario de la tabla usuarios
+	* @param objeto de la tabla usuarios con los datos actualizados
+	* @returnBoolean devuelve verdad en caso de éxito y false en caso de fallo
+	*/
 	public boolean updateUser(UsuariosVO user) { 
 		Connection conn = null;
 		
@@ -153,7 +176,11 @@ public class UsuariosFacade {
 	
 	
 		
-	
+	/** Busca el nombre de un usuario en la BD
+	* @param objeto de la tabla usuarios 
+	* @returnInteger devuelve el nombre del usuario si existe y en caso contrario
+	* 				 una cadena vacía
+	*/
 	public String getName(UsuariosVO user) {
 		Connection conn = null;
 		String name = "";
@@ -162,9 +189,12 @@ public class UsuariosFacade {
 			conn = PoolConnectionManager.getConnection(); 
 			PreparedStatement findPs = conn.prepareStatement(findBycorreo_electronico);
 			findPs.setString(1, user.getCorreo_electronico());
+			// Ejecutamos la orden
 			ResultSet rset = findPs.executeQuery();
 			rset.next();
 			name = rset.getString("nombre");
+			// liberamos los recursos utilizados
+			findPs.close();
 		} catch (Exception e) {
 			e.printStackTrace();
 		} finally {
@@ -173,6 +203,11 @@ public class UsuariosFacade {
 		return name;
 	}
 	
+	/** Busca el número de teléfono de un usuario en la BD
+	* @param objeto de la tabla usuarios con los datos actualizados
+	* @returnInteger devuelve el número de teléfono del usuario si existe y 
+	* 				 en caso contrario un 0
+	*/
 	public Integer getNumero_telefono(UsuariosVO user) {
 		Connection conn = null;
 		Integer numero = 0;
@@ -181,9 +216,12 @@ public class UsuariosFacade {
 			conn = PoolConnectionManager.getConnection(); 
 			PreparedStatement findPs = conn.prepareStatement(findBycorreo_electronico);
 			findPs.setString(1, user.getCorreo_electronico());
+			// Ejecutamos la orden
 			ResultSet rset = findPs.executeQuery();
 			rset.next();
 			numero = Integer.valueOf(rset.getString("numero_telefono"));
+			// liberamos los recursos utilizados
+			findPs.close();
 		} catch (Exception e) {
 			e.printStackTrace();
 		} finally {
@@ -192,6 +230,9 @@ public class UsuariosFacade {
 		return numero;
 	}
 	
+	/** Borra un usuario de la BD
+	* @param objeto de la tabla usuarios a borrar
+	*/
 	public void deleteUser(UsuariosVO user) {
 		Connection conn = null;
 		
@@ -200,7 +241,10 @@ public class UsuariosFacade {
 			conn = PoolConnectionManager.getConnection(); 
 			PreparedStatement psDelete = conn.prepareStatement(deleteUser);
 			psDelete.setString(1, user.getCorreo_electronico());
+			// Ejecutamos la orden
 			psDelete.execute();
+			// liberamos los recursos utilizados
+			psDelete.close();
 		} catch (Exception e) {
 			e.printStackTrace();
 		} finally {

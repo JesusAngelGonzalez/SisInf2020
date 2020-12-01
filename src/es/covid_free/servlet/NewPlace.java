@@ -27,18 +27,19 @@ import es.covid_free.model.UsuariosFacade;
 import es.covid_free.model.UsuariosVO;
 
 /**
- * Servlet implementation class Logged
+ * Servlet para gestionar newPlace.jsp, que es la página para añadir un lugar en el que un usuario ha estado
+ * @author covid_free
  */
-@WebServlet("/newPlace")
-public class newPlace extends HttpServlet {
+@WebServlet(description = "Servlet de logout del usuario", urlPatterns = { "/newPlace" })
+
+public class NewPlace extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public newPlace() {
+    public NewPlace() {
         super();
-        // TODO Auto-generated constructor stub
     }
 
 	/**
@@ -53,13 +54,13 @@ public class newPlace extends HttpServlet {
 			UsuariosFacade uf = new UsuariosFacade();
 			request.setAttribute("userName", uf.getName(user));
 		}
-		if(request.getParameter("Localizacion") != null && request.getParameter("Lugar")!= null) {
+		if(request.getParameter("Lugar")!= null  && request.getParameter("Localizacion")!= null   && 
+				request.getParameter("Fin")!= null   && request.getParameter("Inicio")!= null) {
 			LugaresFacade dao = new LugaresFacade();
 			String direccion = "";
 			try {
 				direccion = OSMWrapperAPI.getCorrectaDireccion(request.getParameter("Localizacion"), request.getParameter("Lugar"));
-			} catch (IOException | ParserConfigurationException | SAXException e) {
-				// TODO Auto-generated catch block
+			} catch (Exception e) {
 				e.printStackTrace();
 			}
 			System.out.println(direccion);
@@ -81,35 +82,18 @@ public class newPlace extends HttpServlet {
 				lugarId = dao.insertLugar(nuevoLugar);				
 			}
 			
-			if(request.getParameter("Lugar")!= null  && request.getParameter("Localizacion")!= null   && 
-					request.getParameter("Fin")!= null   && request.getParameter("Inicio")!= null  ) {
-				AcudirFacade dao2 = new AcudirFacade();
-				/*tring divisionInicio[] = request.getParameter("Inicio").split("T");
-				String fechaI[] = divisionInicio[0].split("-");
-				String horaI[] = divisionInicio[1].split(":");
-				Instant horaInicio = LocalDateTime.of(Integer.valueOf(fechaI[0]), Month.of(Integer.valueOf(fechaI[1])), Integer.valueOf(fechaI[2]), Integer.valueOf(horaI[0]),Integer.valueOf(horaI[1] )).atZone(ZoneId.of("Europe/Paris")).toInstant();
-				Timestamp horaIni = Timestamp.from(horaInicio);*/
-				Timestamp horaIni = Timestamp.valueOf(request.getParameter("Inicio")+":00");
-				Timestamp horaFin = Timestamp.valueOf(request.getParameter("Fin")+":00");
-				
-				/*String divisionFinal[] = request.getParameter("Fin").split("T");
-				String fechaF[] = divisionFinal[0].split("-");
-				String horaF[] = divisionFinal[1].split(":");
-				Instant horaFinal = LocalDateTime.of(Integer.valueOf(fechaF[0]), Month.of(Integer.valueOf(fechaF[1])), Integer.valueOf(fechaF[2]), Integer.valueOf(horaF[0]),Integer.valueOf(horaF[1] )).atZone(ZoneId.of("Europe/Paris")).toInstant();
-				Timestamp horaFin = Timestamp.from(horaFinal);*/
-				AcudirVO nuevoAcudir = new AcudirVO(user.getCorreo_electronico(), horaIni,horaFin, lugarId);
-				dao2.insertAcudir(nuevoAcudir);
-				request.setAttribute("exito", direccionCompleta[0] + localizacionCompleta);
-				request.setAttribute("lugarConf", "klk manin");
-				response.sendRedirect("dashboard");
-			}
-			else {
-				request.getRequestDispatcher("/WEB-INF/newPlace.jsp").forward(request, response);
-			}
-		}
-		else {
+			AcudirFacade dao2 = new AcudirFacade();
+			Timestamp horaIni = Timestamp.valueOf(request.getParameter("Inicio")+":00");
+			Timestamp horaFin = Timestamp.valueOf(request.getParameter("Fin")+":00");
+			AcudirVO nuevoAcudir = new AcudirVO(user.getCorreo_electronico(), horaIni,horaFin, lugarId);
+			dao2.insertAcudir(nuevoAcudir);
+			request.setAttribute("lugarConf", "");
+			request.getRequestDispatcher("dashboard").forward(request, response);
+			
+		} else {
 			request.getRequestDispatcher("/WEB-INF/newPlace.jsp").forward(request, response);
 		}
+		
 			
 	}
 
@@ -117,7 +101,6 @@ public class newPlace extends HttpServlet {
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
 		doGet(request, response);
 	}
 

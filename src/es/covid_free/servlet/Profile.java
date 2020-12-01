@@ -11,7 +11,8 @@ import es.covid_free.model.UsuariosFacade;
 import es.covid_free.model.UsuariosVO;
 
 /**
- * Servlet implementation class Perfil
+ * Servlet para gestionar profile.jsp, encargado de ver y modificar datos del usuario
+ * @author covid_free
  */
 @WebServlet(description = "Servlet de perfil del usuario", urlPatterns = { "/profile"})
 public class Profile extends HttpServlet {
@@ -22,7 +23,6 @@ public class Profile extends HttpServlet {
      */
     public Profile() {
         super();
-        // TODO Auto-generated constructor stub
     }
 
 	/**
@@ -82,7 +82,6 @@ public class Profile extends HttpServlet {
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub		
 		doGet(request, response);
 	}
 	

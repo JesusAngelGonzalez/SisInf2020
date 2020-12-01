@@ -70,7 +70,7 @@ public class RegistrarPositivo  extends HttpServlet {
 			
 			// Por último se carga un mensaje de confirmación del registro como positivo y
 			// se reenvía la petición a dashboard
-			request.setAttribute("positivoConf", "klk manin");
+			request.setAttribute("positivoConf", "");
 			
 			//request.getSession().setAttribute("user", user);
 			request.getRequestDispatcher("dashboard").forward(request, response);

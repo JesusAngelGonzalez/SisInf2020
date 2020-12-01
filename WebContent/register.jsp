@@ -40,15 +40,15 @@
                                 <h4 class="text-dark mb-4">Crear una cuenta</h4>
                             </div>
                             <form class="user" method="post" action="register">
-                                <div class="form-group"><input class="form-control form-control-user" type="text" id="Usuario" placeholder="Nombre de Usuario" name="user" required=""></div>
-                                <div class="form-group"><input class="form-control form-control-user" type="email" id="InputEmail" aria-describedby="emailHelp" placeholder="Correo Electrónico" name="email" required="">
+                                <div class="form-group"><input class="form-control form-control-user" type="text" id="Usuario" placeholder="Nombre de Usuario" name="user" required="" pattern="[a-zA-Z]+(([',. -][a-zA-Z ])?[a-zA-Z]*)*"></div>
+                                <div class="form-group"><input class="form-control form-control-user" type="email" id="InputEmail" aria-describedby="emailHelp" placeholder="Correo Electrónico" name="email" required="" pattern="[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*">
                                     <% if (request.getAttribute("errorCorreo") != null) { %> 
                                     <div class="alert alert-danger bounce animated" role="alert">
                                     <span><strong><%= request.getAttribute("errorCorreo") %></strong></span>
                                     </div>
                                     <% } %>
                                 </div>
-                                <div class="form-group"><input class="form-control form-control-user" type="text" id="Usuario" placeholder="Teléfono (ej: 666 66 66 66)" name="telefono" required=""></div>
+                                <div class="form-group"><input class="form-control form-control-user" type="text" id="Usuario" placeholder="Teléfono (ej: 666 66 66 66)" name="telefono" required="" pattern="[0-9]{9}"></div>
                                 <div class="form-group row">
                                     <div class="col-sm-6 mb-3 mb-sm-0"><input class="form-control form-control-user" type="password" id="PasswordInput" placeholder="Contraseña" name="password" required="" minlength="8" maxlength="20" pattern="^(?=\w*\d)(?=\w*[A-Z])(?=\w*[a-z])\S{8,20}$">
                                         <small

@@ -39,11 +39,7 @@
                                     		<span><strong><%= request.getAttribute("errorLogin") %></strong></span>
                                    	 	</div>
                                     	<% } %>
-                                        <div class="form-group">
-                                            <div class="custom-control custom-checkbox small">
-                                                <div class="form-check"><input class="form-check-input custom-control-input" type="checkbox" id="formCheck-1"><label class="form-check-label custom-control-label" for="formCheck-1">Mantener sesión iniciada</label></div>
-                                            </div>
-                                        </div><button class="btn btn-primary btn-block text-white btn-user" type="submit">Iniciar Sesión</button>
+										<button class="btn btn-primary btn-block text-white btn-user" type="submit">Iniciar Sesión</button>
                                         <hr>
                                     </form>
                                     <!-- NO IMPLEMENTADO - NO PRESUPUESTO <div class="text-center"><a class="small" href="forgot-password.jsp">¿Olvidaste la contraseña?</a></div> -->

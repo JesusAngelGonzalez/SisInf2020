@@ -39,25 +39,32 @@ public class OSMWrapperAPI {
 	 * @throws SAXException Lanzada por el parser 
 	 */
 	public static String getCorrectaDireccion(String ubicacion, String lugar) throws IOException, ParserConfigurationException, SAXException {
+		//Se genera la URL a consultar
 		String query = NOMINATIM_API + ubicacion + ", " + lugar + "&format=xml&addressdetails=1&namedetails=1";
 		
+		//Se establece una conexión URL
 		URL osm = new URL(query);
 		HttpURLConnection conn = (HttpURLConnection) osm.openConnection();
 		
+		//Se obtiene el documento de respuesta de la consulta
 		DocumentBuilderFactory dbfac = DocumentBuilderFactory.newInstance();
 		DocumentBuilder docBuilder = dbfac.newDocumentBuilder();
 		Document document = docBuilder.parse(conn.getInputStream());
 		
+		//Se extrae el nodo del XML con nombre "place"
 		NodeList nodos = document.getElementsByTagName("place");
 		
+		//En caso de que no haya ningún nodo se devuelve la cadena vacía
 		if( nodos.getLength() == 0 ) {
 			System.out.println(nodos);
 			return "";
 		}
 		
+		//Se obtiene la información del primer nodo
 		Node info = nodos.item(0);
 		String dir = "";
 		
+		//Se itera por los hijos del nodo para agregar su información a devolver
 		for(  int i = 0; i < info.getChildNodes().getLength(); i++) {
 			Node child = info.getChildNodes().item(i);
 			if(child.getNodeName().equals("namedetails")) {

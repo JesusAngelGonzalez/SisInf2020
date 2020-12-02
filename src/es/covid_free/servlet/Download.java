@@ -40,8 +40,8 @@ public class Download extends HttpServlet {
 		}
 		
 		InformacionFacade info = new InformacionFacade();
+		//Generamos el fichero zip y se obtiene su dirección
 		String fichero = info.prepararFichero(usuario);
-		System.out.println(fichero);
 		request.setAttribute("fichero", fichero);
 
 		request.getRequestDispatcher("/WEB-INF/download.jsp").forward(request, response);

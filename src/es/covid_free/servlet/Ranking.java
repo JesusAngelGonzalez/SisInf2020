@@ -15,7 +15,12 @@ import es.covid_free.model.LugaresFacade;
 import es.covid_free.model.UsuariosFacade;
 import es.covid_free.model.UsuariosVO;
 
-@WebServlet(description = "Servlet de perfil del usuario", urlPatterns = { "/ranking"})
+@WebServlet(description = "Servlet del ranking", urlPatterns = { "/ranking"})
+/**
+ * Servlet para gestionar el ranking
+ * @author sisinf
+ *
+ */
 public class Ranking extends HttpServlet  {
 	private static final long serialVersionUID = 1L;
 	private static final String TOP_VISITAS = "TopVisitas";

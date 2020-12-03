@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","u":"allclasses-index.html"},{"p":"es.covid_free.servlet","l":"Profile"}];updateSearchResults();

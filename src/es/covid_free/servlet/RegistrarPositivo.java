@@ -21,11 +21,11 @@ import es.covid_free.model.UsuariosVO;
 import es.covid_free.MAIL.MailWrapper;
 
 
+@WebServlet(description = "Servlet de dashboard", urlPatterns = { "/positivo" })
 /**
  * Servlet para gestionar cuando un usuario da positivo en covid
  * @author covid_free
  */
-@WebServlet(description = "Servlet de dashboard", urlPatterns = { "/positivo" })
 public class RegistrarPositivo  extends HttpServlet {
 	public RegistrarPositivo() {
 		super();

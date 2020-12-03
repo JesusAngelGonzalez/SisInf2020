@@ -36,7 +36,6 @@ public class Profile extends HttpServlet {
 		
 		if(user == null) {
 			// Si no hay usuarios logeados, redirigimos a login
-			System.out.println("sale de aqui");
 			response.sendRedirect("login.jsp");
 			return;
 		}

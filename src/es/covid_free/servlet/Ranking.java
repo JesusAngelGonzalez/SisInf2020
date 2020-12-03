@@ -35,14 +35,12 @@ public class Ranking extends HttpServlet  {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		UsuariosVO user = (UsuariosVO) request.getSession().getAttribute("user");
 		if (user == null) {
-			System.out.println("sale de aqui");
 			response.sendRedirect("login.jsp");
 		} else {
 			LugaresFacade dao = new LugaresFacade();
 			UsuariosFacade uf = new UsuariosFacade();
 			String tipo;
 			Integer n;
-			//TODO no definido
 			
 			if (request.getParameter("tipoRanking") == null) {
 				tipo = TOP_VISITAS;
@@ -71,23 +69,7 @@ public class Ranking extends HttpServlet  {
 				lista = dao.getRankingMenosPositivos();
 				System.out.println("menos positivos");
 			}
-			/*
-			switch(tipo) {
-				case TOP_VISITAS:
-					System.out.println("top visitas");
-					lista = dao.getRankingVisitas();
-					break;
-				case MAS_POSITIVOS:	
-					lista = dao.getRankingMasPositivos();
-					System.out.println("mas positivos");
-					break;
-				case MENOS_POSITIVOS:
-					lista = dao.getRankingMenosPositivos();
-					System.out.println("menos positivos");
-					break;
-				default:
-					break;
-			}*/
+		
 			int max = lista.size();
 			
 			List<LugarRanking> list = new ArrayList<LugarRanking>();

@@ -34,11 +34,8 @@ public class RegistrarPositivo  extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// Se carga la información del usuario
 		UsuariosVO user = (UsuariosVO) request.getSession().getAttribute("user");
-		System.out.println("Registrando covid klk");
 		if (user == null) {
 			// Si no existe (está logeado), se le redirige a la página de inicio de sesión  
-			//request.getSession().setAttribute("user",null);
-			//request.getRequestDispatcher("login.jsp").forward(request, response);
 			response.sendRedirect("login.jsp");
 		} else {
 			// Si existe, se le registra como positivo en la BD
@@ -47,7 +44,7 @@ public class RegistrarPositivo  extends HttpServlet {
 			UsuariosFacade uf = new UsuariosFacade();
 			AcudirFacade af = new AcudirFacade();
 			
-			System.out.println(correo + "Registrando covid klk");
+			System.out.println(correo);
 			Date now = new Date();
 			PositivoVO positivo = new PositivoVO(user.getCorreo_electronico(), new Timestamp(now.getTime()) );
 			pf.insertPositivo(positivo);
@@ -72,7 +69,6 @@ public class RegistrarPositivo  extends HttpServlet {
 			// se reenvía la petición a dashboard
 			request.setAttribute("positivoConf", "");
 			
-			//request.getSession().setAttribute("user", user);
 			request.getRequestDispatcher("dashboard").forward(request, response);
 		}
 	}

@@ -23,7 +23,6 @@ public class Login extends HttpServlet {
      */
     public Login() {
         super();
-        // TODO Auto-generated constructor stub
     }
 
 	/**
@@ -31,16 +30,6 @@ public class Login extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		UsuariosFacade dao = new UsuariosFacade();	
-		
-		
-		/*if (request.getParameter("email") == null || request.getParameter("password") == null) {
-			request.getRequestDispatcher("login.jsp").forward(request, response);
-			
-			request.setAttribute("error2", "introduzca usuario y contraseña");
-			request.getRequestDispatcher("login.jsp").forward(request, response);
-		} else {*/
-		System.out.println("Ejecutando login");
-		
 		UsuariosVO user = (UsuariosVO) request.getSession().getAttribute("user");
         if(user != null) {
         	// En caso de que hay un usuario ya logeado, redirige al servlet dashboard
@@ -63,9 +52,7 @@ public class Login extends HttpServlet {
 				// y se le redirige al dashboard (página principal del usuario)
 				user.setContrasenya(null);
 				request.getSession().setAttribute("user",user);
-				//request.getRequestDispatcher("dashboard.jsp").forward(request, response);
 				response.sendRedirect("dashboard");
-				//request.getRequestDispatcher("dashboard").forward(request, response);
 			} else {
 				// En caso de que no sea válido, se reenvía la petición con un mensaje de error
 				// para que lo muestre en login.jsp

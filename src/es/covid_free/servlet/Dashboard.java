@@ -33,13 +33,10 @@ public class Dashboard extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		System.out.println("llega aqui");
 		// Coge información del usuario logeado
 		UsuariosVO user = (UsuariosVO) request.getSession().getAttribute("user");
 		if (user == null) {
 			// Si no hay, redirige al login
-			//request.getSession().setAttribute("user",null);
-			//request.getRequestDispatcher("login.jsp").forward(request, response);
 			response.sendRedirect("login");
 		} else {
 			// En caso de que exista, coge de la BD la lista de los últimos lugares
@@ -48,14 +45,12 @@ public class Dashboard extends HttpServlet {
 			AcudirFacade af = new AcudirFacade(); 
 			UsuariosFacade uf = new UsuariosFacade();
 			System.out.println(correo);
-			System.out.println("llega aqui");
 			List<AcudirLugares> lista = af.getUltimosLugares(user);
 			// Establece un atributo con la lista mencionada para que pueda ser
 			// usado por dashboard.jsp para mostrar dicha lista
 			request.setAttribute("listaLugares", lista);
 			// Coge el nombre de usuario correspondiente  de la BD
 			String name = uf.getName(user);
-			System.out.println(name);
 			// y se lo manda al .jsp para que lo muestre
 			request.setAttribute("userName", name);
 			

@@ -2,23 +2,15 @@ package es.covid_free.servlet;
 
 import java.io.IOException;
 import java.sql.Timestamp;
-import java.time.Instant;
-import java.time.LocalDateTime;
-import java.time.Month;
-import java.time.ZoneId;
-
-import java.util.*;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.xml.parsers.ParserConfigurationException;
 
 import org.jsoup.Jsoup;
 import org.jsoup.safety.Whitelist;
-import org.xml.sax.SAXException;
 
 import es.covid_free.OSM.OSMWrapperAPI;
 import es.covid_free.model.AcudirFacade;

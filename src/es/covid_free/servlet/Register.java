@@ -43,13 +43,17 @@ public class Register extends HttpServlet {
 			// Se crea un objeto de la tabla de usuarios y se introduce en la BD
 			
 			try {
-				UsuariosVO user = new UsuariosVO(
-							Jsoup.clean(request.getParameter("email"), Whitelist.none()),
-							Jsoup.clean(request.getParameter("password"), Whitelist.none()),
-							Integer.valueOf(Jsoup.clean(request.getParameter("telefono"), Whitelist.none())),
-							Jsoup.clean(request.getParameter("user"), Whitelist.none())
-						);
-			
+				String email, password, username; int telefono;
+				email = Jsoup.clean(request.getParameter("email"), Whitelist.none());
+				password = Jsoup.clean(request.getParameter("password"), Whitelist.none());
+				telefono = Integer.valueOf(Jsoup.clean(request.getParameter("telefono"), Whitelist.none()));
+				username = Jsoup.clean(request.getParameter("user"), Whitelist.none());
+				
+				if( email.contentEquals("") ||  password.contentEquals("") || username.contentEquals("") ) {
+					response.sendRedirect("/");	
+				}
+				
+				UsuariosVO user = new UsuariosVO(email, password, telefono, username);			
 				int valido = dao.insertUser(user);
 				if (valido == 0) {
 					// Si se introduce correctamente y se reenvía petición al login junto con un mensaje de éxito

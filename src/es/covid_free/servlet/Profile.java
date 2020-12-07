@@ -56,7 +56,11 @@ public class Profile extends HttpServlet {
 		if(request.getParameter("username") != null) {
 			// Guardamos el nuevo nombre introducido
 			usuario = Jsoup.clean(request.getParameter("username"), Whitelist.none());
+			if(!usuario.contentEquals("")) {
 			actualizar = true;
+			}else {
+				usuario = dao.getName(user);
+			}
 		}
 		else {
 			// Si no ha introducido nombre, cogemos el que tiene
@@ -66,8 +70,12 @@ public class Profile extends HttpServlet {
 		// El usuario ha introducido un número de teléfono
 		if((request.getParameter("numero_telefono") != null && !request.getParameter("numero_telefono").isEmpty())){
 			// Guardamos el nuevo telefono introducido
-			telefono = Integer.valueOf(request.getParameter("numero_telefono"));
-			actualizar = true;
+			try {
+				telefono = Integer.valueOf(request.getParameter("numero_telefono"));
+				actualizar = true;
+			}catch(Exception e) {
+				telefono = dao.getNumero_telefono(user);
+			}
 		}
 		else {
 			// Si no ha introducido un numero de telefono, cogemos el que tiene

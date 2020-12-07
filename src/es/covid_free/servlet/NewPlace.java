@@ -16,6 +16,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.xml.parsers.ParserConfigurationException;
 
+import org.jsoup.Jsoup;
+import org.jsoup.safety.Whitelist;
 import org.xml.sax.SAXException;
 
 import es.covid_free.OSM.OSMWrapperAPI;
@@ -64,7 +66,10 @@ public class NewPlace extends HttpServlet {
 			// un mismo lugar no  afecte a que se consideren distintos lugares
 			String direccion = "";
 			try {
-				direccion = OSMWrapperAPI.getCorrectaDireccion(request.getParameter("Localizacion"), request.getParameter("Lugar"));
+				direccion = OSMWrapperAPI.getCorrectaDireccion(
+						Jsoup.clean(request.getParameter("Localizacion"), Whitelist.none()),
+						Jsoup.clean(request.getParameter("Lugar"), Whitelist.none())
+						);
 			} catch (Exception e) {
 				e.printStackTrace();
 			}
@@ -88,13 +93,27 @@ public class NewPlace extends HttpServlet {
 			
 			if(lugarId == -1) {
 				// En caso de que no esté, lo introducimos
-				lugarId = dao.insertLugar(nuevoLugar);				
+				lugarId = dao.insertLugar(nuevoLugar);
+				if(lugarId == -1) {
+					// En caso de error, avisamos al usuario
+					request.setAttribute("wrongDir", "");
+					request.getRequestDispatcher("/WEB-INF/newPlace.jsp").forward(request, response);
+					return;		
+				}		
 			}
 			// Ahora se procede a sacar los datos del formulario para introducir en la BD la información
 			// de que un usuario ha visitado un lugar en la tabla acudir
 			AcudirFacade dao2 = new AcudirFacade();
-			Timestamp horaIni = Timestamp.valueOf(request.getParameter("Inicio")+":00");
-			Timestamp horaFin = Timestamp.valueOf(request.getParameter("Fin")+":00");
+			Timestamp horaIni, horaFin;
+			try {
+			horaIni = Timestamp.valueOf(request.getParameter("Inicio")+":00");
+			horaFin = Timestamp.valueOf(request.getParameter("Fin")+":00");
+			}catch(IllegalArgumentException e) { // Sólo saltará si la petición POST se ha hecho a mano y es invalida
+				request.setAttribute("lugarErr", "");
+				request.getRequestDispatcher("dashboard").forward(request, response);
+				return;
+			}
+			
 			AcudirVO nuevoAcudir = new AcudirVO(user.getCorreo_electronico(), horaIni,horaFin, lugarId);
 			if( dao2.insertAcudir(nuevoAcudir) ){
 				request.setAttribute("lugarConf", "");
@@ -104,7 +123,6 @@ public class NewPlace extends HttpServlet {
 			
 			// Una vez guardados los datos, se prepara un mensaje de confirmación y se reenvía la petición
 			// al dashboard
-			request.setAttribute("lugarConf", "");
 			request.getRequestDispatcher("dashboard").forward(request, response);
 			
 		} else {

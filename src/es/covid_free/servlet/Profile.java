@@ -7,6 +7,9 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import org.jsoup.Jsoup;
+import org.jsoup.safety.Whitelist;
+
 import es.covid_free.model.UsuariosFacade;
 import es.covid_free.model.UsuariosVO;
 
@@ -52,7 +55,7 @@ public class Profile extends HttpServlet {
 		// El usuario ha introducido un nuevo nombre
 		if(request.getParameter("username") != null) {
 			// Guardamos el nuevo nombre introducido
-			usuario = request.getParameter("username");
+			usuario = Jsoup.clean(request.getParameter("username"), Whitelist.none());
 			actualizar = true;
 		}
 		else {

@@ -7,6 +7,9 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import org.jsoup.Jsoup;
+import org.jsoup.safety.Whitelist;
+
 import es.covid_free.model.UsuariosFacade;
 import es.covid_free.model.UsuariosVO;
 
@@ -38,21 +41,31 @@ public class Register extends HttpServlet {
 		} else {
 			//public UsuariosVO(String correo_electronico, String contrasenya, Integer numero_telefono, String nombre)
 			// Se crea un objeto de la tabla de usuarios y se introduce en la BD
-			UsuariosVO user = new UsuariosVO(request.getParameter("email"), request.getParameter("password"),
-					Integer.valueOf(request.getParameter("telefono")), request.getParameter("user"));
-			int valido = dao.insertUser(user);
-			if (valido == 0) {
-				// Si se introduce correctamente y se reenvía petición al login junto con un mensaje de éxito
-				request.setAttribute("exito", "Registro Exitoso");
-				request.getRequestDispatcher("login.jsp").forward(request, response);
-			} else if(valido == 1){
-				// Si el correo (clave primaria) está ya en la BD se muestra la página de registro 
-				// con un mensaje de error
-				request.setAttribute("errorCorreo", "Correo ya registrado");
-				request.getRequestDispatcher("register.jsp").forward(request, response);
-			} else {
-				// Si hay un error de la BD o en la conexion con ella, se vuelve a la página de registro
-				request.getRequestDispatcher("register.jsp").forward(request, response);
+			
+			try {
+				UsuariosVO user = new UsuariosVO(
+							Jsoup.clean(request.getParameter("email"), Whitelist.none()),
+							Jsoup.clean(request.getParameter("password"), Whitelist.none()),
+							Integer.valueOf(Jsoup.clean(request.getParameter("telefono"), Whitelist.none())),
+							Jsoup.clean(request.getParameter("user"), Whitelist.none())
+						);
+			
+				int valido = dao.insertUser(user);
+				if (valido == 0) {
+					// Si se introduce correctamente y se reenvía petición al login junto con un mensaje de éxito
+					request.setAttribute("exito", "Registro Exitoso");
+					request.getRequestDispatcher("login.jsp").forward(request, response);
+				} else if(valido == 1){
+					// Si el correo (clave primaria) está ya en la BD se muestra la página de registro 
+					// con un mensaje de error
+					request.setAttribute("errorCorreo", "Correo ya registrado");
+					request.getRequestDispatcher("register.jsp").forward(request, response);
+				} else {
+					// Si hay un error de la BD o en la conexion con ella, se vuelve a la página de registro
+					request.getRequestDispatcher("register.jsp").forward(request, response);
+				}
+			}catch(Exception e) {
+				response.sendRedirect("/");				
 			}
 		}
 	}

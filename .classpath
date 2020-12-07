@@ -16,5 +16,6 @@
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
 	<classpathentry kind="lib" path="/usr/lib/covid_free/javax.mail.jar"/>
 	<classpathentry kind="lib" path="/usr/lib/covid_free/javax.activation-1.2.0.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/covid_free/jsoup-1.13.1.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

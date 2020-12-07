@@ -7,6 +7,9 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import org.jsoup.Jsoup;
+import org.jsoup.safety.Whitelist;
+
 import es.covid_free.model.UsuariosFacade;
 import es.covid_free.model.UsuariosVO;
 
@@ -45,7 +48,10 @@ public class Login extends HttpServlet {
 		} else {
 			//request.removeAttribute("noBack");
 			// En caso contrario, se procede a validar al usuario
-			user = new UsuariosVO(request.getParameter("email"), request.getParameter("password"));
+			user = new UsuariosVO(
+					Jsoup.clean(request.getParameter("email"), Whitelist.none()),
+					Jsoup.clean(request.getParameter("password"), Whitelist.none())
+					);
 			boolean valido = dao.validateUser(user);
 			if (valido) {
 				// Si es válido, se le crea una cookie de sesión con sus datos (aunque solo esté el correo)

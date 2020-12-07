@@ -74,6 +74,7 @@ public class NewPlace extends HttpServlet {
 				// Si no existe el lugar, reenviamos newPlace.jsp mostrando un mensaje de error
 				request.setAttribute("wrongDir", "");
 				request.getRequestDispatcher("/WEB-INF/newPlace.jsp").forward(request, response);
+				return;
 			}
 			// Adaptamos los datos para introducirlos en la BD
 			String localizacionCompleta = "";
@@ -95,7 +96,11 @@ public class NewPlace extends HttpServlet {
 			Timestamp horaIni = Timestamp.valueOf(request.getParameter("Inicio")+":00");
 			Timestamp horaFin = Timestamp.valueOf(request.getParameter("Fin")+":00");
 			AcudirVO nuevoAcudir = new AcudirVO(user.getCorreo_electronico(), horaIni,horaFin, lugarId);
-			dao2.insertAcudir(nuevoAcudir);
+			if( dao2.insertAcudir(nuevoAcudir) ){
+				request.setAttribute("lugarConf", "");
+			}else {
+				request.setAttribute("lugarErr", "");
+			}
 			
 			// Una vez guardados los datos, se prepara un mensaje de confirmación y se reenvía la petición
 			// al dashboard

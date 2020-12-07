@@ -65,6 +65,11 @@
                     <div class="alert alert-success"
                         role="alert"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button><span><strong>Lugar Registrado&nbsp;</strong>correctamente&nbsp;&nbsp;</span></div>
                 	<%} %>
+                	
+                    <%if(request.getAttribute("lugarErr") != null){ %>
+                    <div class="alert alert-danger"
+                        role="alert"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button><span><strong>Error&nbsp;</strong>al registrar un lugar&nbsp;&nbsp;</span></div>
+                	<%} %>
                 </div>
                 <div class="container-fluid">
                     <div class="row">

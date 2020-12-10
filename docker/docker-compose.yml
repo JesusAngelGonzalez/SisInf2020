@@ -1,32 +1,46 @@
-version: '3'
-
-services:
-	database:
-		image: postgres
-		context: ./postrgres
-		volumes:
-			- db-data: /var/lib/postgresql/data
-		enviroment:
-			POSTGRES_PASSWORD=sisinf2020
-		ports:
-			- 5432:5432
-		networks:
-			- backend
-		
-	
-	tomcat:
-		image: tomcat 
-		context: ./tomcat
-		volumes:
-			- ./website:/var/www/html
-		ports:
-			- 8080:8080
-		depends-on:
-			- database
-		networks:
-			- frontend
-			- backend
-networks:
-	frontend:
-	backend:	
-		
+version: "3"
+networks: 
+  backend: ~
+  frontend: ~
+services: 
+  nginx: 
+    container_name: nginx
+    depends_on: 
+      - sisinf-tomcat
+    image: nginx
+    links: 
+      - sisinf-tomcat
+    networks: 
+      - frontend
+    ports: 
+      - "80:80"
+    restart: always
+    volumes: 
+      - "./nginx/nginx.conf:/etc/nginx/nginx.conf"
+  sisinf-database: 
+    container_name: sisinf-database
+    build: ./postgres
+    environment: 
+      - ALLOW_EMPTY_PASSWORD=yes
+    image: "sisinf/postgres:latest"
+    networks: 
+      - backend
+    ports: 
+      - "5432:5432"
+    restart: always
+    volumes: 
+      - "./postgres:/var/lib/postgresql/data"
+  sisinf-tomcat: 
+    container_name: sisinf-tomcat
+    build: ./tomcat
+    depends_on: 
+      - sisinf-database
+    image: "sisinf/tomcat:latest"
+    links: 
+      - sisinf-database
+    networks: 
+      - frontend
+      - backend
+    restart: always
+    volumes: 
+      - "./tomcat:/var/www/html"

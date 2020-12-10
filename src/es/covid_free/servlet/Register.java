@@ -50,7 +50,8 @@ public class Register extends HttpServlet {
 				username = Jsoup.clean(request.getParameter("user"), Whitelist.none());
 				
 				if( email.contentEquals("") ||  password.contentEquals("") || username.contentEquals("") ) {
-					response.sendRedirect("/");	
+					response.sendRedirect("/");
+					return;
 				}
 				
 				UsuariosVO user = new UsuariosVO(email, password, telefono, username);			
@@ -69,7 +70,8 @@ public class Register extends HttpServlet {
 					request.getRequestDispatcher("register.jsp").forward(request, response);
 				}
 			}catch(Exception e) {
-				response.sendRedirect("/");				
+				response.sendRedirect("/");
+				return;
 			}
 		}
 	}

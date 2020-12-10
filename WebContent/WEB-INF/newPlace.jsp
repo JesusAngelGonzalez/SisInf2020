@@ -66,8 +66,8 @@
                         </div>
                         <div class="form-group">
                             <div class="form-row">
-                                <div class="col"><label>Llegada</label><input class="form-control" type="datetime-local" required pattern="[0-9]{4}-(0[1-9]|1[0-2])-(0?[1-9]|[1-2][0-9]|3[0-1]) (2[0-3]|[01]?[0-9]):[0-5][0-9]" placeholder="año-mes-dia HH:MM" name="Inicio"></div>
-                                <div class="col"><label>Salida</label><input class="form-control" type="datetime-local" required pattern="[0-9]{4}-(0[1-9]|1[0-2])-(0?[1-9]|[1-2][0-9]|3[0-1]) (2[0-3]|[01]?[0-9]):[0-5][0-9]" placeholder ="año-mes-dia HH:MM" name="Fin"></div>
+                                <div class="col"><label>Llegada</label><input class="form-control" type="text" required pattern="[0-9]{4}-(0[1-9]|1[0-2])-(0?[1-9]|[1-2][0-9]|3[0-1]) (2[0-3]|[01]?[0-9]):[0-5][0-9]" placeholder="año-mes-dia HH:MM" title="año-mes-dia HH:MM (24h)" name="Inicio"></div>
+                                <div class="col"><label>Salida</label><input class="form-control" type="text" required pattern="[0-9]{4}-(0[1-9]|1[0-2])-(0?[1-9]|[1-2][0-9]|3[0-1]) (2[0-3]|[01]?[0-9]):[0-5][0-9]" placeholder ="año-mes-dia HH:MM" title="año-mes-dia HH:MM (24h)" name="Fin"></div>
                             </div>
                         </div>
                         <div class="form-group"><label for="Lugar">Información Extra</label><input class="form-control" type="text" name="Extra" value="" placeholder="Lugar"></div>

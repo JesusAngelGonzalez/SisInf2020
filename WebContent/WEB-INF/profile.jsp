@@ -67,7 +67,7 @@
                                             <form class="user" method="post" action="profile">
                                                 <div class="form-row">
                                                     <div class="col">
-                                                        <div class="form-group"><label for="username"><strong>Nombre de Usuario</strong></label><input class="form-control" type="text" value='<%=request.getAttribute("user.name")%>' name="username" patter="[a-zA-Z]+(([',. -][a-zA-Z ])?[a-zA-Z]*)*" title="Nombre de la persona (Ej: Pepe)"></div>
+                                                        <div class="form-group"><label for="username"><strong>Nombre de Usuario</strong></label><input class="form-control" type="text" value='<%=request.getAttribute("user.name")%>' name="username" required title="Nombre de la persona (Ej: Pepe)"></div>
                                                     </div>
                                                 </div>
                                                 <div class="form-row">
@@ -75,7 +75,7 @@
                                                         <div class="form-group"><label for="email"><strong>Correo Electrónico</strong></label><input class="form-control" type="email" value="<%=request.getAttribute("actualMail")%>" name="email" readonly></div>
                                                     </div>
                                                     <div class="col">
-                                                        <div class="form-group"><label for="numero_telefono"><strong>Número de Teléfono</strong></label><input class="form-control" type="number" pattern="[0-9]{9}" title="Número de teléfono (Ej: 666666666)" value="<%=request.getAttribute("numero_telefono")%>" name="numero_telefono"></div>
+                                                        <div class="form-group"><label for="numero_telefono"><strong>Número de Teléfono</strong></label><input class="form-control" type="number" pattern="[0-9]{9}" title="Número de teléfono (Ej: 666666666)" value="<%=request.getAttribute("numero_telefono")%>" name="numero_telefono" required></div>
                                                     </div>
                                                 </div>
                                                 <div class="form-group"><button class="btn btn-primary" type="submit">Guardar Cambios</button></div>

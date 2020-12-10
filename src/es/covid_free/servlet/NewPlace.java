@@ -67,7 +67,8 @@ public class NewPlace extends HttpServlet {
 			}
 			System.out.println(direccion);
 			String direccionCompleta[] = direccion.split(",");
-			if( direccionCompleta.length != 3) {
+			if( direccionCompleta.length != 3 || direccionCompleta[0].contentEquals("") ||
+					direccionCompleta[1].contentEquals("") || direccionCompleta[2].contentEquals("")) {
 				// Si no existe el lugar, reenviamos newPlace.jsp mostrando un mensaje de error
 				request.setAttribute("wrongDir", "");
 				request.getRequestDispatcher("/WEB-INF/newPlace.jsp").forward(request, response);
@@ -98,9 +99,9 @@ public class NewPlace extends HttpServlet {
 			AcudirFacade dao2 = new AcudirFacade();
 			Timestamp horaIni, horaFin;
 			try {
-			horaIni = Timestamp.valueOf(request.getParameter("Inicio")+":00");
-			horaFin = Timestamp.valueOf(request.getParameter("Fin")+":00");
-			}catch(IllegalArgumentException e) { // Sólo saltará si la petición POST se ha hecho a mano y es invalida
+				horaIni = Timestamp.valueOf(request.getParameter("Inicio")+":00");
+				horaFin = Timestamp.valueOf(request.getParameter("Fin")+":00");
+			}catch(Exception e) { // Sólo saltará si la petición POST se ha hecho a mano y es invalida
 				request.setAttribute("lugarErr", "");
 				request.getRequestDispatcher("dashboard").forward(request, response);
 				return;

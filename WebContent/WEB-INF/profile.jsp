@@ -67,7 +67,7 @@
                                             <form class="user" method="post" action="profile">
                                                 <div class="form-row">
                                                     <div class="col">
-                                                        <div class="form-group"><label for="username"><strong>Nombre de Usuario</strong></label><input class="form-control" type="text" value="<%=request.getAttribute("user.name")%>" name="username" patter="[a-zA-Z]+(([',. -][a-zA-Z ])?[a-zA-Z]*)*" title="Nombre de la persona (Ej: Pepe)"></div>
+                                                        <div class="form-group"><label for="username"><strong>Nombre de Usuario</strong></label><input class="form-control" type="text" value='<%=request.getAttribute("user.name")%>' name="username" patter="[a-zA-Z]+(([',. -][a-zA-Z ])?[a-zA-Z]*)*" title="Nombre de la persona (Ej: Pepe)"></div>
                                                     </div>
                                                 </div>
                                                 <div class="form-row">

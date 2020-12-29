@@ -1,10 +1,13 @@
 SECRETARIA DE ESTADO DE
 SANIDAD
+
 DIRECCIÓN GENERAL DE
 SALUD PÚBLICA, CALIDAD E
 INNOVACIÓN
+
 Centro de Coordinación de Alertas
 y Emergencias Sanitarias
+
 INFORMACIÓN CIENTÍFICA-TÉCNICA
 Enfermedad por coronavirus, COVID-19
 Actualización, 12 de noviembre 2020
@@ -22,8 +25,12 @@ COVID-19 en distintos grupos de personas: mujeres embarazadas y neonatos; afecta
 en la salud mental
 Desarrollo de vacunas frente SARS-CoV-2
 Para información relativa a medicamentos relacionados con COVID-19 se puede consultar la web de la
-Agencia Española del Medicamento y Productos Sanitarios: https://www.aemps.gob.es/Información científica-técnica. Enfermedad por coronavirus, COVID-19
+Agencia Española del Medicamento y Productos Sanitarios: https://www.aemps.gob.es/
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 Índice
 1. Información epidemiológica .......................................................................................................... 5
 1.1. Descripción epidemiológica .................................................................................................... 5
@@ -49,10 +56,14 @@ serológicas. ..................................................................
 2.4. Fisiopatología ........................................................................................................................ 32
 2.4.1 Interacción con el sistema renina-angiotensina-aldosterona ......................................... 32
 2.4.2 Interacción con el sistema inmunitario ........................................................................... 33
-2.4.2 Interacción con la coagulación y el sistema microvascular ............................................. 33
+2.4.2 Interacción con la coagulación y el sistema microvascular............................................. 33
 2.5. Estacionalidad ....................................................................................................................... 34
-2Información científica-técnica. Enfermedad por coronavirus, COVID-19
+2
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 3. Información sobre la enfermedad ............................................................................................... 35
 3.1 Casos asintomáticos ............................................................................................................... 35
 3.2. Sintomatología ...................................................................................................................... 35
@@ -66,26 +77,30 @@ serológicas. ..................................................................
 3.3.6. Co-infecciones ................................................................................................................ 42
 3.3.7. Secuelas .......................................................................................................................... 44
 3.3.7. Factores asociados con la mortalidad ............................................................................ 46
-3.4. COVID-19 en distintos grupos de personas ........................................................................... 47
+3.4. COVID-19 en distintos grupos de personas........................................................................... 47
 3.4.1. Personas mayores .......................................................................................................... 47
-3.4.2. Enfermedades cardiovasculares e hipertensión arterial ................................................ 47
+3.4.2. Enfermedades cardiovasculares e hipertensión arterial................................................ 47
 3.4.3. Diabetes.......................................................................................................................... 49
 3.4.4. Enfermedad pulmonar obstructiva crónica ................................................................... 49
-3.4.5. Cáncer ............................................................................................................................. 49
+3.4.5. Cáncer............................................................................................................................. 49
 3.4.6. Inmunodepresión ........................................................................................................... 49
 3.4.7. Mujeres embarazadas y neonatos ................................................................................. 50
 3.4.8. Otras enfermedades crónicas ........................................................................................ 51
-3.4.9. Fumadores ...................................................................................................................... 51
+3.4.9. Fumadores...................................................................................................................... 51
 3.4.10. Obesidad ...................................................................................................................... 52
 3.4.11. Niños y adolescentes .................................................................................................... 53
 3.4.12. Personas con enfermedades mentales y afectación de la pandemia en la salud mental
 .................................................................................................................................................. 54
-3Información científica-técnica. Enfermedad por coronavirus, COVID-19
+3
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 3.5. Transmisión de SARS-CoV-2 en diferentes entornos ............................................................ 56
 3.5.1. Centros socio-sanitarios de mayores ............................................................................. 56
 3.5.2. Entornos laborales ......................................................................................................... 57
-3.5.3. Centros sanitarios ........................................................................................................... 58
+3.5.3. Centros sanitarios........................................................................................................... 58
 3.5.4. Escuelas .......................................................................................................................... 59
 3.5.5. Población socialmente vulnerable ................................................................................. 60
 4. Desarrollo de vacunas frente a SARS-CoV-2 ................................................................................ 61
@@ -95,8 +110,13 @@ serológicas. ..................................................................
 4.4. Janssen Vaccines & Prevention B.V./Johnson & Johnson. Ad26.COV2.S .......................... 63
 4.5 Novavax. NVX-CoV2373 ..................................................................................................... 63
 5. Bibliografía ................................................................................................................................... 65
-4Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
+4
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 1. Información epidemiológica
 1.1. Descripción epidemiológica
 El 31 de diciembre de 2019, la Comisión Municipal de Salud y Sanidad de Wuhan (provincia de
@@ -121,6 +141,7 @@ y del Síndrome Respiratorio de Oriente Próximo (MERS-CoV) (3). En concreto, el
 vuelto a detectar en humanos. Desde 2012 se han notificado más de 2.500 casos de MERS-CoV en
 27 países (aunque la mayoría de los casos se han detectado en Arabia Saudí), con una letalidad de
 34%.
+
 1.2. Fuente de infección
 Igual que en otros brotes causados por coronavirus, la fuente primaria más probable de la
 enfermedad producida por el SARS-CoV-2 es de origen animal. En este momento se desconoce
@@ -134,10 +155,16 @@ murciélago haya podido evolucionar hacia el SARS-CoV-2 a través de hospedadore
 intermediarios. El hallazgo de coronavirus muy relacionado en pangolines decomisados por la
 policía en las provincias chinas de Guangxi y Guangdong ha llevado a sugerir que estos animales
 pudiesen ser dicho huésped intermediario (6), aunque la posición filogenética de la secuencia de
-5Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
+5
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 estos virus no es del todo compatible con esta hipótesis. Aún son necesarios estudios adicionales
 sobre diversidad de coronavirus en fauna para aclarar estas cuestiones.
+
 1.3. Transmisión
 1.3.1. Mecanismo de transmisión animal-humano
 El modo en el que pudo transmitirse el virus de la fuente animal a los primeros casos humanos es
@@ -167,15 +194,19 @@ se ha detectado una cepa de SARS- CoV-2 con mutaciones en la proteína Spike que
 temer por la propagación teórica de cepas con mayor capacidad de transmisibilidad o virulencia o
 un menor efecto de los anticuerpos neutralizantes frente a las cepas que ya han circulado, aunque
 ninguno de estos hechos ha podido ser constatado (13). Esto En España se ha detectado hasta el
-momento un caso de infección por SARS-CoV-2 en un gato, que convivía con personas con COVID-
-19 (14) y un brote importante en una explotación de visones con una posible transmisión desde
+momento un caso de infección por SARS-CoV-2 en un gato, que convivía con personas con COVID19 (14) y un brote importante en una explotación de visones con una posible transmisión desde
 los animales a dos trabajadores de la granja (15). En resumen, los hurones, los felinos (gatos,
 tigres y leones), los visones y los hamsters son susceptibles a la infección y pueden desarrollar la
 enfermedad y también los perros en mucha menor medida. En este momento hay muy pocos
 casos descritos de posible transmisión desde los animales a los humanos por lo que no parece
 que la enfermedad en animales tenga una gran contribución en la epidemia (16,17).
-6Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
+6
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 1.3.2. Mecanismo de transmisión humano-humano
 Con la evidencia científica acumulada, se considera que SARS-CoV-2 puede transmitirse de
 persona a persona por diferentes vías, siendo la principal mediante el contacto y la inhalación de
@@ -215,13 +246,19 @@ demostrar la transmisión de SARS-CoV-2 mediante aerosoles serían las siguiente
 2. Que los microorganismos contenidos en los aerosoles estén en cantidad suficiente y
 demuestren su capacidad de generar infección;
 3. Que los tejidos diana a estos microorganismos sean accesibles
-7Información científica-técnica. Enfermedad por coronavirus, COVID-19
+7
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 Figura 1. Emisión de gotas y aerosoles por parte del caso índice (emisor) a un contacto expuesto
 (receptor) a una distancia inferior a dos metros, con y sin mascarilla.
-Puntos azules: gotas balísticas (≥ 100 μm); puntos verdes: aerosoles grandes (>15 μm hasta 100 μm);
-puntos naranjas: aerosoles intermedios (>5 μm hasta 15 μm); puntos rojos: aerosoles de pequeño tamaño
-(≤5 μm)
+
+Puntos azules: gotas balísticas (≥ 100 µm); puntos verdes: aerosoles grandes (>15 µm hasta 100 µm);
+puntos naranjas: aerosoles intermedios (>5 µm hasta 15 µm); puntos rojos: aerosoles de pequeño tamaño
+(≤5 µm)
+
 Fuente: Milton (19)
 La primera condición de Jones y Broseau, que los aerosoles contengan virus viables, ha sido ya
 constatada en varios estudios. En un primer momento se demostró, en condiciones
@@ -231,7 +268,7 @@ virus en el aire, en condiciones experimentales, durante al menos 16 horas, en l
 mantiene con la misma carga viral (24).
 En condiciones “reales”, también se pudo detectar el genoma de SARS-CoV-2 en muestras de aire
 tomadas en dos hospitales de Wuhan, en concentraciones muy bajas (hasta 42 copias de
-ARN/m 3 ), si bien la mayoría de las muestras que se analizaron fueron negativas y no se pudo
+ARN/m3), si bien la mayoría de las muestras que se analizaron fueron negativas y no se pudo
 demostrar la viabilidad de los virus analizados (25). En otro hospital en Nebraska se analizaron las
 muestras de aire y superficies en 13 habitaciones de enfermos de COVID-19, ingresados en
 aislamiento con presión negativa. Durante la toma de muestras no se registró ninguna situación
@@ -244,14 +281,19 @@ mediante inmunofluorescencia y microscopía electrónica se observó que los vir
 parecían intactos y viables a los tres días. Este estudio concluye que si bien la viabilidad del virus
 en las superficies y el aire parece constatada, la cantidad detectada es muy pequeña, por lo que
 se desconoce si pudiera ser infectiva (26).
-8Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
+8
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 Existe una dificultad metodológica para captar virus del aire sin dañarlos, lo que puede explicar
 tanto las bajas concentraciones observadas en los muestreos como la imposibilidad de
 crecimiento en cultivos. En un estudio reciente utilizando un nuevo método con mantenimiento
 de la humedad, se logró detectar SARS-CoV-2 en muestras de aire a distancias entre 2 y 4,8
 metros de dos personas con COVID-19, en concentraciones estimadas entre 6 y 74 unidades de
-virus viable por cada litro (6.000 y 74.000 copias/m 3 ). En ninguno de estos casos se realizaron
+virus viable por cada litro (6.000 y 74.000 copias/m3). En ninguno de estos casos se realizaron
 maniobras sobre la vía aérea generadoras de aerosoles, y la cantidad de virus detectada es
 claramente superior a la observada en estudios previos, lo que aumenta el riesgo teórico de su
 capacidad infectiva en condiciones reales sin protección (27).
@@ -275,7 +317,7 @@ en un 50% (se infectaron 2 de 12 animales) poniendo un material igual al de las 
 quirúrgicas en la jaula del caso índice y en un 33,4% (se infectaron 4 de 12 animales) cuando la
 mascarilla se puso en el lado de los hámsteres expuestos. Los que se infectaron a pesar de la
 mascarilla, tuvieron una clínica más leve, con pocas lesiones tisulares, menor carga viral (aunque
-sin diferencias significativas) así como ausencia de respuesta inmune detectable al 7o día (29).
+sin diferencias significativas) así como ausencia de respuesta inmune detectable al 7º día (29).
 La demostración de la participación de los aerosoles inhalados a distancias mayores de 2 metros,
 en situaciones reales de transmisión interhumana es más complicada, debido a que a menudo no
 se puede descartar el contacto directo y en la mayoría de los brotes estudiados se ha constatado
@@ -286,12 +328,17 @@ aerosoles. No obstante, se han descrito una serie de brotes en los que el contac
 vía inhalatoria parece el modo más plausible de contagio. Así, por ejemplo, en un restaurante de
 Guangzhou, China, se estudió un brote entre los comensales de diferentes familias que
 participaron en una cena en el mes de enero de 2020.
-9Información científica-técnica. Enfermedad por coronavirus, COVID-19
+9
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 Figura 2. Brote en el restaurante de Guangzhou. Simulación de la dispersión de los aerosoles
 desde al caso índice (color magenta) siguiendo la corriente generada por aire acondicionado hasta
 los extractores del baño. Los casos que resultaron secundariamente infectados se representan en
 color rojo y el resto de comensales en color dorado.
+
 Fuente: original de Li et al (30)
 El caso índice estaba asintomático, por lo que se deduce que las emisiones respiratorias que
 producía eran mayoritariamente de muy pequeño tamaño. Se pudo constatar con los vídeos de
@@ -314,9 +361,15 @@ otras vías de transmisión (34,35). En Zheijiang, se investigó en profundidad 
 enero de 2020, antes del uso generalizado de mascarillas, entre los 293 participantes a un evento
 religioso, en el que 126 personas se desplazaron en dos autobuses similares, durante 100
 minutos, con las ventanas cerradas y un sistema de calefacción en modo de recirculación del aire.
-10Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
+10
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 Figura 3. Transmisión por aerosoles en el autobús de Zhejiang.
+
 Fuente: modificada a partir del original de Shen (36).
 Sólo se infectaron las personas que viajaron en el mismo autobús que el caso índice que en ese
 momento estaba asintomático (28 de 68, 35,3%) y no hubo ningún caso entre los viajeros del otro
@@ -336,16 +389,24 @@ TMPRSS se encuentran en las células ciliadas de la mucosa nasal, y es un 80% me
 bronquios y el tejido pulmonar. El gradiente de expresión de receptores se ha correlacionado de
 forma directa con la capacidad de SARS-CoV-2 de infectar las células a lo largo del tracto
 respiratorio (Figura 4) (37,40,41).
-11Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
+11
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 Figura 4. Gradiente de distribución en la expresión de los receptores ACE 2 en el tracto
 respiratorio y su correlación posible con la infectividad de SARS-CoV-2, mediante partículas
 inhaladas o aspiradas.
+
 Fuente: Hou (40)
 A la vista de las evidencias encontradas hasta la fecha, se pueden establecer que:
 
 
+
 
+
 Los aerosoles generados contienen virus viables.
 Los virus contenidos en los aerosoles tienen capacidad de generar infección sobre todo en
 determinadas circunstancias: en proximidad al caso índice durante tiempo prolongado y en
@@ -353,6 +414,7 @@ espacios cerrados y mal ventilados. En estas condiciones pueden coexistir varios
 de transmisión.
 Los tejidos diana son accesibles, para aerosoles de cualquier tamaño con puertas de entrada
 en cualquier lugar del tracto respiratorio
+
 Por todo lo anterior se concluye que en el estado actual del conocimiento científico existen
 evidencias científicas consistentes que permiten afirmar que la transmisión del virus SARS-CoV-2
 por aerosoles debe considerarse una vía de transmisión adicional a las ya reconocidas con
@@ -363,13 +425,17 @@ aumenta en la distancia corta, en entornos cerrados y concurridos, especialmente
 y si se realizan actividades que aumenten la generación de aerosoles como hacer ejercicio físico,
 hablar alto, gritar o cantar.
 1.3.2.2 Trasmisión por fómites
-En estudios experimentales con altos inóculos (10 4 -10 7 copias de RNA viral) de SARS-CoV-2
+En estudios experimentales con altos inóculos (104-107 copias de RNA viral) de SARS-CoV-2
 (mucho mayores de lo que contiene una gota de secreción respiratoria tras la tos o el estornudo),
 se pudo identificar virus viable en superficies de cobre, cartón, acero inoxidable, y plástico a las 4,
-24, 48 y 72 horas, respectivamente a 21-23 oC y con 40% de humedad relativa (39). En otro
-12Información científica-técnica. Enfermedad por coronavirus, COVID-19
+24, 48 y 72 horas, respectivamente a 21-23 ºC y con 40% de humedad relativa (39). En otro
+12
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
-experimento similar, a 22 oC y 60% de humedad, se dejó de detectar el virus tras 3 horas sobre
+
+experimento similar, a 22 ºC y 60% de humedad, se dejó de detectar el virus tras 3 horas sobre
 superficie de papel (de imprimir o pañuelo de papel), tras 1 a 2 días sobre madera, ropa o vidrio y
 más de 4 días sobre acero inoxidable, plástico, billetes de dinero y mascarillas quirúrgicas (42). No
 existen estudios experimentales que traten de emular las condiciones naturales utilizando un
@@ -407,14 +473,19 @@ semen ni hay ningún caso en el que se hayan descartado otras posibilidades de t
 considera que el riesgo de transmisión de SARS-CoV-2 a través de la sangre o hemoderivados es
 muy bajo. Por un parte, la carga viral de las personas con viremia es muy baja, y por otro, hasta el
 momento no se ha documentado ningún caso (45).
-13Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
+13
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 1.3.3. Inactivación de SARS-CoV-2
 Los coronavirus humanos (no SARS-CoV-2) se inactivan de forma eficiente en presencia de etanol
-al 62-71%, hipoclorito de sodio 0,1-0,5% y glutaraldehido 2%, con una reducción de 2-4 log 10 tras
+al 62-71%, hipoclorito de sodio 0,1-0,5% y glutaraldehido 2%, con una reducción de 2-4 log10 tras
 1 minuto de exposición, mientras que cloruro de benzalconio al 0,04%, hipoclorito de sodio al
 0,06% y orto-ftaladehído al 0,05% serían menos efectivos (44,57). En condiciones experimentales,
-el SARS-CoV-2 se redujo en 4-6 log 10 a los 5 minutos de aplicar lejía casera en concentraciones de
+el SARS-CoV-2 se redujo en 4-6 log10 a los 5 minutos de aplicar lejía casera en concentraciones de
 1:49 y 1:99, etanol 70%, povidona yodada 7,5%, cloroxylenol 0,05%, clorhexidina 0,05%, cloruro
 de benzalconio 0,1%, y solución de jabón líquido en concentración de 1:49 (58). En un hospital de
 Singapur, tras la limpieza dos veces al día de las superficies con 5000 ppm de sodio
@@ -423,9 +494,9 @@ se pudo detectar en ninguna muestra de las habitaciones de dos pacientes, mientr
 habitación, en la que el muestreo se realizó antes de la limpieza, el virus se detectó en 13 de 15
 superficies analizadas (59) .
 Se ha demostrado la termolabilidad del virus in vitro. Cuando se mantiene en un medio líquido (a
-una concentración de 10 6.8 DITC50), SARS-CoV-2 es muy estable a 4oC (tras 14 días de incubación
+una concentración de 106.8 DITC50), SARS-CoV-2 es muy estable a 4ºC (tras 14 días de incubación
 sólo baja 10 veces el título). Se obtiene una reducción de 1000 veces en el título tras 7 días, 1 día,
-10 minutos y un minuto a temperaturas de incubación de 22oC, 37oC, 56oC y 70oC,
+10 minutos y un minuto a temperaturas de incubación de 22ºC, 37ºC, 56ºC y 70ºC,
 respectivamente (58).
 Sin embargo en condiciones experimentales, el SARS-CoV-2 se mantiene estable, prácticamente
 sin modificaciones a los 60 minutos a distintas condiciones de pH desde 3 a 10 (58)
@@ -435,17 +506,24 @@ El periodo de incubación mediano es de mediano es de 5,1 días (IC 95% 4,5 a 5,
 (4,60–62). Este parámetro se utiliza para calcular el tiempo de cuarentena que un contacto de un
 caso debe realizar para evitar la transmisión de la infección a otras personas.
 Figura 5. Función de probabilidad del periodo de incubación, realizada mediante metaanálisis
+
 Fuente: Mc Aloon (62)
-14Información científica-técnica. Enfermedad por coronavirus, COVID-19
+14
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 El intervalo serial medio en numerosas observaciones epidemiológicas ha resultado menor que el
 periodo de incubación (Figura 6). Sobre la base de estas observaciones y los casos detectados en
 los estudios exhaustivos de contactos (27, 29, 30–33), inicialmente se pudo conocer que la
 transmisión de la infección comenzaba 1-2 días antes del inicio de síntomas (67,68).
 Figura 6. Comparación de periodo de incubación con el intervalo serial en estudios que estimaron
 ambos valores
+
 *Período de incubación e intervalo serial valores medios; **Período de incubación mediano e intervalo
 serial medio; *** Período de incubación e intervalo serial valores medianos
+
 Fuente: elaboración propia con datos de diferentes autores: Wen, Bi, Ma, Tindale, Ping y Li (9,69–
 73).
 1.3.5. Duración de la enfermedad
@@ -466,8 +544,12 @@ hospital, a los 60 días desde el inicio de síntomas con resultados similares. 
 estaban completamente libres de cualquier síntoma relacionado con COVID-19, mientras que el
 32% tenía 1 o 2 síntomas y el 55% tenía 3 o más. Los síntomas más comunes fueron
 cansancio(53,1%), disnea (43,4%), dolor en articulaciones (27,3%) y dolor torácico (21,7%) (75).
-15Información científica-técnica. Enfermedad por coronavirus, COVID-19
+15
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 Finalmente, una encuesta online con una participación de 21.359 personas en Estados Unidos,
 observó que el 42,3% de 233 personas COVID-19 positivo tenían al menos 1 síntoma después de
 30 días de inicio de síntomas en comparación con el 13,3% de los que tenían pruebas negativas y
@@ -507,11 +589,18 @@ diversas metodologías estiman valores de R0 de entre 1,5 y 6,5 durante la epide
 (figura 7). En Italia la R0 se ha estimado en el mismo rango de valores (81,82) y se ha observado
 como las medidas de salud pública y de distanciamiento físico tomadas tanto en China (83–85)
 como en Italia (81,86) han tenido un impacto directo en la disminución de R0.
-16Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
+16
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 Figura 7. Número de reproducción básico (R0) durante la epidemia de COVID-19 en Wuhan
+
 Fuente: Elaboración propia, con datos de dos revisiones sistemáticas realizadas por Liu et al (86) y Park et al
 (87).
+
 El número reproductivo efectivo (Re) es la estimación de cuantas personas en promedio se han
 contagiado cada día a partir de los casos existentes observados durante una epidemia (en el
 momento en el que son notificados). A diferencia de R0 que sería un cálculo promediado y
@@ -528,13 +617,19 @@ confinamiento de la población, excepto algunos sectores laborales a partir del 
 intensificación el día 29 de marzo, con una mayoría de trabajadores recluidos en sus domicilios.
 Figura 8. Número de reproducción efectivo (Re) en España desde el 25 de febrero hasta el 12 de
 abril de 2020 y medidas de salud pública implementadas durante la pandemia.
+
 Fuente: elaboración propia con datos del Centro Nacional de Epidemiología
+
 Si bien estos parámetros son de mucha utilidad para cuantificar y predecir el curso de la epidemia,
 en el caso de SARS-CoV-2, los eventos llamados “superdiseminadores” pueden afectar
 notablemente las estimaciones. Así, en esta pandemia, algunos autores calculan que el 10-20% de
 los infectados son responsables del 80% de las infecciones secundarias (79,88,89).
-17Información científica-técnica. Enfermedad por coronavirus, COVID-19
+17
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 1.3.8. Periodo infectivo: aproximación desde las diversas técnicas de laboratorio y la
 epidemiología.
 El periodo en el que un caso puede transmitir la infección a otra persona puede ser inferido
@@ -544,19 +639,17 @@ utilizada a lo largo de la pandemia COVID-19 con cierta controversia, por su cap
 detectar RNA viral durante periodos muy largos que no siempre pueden ser relacionados con
 virus con capacidad infectiva, lo que plantea numerosas dudas a la hora de tomar medidas de
 salud pública. La cantidad de RNA viral (denominada carga viral) tiene una cierta correlación con
-la positividad de los cultivos virales y podría añadir información al resultado cualitativo de la RT-
-PCR para determinar la capacidad infectiva de los virus que se eliminan. Los estudios
+la positividad de los cultivos virales y podría añadir información al resultado cualitativo de la RTPCR para determinar la capacidad infectiva de los virus que se eliminan. Los estudios
 epidemiológicos de parejas de casos y sus contactos, permiten conocer el momento en el que una
 determinada exposición generó un caso secundario, ofreciendo más luz sobre el periodo infectivo.
 Mediante la técnica de RT-PCR se ha observado que los infectados presentan en su mayoría una
-alta carga viral (entre 10 5 y 10 8 copias de genoma/ por muestra nasofaríngea o de saliva) antes del
+alta carga viral (entre 105 y 108 copias de genoma/ por muestra nasofaríngea o de saliva) antes del
 inicio de los síntomas y en los primeros días de la aparición de la clínica. En pacientes que tienen
 un curso leve de infección, el pico de la carga viral en muestras nasales y orofaríngeas ocurre
 durante los primeros 5-6 días tras el inicio de síntomas y prácticamente desaparece al día 10. Si
-bien en algunos pacientes se detecta virus más allá del día 10, la carga viral es del orden de 100-
-1.000 veces menor, lo cual sugiere que la capacidad de transmisión es progresivamente
+bien en algunos pacientes se detecta virus más allá del día 10, la carga viral es del orden de 1001.000 veces menor, lo cual sugiere que la capacidad de transmisión es progresivamente
 decreciente (63,90–92). Además, se ha podido demostrar la ausencia de virus infectivo (no
-crecimiento del virus en cultivos) con cargas virales por debajo de 10 5 copias RNA por torunda.
+crecimiento del virus en cultivos) con cargas virales por debajo de 105 copias RNA por torunda.
 Esto parece indicar, que en personas con síntomas leves, más allá de la primera semana tras el
 inicio de síntomas, la probabilidad de transmitir la infección a otros sería muy baja, incluso
 cuando el virus aún es detectable mediante PCR (92,93).
@@ -573,14 +666,18 @@ tienen un curso más leve y la carga viral elevada puede ser más duradera (96).
 realizado en el hospital 12 de Octubre de Madrid con 105 pacientes (50 leves (no hospitalizados) y
 55 hospitalizados con neumonía grave), se consiguió cultivar el virus en el 70,8% de los casos leves
 en la primera semana hasta un máximo de 10 días. En los casos graves el virus fue viable en un
-56%, 60%, 60% y 33, 3% en la 1a, 2a, 3a y más allá de la 3a semana respectivamente, siendo el día
+56%, 60%, 60% y 33, 3% en la 1ª, 2ª, 3ª y más allá de la 3ª semana respectivamente, siendo el día
 32 el último en el que se logró recuperar de un cultivo (97). En otro estudio con 129 pacientes
 hospitalizados (89 de UCI y 40 de agudos), se detectó virus viable en 17,8% de los casos y la
 duración mediana de la detección de virus viable fue de 8 días (IQR 5-11). La probabilidad de
-18Información científica-técnica. Enfermedad por coronavirus, COVID-19
+18
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 detectar virus viables descendió a < 5% más allá de los 15 días tras el inicio de los síntomas (IC
-95% 13,4-17,2) y por debajo de 6,6 log 10 de carga de RNA viral (98).
+95% 13,4-17,2) y por debajo de 6,6 log10 de carga de RNA viral (98).
 Como ya se ha mencionado, presencia de positividad en la prueba PCR u otra técnica de detección
 de ácidos nucleicos no implica necesariamente infecciosidad. Así, en la serie descrita de 77
 parejas de casos índice y secundario el tiempo medio de negativización de la PCR fue de 21 días,
@@ -591,7 +688,9 @@ revisión sistemática de 26 estudios se observaron tiempos de detección en hec
 negativización en nasofaringe mediante PCR entre 1 y 33 días (99).
 Figura 9. Dinámica de reducción de la carga viral, en casos leves-asintomáticos (línea verde),
 graves (línea roja) y críticos (línea naranja).
+
 Fuente: elaboración propia de acuerdo con toda la información recopilada en este informe.
+
 Se puede concluir que, de acuerdo con la evidencia existente, la transmisión de la infección
 ocurriría fundamentalmente en los casos leves en la primera semana de la presentación de los
 síntomas, desde 2-3 días antes hasta 7-8 días después. En los casos más graves esta transmisión
@@ -609,18 +708,25 @@ garganta). La media de días desde el inicio de síntomas hasta presentar un tes
 del alta fue de 44,9 (rango de 8-82 días), y la media de días desde el alta hasta el test positivo fue
 de 14,3 (rango de 1 a 37 días). Se identificaron un total de 790 contactos (351 contactos familiares
 y 439 de otro tipo), entre los que no se pudieron identificar casos secundarios. Se cultivó el virus
-19Información científica-técnica. Enfermedad por coronavirus, COVID-19
+19
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 en 108 casos re-positivos no creciendo en ningún caso y en el 89,5% de los casos en los que se
 determinó carga viral, esta fue muy baja (inferior a 30 ciclos). En 23 casos en los que se disponía
 de dos muestras de suero, se realizó la determinación de anticuerpos neutralizantes resultando
 positiva en 96%. Esta investigación se concluye descartando la re-infección de estos casos que no
 se consideraron infectivos sino casos con PCR re-positiva. La reaparición de los síntomas no queda
 explicada en este estudio (103).
+
 Figura 10. Periodos medios de transmisibilidad según la gravedad de los casos de COVID-19 y
 periodos de detección de RNA de SARS-CoV-2 mediante PCR y de anticuerpos mediante técnicas
 serológicas.
+
 Fuente: elaboración propia de acuerdo con toda la información recopilada en este informe.
+
 1.3.9. Generación de inmunidad. Anticuerpos neutralizantes, inmunidad celular y técnicas
 serológicas.
 Actualmente existe suficiente evidencia científica acerca de la generación de anticuerpos
@@ -634,8 +740,12 @@ ha observado que la RBD puede sufrir mutaciones, por lo que es importante inclui
 estrategias terapéuticas y de generación de vacunas, un “cóctel” de anticuerpos neutralizantes
 dirigidos a diferentes zonas de la proteína S (108–110). Se desconoce la duración de la inmunidad.
 En una serie de casos se observó una reducción en la capacidad neutralizadora de los anticuerpos
-20Información científica-técnica. Enfermedad por coronavirus, COVID-19
+20
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 en el periodo de convalecencia temprano (2-3 meses tras la exposición) de 11,7% (rango, 2,3–
 41,1%) en casos de infección asintomática y 8,3% (rango, 0,5–22,8%) en casos con sintomatología
 leve. El significado de estas observaciones respecto a la pérdida de inmunidad protectora con el
@@ -677,10 +787,15 @@ inmune con niveles crecientes de anticuerpos neutralizantes. Estos datos indican
 inmune juega un papel en la curación, y dan soporte a que se pueda generar una vacuna que
 proteja de la enfermedad si dicha vacuna reproduce la respuesta inmune que generan las
 personas que se infectan y se curan (Figuras 5 y 7).
-21Información científica-técnica. Enfermedad por coronavirus, COVID-19
+21
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 Figura 11. Probabilidad de obtener virus viable en un cultivo celular en relación con los títulos de
 anticuerpos neutralizantes en pacientes hospitalizados.
+
 Fuente: Kampen et al. (98)
 Las técnicas serológicas que utilizan como antígenos virales la nucleoproteína, la proteína S, o el
 dominio de unión al receptor de la proteína, han demostrado su utilidad diagnóstica en series de
@@ -698,11 +813,18 @@ prueba serológica por quimioluminiscencia fue del 40% en asintomáticos y 13 % 
 síntomas (111). Como ocurre en otras infecciones, la ausencia de detección de anticuerpos
 mediante técnicas serológicas, no implica la ausencia de inmunidad protectora en el individuo y
 por tanto, la eficaz prevención de futuras infecciones.
-22Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
+22
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 Figura 12. Detección del virus mediante cultivo, el RNA viral mediante PCR, y los anticuerpos
 mediante técnicas comerciales de tipo ELISA
+
 Fuente: Sethuraman et al (118)
+
 1.4. Distribución por edad y sexo
 A fecha de 24 de agosto de 2020, se habían notificado 412.553 casos confirmados de COVID-19 a
 la red Nacional de Vigilancia Epidemiológica de España, de los cuales 377.291 tenían información
@@ -722,41 +844,59 @@ de casos notificados, seguido del grupo entre 30 y 39 años con un 18% de los ca
 pacientes ingresados en hospital y en UCI también ha disminuido si comparamos el primer
 periodo con el segundo. Sin embargo, entre los fallecidos se observan menos diferencias entre los
 dos periodos (Figura 13)
-23Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
+23
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 Figura 13. Distribución por sexo y edad de los casos por fecha de diagnóstico, hospitalizados,
 ingresados en UCI y fallecidos en un primer periodo (enero-mayo) comparado con un segundo
 periodo (junio-agosto)
 Periodo 1. enero-mayo 2020
 a) Casos totales
 (n= 252.202; H:M=0,7)
+
 b) Casos hospitalizados
 (n= 92.618; H:M=1,2)
+
 c) Casos ingresados en UCI
 (n= 8.457; H:M=2,2)
+
 c) Fallecidos
 (n= 27.388; H:M=1,3)
+
 Periodo 2. junio-agosto 2020
 a) Casos totales
 (n= 125.089.202; H:M=0,9)
+
 b) Casos hospitalizados
 (n= 5.209; H:M=1,2)
+
 c) Casos ingresados en UCI
 (n= 390; H:M=1,9)
+
 c) Fallecidos
 (n= 388; H:M=1,1)
+
 Fuente: elaboración propia con datos notificados a la Red Nacional de Vigilancia Epidemiológica,
 a fecha 24 de agosto 2020*
 * Estos datos pueden tener pequeñas discrepancias con los datos diarios publicados por el
 Ministerio de Sanidad debido a información incompleta en las variables analizadas (sexo, edad,
 fecha de diagnóstico).
+
 1.5. Gravedad
 La gravedad de una enfermedad depende de diferentes factores: por una parte factores
 intrínsecos de la persona (susceptibilidad) y del agente causal (virulencia) y por otra parte de
 otros factores extrínsecos que podrían modificar la historia natural (demográficos, de acceso y
 calidad de la asistencia sanitaria, tratamientos y vacunas efectivas etc.). La medición de la
-24Información científica-técnica. Enfermedad por coronavirus, COVID-19
+24
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 gravedad depende de los criterios que se establezcan para cada enfermedad y de los sistemas de
 vigilancia epidemiológica y su capacidad para detectar casos. La definición de gravedad es variable
 en función, entre otras cosas, del conocimiento de la enfermedad y de la experiencia previa. Ante
@@ -773,6 +913,7 @@ favorecer otro tipo de asistencia, como el manejo extra-hospitalario, en domicil
 paramédicas, y por tanto estos casos pueden ser clasificados como no graves en función de los
 criterios adoptados. Al mismo tiempo, cuando el sistema se va recuperando, se añaden los
 diagnósticos de los casos más leves, lo que modifica de nuevo la percepción de la gravedad.
+
 1.6. Letalidad
 Esta misma situación explicada para la gravedad puede observarse en la determinación de la
 letalidad, la cual se calcula a partir de los fallecimientos producidos entre los casos confirmados
@@ -799,8 +940,12 @@ mencionado previamente, al principio o durante el periodo de mayor presión del 
 epidemia pueden detectarse sólo los casos más graves, por lo que la letalidad estimada se
 calculará sobre los casos hospitalizados, siendo muy superior a la letalidad real. En esta pandemia,
 causada por un patógeno emergente, la comunidad científica ha desarrollado métodos
-25Información científica-técnica. Enfermedad por coronavirus, COVID-19
+25
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 diagnósticos a una velocidad sin precedentes; no obstante al inicio de la epidemia, la
 disponibilidad de estos medios aún era insuficiente en la mayoría de los países, por lo que fue
 necesario priorizar los casos más graves y los más vulnerables por su elevado riesgo o exposición
@@ -822,38 +967,121 @@ recalcular con mayor precisión la letalidad global, por territorios y por difer
 Tabla 1. Letalidad observada y estimada y mortalidad estimada a partir de los resultados del
 estudio de seroprevalencia en España el día 1 de mayo de 2020
 Edad
+
 Casos
-notificados Fallecidos
-notificados* Letalidad
-observada* Casos
-estimados** Letalidad
-871 2 0,23% 110.406 0,002%
-10 - 19 1.619 5 0,31% 185.416 0,003%
-20 - 49 13.439 23 0,17% 926.676 0,002%
-50 -69 57.818 263 0,45% 724.151 0,04%
-> 70 88.094 16559 19% 403.548 4,1%
-TOTAL 239095 19155 8% 2350198 0,8%
+notificados
+
+Fallecidos
+notificados*
+
+Letalidad
+observada*
+
+Casos
+estimados**
+
+Letalidad
+
+871
+
+2
+
+0,23%
+
+110.406
+
+0,002%
+
+10 - 19
+
+1.619
+
+5
+
+0,31%
+
+185.416
+
+0,003%
+
+20 - 49
+
+13.439
+
+23
+
+0,17%
+
+926.676
+
+0,002%
+
+50 -69
+
+57.818
+
+263
+
+0,45%
+
+724.151
+
+0,04%
+
+> 70
+
+88.094
+
+16559
+
+19%
+
+403.548
+
+4,1%
+
+TOTAL
+
+239095
+
+19155
+
+8%
+
+2350198
+
+0,8%
+
 < 10
+
 estimada
-*Actualización no 105. Enfermedad por el coronavirus (COVID-19). 14.05.2020, Ministerio de Sanidad. Se
+
+*Actualización nº 105. Enfermedad por el coronavirus (COVID-19). 14.05.2020, Ministerio de Sanidad. Se
 han excluido los casos en los que en la notificación no figuraba el dato de la edad.
 **a partir de los resultados de la encuesta de seroprevalencia tras ponderar por los grupos de población
 Fuente: elaboración propia con datos de notificación diaria de las CCAA al Ministerio de Sanidad y la
 encuesta de seroprevalencia del Instituto Carlos III (119).
+
 Del mismo modo que en España puede haber dificultades para comparar parámetros obtenidos
 en diferentes momentos de la epidemia, a nivel mundial, las comparaciones entre países pueden
 resultar en grandes diferencias de gravedad y letalidad que no tienen por qué significar una
 diferencia “real” sino diferencias en otros muchos factores como ya se ha explicado. Por tanto
 usar estos parámetros para hacer comparaciones entre países no es, a priori, aconsejable.
-26Información científica-técnica. Enfermedad por coronavirus, COVID-19
+26
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 Figura 14. Estimación de la gravedad y la letalidad en distintos momentos de la primera ola de la
 epidemia: febrero a mayo de 2020
+
 A: estimación en la fase inicial y el pico de la epidemia sobre casos observados mayoritariamente graves; A
 + B: estimación en una fase posterior al pico de la epidemia con la realización de pruebas diagnósticas
 progresivamente a casos más leves o asintomáticos; C: estimaciones teniendo en cuenta al conjunto de la
 población mediante estudios de seroprevalencia.
 Fuente: elaboración propia
+
 2. Información microbiológica
 2.1 Características generales de los coronavirus
 Los coronavirus son miembros de la subfamilia Orthocoronavirinae dentro de la familia
@@ -872,8 +1100,12 @@ coronavirus (12) SARS-CoV-2 supone el séptimo coronavirus aislado y caracteriza
 provocar infecciones en humanos.
 Estructuralmente los coronavirus son virus esféricos de 100-160 nm de diámetro, con envuelta y
 que contienen ARN monocatenario (ssRNA) de polaridad positiva de entre 26 y 32 kilobases de
-27Información científica-técnica. Enfermedad por coronavirus, COVID-19
+27
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 longitud. El genoma del virus SARS-CoV-2 codifica 4 proteínas estructurales: la proteína S (spike
 protein), la proteína E (envelope), la proteína M (membrane) y la proteína N (nucleocapsid). La
 proteína N está en el interior del virión asociada al RNA viral, y las otras cuatro proteínas están
@@ -882,6 +1114,7 @@ sobresalen de la envuelta del virus. La proteína S contienen el dominio de uni�
 celular y por lo tanto es la proteína determinante del tropismo del virus y además es la proteína
 que tiene la actividad de fusión de la membrana viral con la celular y de esta manera permite
 liberar el genoma viral en el interior de la célula que va a infectar (123,124).
+
 2.2. Características de SARS-CoV-2
 Aún no está claro su origen, pero los estudios filogenéticos revisados hasta la fecha de este
 informe apuntan a que muy probablemente el virus provenga de murciélagos y que de allí haya
@@ -899,8 +1132,7 @@ humana. Tras realizar el análisis filogenético de estas secuencias, se observ�
 con virus del género Betacoronavirus, concretamente un 88% de identidad con dos coronavirus
 aislados de murciélagos en 2018. Estas secuencias mostraron, sin embargo, una homología de
 secuencia menor con el virus del SARS (79%) y el virus del MERS (50%). Esta diferencia con el
-SARS-CoV se consideró suficiente como para clasificar a este patógeno designado como SARS-
-CoV-2 como un nuevo miembro del género Betacoronavirus. Una diferencia notable es que la
+SARS-CoV se consideró suficiente como para clasificar a este patógeno designado como SARSCoV-2 como un nuevo miembro del género Betacoronavirus. Una diferencia notable es que la
 proteína S del nuevo coronavirus es más larga que sus homologas de murciélago, pero también
 que las proteínas S del SARS-CoV y MERS-CoV. El SARS-CoV penetra en la célula empleando como
 receptor a la enzima convertidora de angiotensina 2 (ACE-2). Aunque la estructura de la
@@ -910,12 +1142,17 @@ Además, dos estudios por crioelectro-microscopia electrónica han determinado l
 proteína S unida a la proteína ACE-2 (128,129). Se han determinado las estructuras
 tridimensionales de dos proteínas del virus: la RNA polimerasa del virus (130) y la proteasa
 principal del virus (denominada Mpro o 3CLpro) (131).
+
 2.3. Variantes y filogenia
 Pese a que existe una gran homología entre los genomas completos de SARS-CoV-2, se han
 detectado varias mutaciones respecto a la considerada secuencia de referencia. La identificación
 con una mayor frecuencia de determinadas homoplasias (mutaciones repetidas surgidas de
-28Información científica-técnica. Enfermedad por coronavirus, COVID-19
+28
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 manera independiente) podría considerarse un indicio de que el virus se encuentra en fase de
 adaptación a un nuevo huésped (132). En este sentido, la mutación que más ha centrado la
 atención de los investigadores es la mutación D614G en la proteína S que ha sido relacionada con
@@ -924,6 +1161,7 @@ esta variante se ha impuesto a las cepas que no presentan esta mutación a nivel
 Figura 15. La transición global de la forma D614 original a la variante G614. Promedio de
 recuentos semanales de secuencias muestreadas que exhiben las variantes D614 (naranja) y G614
 (azul) en diferentes continentes entre el 12 de enero y el 12 de mayo de 2020.
+
 Fuente: Korber et al (133).
 La posible relación entre esta y otras mutaciones con la severidad no está claramente establecida.
 Algunos estudios han relacionado la mutación D614G con una mayor letalidad (139,140), mientras
@@ -941,8 +1179,12 @@ virus mientras que otros ensayos encontraron una disminución en la capacidad de
 en un 7% de los sueros estudiados (41 en uno de los estudios y 70 en el otro) (135,142).
 Otro grupo de mutaciones destacadas son las delecciones que afectan a la región ORF 8. Entre
 ellas, la mejor estudiada ha sido la variante 382, detectada en un brote en Singapur en enero y
-29Información científica-técnica. Enfermedad por coronavirus, COVID-19
+29
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 febrero de 2020. Una delección en esta misma región en SARS-CoV (responsable de la epidemia
 de SARS de 2002-2003) se relacionó con una menor capacidad de replicación y se propuso la
 hipótesis, no demostrada, de que implicara una atenuación de la severidad. Recientemente, un
@@ -973,8 +1215,7 @@ G: C241T,C3037T,A23403G incluye S-D614G
 GH: C241T,C3037T,A23403G,G25563T incluye S-D614G + NS3-Q57H
 GR: C241T,C3037T,A23403G,G28882A incluye S-D614G + N-G204R
 Estos clados se corresponden aproximadamente con los definidos por Hodcroft et al. (146)
-siguiendo una nomenclatura de tipo año-letra según el siguiente esquema: S-19B, L y V-19A, G-
-20A, GH-20C, GR-20B. La distribución geográfica en las primeras fases de la pandemia mostraba
+siguiendo una nomenclatura de tipo año-letra según el siguiente esquema: S-19B, L y V-19A, G20A, GH-20C, GR-20B. La distribución geográfica en las primeras fases de la pandemia mostraba
 una mezcla más homogénea de los diferentes clados y se correspondía en buena medida con la
 secuencia temporal de aparición de las nuevas variantes a lo largo de la expansión del virus. Los
 clados 19A y 19B surgieron en Wuhan y dominaron al principio del brote. El clado 20A deriva del
@@ -983,10 +1224,15 @@ derivados de 20A. A medida que los diferentes países fueron implementando restr
 viajes internacionales se fue afianzando la distribución geográfica de algunas variantes reflejando
 una mayor relevancia de la transmisión local. En los últimos meses en España predomina el clado
 20 A (incluye la mutación S-D614G) (Figura 16).
-30Información científica-técnica. Enfermedad por coronavirus, COVID-19
+30
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 Figura 16. Evolución temporal de los clados predominates en España, desde diciembre de 2019 a
 junio de 2020: azul 19A, turquesa 19B, verde: 20A, amarillo 20B, naranja 20C.
+
 Fuente: Nexstrain.org (146).
 Según el informe del proyecto COV20/00140 “Una perspectiva genómica de la pandemia:
 lecciones en salud pública” (147), la epidemia en España no fue iniciada por un único paciente (o
@@ -1012,8 +1258,12 @@ responsable de los casos, lo que prueba la eficacia del confinamiento como medid
 A pesar de ser un virus ARN, el SARS-CoV-2 evoluciona más lentamente que otros virus ARN
 conocidos como el de la gripe o el VIH. Su tasa de evolución se sitúa aproximadamente en dos
 cambios de nucleótidos cada mes por lo que no se espera una evolución similar al virus de la gripe
-31Información científica-técnica. Enfermedad por coronavirus, COVID-19
+31
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 y la introducción de la vacuna genera varios interrogantes, entre ellos la posibilidad de que el
 virus desaparezca por la presión de la vacuna o que se produzcan mutaciones de escape a la
 misma que se comporten de forma más leve.
@@ -1021,15 +1271,16 @@ Figura 17. Eventos relacionados con la diseminación de la secuencia SEC 8, en e
 pandemia en España: casos procedentes de Italia que participaron en la feria de Arco de Madrid y
 en el partido de fútbol del club Atalanta de Bérgamo-Valencia, así como un brote asociado a un
 funeral en Vitoria.
+
 Fuente: Comas (147). Mapa del movimiento predicho de las cepas pertenecientes al SEC8 de
 acuerdo a NextSpain (http://seqcovid.csic.es/nextspain/)
+
 2.4. Fisiopatología
 2.4.1 Interacción con el sistema renina-angiotensina-aldosterona
 El SARS-CoV-2 penetra en la célula empleando como receptor a la enzima convertidora de
 angiotensina 2 (ACE-2 por sus siglas en inglés), una exopeptidasa de membarana presente
 fundamentalemtne en el riñón, los pulmones y el corazón (148). La función de la ACE2 es la
-trasformación de la Angiotensina I en Angiotensina 1-9 y de la Angiotensina II en Angiotensina 1-
-7. Estos productos finales tienen efectos vasodilatadores, antifibrosis, antiinflamatorios y
+trasformación de la Angiotensina I en Angiotensina 1-9 y de la Angiotensina II en Angiotensina 17. Estos productos finales tienen efectos vasodilatadores, antifibrosis, antiinflamatorios y
 favorecen la natriuresis. Son todos efectos, por tanto, que reducen la tensión arterial,
 contrarregulando la acción de la Angiotensina II. La ACE2 se ha relacionado con la protección
 frente a la hipertensión, la arteriosclerosis y otros procesos vasculares y pulmonares. En modelos
@@ -1043,8 +1294,12 @@ elevados. Y el nivel de Angiotensina II se ha correlacionado con la carga viral 
 daño pulmonar. Este desequilibrio del sistema renina-angiotensina-aldosterona podría estar en
 relación con la inhibición de la ACE2 por parte del virus (154). Este mismo efecto ya fue observado
 en el brote producido por SARS en 2003 (155,156)
-32Información científica-técnica. Enfermedad por coronavirus, COVID-19
+32
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 2.4.2 Interacción con el sistema inmunitario
 La infección por SARS-CoV-2 activa el sistema inmune innato generando una respuesta excesiva
 que podría estar relacionada con una mayor lesión pulmonar y peor evolución clínica. Las
@@ -1067,12 +1322,12 @@ presentan linfopenia e hiperferritinemia (164). Esta hiperactivación se ha deno
 de liberación de citoquinas (CRS, por sus siglas en inglés), que estaría asociada al síndrome de
 insuficiencia respiratoria aguda o Síndrome de Distrés Respiratorio del Adulto (SDRA) que se ha
 descrito como la principal causa de mortalidad por COVID-19 (165,166).
+
 El CRS se produce cuando se activan grandes cantidades de leucocitos (neutrófilos, macrófagos y
 mastocitos) y liberan grandes cantidades de citoquinas proinflamatorias (167). El CRS se describió
 inicialmente como un efecto adverso de terapias con anticuerpos monoclonales, y es frecuente
 también en las terapias con células CART (células T con receptor de antígeno quimérico)(168). Las
-principales citoquinas implicadas en la patogénesis del CRS incluyen la interleuquina (IL)-6, la IL-
-10, el interferón (IFN), la proteína quimiotáctica de monocitos 1 (MCP-1) y el factor estimulante
+principales citoquinas implicadas en la patogénesis del CRS incluyen la interleuquina (IL)-6, la IL10, el interferón (IFN), la proteína quimiotáctica de monocitos 1 (MCP-1) y el factor estimulante
 de las colonias de granulocitos-macrófagos (GM-CSF); otras citoquinas como el factor de necrosis
 tumoral (TNF), IL-1, IL-2, IL-2-receptor- e IL-8 también se han descrito durante el CRS. El CRS se
 ha observado en otras infecciones virales como SARS, MERS o Ébola, aunque a través de la
@@ -1085,8 +1340,12 @@ La activación excesiva del sistema inmune innato que causa tormentas de citoqui
 daño del sistema microvascular y activa el sistema de coagulación e inhibición de la fibrinólisis. La
 coagulación intravascular diseminada (CID) conduce a trastornos generalizados de la
 microcirculación que contribuyen a la situación de fallo multiorgánico (170).
-33Información científica-técnica. Enfermedad por coronavirus, COVID-19
+33
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 Se ha observado que los niveles de antitrombina son menores en casos de COVID-19, y los niveles
 de dímero D y fibrinógeno son mayores que en población general. Además, la progresión de la
 gravedad de la enfermedad va ligada a un aumento gradual del dímero D. Estos hallazgos apoyan
@@ -1108,6 +1367,7 @@ activación del complemento (169). Además, la inflamación producida en el pulm
 hipoxia de los casos con neumonía, causa la agregación plaquetaria y la trombosis, con un
 aumento de consumo de las plaquetas. Todos estos factores contribuyen a desencadenar el
 estado de hipercoagulabilidad que se observa en los casos de COVID-19 (174).
+
 2.5. Estacionalidad
 En el inicio de la epidemia, se teorizó acerca de si el SARS-CoV-2 tendría un patrón estacional al
 igual que ocurre con otros virus respiratorios como la gripe o los coronavirus causantes de los
@@ -1116,8 +1376,8 @@ diario, en más de 100 ciudades chinas con más de 40 casos, se observó una rel
 con la temperatura y la humedad. Por cada aumento en un grado Celsius y 1% de humedad, el R0
 se redujo 0,0383 y 0,0224, respectivamente (175). Del mismo modo, investigadores de EEUU e
 Irán observaron una expansión geográfica mundial desde China a otras regiones con una
-distribución predominante en un corredor estrecho entre los meridianos 30-50 N ́ ́, con patrones
-climáticos similares (5-11o C y 47-79% humedad). En lugares más próximos a China, con mayor
+distribución predominante en un corredor estrecho entre los meridianos 30-50 N´´, con patrones
+climáticos similares (5-11º C y 47-79% humedad). En lugares más próximos a China, con mayor
 intercambio de personas, como India, la expansión no se produjo del mismo modo, lo que apoyó
 la hipótesis del patrón estacional (176). Otro grupo observó la correlación inversa de la trasmisión
 del SARS-CoV-2 con la temperatura, ajustando por la capacidad de vigilancia de los países (177).
@@ -1127,10 +1387,15 @@ a la infección de la población en su conjunto y la relajación de las medidas 
 social con la llegada del verano (178). Del mismo modo, durante los meses fríos, la temperatura
 no es el único factor que influye en la mayor transmisión, sino también las actividades en espacios
 cerrados con poca ventilación y el hacinamiento. Durante estos meses, las enfermedades
-34Información científica-técnica. Enfermedad por coronavirus, COVID-19
+34
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 respiratorias, típicamente se amplifican a partir de la transmisión en centros de trabajo, escolares,
 celebraciones y reuniones en domicilio.
+
 3. Información sobre la enfermedad
 3.1 Casos asintomáticos
 Conocer la proporción de personas infectadas con un curso asintomático es complejo. En la serie
@@ -1149,6 +1414,7 @@ radiológicas pulmonares, como opacidades multifocales, que puede llegar a obser
 un 70% de los casos (64,111,184). Sin embargo, en general, en estos casos los marcadores de
 inflamación y las citoquinas están al mismo nivel que las personas sanas, indicando que estos
 casos no generan una respuesta inflamatoria detectable (111).
+
 3.2. Sintomatología
 En el informe de la misión de la OMS en China se describen los síntomas y signos más frecuentes
 55.924 casos confirmados por laboratorio, que incluyen: fiebre (87,9%), tos seca (67,7%), astenia
@@ -1166,8 +1432,12 @@ Neurológicos: en un estudio con 214 pacientes ingresados en un hospital de Wuha
 tenían síntomas neurológicos: mareo (17%), alteración del nivel de conciencia (7%), accidente
 cerebrovascular (2,8%), ataxia (0,5%), epilepsia (0,5%) y neuralgia (2,3%) (186). También se han
 descritos casos de síndrome de Guillain-Barré (187).
-35Información científica-técnica. Enfermedad por coronavirus, COVID-19
+35
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 Cardiológicos: la enfermedad puede presentarse con síntomas relacionados en el fallo cardiaco o
 el daño miocárdico agudo, incluso en ausencia de fiebre y síntomas respiratorios (188).
 Oftalmológicos: en una serie de 534 pacientes confirmados en Wuhan se detectaron en 20,9% ojo
@@ -1192,6 +1462,7 @@ Hematológico: se describen mayor incidencia de fenómenos trombóticos asociado
 COVID-19 que se manifiestan como infarto cerebral, isquemia cardiaca, muerte súbita,
 embolismos, trombosis venosa profunda. También se observa una mayor incidencia de sangrados
 (169).
+
 3.2.1. Características clínicas de los casos hospitalizados
 Las primeras series que se encuentran publicadas corresponden a los casos hospitalizados en
 China (31,43,80, 134,152, 167,168, . Posteriormente se han añadido otras en el resto del mundo.
@@ -1199,6 +1470,7 @@ Los síntomas más frecuentes que presentaban los pacientes en el momento del in
 las series son la fiebre, la astenia y la tos. Sin embargo, en algunas series la fiebre no suele estar
 presente (194). El patrón radiológico más frecuente en todas las series fue el infiltrado alveolar
 (Tabla 2).
+
 3.3. Evolución clínica
 3.3.1. Curso clínico
 Como se comentó en los apartados de gravedad y la letalidad, el curso clínico de la enfermedad se
@@ -1208,18 +1480,32 @@ sintomatología entre leve y moderada (incluyendo casos de neumonía leve), 13,8
 curso clínico grave (disnea, taquipnea ≥30/min, saturación O2≤93%, PaO2/FiO2 ≤300, y/o
 infiltrados pulmonares de ≥50% de los campos radiológicos en 24-48%) y 6,1% presentaron un
 curso crítico (insuficiencia respiratoria, shock séptico y/o fallo multiorgánico) (4).
-36Información científica-técnica. Enfermedad por coronavirus, COVID-19
+36
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 Tabla 2. Características clínicas y radiológicas de los casos de COVID-19 hospitalizados de series de
 casos.
 Guan
 (n=1.099)
-% Casas
+%
+
+Casas
 (n=6.422)
-% Berenguer
+%
+
+Berenguer
 (n=4.035)
 %
-China España España
+
+China
+
+España
+
+España
+
 43,1
 67,8
 38,1
@@ -1232,21 +1518,20 @@ ND
 5,0
 ND
 13,6
-11,5 86,2
+11,5
+
+86,2
 76,5
 47,5
 22,4
--
 57,6
--
--
 22,5
 -
--
--
-- 40,9
+
+40,9
 71,8
 64
+
 CARACTERÍSTICAS CLÍNICAS
 Fiebre al ingreso
 Tos
@@ -1268,9 +1553,11 @@ Hallazgos radiológicos
 Infiltrados alveolares unilateral
 Infiltrados alveolares bilaterales
 Infiltrados intersticiales
+
 ND
 51,8
 14,7
+
 24,9
 49,1
 24,1
@@ -1278,14 +1565,21 @@ ND
 12
 12,4
 11,4
-6,3 18,8
+
+6,3
+
+18,8
 10,9
 1,8
+
 23,1
 63,5
-- 22,28
+-
+
+22,28
 55,32
 -
+
 Fuente: Elaboración propia basada en los estudios de Guan, Casas y Berenguer (60,197,198).
 En España, entre los primeros 18.609 casos notificados, 43% requirieron ingreso hospitalario y
 3,9% ingreso en UCI (90). En un momento similar, en la Unión Europea y Reino Unido, entre los
@@ -1300,8 +1594,13 @@ día 26 de agosto (actualización 193, Ministerio de Sanidad), en los 7 días pr
 diagnosticado en España 41.287 nuevos casos, de los cuales alrededor del 37% eran
 asintomáticos. En este período, precisaron ingreso hospitalario 1.514 (3,7%) personas, y 102
 (0,3%) ingreso en UCI.
-37Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
+37
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 Como se puede observar, no parece existir una relación directa entre los nuevos casos
 diagnosticados y el pronóstico (enfermedad grave o crítica), sino que esta podría estar más
 relacionada con el tipo de transmisión de la enfermedad que esté teniendo lugar. En un momento
@@ -1312,8 +1611,7 @@ agrupaciones de casos que eran controlables, en población mayoritariamente jove
 curso clínico se tornó aún más benigno. Aunque en las últimas semanas se ha incrementado el
 número de diagnósticos diarios no parece estar aumentando la gravedad en la misma magnitud.
 Que esta situación se mantenga dependerá de que la población vulnerable esté más protegida y
-no se produzcan grandes brotes en contextos de alto riesgo como centros sanitarios o socio-
-sanitarios de mayores.
+no se produzcan grandes brotes en contextos de alto riesgo como centros sanitarios o sociosanitarios de mayores.
 3.3.2. Comorbilidades
 Las comorbilidades asociadas a la enfermedad hay que ponerlas en relación con la prevalencia de
 dichas patologías en la población. En España, la enfermedad cardiovascular y la diabetes mellitus
@@ -1334,40 +1632,90 @@ claramente interpretables (tabla 3).
 Tabla 3. Comorbilidades de los casos confirmados de COVID-19, en series de casos hospitalizados
 y generales
 Series hospitalarias
+
 Comorbilidades
+
 Cualquiera
 EPC
 Diabetes
 E. cardiovascular
 HTA
+
 Series generales
-China Alemania- España España China-CDC España-CNE
-(n=1.099) (10.021) (n=6.422) (n=4.035) (n=44.672) (n=250.273)
-% % % % % %
+
+China
+
+Alemania-
+
+España
+
+España
+
+China-CDC
+
+España-CNE
+
+(n=1.099)
+
+(10.021)
+
+(n=6.422)
+
+(n=4.035)
+
+(n=44.672)
+
+(n=250.273)
+
+%
+
+%
+
+%
+
+%
+
+%
+
+%
+
 23,7
 1,1
 7,4
 2,5
-15 13,6
+15
+
+13,6
 27,9
 26,9
-55,6 -
+55,6
+
 15,5
 18,7
 20,7
-50,2 17,9
+50,2
+
+17,9
 21,8
 23,3
-51,2 26
+51,2
+
+26
 2,4
 5,3
 4,2
-12,8 65
+12,8
+
+65
 11
 16,2
 29
 21,3
-38Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
+38
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 E. cerebrovascular
 Cáncer
 IRC
@@ -1375,33 +1723,39 @@ Inmunosupre-sión
 Enfermedad
 digestiva
 Obesidad
+
 1,4
 0,9
 0,7
 0,2
 ND
+
 22,8
--
+
 10,7
 6,1
 -
--
+
 9,3*
 6,7**
 5
 ND
 1,3***
+
 12 de noviembre 2020
+
 ND
 0,5
 ND
 ND
 ND
+
 ND
 ND
 ND
 ND
 ND
+
 13,8
 5,9
 EPC: enfermedad pulmonar crónica; HTA: hipertensión arterial; IRC: insuficiencia renal crónica; * Incluye
@@ -1409,6 +1763,7 @@ Enfermedad cerebrovascular, ND: sin datos; * enfermedad neurológica crónica; *
 (hematológicos: 2,3%); ***cirrosis
 Fuente: Elaboración propia basada en los estudios de Guan, Casas, Berenguer, Karagiannidis
 CDC-China, CNE España (60,179,197,198,211,212)
+
 3.3.3. Marcadores de gravedad
 Los hallazgos de laboratorio son consistentes con el síndrome hiperinflamatorio observado en
 otras infecciones como SARS-CoV y la gripe aviar, conocido como "tormenta de citoquinas" que
@@ -1431,87 +1786,114 @@ de gravedad de los casos de COVID-19 se describen en la Tabla 5.
 Tabla 4. Prevalencia de factores de riesgo en población general y casos de COVID-19 totales,
 hospitalizados, que requirieron ingreso en UCI y fallecidos, notificados en España a la Red
 Nacional de Vigilancia Epidemiológica (SiViEs).
+
 Enfermedad cardiovascular
 EPOC
 Diabetes mellitus
 HTA
 IRC
+
 Prevalencia
 España
 (%)
-11,06 a
-11,17 a
-9,72 a
-27,9 b
-9,60 a
+11,06a
+11,17a
+9,72a
+27,9b
+9,60a
+
 Global
-(%) UCI
-(%) fallecidos
 (%)
-28,5 d
-11,6 d
-17,7 d
-12,9 e
-2,62 e 40 d
-14 d
-28 d
-9,4 e
-1,61 e 61 d
+
+UCI
+(%)
+
+fallecidos
+(%)
+
+28,5d
+11,6d
+17,7d
+12,9e
+2,62e
+
+40d
+14d
+28d
+9,4e
+1,61 e
+
+61 d
 22 d
 35 d
-22 e
+22e
 4,07 e
-39Información científica-técnica. Enfermedad por coronavirus, COVID-19
-3,29 a
-1,71 a
+39
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
+3,29a
+1,71a
 0,7 a
 ND
+
 Cáncer
 Enfermedad neurológica
 Enfermedad hepática
 Inmunodepresión
+
 12 de noviembre 2020
-3,29 e
-1,94 e
-0,89 e
-0,22 f
+
+3,29e
+1,94e
+0,89e
+0,22f
+
 2,33 e
 1,05 e
 0,85 e
 ND
+
 4,12 e
 4,03 e
 0,85 e
 ND
+
 EPOC: enfermedad pulmonar obstructiva crónica; HTA: hipertensión arterial; IRC: insuficiencia renal
 crónica;
 Fuente: elaboración propia con datos de a Global Burden of Disease 2017. En el caso de enfermedad
 neurológica se recoge prevalencia de Alzheimer (204), b Estimación propia con datos de Banegas, Morales y
 el INE (205–207) c Estudio IBERICAN (Identificación de la poBlación Española de RIesgo CArdiovascular y
-reNal) (208); d Situación de COVID-19 en España a 6 de abril de 2020. ISCIII. Informe no 21 (209) e Datos
+reNal) (208); d Situación de COVID-19 en España a 6 de abril de 2020. ISCIII. Informe nº 21 (209) e Datos
 obtenidos a partir de la plataforma de vigilancia SIVIES. HTA recogida como variable separada desde el 18/3.
 f
 Situación de COVID-19 en España a 23 de marzo de 2020. ISCIII. Informe 13 (210).
+
 Tabla 5. Parámetros hematológicos y bioquímicos de los casos de COVID-19 y su utilidad como
 posibles marcadores de gravedad y/o mortalidad
 Marcador
+
 Anemia
 Leucocitosis
 Neutrofilia
 Linfopenia
 Trombopenia
-↑ Linfocitos T CD3
-↑ Linfocitos T CD4
-↑ PCR
-↑ VSG
-↑ Interleuquina 6
-↑ Ferritina sérica
-↑ Procalcitonina
-↑ TP
-↑ Dímero-D
-Wu 1
-n=201 Cao
+↑Linfocitos T CD3
+↑Linfocitos T CD4
+↑PCR
+↑VSG
+↑Interleuquina 6
+↑Ferritina sérica
+↑Procalcitonina
+↑TP
+↑Dímero-D
+
+Wu1
+n=201
+
+Cao
 n=128
+
 AS
 AS
 AS
@@ -1521,9 +1903,12 @@ AS
 AS
 NS
 AS
-AS AS
+AS
+
 AS
 AS
+AS
+
 Huang
 n=41
 NS
@@ -1531,38 +1916,59 @@ AS
 AS
 AS
 NS
+
+AS
+
 AS
 AS
-AS
-↑ Troponina c
-Guan 2
+
+↑Troponina c
+
+Guan2
 n=1099
+
 Tabata
 n=104
-AS
-AS
-AS AS
-NS
-AS NS
-AS
-AS AS
-AS
-AS AS
-↓ Albúmina
-↓ Prealbúmina
-↑ ALT
-↑ AST
-↑ Bilirrubina total
-↑ Creatinina
+
 AS
 AS
 AS
-AS
-AS
+
 AS
 NS
-↑ LDH
-↑ BUN
+
+AS
+
+NS
+
+AS
+AS
+
+AS
+
+AS
+AS
+
+AS
+
+↓Albúmina
+↓Prealbúmina
+↑ALT
+↑AST
+↑Bilirrubina total
+↑Creatinina
+
+AS
+AS
+AS
+AS
+AS
+AS
+NS
+
+↑LDH
+↑BUN
+
 AS
 NS
 AS
@@ -1575,78 +1981,137 @@ AS
 AS
 AS
 AS
-NS NS
-AS
-AS
-NS AS AS NS AS
 NS
-NS NS
-AS
-NS
-NS AS
+
 NS
 AS
-NS AS AS
-AS AS NS
+
+AS
 NS
-↑ CK
-↑ HBD
+
+AS
+
+AS
+
+NS
+
+AS
+NS
+
+NS
+
+NS
+AS
+NS
+NS
+
+AS
+NS
+AS
+NS
+
+AS
+
+AS
+
+AS
+
+AS
+
+NS
+
+NS
+
+↑CK
+↑HBD
+
 Ruan
 n=150
+
 AS
 NS
 AS
 NS
-↑ Mioglobina
-↑ CPK-MB
+
+↑Mioglobina
+↑CPK-MB
+
 Ma
 n=84
+
 AS
 AS
 NS
-NS
-AS
-AS
-AS
+
 NS
 AS
 AS
 AS
+NS
+
 AS
 AS
+
+AS
+AS
+AS
+
 Zhao 3
+
 NS
 AS
 AS
 AS
 AS
+
 AS
 NS
 NS
 AS
 NS
+
 AS
-AS AS
+AS
+
 AS
 AS
-AS AS
-NS AS
+AS
+
+AS
+
+AS
+
+NS
+
+AS
+
 NS
 AS
 AS
-NS AS
+NS
+
+AS
 NS
 NS
-NS 4
+NS4
+
 NS
-AS AS
+AS
+
+AS
 NS
+
 AS: asociación significativa; NS: no asociación significativa; PCR: proteína C reactiva; VSG: velocidad de sedimentación TP: tiempo de protrombina;
 Troponina c (cardiaca); CPK-m: Creatinina fosfoquinasa miocárdica; ALT: alanina aminotransferasa; AST: aspartato aminotransferasa; CK: creatinin
-quinasa; HBD: α-hidroxibutirato deshidrogenasa LDH: deshidrogenasa láctica; BUN: nitrógeno ureico en sangre 1 Los casos graves tenían síndrome de
-distrés respiratorio agudo; 2 La asociación se calculó de a partir de los datos facilitados en la publicación 3 Metaanálisis 4 niveles de CK más bajos
-40Información científica-técnica. Enfermedad por coronavirus, COVID-19
+quinasa; HBD: α-hidroxibutirato deshidrogenasa LDH: deshidrogenasa láctica; BUN: nitrógeno ureico en sangre 1Los casos graves tenían síndrome de
+distrés respiratorio agudo; 2La asociación se calculó de a partir de los datos facilitados en la publicación 3Metaanálisis 4 niveles de CK más bajos
+
+40
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 Fuentes: Wu (213); Cao (214); Huang (161); Guan (60); Tabata (215); Ma (216); Ruan(217); Zhao
 (218);
 3.3.4. Complicaciones clínicas
@@ -1683,22 +2148,36 @@ en 3 casos y más leve en otro de ellos. No en todos los casos se realizó un es
 en dos de ellos se observó una respuesta específica compatible con infección aguda en la segunda
 infección (IgM e IgG positivas), mientras que en otro caso no se detectaron anticuerpos en el
 primer episodio (tabla 7).
-41Información científica-técnica. Enfermedad por coronavirus, COVID-19
+41
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 Tabla 6. Complicaciones de los casos de COVID-19 hospitalizados en algunas de las series de casos
 más largas, comparados con datos de España.
-Complicaciones Chen
+Complicaciones
+
+Chen
 (n=99)
-% Wang
+%
+
+Wang
 (n=138)
-% Guan
+%
+
+Guan
 (n=1.099)
-% Richardson
+%
+
+Richardson
 (n=5.700)
 %
+
 Berenguer
 (n=4.035)
 %
+
 SDRA
 Fallo renal
 Fallo multiorgánico
@@ -1707,17 +2186,30 @@ mecánica
 Diálisis
 Circulación
 extracorpórea
-Muerte 17
+Muerte
+
+17
 3
 4
-17 16
+17
+
+16
 7
 8
-12 3
+12
+
+3
 0,5
 1
-6,1 17,3**
-22,2 12,2 15,5 España
+6,1
+
+17,3**
+22,2
+12,2
+
+15,5
+
+España
 CNE*
 (n=18.609)
 %
@@ -1725,67 +2217,130 @@ CNE*
 0,7
 ND
 ND
+
 9
-3 1
-3 0,8
-0,5 3,2 3
-0,4 ND
+3
+
+1
+3
+
+0,8
+0,5
+
+3,2
+
+3
+0,4
+
 ND
-11 4 1,4 21 28 3,6
+ND
+
+11
+
+4
+
+1,4
+
+21
+
+28
+
+3,6
+
 SDRA: distrés respiratorio del adulto; *43% hospitalizados; **disnea
+
 Fuente: Elaboración propia basada en los estudios de Chen, Wang , Guan, Richardson, Berenguer
 y el CNE (53,60,104,198,230,231).
 Tabla 7. Características de los casos de reinfección publicados en la literatura científica
 Localización
 (ref)
+
 Sexo,
 edad
+
 Primer episodio
 Clínica
+
 Intervalo
 libre
 Ac
+
 (días)
+
 (CT)
+
 Hong
 (232)
+
 Kong H, 33
+
 Nevada
 (233)
 Bélgica
 (234)
 Ecuador
 (235)
+
 H,25
 M,
 51
 H, 46
+
 Segundo episodio
 Clínica
+
 Ac
+
 (CT)
+
 Leve
-(ND) - 142 Moderada
-(27) IgG +
+(ND)
+
+-
+
+142
+
+Moderada
+(27)
+
+IgG +
+
 Moderada
 (35)
 Leve
 (26-27)
 Leve
-(37) ND 48 ND 93 IgM+
+(37)
+
+ND
+
+48
+
+ND
+
+93
+
+IgM+
 IgG+
 IgG+
-IgM-
-IgG- 63 Grave
+
+IgMIgG-
+
+63
+
+Grave
 (35)
 Más leve
 (33)
 Peor
 (ND)
+
 IgM+
 IgG+
+
 Ac: anticuerpos; CT: ciclo de la PCR en el que el RNA de SARS-CoV-2 es detectado; H: hombre; M: mujer; ND:
 no disponible
+
 A pesar de que en estos momentos se puede afirmar que la re-infección por SARS-CoV-2 es
 posible, el escaso número de casos detectados hasta ahora, hace suponer que se trata de una
 posibilidad poco frecuente, si bien habrá que seguir expectantes la evolución de los
@@ -1794,8 +2349,12 @@ acontecimientos (236,237)
 La pandemia de SARS-CoV-2 convive con la circulación de otros microorganismos respiratorios,
 entre ellos, el virus Influenza (A y B) causante de la gripe humana, que sigue diferentes patrones
 estacionales según la ubicación geográfica. Es importante detectar todos los microorganismos que
-42Información científica-técnica. Enfermedad por coronavirus, COVID-19
+42
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 coinfectan junto al SARS-CoV-2, para poder asegurar un tratamiento óptimo y para poder conocer
 si la coinfección condiciona un peor pronóstico, lo que tendría implicaciones de salud pública, por
 ejemplo a la hora de recomendar y diseñar campañas de vacunación frente a gripe estacional o
@@ -1813,27 +2372,52 @@ causantes de neumonías atípicas, lo que hace pensar en que la coinfección se 
 comunidad.
 Tabla 8. Resultados principales de dos metaanálisis sobre coinfección de SARS-CoV-2 con otros
 patógenos.
-Autor (año) (ref) Lansbury et al. (2020)(238) Davis et al. (2020)(239)
+Autor (año) (ref)
+
+Lansbury et al. (2020)(238)
+
+Davis et al. (2020)(239)
+
 Coinfección
-bacterias 7% (IC 95% 3-12), n=2.183 Bacterias atípicas: 7,9% (IC95% 2,3-
-16,5), n=1.210
+bacterias
+
+7% (IC 95% 3-12), n=2.183
+
+Bacterias atípicas: 7,9% (IC95% 2,316,5), n=1.210
+
 Coinfección
-virus 3% (IC 95% 1-6), n=1.014 7% (IC 95% 3,8-11,1), n=1.469
+virus
+
+3% (IC 95% 1-6), n=1.014
+
+7% (IC 95% 3,8-11,1), n=1.469
 (los patógenos más frecuentes
 variarían dependiendo de si es la
 temporada de gripe)
-Pronóstico Bacterianas: UCI: 14% (IC 95% 5-26),
+
+Pronóstico
+
+Bacterianas: UCI: 14% (IC 95% 5-26),
 n=204
-Víricas: UCI: 5% (IC 95% 1-14), n=42 ND
+Víricas: UCI: 5% (IC 95% 1-14), n=42
+
+ND
+
 Figura 18. Bacterias detectadas en casos de coinfección en pacientes COVID-19.
+
 Fuente: Lansbury et al. (2020)(238)
-43Información científica-técnica. Enfermedad por coronavirus, COVID-19
+43
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 El hallazgo de la coinfección de SARS-CoV-2 con algún virus (figura 19) hay que ponerlo en relación
 con estacionalidad así como el efecto de las medidas impuestas para reducir la transmisión de
 SARS-CoV-2 que a nivel mundial han puesto de manifiesto una reducción en paralelo de la
 incidencia de gripe estacional (240).
 Figura 19. Virus detectados en casos de coinfección en pacientes COVID-19.
+
 Fuente: Lansbury et al. (2020) (238).
 Aunque los metaanálisis no han analizado en conjunto el pronóstico de la coinfección, algunas
 series hospitalarias describen las características clínicas de estos casos. En general son series del
@@ -1845,8 +2429,7 @@ diferencias significativas en la mortalidad (241). Otro estudio similar en el mi
 (Wuhan) analizó 307 casos de COVID-19 con curso clínico grave ingresados entre enero y febrero
 de 2020, en el que se evidenció una prevalencia de coinfección de influenza con el COVID-19 de
 más del 50% (Influenza A: 49,8%; Influenza B:7,5%). En el estudio se compararon tres grupos:
-COVID-19, COVID-19 + Influenza A, COVID-19 + Influenza B, y se encontró que el grupo de COVID-
-19 + Influenza B tuvo un mayor ratio de evolución desfavorable (curso clínico más grave y éxitus).
+COVID-19, COVID-19 + Influenza A, COVID-19 + Influenza B, y se encontró que el grupo de COVID19 + Influenza B tuvo un mayor ratio de evolución desfavorable (curso clínico más grave y éxitus).
 Aunque no ajustaron por variables como la edad, el sexo, la gravedad clínica y las comorbilidades
 basales, no se encontraron diferencias en estas variables entre los tres grupos de estudio (242).
 3.3.7. Secuelas
@@ -1854,8 +2437,12 @@ En esta etapa de la pandemia existen estudios que han analizado las secuelas a l
 secundarias a infección por COVID-19. Estudiar estas secuelas es fundamental para comprender la
 historia natural de la enfermedad, predecir el impacto que tiene más allá de la hospitalización y
 mortalidad, y determinar si se debe considerar rehabilitación posterior al alta (243).
-44Información científica-técnica. Enfermedad por coronavirus, COVID-19
+44
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 Las secuelas y complicaciones se observaron en las epidemias previas de coronavirus causante del
 Síndrome Respiratorio Agudo Severo (SARS) en 2002 y del Síndrome Respiratorio de Oriente
 Medio (MERS) desde 2012 hasta nuestros días. En algunas personas afectadas, se observó
@@ -1896,8 +2483,12 @@ Hasta la fecha se han analizado las complicaciones cardiovasculares, encontrando
 daño miocárdico agudo que implicaría un peor pronóstico a largo plazo desencadenando una
 potencial insuficiencia cardiaca (256). En China se realizó un estudio a 538 pacientes con más de
 tres meses de alta hospitalaria donde encontraron que el 13% tenía secuelas cardiovasculares,
-45Información científica-técnica. Enfermedad por coronavirus, COVID-19
+45
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 siendo la más importante el aumento de la frecuencia cardiaca en reposo, y 7 pacientes
 informaron de un diagnóstico reciente de hipertensión (257). También se informó sobre un caso
 de miocarditis en un paciente de 31 años que se desarrolló tres semanas después de la
@@ -1936,8 +2527,13 @@ cada año de incremento; p=0,0043). En este estudio se encontró también que al
 medidos en el momento del ingreso, también pueden predecir la mortalidad: el índice SOFA (por
 sus siglas en inglés de Sequential Organ Failure Assessment (OR: 5,65; IC95%: 2,61–12,23;
 p<0·0001), y el dímero D mayor de 1 μg/mL (OR: 18,42; IC95%: 2,64–128,55; p=0,0033) (261).
-46Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
+46
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 3.4. COVID-19 en distintos grupos de personas
 Según los datos expuestos anteriormente, los grupos con mayor riesgo de desarrollar enfermedad
 grave por COVID son personas con:
@@ -1949,6 +2545,7 @@ grave por COVID son personas con:
 
 
 
+
 mayor edad
 enfermedades cardiovasculares e hipertensión arterial
 diabetes
@@ -1957,6 +2554,7 @@ cáncer
 inmunodepresión
 embarazo
 otras enfermedades crónicas
+
 Otras personas, como las que fuman o las que tiene obesidad, también parecen tener mayor
 riesgo de tener una enfermedad grave. La enfermedad en los niños y adolescentes y las personas
 con enfermedades mentales también se describen en este apartado.
@@ -1972,8 +2570,7 @@ Los niveles de ACE2 pueden estar aumentados en personas con enfermedad cardiovas
 observado que los tratamientos con inhibidores de la enzima convertidora de angiotensiba (IECA)
 y antagonistas de la Angiotensina II (ARA II) utilizados para el tratamiento de la hipertensión
 arterial (HTA) y la insuficiencia cardiaca, aumentan la expresión y actividad de la ECA2 (262). Esto
-podría explicar la hipótesis de una mayor predisposición de estas personas a infectarse por SARS-
-CoV-2, aunque esto aún no se conoce con seguridad.
+podría explicar la hipótesis de una mayor predisposición de estas personas a infectarse por SARSCoV-2, aunque esto aún no se conoce con seguridad.
 Por otra parte, la reducción de los receptores ACE2 y los altos niveles de Angiotensina II se
 relacionan con la insuficiencia respiratoria y el distress respiratorio agudo (152). En los casos
 graves de COVID-19, se han observado mayores niveles de Angiotensina II, lo que puede estar en
@@ -1981,10 +2578,16 @@ relación con la inhibición por parte del virus de la ACE2 (154). Este efecto y
 infecciones que usan el mismo receptor, el SARS-CoV en 2003 y la encefalitis por virus de la fiebre
 del Nilo occidental (156,263) sugiere que el tratamiento con ARA II podría resultar beneficioso en
 los casos graves de COVID-19.
-47Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
+47
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 Figura 20. Distribución del número de casos de COVID-19 por grupos de edad y situación clínica
 en España (n=250.273 casos notificados) a 29 de mayo de 2020.
+
 Fuente: Red Nacional de Vigilancia Epidemiológica (211).
 El SARS-CoV-2 al igual que el MERS-CoV, produce daño cardiaco agudo e insuficiencia cardiaca. El
 daño miocárdico se observó en 5 de 41 pacientes diagnosticados en Wuhan, en los que se detectó
@@ -2007,8 +2610,13 @@ cardiovascular y 60% alteraciones del metabolismo de la glucosa (265). Se descon
 mecanismo por el cual se han producido estas alteraciones, pero dado que el SARS-CoV-2 tiene
 una estructura similar, se supone que también podría provocar alteraciones crónicas del sistema
 cardiovascular.
-48Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
+48
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 3.4.3. Diabetes
 Se ha descrito en diversos estudios realizados durante la epidemia de COVID-19 la presencia de
 diabetes mellitus como una de las comorbilidades más frecuentes presentes en aquellos
@@ -2049,8 +2657,12 @@ desarrollar enfermedad grave 13 días) (274).
 La inmunosupresión, tanto por causas intrínsecas como extrínsecas, tiene efectos en la respuesta
 ante virus respiratorios como la gripe o el virus sincitial respiratorio (VRS), aumentando el riesgo
 de infección grave (275).
-49Información científica-técnica. Enfermedad por coronavirus, COVID-19
+49
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 En personas con tratamiento crónico con glucocorticoides se ha observado que la infección se
 puede manifestar con sintomatología atípica (276). Sin embargo, en las personas
 inmunodeprimidas tras un trasplante, no existe mucha evidencia y los datos resultan
@@ -2080,8 +2692,8 @@ la cohorte VIH versus 0,92 (IC95% 0,91-0,93) en la población general. El contaj
 51 casos confirmados y probables fue similar al resto de personas de la cohorte VIH (+) que se
 empleó como control. La presencia de comorbilidades fue significativamente superior en los casos
 con COVID-19 frente a los controles (hipertensión, diabetes, enfermedad renal crónica y
-enfermedad hepática crónica) así como el índice de masa corporal (25,5 kg/m 2 [IQR 22,1–28,0]
-vs 23,7 kg/m 2 [21,5–26,0, p=0,021). Las manifestaciones clínicas, analíticas y radiológicas fueron
+enfermedad hepática crónica) así como el índice de masa corporal (25,5 kg/m2 [IQR 22,1–28,0]
+vs 23,7 kg/m2 [21,5–26,0, p=0,021). Las manifestaciones clínicas, analíticas y radiológicas fueron
 similares a las descritas para la población general. La duración mediana de detección de RNA de
 SARS-CoV-2 mediante PCR fue de 18 días (IQR 7–28); la detección prolongada se asoció a casos
 con mayor tiempo desde el diagnóstico de VIH y con menores contajes de CD4, así como la
@@ -2092,8 +2704,12 @@ enfermedad de forma leve o asintomática (285–289). En un estudio realizado po
 EE.UU. con más de 400.000 mujeres en edad fértil con COVID-19 sintomático, se comparó la
 evolución de 23.443 mujeres embarazadas frente a las no embarazadas. Tras ajustar por edad,
 grupo étnico y comorbilidades, las mujeres embarazadas tuvieron 3 veces más riesgo de ingresar
-50Información científica-técnica. Enfermedad por coronavirus, COVID-19
+50
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 en UCI que las no embarazadas (IC95% 2,6-3,4) y 1, 7 veces mayor riesgo de morir (IC95% 1,2-2,4)
 El riesgo absoluto de complicaciones graves en el embarazo se calcula bajo, en relación con el
 conjunto de la población (290).
@@ -2131,8 +2747,13 @@ series de Wuhan y 1 de China continental. En tres series con 191, 140 y 41 casos
 analiza el tabaco (fumar en el momento del diagnóstico) con la gravedad de la enfermedad
 (necesidad de UCI o fallecimiento), no se encontraron diferencias significativas. En las otras dos
 series sí se observó una relación del tabaco con una peor evolución:
-51Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
+51
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 Serie de Guan (1.099 casos): 11,8% de los casos leves, 16,9% de los graves y 25% de los críticos
 fumaban en el momento del diagnóstico. Los autores de la revisión calcularon un riesgo de
 enfermedad grave 1,4 veces mayor en fumadores (RR=1,4, IC 95%: 0,98–2,00) y de ser ingresados
@@ -2162,8 +2783,7 @@ prevalencia de obesidad (IMC>25) entre los que fallecieron fue del 84,8% frente 
 pacientes que superaron la enfermedad. En estos pacientes los fenómenos tromboembólicos
 fueron una casusa importante de agravamiento (301).
 Un análisis retrospectivo del IMC estratificado por edad en 3.615 pacientes COVID-19 en la
-urgencia de un hospital de Nueva York encontró una prevalencia de IMC>30 en casos de COVID-
-19 similar a la población general. Sin embargo, se observó que los pacientes menores de 60 años
+urgencia de un hospital de Nueva York encontró una prevalencia de IMC>30 en casos de COVID19 similar a la población general. Sin embargo, se observó que los pacientes menores de 60 años
 con un IMC de entre 30 y 34 tenían 2 y 1,8 veces más probabilidades de ingresar en la
 hospitalización general y la UCI respectivamente, comparados con los pacientes no obesos. Este
 efecto no se observó en los mayores de 60 años (302).
@@ -2174,8 +2794,13 @@ que era 25,8%, similar a la prevalencia general de obesidad en Francia. En este 
 observó una necesidad de ventilación mecánica mayor en función del IMC, alcanzando el 90% con
 IMC>35. En el análisis multivariante, la obesidad fue factor de riesgo independiente de la edad, la
 diabetes y la hipertensión (303).
-52Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
+52
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 En un informe del ICNARC (centro de investigación de cuidados intensivos de Reino Unido) que
 incluye 2.621 pacientes en las UCIs con COVID-19, un 30,7% presentaban un IMC 30-40 y un 7%
 >40. En pacientes con neumonía no COVID ingresados en el periodo 2017-2019, las prevalencias
@@ -2218,8 +2843,12 @@ con 1.117 pacientes observan diferencias con las series de adultos y así, solam
 presentaron fiebre y alrededor de la mitad fueron leves o asintomáticos. Algunos síntomas son
 más específicos en la población infantil y adolescente, como la acrocianosis (314). La clínica más
 leve y las diferencias en cuanto a las manifestaciones clínicas, plantea una cuestión sobre la
-53Información científica-técnica. Enfermedad por coronavirus, COVID-19
+53
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 vigilancia en la población infantil, ya que podría llevar a una infraestimación de casos porque
 algunos no cumplirían las definiciones de caso para la realización de pruebas diagnósticas (315).
 Entre los aspectos que se discuten como posibles factores que podrían hacer que la clínica en la
@@ -2251,8 +2880,7 @@ especialmente vulnerables son los hospitalizados, las personas con enfermedad me
 con situaciones difíciles provocadas por el aislamiento y la crisis económica y los trabajadores
 sanitarios, aunque los efectos psicológicos afectan a toda la población.
 En personas hospitalizadas por COVID-19, un estudio evaluó las comorbilidades psicológicas de 41
-pacientes: 43,9% referían algún síntoma psiquiátrico, 12,2% tenían trastorno por estrés post-
-traumático (TEPT) y 26,8% tenían ansiedad o depresión. Estos síntomas eran más frecuentes en
+pacientes: 43,9% referían algún síntoma psiquiátrico, 12,2% tenían trastorno por estrés posttraumático (TEPT) y 26,8% tenían ansiedad o depresión. Estos síntomas eran más frecuentes en
 pacientes con dificultades de afrontamiento y que referían estar estigmatizados. El apoyo social
 percibido fue el factor protector más importante (317).
 Las personas con enfermedad mental previa son especialmente susceptibles. En un estudio de 76
@@ -2260,8 +2888,12 @@ pacientes psiquiátricos y 109 controles en China, las puntuaciones en las escal
 depresión fueron significativamente mayores en pacientes psiquiátricos. Las preocupaciones
 sobre su salud, impulsividad e ideación suicida fueron también mayores. Un tercio cumplían
 criterios de TEPT, y un cuarto de insomnio (318). Además, las personas con enfermedades
-54Información científica-técnica. Enfermedad por coronavirus, COVID-19
+54
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 mentales pre-existentes pueden tener un mayor riesgo de recaída debido al estrés asociado con la
 pandemia de COVID-19 (319). Por otra parte, las personas con trastorno mental pueden ser un
 colectivo de riesgo para enfermedad por COVID-19. Un estudio encontró un mayor riesgo de
@@ -2303,8 +2935,12 @@ En una encuesta realizada en población general en China en la que participaron 
 53,8% clasificó el impacto psicológico de la pandemia como moderado o grave, 16,5% refirieron
 sintomatología depresiva moderada a grave y 28,8% ansiedad moderada a grave. Las mujeres, los
 estudiantes y el peor estado de salud percibido se relacionaron con mayores niveles de estrés,
-55Información científica-técnica. Enfermedad por coronavirus, COVID-19
+55
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 ansiedad y depresión (331). En Italia se objetivaron niveles elevados de estrés en comparación
 con los niveles basales recogidos en estadísticas europeas. También se encontraron mayores
 niveles de ansiedad en las mujeres y en las personas jóvenes, así como en las personas que tenían
@@ -2325,12 +2961,11 @@ consumo de alcohol o tabaquismo, así como a internet (337). En una encuesta rea
 Bélgica, las principales razones que motivaron al incremento en el consumo de sustancias fueron
 por aburrimiento, falta de contacto social, pérdida de la rutina diaria, recompensa tras la jornada
 laboral y soledad (338).
+
 3.5. Transmisión de SARS-CoV-2 en diferentes entornos
-En esta sección se describen los entornos con mayor vulnerabilidad para la transmisión de SARS-
-CoV-2.
+En esta sección se describen los entornos con mayor vulnerabilidad para la transmisión de SARSCoV-2.
 3.5.1. Centros socio-sanitarios de mayores
-Existe una creciente evidencia internacional de que las personas que viven en centros socio-
-sanitarios son particularmente vulnerables a las infecciones graves por SARS-CoV-2 y están
+Existe una creciente evidencia internacional de que las personas que viven en centros sociosanitarios son particularmente vulnerables a las infecciones graves por SARS-CoV-2 y están
 experimentando altas tasas de mortalidad. La edad avanzada y las comorbilidades que presentan
 los residentes son factores de riesgo de gravedad y el entorno cerrado con estrecho contacto con
 otros residentes y el personal que los atiende que favorece la transmisión, ha hecho que los
@@ -2343,8 +2978,12 @@ contribuyen a la extrema vulnerabilidad de estos centros son: los menores recurs
 con los que cuentan, la alta carga de trabajo, la falta de preparación del personal en cuanto a
 medidas de prevención y control de la infección, la movilidad de los trabajadores de una
 residencia a otra y el número de bajas en los trabajadores por enfermedad que está ocasionando
-56Información científica-técnica. Enfermedad por coronavirus, COVID-19
+56
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 esta pandemia, que implica una mayor carga de trabajo a los presentes con el consiguiente riesgo
 (341). Se ha observado que en varias residencias de mayores es que un alto porcentaje de
 residentes están asintomáticos teniendo cargas virales altas y virus viable en cultivos, efecto que
@@ -2373,6 +3012,7 @@ haber diferencias en la estrategia utilizada para medir las muertes en relación
 muertes de casos confirmados (antes o después de su muerte), muertes de casos sospechosos
 (según los síntomas) o muertes en exceso (comparación total número de muertes con las de las
 mismas semanas en años anteriores) (339).
+
 3.5.2. Entornos laborales
 Uno de los entornos donde se produce mayor transmisión de SARS-CoV-2 son los entornos
 laborales cerrados y las actividades que suponen una mayor cantidad de contactos
@@ -2383,8 +3023,12 @@ de riesgo para la transmisión de SARS-CoV-2 (348–350), así como el contacto 
 de descanso en la cafetería, el transporte colectivo o los vestuarios (349).
 El “presentismo” consistente en ir al trabajo a pesar de estar sintomático o ser contacto de una
 persona diagnosticada de COVID-19, es un factor de riesgo evidente, que tiene que ver con el
-57Información científica-técnica. Enfermedad por coronavirus, COVID-19
+57
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 miedo a perder el trabajo o a las pérdidas económicas en el negocio. En esto también influye la
 característica del propio trabajo, en el que no sea posible hacerlo a distancia (351).
 Además del personal de los sectores sanitario y sociosanitario, que son los que conllevan un
@@ -2425,8 +3069,12 @@ del conocimiento de la enfermedad, aunque la transmisión comunitaria era inexis
 baja, el desconocimiento de la transmisión de la infección a partir de casos asintomáticos pudo
 generar casos entre sanitarios indebidamente protegidos. Del mismo modo, esta transmisión por
 escasa protección pudo ocurrir posteriormente por el grave problema mundial de
-58Información científica-técnica. Enfermedad por coronavirus, COVID-19
+58
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 desabastecimiento de equipos. En un escenario de transmisión comunitaria sostenida, aún con
 medios suficientes para protegerse en el entorno laboral, los sanitarios también podrían haber
 contraído la infección en la comunidad o en el centro sanitario en zonas donde no utilizaban
@@ -2435,13 +3083,12 @@ proporción de infección de los sanitarios en contacto con pacientes de COVID-1
 a los que no tenían contacto: 11,6% (IC 95% 10,4-11,9) del total de los trabajadores del hospital,
 fueron positivos. Se clasificó a los trabajadores en función de su riesgo a la exposición directa a los
 enfermos: alto (los que trabajaban en urgencias, UCI o plantas con ingresos de COVID), medio
-(contacto con pacientes, pero en principio no infectados: pediatría, oncología, hematología...) y
-bajo (trabajadores sin contacto con los pacientes: laboratorios, cocina, administración...). Al
+(contacto con pacientes, pero en principio no infectados: pediatría, oncología, hematología…) y
+bajo (trabajadores sin contacto con los pacientes: laboratorios, cocina, administración…). Al
 comparar la proporción de infectados por áreas de riesgo, no se observaron diferencias. Estos
 resultados apoyan el que también entre los trabajadores de un hospital, el peso de la transmisión
 intrafamiliar y comunitaria, además de la intrahospitalaria, pudiera ser importante (356). En otro
-estudio realizado en un hospital de Barcelona la prevalencia acumulada de infección por SARS-
-CoV-2 fue 11,2% (IC 95% 8,9-14,1) durante los meses de marzo-abril (357). Los resultados
+estudio realizado en un hospital de Barcelona la prevalencia acumulada de infección por SARSCoV-2 fue 11,2% (IC 95% 8,9-14,1) durante los meses de marzo-abril (357). Los resultados
 preliminares de la encuesta de seroprevalencia realizada en abril-mayo a nivel nacional mostraron
 que 11,3 (IC95% 9,8-13) y 7,1% (IC 95% 5,9-8,5) de la población general de Madrid y Barcelona,
 respectivamente, tenían anticuerpos frente al virus. Esto sugiere que, aunque los resultados no
@@ -2453,6 +3100,7 @@ relativamente benigno. Las cifras de hospitalización (10,7%), de ingreso en UCI
 (0,1%) (358) corresponden a lo esperable para el conjunto de la población de la misma estructura
 de edad.
 3.5.4. Escuelas
+
  Transmisión niño-niño: con la evidencia disponible, se puede decir que la transmisión
 entre niños es menos eficiente para SARS-CoV-2 que para otras infecciones respiratorias
 como la gripe (359). La evidencia de esta afirmación deriva de brotes escolares donde se
@@ -2465,21 +3113,29 @@ secundaria, diez días después de la reapertura de los colegios con medidas hig
 seguridad, se detectó un brote importante con una tasa de ataque de 13,2% entre los
 estudiantes y 16,5% entre los adultos (364).
 
+
 Transmisión niño-adulto: parece por la evidencia disponible que los niños no son los
 transmisores primarios a los adultos en el contexto escolar. Hasta el momento no se han
 detectado casos secundarios adultos de niños enfermos en este entorno (360).
+
  Transmisión adulto-niño: hay poca documentación al respecto, aunque se han descrito
 brotes en los que se demuestra que es posible. En Finlandia, 7 de 42 estudiantes
 expuestos a un profesor infectado tuvieron PCR o serología positiva en el
-59Información científica-técnica. Enfermedad por coronavirus, COVID-19
+59
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 seguimiento(361). En otro brote en Irlanda ninguno entre 102 niños expuestos a un
 profesor infectado desarrollaron la enfermedad, aunque sólo se hizo PCR a aquellos niños
 que referían síntomas (360).
 
+
 Transmisión adulto-adulto: aunque hay pocos casos descritos, la evidencia parece indicar
 que el entorno escolar no tiene mayor riesgo para los adultos que otros entornos
 comunitarios o los domicilios (365).
+
 3.5.5. Población socialmente vulnerable
 La evidencia disponible a nivel internacional, así como los brotes vinculados a contextos de
 precariedad laboral y habitacional detectados en España, ponen de manifiesto que la pandemia
@@ -2500,10 +3156,15 @@ contactos, y para mantener las medidas de control de la transmisión (368,371,37
 Algunas de las situaciones de vulnerabilidad social relacionadas con mayor vulnerabilidad
 epidemiológica al COVID-19 son:
 ●
+
 ●
+
 ●
+
 ●
+
 ●
+
 Los empleos que se ejercen de manera presencial por una mayor exposición y la dificultad
 para seguir las medidas de prevención en los entornos y condiciones laborales precarias
 (366,373–376).
@@ -2520,10 +3181,16 @@ Los sistema sanitario y sociosanitario tienen características físicas y relaci
 tareas que se realizan en ellos que suponen un mayor riesgo de brote en caso de que se
 produzca algún caso (379,380). Se han detectado barreras de acceso al sistema sanitario y
 sociosanitario debido a la modalidad telemática (378), a la falta de una cobertura sanitaria
-60Información científica-técnica. Enfermedad por coronavirus, COVID-19
+60
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 ●
+
 ●
+
 12 de noviembre 2020
+
 universal efectiva, sobre todo en casos de estancia temporal, situación administrativa no
 regulada y otras situaciones relacionadas con el estatus migratorio (381,382). La falta de
 personal para realizar tareas de interpretación o de mediadores interculturales (383–385) y
@@ -2536,6 +3203,7 @@ cuarentena por dificultad de delegar los cuidados, sobre todo en familias monopa
 El estigma y discriminación hacia algunas poblaciones por motivos de identidad de género,
 orientación sexual, origen, clase social, etnia, dependencia a drogas o comorbilidades,
 influyen negativamente en la demanda y en la atención de servicios sanitarios (388–396).
+
 4. Desarrollo de vacunas frente a SARS-CoV-2
 Sesenta y seis días después de la secuenciación del genoma del SARS-CoV-2 un humano
 recibió por vez primera el pinchazo de una vacuna candidata frente al virus pandémico
@@ -2557,12 +3225,16 @@ heterólogo), una a Reino Unido (adenovirus de chimpancé del Oxford Vaccine
 Group/AstraZeneca), tres a los Estados Unidos (Moderna, Inc de ARN mensajero, Johnson
 & Johnson y Novavax de nanopartícula recombinante), una a India (Bharat Biotech,
 vacuna inactivada) y una última a Alemania/Estados Unidos (Pfizer/BioNTech de ARN
-mensajero) 4 . En fases previas se encuentran vacunas de subunidades proteicas o de “virus
+mensajero)4. En fases previas se encuentran vacunas de subunidades proteicas o de “virus
 like particles” (401,402). En estos estudios se ha medido la inmunidad humoral y celular.
 Para la primera se utilizan los anticuerpos de unión (binding) del tipo de IgG, IgM e IgA
 que se fijan a proteinas purificadas del virus SARS-CoV-2 (RBD y/o Spike) y se miden
-61Información científica-técnica. Enfermedad por coronavirus, COVID-19
+61
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 mediante técnica ELISA. También se detectan los anticuerpos neutralizantes IgG que
 determinan su capacidad funcional para evitar la infección del virus in vitro. Las
 respuestas celulares se analizan mediante la evaluación de los linfocitos T (LT) CD4+ y LT
@@ -2571,6 +3243,7 @@ TNF-2) o respuestas Th2 (IL-4, IL-5 o IL-17) asociadas a fenómenos de
 inmunopatogenicidad (403).
 En esta revisión, se analizan los datos disponibles de aquellas vacunas en desarrollo cuyas
 compañías han publicado resultados (404).
+
 4.1. Moderna, Inc. mRNA-1273
 Es una vacuna de ARN mensajero que codifica la glicoproteina de superficie S (spike)
 encapsulada en nanopartículas lipídicas, con un esquema de vacunación de dos dosis en
@@ -2586,6 +3259,7 @@ cuadros de “enfermedad pulmonar aumentada asociada a la vacuna" (VAERD, por su
 siglas en inglés de Vaccine Associated Enhanced Respiratory Disease). El almacenamiento
 debe hacerse a muy bajas temperaturas y es muy termosensible una vez descongelada. La
 fase III ha incluido a 30.000 participantes de 18 o más años (405–408).
+
 4.2 Pfizer/BioNTech. BNT162b2
 Es una vacuna de ARN mensajero que codifica la glicoproteina de superficie S (spike) encapsulada
 en nanopartículas lipídicas, con un esquema de vacunación de dos dosis separadas por 21 días.
@@ -2596,11 +3270,16 @@ perfil polarizado hacia Th1. Las vías respiratorias altas y bajas de los primat
 vacunados quedan protegidas tras la inoculación del virus intratraqueal e intranasal. El
 almacenamiento debe hacerse a muy bajas temperaturas y es muy termosensible una vez
 descongelada. La fase III ha incluido a 44.000 participantes de 18 o más años (409–414)
-62Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
+62
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 4.3. Oxford Vaccine Group/AstraZeneca. ChAdOx1 nCoV-19. AZD1222
 Es una vacuna en la que la glicoproteina S se vehiculiza en un adenovirus de chimpancé no
-replicante con un esquema de vacunación de dos dosis de 5x10 10 partículas víricas a los 0 y 28 días
+replicante con un esquema de vacunación de dos dosis de 5x1010 partículas víricas a los 0 y 28 días
 en voluntarios de 18 a 55 años. La reactogenicidad es ligeramente superior a la de la vacuna
 MenACYW-TT utilizada como placebo, mejorando con paracetamol profiláctico pero sin reducir la
 inmunogenicidad.
@@ -2612,9 +3291,10 @@ respuesta humoral al booster homólogo, pero sí en la respuesta celular. En pri
 la vacuna evita o reduce la replicación vírica en el tracto respiratorio inferior. Las condiciones de
 conservación son las habituales de los programas sistemáticos de vacunación. La fase III ha
 incluido a 30.000 participantes (117,415).
+
 4.4. Janssen Vaccines & Prevention B.V./Johnson & Johnson. Ad26.COV2.S
 Vacuna en la que la glicoproteina S se vehiculiza en un adenovirus humano 26 no replicante, con
-un esquema de vacunación con una dosis de 5x10 10 partículas víricas.
+un esquema de vacunación con una dosis de 5x1010 partículas víricas.
 El perfil de seguridad es aceptable, con menor reactogenicidad en mayores de 65 años. Una dosis
 de vacuna genera respuestas de anticuerpos neutralizantes en todas las edades, incluidos los de
 65 años o más. Induce, además, respuestas CD4+ Th1 y CD8+ T, sin respuestas Th2 y en los
@@ -2623,6 +3303,7 @@ neutralizantes y de células T, lo que sugiere una mínima o ausente replicació
 respiratorio superior e inferior. Las condiciones de conservación son las habituales. La fase III del
 ensayo clínico incluye 60.000 participantes (416,417)
 .
+
 4.5 Novavax. NVX-CoV2373
 Es una vacuna nanopartícula construida con la proteína S íntegra obtenida por técnicas
 recombinantes en baculovirus infectante de células de insecto Spodoptera frugiperda. Incluye
@@ -2631,26 +3312,33 @@ separadas por tres semanas.
 La vacuna tiene un buen perfil de seguridad y genera respuestas de anticuerpos neutralizantes
 superiores a los de los convalecientes de COVID-19. Induce, adicionalmente, respuestas celulares
 con perfil de citoquinas Th1. Tras una prueba de la inoculación del virus en primates no humanos,
-63Información científica-técnica. Enfermedad por coronavirus, COVID-19
+63
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 es muy escasa la presencia de virus replicante en el tracto respiratorio inferior y nula en el
 superior. Las condiciones de conservación son las habituales para las vacunas de los programas
-poblacionales (2oC-8oC) (418–420)
-64Información científica-técnica. Enfermedad por coronavirus, COVID-19
+poblacionales (2ºC-8ºC) (418–420)
+
+64
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 5. Bibliografía
 1. Wuhan seafood market pneumonia virus isolate Wuhan-Hu-1, complete genome. 23 de enero
 de 2020 [citado 7 de febrero de 2020]; Disponible en:
 http://www.ncbi.nlm.nih.gov/nuccore/MN908947.3
 2. Novel Coronavirus (2019-nCoV) situation reports [Internet]. [citado 23 de enero de 2020].
-Disponible en: https://www.who.int/emergencies/diseases/novel-coronavirus-
-2019/situation-reports
+Disponible en: https://www.who.int/emergencies/diseases/novel-coronavirus2019/situation-reports
 3. Paules CI, Marston HD, Fauci AS. Coronavirus Infections—More Than Just the Common Cold.
 JAMA [Internet]. 23 de enero de 2020 [citado 6 de febrero de 2020]; Disponible en:
 https://jamanetwork.com/journals/jama/fullarticle/2759815
 4. World health Organization. Report of the WHO-China Joint Mission on Coronavirus Disease
-2019 (COVID-19) [Internet]. 2020. Disponible en: https://www.who.int/docs/default-
-source/coronaviruse/who-china-joint-mission-on-covid-19-final-report.pdf
+2019 (COVID-19) [Internet]. 2020. Disponible en: https://www.who.int/docs/defaultsource/coronaviruse/who-china-joint-mission-on-covid-19-final-report.pdf
 5. Cyranoski D. Mystery deepens over animal source of coronavirus. Nature. marzo de
 2020;579(7797):18-9.
 6. Lam TT-Y, Shum MH-H, Zhu H-C, Tong Y-G, Ni X-B, Liao Y-S, et al. Identifying SARS-CoV-2
@@ -2663,8 +3351,7 @@ https://www.ncbi.nlm.nih.gov/books/NBK92442/
 zoonotique du SARS-CoV2 (Covid-19) associé aux animaux de compagnie : infection de
 l’animal vers l’homme et de l’homme vers l’animal [Internet]. Bélgica; 2020 mar. Disponible
 en:
-http://www.afsca.be/comitescientifique/avis/2020/_documents/Conseilurgentprovisoire04-
-2020_SciCom2020-07_Covid-19petitsanimauxdomestiques_27-03-20_001.pdf
+http://www.afsca.be/comitescientifique/avis/2020/_documents/Conseilurgentprovisoire042020_SciCom2020-07_Covid-19petitsanimauxdomestiques_27-03-20_001.pdf
 9. Shi J, Wen Z, Zhong G, Yang H, Wang C, Huang B, et al. Susceptibility of ferrets, cats, dogs, and
 other domesticated animals to SARS-coronavirus 2. Science. 8 de abril de 2020;
 10. Schlottau K, Rissmann M, Graaf A, Schön J, Sehl J, Wylezich C, et al. SARS-CoV-2 in fruit bats,
@@ -2675,27 +3362,26 @@ https://www.thelancet.com/journals/lanmic/article/PIIS2666-5247(20)30089-6/abstr
 antibodies in cats: a serological investigation. bioRxiv [Internet]. 3 de abril de 2020 [citado 7
 de abril de 2020];2020.04.01.021196. Disponible en:
 https://www.biorxiv.org/content/10.1101/2020.04.01.021196v1
-65Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
+65
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 12. Organización Mundial de Sanidad Animal. Preguntas y respuestas sobre COVID-19
 (actualización 26.05.2020) [Internet]. 2020 may. Disponible en:
-https://www.oie.int/fileadmin/Home/esp/Our_scientific_expertise/docs/pdf/COV-
-19/E_Q%26A_COVID-19.pdf
+https://www.oie.int/fileadmin/Home/esp/Our_scientific_expertise/docs/pdf/COV19/E_Q%26A_COVID-19.pdf
 13. WHO | SARS-CoV-2 mink-associated variant strain – Denmark [Internet]. WHO. [citado 12 de
-noviembre de 2020]. Disponible en: http://www.who.int/csr/don/06-november-2020-mink-
-associated-sars-cov2-denmark/en/
-14. Ministerio de Agricultura, Pesca y Alimentación. Comunicación de un caso positivo a SARS-
-CoV-2 en un gato en España (11/05/2020) [Internet]. Disponible en:
-https://www.oie.int/fileadmin/Home/eng/Our_scientific_expertise/docs/pdf/COV-
-19/Nota_Gato%20SARS-CoC-2_spain.pdf
+noviembre de 2020]. Disponible en: http://www.who.int/csr/don/06-november-2020-minkassociated-sars-cov2-denmark/en/
+14. Ministerio de Agricultura, Pesca y Alimentación. Comunicación de un caso positivo a SARSCoV-2 en un gato en España (11/05/2020) [Internet]. Disponible en:
+https://www.oie.int/fileadmin/Home/eng/Our_scientific_expertise/docs/pdf/COV19/Nota_Gato%20SARS-CoC-2_spain.pdf
 15. Aragón EP de. Un brote sin precedentes obliga a sacrificar a casi 100.00 visones [Internet]. El
 Periódico de Aragón. [citado 10 de agosto de 2020]. Disponible en:
-https://www.elperiodicodearagon.com/noticias/aragon/gobierno-aragon-sacrificara-92-700-
-visones-granja-puebla-valverde_1428621.html
+https://www.elperiodicodearagon.com/noticias/aragon/gobierno-aragon-sacrificara-92-700visones-granja-puebla-valverde_1428621.html
 16. Organización Mundial de Sanidad Animal. Preguntas y respuestas sobre la enfermedad del
 coronavirus de 2019 (COVID-19)(última actualización: 1/04/2020) [Internet]. Disponible en:
-https://www.oie.int/es/nuestra-experiencia-cientifica/informaciones-especificas-y-
-recomendaciones/preguntas-y-respuestas-del-nuevo-coronavirus-2019/
+https://www.oie.int/es/nuestra-experiencia-cientifica/informaciones-especificas-yrecomendaciones/preguntas-y-respuestas-del-nuevo-coronavirus-2019/
 17. Kim Y-I, Kim S-G, Kim S-M, Kim E-H, Park S-J, Yu K-M, et al. Infection and Rapid Transmission
 of SARS-CoV-2 in Ferrets. Cell Host Microbe [Internet]. 6 de abril de 2020 [citado 16 de abril
 de 2020]; Disponible en:
@@ -2715,8 +3401,13 @@ https://science.sciencemag.org/content/early/2020/10/02/science.abf0521
 Evidence, prevention and control. Environ Int [Internet]. noviembre de 2020 [citado 6 de
 octubre de 2020];144:106039. Disponible en:
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7413047/
-66Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
+66
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 22. Jones, Brosseau. Aerosol transmission of infectious disease. Journal of occupational and
 environmental medicine [Internet]. 2015 [citado 6 de octubre de 2020];57(5):501-8.
 Disponible en: https://pubmed.ncbi.nlm.nih.gov/25816216/
@@ -2730,8 +3421,7 @@ Severe Acute Respiratory Syndrome Coronavirus 2 in Aerosol Suspensions. Emerg In
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7454081/
 25. Liu Y, Ning Z, Chen Y, Guo M, Liu Y, Gali NK, et al. Aerodynamic analysis of SARS-CoV-2 in two
 Wuhan hospitals. Nature [Internet]. junio de 2020 [citado 20 de octubre de
-2020];582(7813):557-60. Disponible en: https://www.nature.com/articles/s41586-020-2271-
-3
+2020];582(7813):557-60. Disponible en: https://www.nature.com/articles/s41586-020-22713
 26. Santarpia JL, Rivera DN, Herrera VL, Morwitzer MJ, Creager HM, Santarpia GW, et al. Aerosol
 and surface contamination of SARS-CoV-2 observed in quarantine and isolation care. Sci Rep
 [Internet]. 29 de julio de 2020 [citado 1 de octubre de 2020];10. Disponible en:
@@ -2756,8 +3446,13 @@ https://www.medrxiv.org/content/10.1101/2020.04.16.20067728v1
 Restaurant, Guangzhou, China, 2020. Emerg Infect Dis [Internet]. julio de 2020 [citado 1 de
 octubre de 2020];26(7):1628-31. Disponible en:
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7323555/
-67Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
+67
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 32. Asadi S, Wexler AS, Cappa CD, Barreda S, Bouvier NM, Ristenpart WD. Aerosol emission and
 superemission during human speech increase with voice loudness. Sci Rep [Internet]. 20 de
 febrero de 2019 [citado 20 de octubre de 2020];9. Disponible en:
@@ -2798,26 +3493,26 @@ https://www.thelancet.com/journals/ebiom/article/PIIS2352-3964(20)30380-7/abstra
 in different environmental conditions. Lancet Microbe [Internet]. 2 de abril de 2020 [citado
 28 de abril de 2020];0(0). Disponible en:
 https://www.thelancet.com/journals/lanmic/article/PIIS2666-5247(20)30003-3/abstract
-68Información científica-técnica. Enfermedad por coronavirus, COVID-19
+68
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 43. Goldman E. Exaggerated risk of transmission of COVID-19 by fomites. Lancet Infect Dis
 [Internet]. agosto de 2020 [citado 10 de agosto de 2020];20(8):892-3. Disponible en:
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7333993/
 44. Kampf G, Todt D, Pfaender S, Steinmann E. Persistence of coronaviruses on inanimate
 surfaces and its inactivation with biocidal agents. J Hosp Infect. 6 de febrero de 2020;
 45. WHO. Transmission of SARS-CoV-2: implications for infection prevention precautions
-[Internet]. [citado 10 de agosto de 2020]. Disponible en: https://www.who.int/news-
-room/commentaries/detail/transmission-of-sars-cov-2-implications-for-infection-prevention-
-precautions
-46. Zeng L, Xia S, Yuan W, Yan K, Xiao F, Shao J, et al. Neonatal Early-Onset Infection With SARS-
-CoV-2 in 33 Neonates Born to Mothers With COVID-19 in Wuhan, China. JAMA Pediatr. 26 de
+[Internet]. [citado 10 de agosto de 2020]. Disponible en: https://www.who.int/newsroom/commentaries/detail/transmission-of-sars-cov-2-implications-for-infection-preventionprecautions
+46. Zeng L, Xia S, Yuan W, Yan K, Xiao F, Shao J, et al. Neonatal Early-Onset Infection With SARSCoV-2 in 33 Neonates Born to Mothers With COVID-19 in Wuhan, China. JAMA Pediatr. 26 de
 marzo de 2020;
 47. Facchetti F, Bugatti M, Drera E, Tripodo C, Sartori E, Cancila V, et al. SARS-CoV2 vertical
 transmission with adverse effects on the newborn revealed through integrated
 immunohistochemical, electron microscopy and molecular analyses of Placenta.
 EBioMedicine [Internet]. 1 de septiembre de 2020 [citado 5 de noviembre de 2020];59.
-Disponible en: https://www.thelancet.com/journals/ebiom/article/PIIS2352-3964(20)30327-
-3/abstract
+Disponible en: https://www.thelancet.com/journals/ebiom/article/PIIS2352-3964(20)303273/abstract
 48. Does the human placenta express the canonical cell entry mediators for SARS-CoV-2? |
 bioRxiv [Internet]. [citado 5 de noviembre de 2020]. Disponible en:
 https://www.biorxiv.org/content/10.1101/2020.05.18.101485v1
@@ -2827,9 +3522,7 @@ infection using comprehensive molecular pathology. EBioMedicine [Internet]. 1 de
 https://www.thelancet.com/journals/ebiom/article/PIIS2352-3964(20)30359-5/abstract
 50. Groß. Detection of SARS-CoV-2 in Human Breastmilk. Lancet (London, England) [Internet]. 21
 de mayo de 2020 [citado 26 de mayo de 2020]; Disponible en:
-https://pubmed.ncbi.nlm.nih.gov/32446324/?from_single_result=Detection+of+SARS-CoV-
-2+in+human+breastmilk&expanded_search_query=Detection+of+SARS-CoV-
-2+in+human+breastmilk
+https://pubmed.ncbi.nlm.nih.gov/32446324/?from_single_result=Detection+of+SARS-CoV2+in+human+breastmilk&expanded_search_query=Detection+of+SARS-CoV2+in+human+breastmilk
 51. Yeo C, Kaushal S, Yeo D. Enteric involvement of coronaviruses: is faecal-oral transmission of
 SARS-CoV-2 possible? Lancet Gastroenterol Hepatol. 19 de febrero de 2020;
 52. Holshue ML, DeBolt C, Lindquist S, Lofy KH, Wiesman J, Bruce H, et al. First Case of 2019
@@ -2838,14 +3531,18 @@ Novel Coronavirus in the United States. N Engl J Med [Internet]. 31 de enero de 
 53. Chen N, Zhou M, Dong X, Qu J, Gong F, Han Y, et al. Epidemiological and clinical
 characteristics of 99 cases of 2019 novel coronavirus pneumonia in Wuhan, China: a
 descriptive study. Lancet Lond Engl. 30 de enero de 2020;
-69Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
+69
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 54. Pan F, Xiao X, Guo J, Song Y, Li H, Patel DP, et al. No evidence of severe acute respiratory
 syndrome–coronavirus 2 in semen of males recovering from coronavirus disease 2019. Fertil
 Steril [Internet]. junio de 2020 [citado 24 de junio de 2020];113(6):1135-9. Disponible en:
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7164916/
-55. Paoli. Study of SARS-CoV-2 in semen and urine samples of a volunteer with positive naso-
-pharyngeal swab. J Endocrinol Invest [Internet]. 23 de abril de 2020 [citado 24 de junio de
+55. Paoli. Study of SARS-CoV-2 in semen and urine samples of a volunteer with positive nasopharyngeal swab. J Endocrinol Invest [Internet]. 23 de abril de 2020 [citado 24 de junio de
 2020];1-4. Disponible en: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7179792/
 56. Li, Jin, Bao, Zhao, Zhang. Clinical Characteristics and Results of Semen Tests Among Men With
 Coronavirus Disease 2019. JAMA Netw Open [Internet]. 7 de mayo de 2020 [citado 24 de
@@ -2853,8 +3550,7 @@ junio de 2020];3(5). Disponible en:
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7206502/
 57. World health Organization. Water, sanitation, hygiene and waste management for COVID-19
 [Internet]. 2020. Disponible en:
-https://apps.who.int/iris/bitstream/handle/10665/331305/WHO-2019-NcOV-IPC_WASH-
-2020.1-eng.pdf?sequence=1&isAllowed=y
+https://apps.who.int/iris/bitstream/handle/10665/331305/WHO-2019-NcOV-IPC_WASH2020.1-eng.pdf?sequence=1&isAllowed=y
 58. Stability of SARS-CoV-2 in different environmental conditions | medRxiv [Internet]. [citado 4
 de abril de 2020]. Disponible en:
 https://www.medrxiv.org/content/10.1101/2020.03.15.20036673v2
@@ -2867,8 +3563,7 @@ Disponible en: https://www.nejm.org/doi/10.1056/NEJMoa2002032
 61. Lauer SA, Grantz KH, Bi Q, Jones FK, Zheng Q, Meredith HR, et al. The Incubation Period of
 Coronavirus Disease 2019 (COVID-19) From Publicly Reported Confirmed Cases: Estimation
 and Application. Ann Intern Med. 10 de marzo de 2020;
-62. McAloon C, Collins Á, Hunt K, Barber A, Byrne AW, Butler F, et al. Incubation period of COVID-
-19: a rapid systematic review and meta-analysis of observational research. BMJ Open
+62. McAloon C, Collins Á, Hunt K, Barber A, Byrne AW, Butler F, et al. Incubation period of COVID19: a rapid systematic review and meta-analysis of observational research. BMJ Open
 [Internet]. 1 de agosto de 2020 [citado 5 de noviembre de 2020];10(8):e039652. Disponible
 en: https://bmjopen.bmj.com/content/10/8/e039652
 63. Zou L, Ruan F, Huang M, Liang L, Huang H, Hong Z, et al. SARS-CoV-2 Viral Load in Upper
@@ -2878,8 +3573,13 @@ patients in Nanjing, China. Lancet Infect Dis. 28 de febrero de 2020;
 65. Bai Y, Yao L, Wei T, Tian F, Jin D-Y, Chen L, et al. Presumed Asymptomatic Carrier Transmission
 of COVID-19. JAMA [Internet]. 21 de febrero de 2020 [citado 6 de marzo de 2020]; Disponible
 en: https://jamanetwork.com/journals/jama/fullarticle/2762028
-70Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
+70
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 66. Tong Z-D, Tang A, Li K-F, Li P, Wang H-L, Yi J-P, et al. Potential Presymptomatic Transmission
 of SARS-CoV-2, Zhejiang Province, China. Emerg Infect Dis [Internet]. 2020 [citado 17 de
 marzo de 2020];26. Disponible en: https://wwwnc.cdc.gov/eid/article/26/5/20-0198_article
@@ -2892,8 +3592,7 @@ COVID-19 outbreaks by isolation of cases and contacts. Lancet Glob Health. 28 de
 2020;
 69. Hayes G. Revealed: the long-term severe effects of Covid-19 that could go on for months. The
 Telegraph [Internet]. 21 de mayo de 2020 [citado 12 de junio de 2020]; Disponible en:
-https://www.telegraph.co.uk/global-health/science-and-disease/revealed-long-term-severe-
-effects-covid-19-can-go-months/
+https://www.telegraph.co.uk/global-health/science-and-disease/revealed-long-term-severeeffects-covid-19-can-go-months/
 70. Ma S, Zhang J, Zeng M, Yun Q, Guo W, Zheng Y, et al. Epidemiological parameters of
 coronavirus disease 2019: a pooled analysis of publicly reported individual data of 1155 cases
 from seven countries. medRxiv [Internet]. 24 de marzo de 2020 [citado 13 de abril de
@@ -2903,8 +3602,7 @@ https://www.medrxiv.org/content/10.1101/2020.03.21.20040329v1
 [Internet]. [citado 13 de abril de 2020]. Disponible en:
 https://www.medrxiv.org/content/10.1101/2020.03.03.20029983v1
 72. Li Q, Guan X, Wu P, Wang X, Zhou L, Tong Y, et al. Early Transmission Dynamics in Wuhan,
-China, of Novel Coronavirus-Infected Pneumonia. N Engl J Med. 26 de 2020;382(13):1199-
-207.
+China, of Novel Coronavirus-Infected Pneumonia. N Engl J Med. 26 de 2020;382(13):1199207.
 73. Bi Q, Wu Y, Mei S, Ye C, Zou X, Zhang Z, et al. Epidemiology and transmission of COVID-19 in
 391 cases and 1286 of their close contacts in Shenzhen, China: a retrospective cohort study.
 Lancet Infect Dis [Internet]. 27 de abril de 2020 [citado 28 de abril de 2020];0(0). Disponible
@@ -2920,8 +3618,12 @@ https://doi.org/10.1001/jama.2020.12603
 76. Long-term COVID-19 symptoms in a large unselected population | medRxiv [Internet]. [citado
 5 de noviembre de 2020]. Disponible en:
 https://www.medrxiv.org/content/10.1101/2020.10.07.20208702v2
-71Información científica-técnica. Enfermedad por coronavirus, COVID-19
+71
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 77. Burke RM. Active Monitoring of Persons Exposed to Patients with Confirmed COVID-19 —
 United States, January–February 2020. MMWR Morb Mortal Wkly Rep [Internet]. 2020
 [citado 4 de marzo de 2020];69. Disponible en:
@@ -2930,13 +3632,11 @@ https://www.cdc.gov/mmwr/volumes/69/wr/mm6909e1.htm
 Korea Centers for Disease Control and Prevention. Coronavirus Disease-19: Summary of 2,370
 Contact Investigations of the First 30 Cases in the Republic of Korea. Osong Public Health Res
 Perspect. abril de 2020;11(2):81-4.
-79. Liu Y, Eggo RM, Kucharski AJ. Secondary attack rate and superspreading events for SARS-CoV-
-2. Lancet Lond Engl. 27 de febrero de 2020;
+79. Liu Y, Eggo RM, Kucharski AJ. Secondary attack rate and superspreading events for SARS-CoV2. Lancet Lond Engl. 27 de febrero de 2020;
 80. Wu JT, Leung K, Leung GM. Nowcasting and forecasting the potential domestic and
 international spread of the 2019-nCoV outbreak originating in Wuhan, China: a modelling
 study. The Lancet [Internet]. 31 de enero de 2020 [citado 6 de febrero de 2020];0(0).
-Disponible en: https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30260-
-9/abstract
+Disponible en: https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)302609/abstract
 81. A study of SARS-CoV-2 evolution in Italy: from early days to secondary effects after social
 distancing | medRxiv [Internet]. [citado 16 de abril de 2020]. Disponible en:
 https://www.medrxiv.org/content/10.1101/2020.04.06.20055392v1
@@ -2961,8 +3661,12 @@ https://www.ncbi.nlm.nih.gov/pubmed/32244365
 superspreading potential of SARS-CoV-2 infections in Hong Kong. Nat Med [Internet]. 17 de
 septiembre de 2020 [citado 5 de noviembre de 2020];1-6. Disponible en:
 https://www.nature.com/articles/s41591-020-1092-0
-72Información científica-técnica. Enfermedad por coronavirus, COVID-19
+72
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 89. Endo A, Centre for the Mathematical Modelling of Infectious Diseases COVID-19 Working
 Group, Abbott S, Kucharski AJ, Funk S. Estimating the overdispersion in COVID-19
 transmission using outbreak sizes outside China. Wellcome Open Res [Internet]. 10 de julio de
@@ -2992,8 +3696,7 @@ of COVID-19. Lancet Infect Dis. 19 de marzo de 2020;
 junio de 2020]. Disponible en:
 https://www.medrxiv.org/content/10.1101/2020.06.10.20127837v1
 98. Kampen JJA van, Vijver DAMC van de, Fraaij PLA, Haagmans BL, Lamers MM, Okba N, et al.
-Shedding of infectious virus in hospitalized patients with coronavirus disease-2019 (COVID-
-19): duration and key determinants. medRxiv [Internet]. 9 de junio de 2020 [citado 19 de
+Shedding of infectious virus in hospitalized patients with coronavirus disease-2019 (COVID19): duration and key determinants. medRxiv [Internet]. 9 de junio de 2020 [citado 19 de
 junio de 2020];2020.06.08.20125310. Disponible en:
 https://www.medrxiv.org/content/10.1101/2020.06.08.20125310v1
 99. Gupta. Persistent viral shedding of SARS-CoV-2 in faeces - a rapid review. Colorectal disease
@@ -3002,8 +3705,12 @@ https://pubmed.ncbi.nlm.nih.gov/32418307/
 100. Xing Y, Mo P, Xiao Y, Zhao O, Zhang Y, Wang F. Post-discharge surveillance and positive
 virus detection in two medical staff recovered from coronavirus disease 2019 (COVID-19),
 China, January to February 2020. Eurosurveillance [Internet]. 12 de marzo de 2020 [citado 25
-73Información científica-técnica. Enfermedad por coronavirus, COVID-19
+73
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 de marzo de 2020];25(10):2000191. Disponible en:
 https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2020.25.10.2000191
 101. Lan L, Xu D, Ye G, Xia C, Wang S, Li Y, et al. Positive RT-PCR Test Results in Patients
@@ -3043,14 +3750,16 @@ Antibody Cocktail. Science (New York, NY) [Internet]. 15 de junio de 2020 [citad
 de 2020]; Disponible en:
 https://pubmed.ncbi.nlm.nih.gov/32540901/?from_single_result=Studies+in+humanized+mic
 e+and+convalescent+humans+yield+a+SARS-CoV-2+antibody+cocktail
-74Información científica-técnica. Enfermedad por coronavirus, COVID-19
+74
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 111. Long Q-X, Tang X-J, Shi Q-L, Li Q, Deng H-J, Yuan J, et al. Clinical and immunological
 assessment of asymptomatic SARS-CoV-2 infections. Nat Med [Internet]. 18 de junio de 2020
-[citado 30 de junio de 2020];1-5. Disponible en: https://www.nature.com/articles/s41591-
-020-0965-6
-112. Rogers TF, Zhao F, Huang D, Beutler N, Burns A, He W-T, et al. Isolation of potent SARS-
-CoV-2 neutralizing antibodies and protection from disease in a small animal model. Science.
+[citado 30 de junio de 2020];1-5. Disponible en: https://www.nature.com/articles/s41591020-0965-6
+112. Rogers TF, Zhao F, Huang D, Beutler N, Burns A, He W-T, et al. Isolation of potent SARSCoV-2 neutralizing antibodies and protection from disease in a small animal model. Science.
 15 de junio de 2020;
 113. Grifoni, Weiskopf, Ramirez, Mateus, Dan JM, Moderbacher, et al. Targets of T cell
 responses to SARS-CoV-2 coronavirus in humans with COVID-19 disease and unexposed
@@ -3058,8 +3767,7 @@ individuals. Cell [Internet]. 20 de mayo de 2020 [citado 25 de mayo de 2020]; Di
 http://www.sciencedirect.com/science/article/pii/S0092867420306103
 114. Braun J, Loyal L, Frentsch M, Wendisch D, Georg P, Kurth F, et al. SARS-CoV-2-reactive T
 cells in healthy donors and patients with COVID-19. Nature [Internet]. 29 de julio de 2020
-[citado 10 de agosto de 2020];1-8. Disponible en: https://www.nature.com/articles/s41586-
-020-2598-9
+[citado 10 de agosto de 2020];1-8. Disponible en: https://www.nature.com/articles/s41586020-2598-9
 115. Deng W, Bao L, Liu J, Xiao C, Liu J, Xue J, et al. Primary exposure to SARS-CoV-2 protects
 against reinfection in rhesus macaques. Science [Internet]. 14 de agosto de 2020 [citado 27
 de agosto de 2020];369(6505):818-23. Disponible en:
@@ -3085,8 +3793,12 @@ Cold. JAMA. 23 de enero de 2020;
 121. Galanti M, Birger R, Ud-Dean M, Filip I, Morita H, Comito D, et al. Longitudinal active
 sampling for respiratory viral infections across age groups. Influenza Other Respir Viruses.
 2019;13(3):226-32.
-75Información científica-técnica. Enfermedad por coronavirus, COVID-19
+75
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 122. Killerby ME, Biggs HM, Haynes A, Dahl RM, Mustaquim D, Gerber SI, et al. Human
 coronavirus circulation in the United States 2014-2017. J Clin Virol Off Publ Pan Am Soc Clin
 Virol. 2018;101:52-6.
@@ -3106,8 +3818,7 @@ http://www.sciencedirect.com/science/article/pii/S1567134820300447
 Emerging in China - Key Questions for Impact Assessment. N Engl J Med. 24 de enero de 2020;
 127. Zhou P, Yang X-L, Wang X-G, Hu B, Zhang L, Zhang W, et al. A pneumonia outbreak
 associated with a new coronavirus of probable bat origin. Nature. 3 de febrero de 2020;
-128. Yan R, Zhang Y, Li Y, Xia L, Guo Y, Zhou Q. Structural basis for the recognition of the SARS-
-CoV-2 by full-length human ACE2. Science [Internet]. 4 de marzo de 2020 [citado 5 de marzo
+128. Yan R, Zhang Y, Li Y, Xia L, Guo Y, Zhou Q. Structural basis for the recognition of the SARSCoV-2 by full-length human ACE2. Science [Internet]. 4 de marzo de 2020 [citado 5 de marzo
 de 2020]; Disponible en:
 https://science.sciencemag.org/content/early/2020/03/03/science.abb2762
 129. Wrapp D, Wang N, Corbett KS, Goldsmith JA, Hsieh C-L, Abiona O, et al. Cryo-EM structure
@@ -3116,18 +3827,20 @@ of the 2019-nCoV spike in the prefusion conformation. Science [Internet]. 19 de 
 https://science.sciencemag.org/content/early/2020/02/19/science.abb2507
 130. Gao Y, Yan L, Huang Y, Liu F, Zhao Y, Cao L, et al. Structure of the RNA-dependent RNA
 polymerase from COVID-19 virus. Science. 10 de abril de 2020;
-131. Zhang L, Lin D, Sun X, Curth U, Drosten C, Sauerhering L, et al. Crystal structure of SARS-
-CoV-2 main protease provides a basis for design of improved α-ketoamide inhibitors. Science.
+131. Zhang L, Lin D, Sun X, Curth U, Drosten C, Sauerhering L, et al. Crystal structure of SARSCoV-2 main protease provides a basis for design of improved α-ketoamide inhibitors. Science.
 24 de 2020;368(6489):409-12.
 132. GISAID - Initiative [Internet]. [citado 25 de agosto de 2020]. Disponible en:
 https://www.gisaid.org/
 133. Korber B, Fischer WM, Gnanakaran S, Yoon H, Theiler J, Abfalterer W, et al. Tracking
 Changes in SARS-CoV-2 Spike: Evidence that D614G Increases Infectivity of the COVID-19
-Virus. Cell [Internet]. 20 de agosto de 2020 [citado 25 de agosto de 2020];182(4):812-
-827.e19. Disponible en:
+Virus. Cell [Internet]. 20 de agosto de 2020 [citado 25 de agosto de 2020];182(4):812827.e19. Disponible en:
 http://www.sciencedirect.com/science/article/pii/S0092867420308205
-76Información científica-técnica. Enfermedad por coronavirus, COVID-19
+76
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 134. The D614G mutation in the SARS-CoV-2 spike protein reduces S1 shedding and increases
 infectivity | bioRxiv [Internet]. [citado 25 de agosto de 2020]. Disponible en:
 https://www.biorxiv.org/content/10.1101/2020.06.12.148726v1
@@ -3152,8 +3865,7 @@ fatality rate. Int J Clin Pract. 6 de mayo de 2020;e13525.
 141. D614G Spike Mutation Increases SARS CoV-2 Susceptibility to Neutralization. | medRxiv
 [Internet]. [citado 25 de agosto de 2020]. Disponible en:
 https://www.medrxiv.org/content/10.1101/2020.07.22.20159905v1
-142. Hu J, He C-L, Gao Q-Z, Zhang G-J, Cao X-X, Long Q-X, et al. The D614G mutation of SARS-
-CoV-2 spike protein enhances viral infectivity and decreases neutralization sensitivity to
+142. Hu J, He C-L, Gao Q-Z, Zhang G-J, Cao X-X, Long Q-X, et al. The D614G mutation of SARSCoV-2 spike protein enhances viral infectivity and decreases neutralization sensitivity to
 individual convalescent sera. bioRxiv [Internet]. 20 de junio de 2020 [citado 25 de agosto de
 2020];2020.06.20.161323. Disponible en:
 https://www.biorxiv.org/content/10.1101/2020.06.20.161323v1
@@ -3165,12 +3877,17 @@ assays in a real-time RT-PCR SARS-CoV-2 panel can mitigate the risk of loss of s
 new genomic variants during the COVID-19 outbreak. Int J Infect Dis [Internet]. agosto de
 2020 [citado 25 de agosto de 2020];97:225-9. Disponible en:
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7289722/
-145. Osório NS, Correia-Neves M. Implication of SARS-CoV-2 evolution in the sensitivity of RT-
-qPCR diagnostic assays. Lancet Infect Dis. 28 de mayo de 2020;
-77Información científica-técnica. Enfermedad por coronavirus, COVID-19
+145. Osório NS, Correia-Neves M. Implication of SARS-CoV-2 evolution in the sensitivity of RTqPCR diagnostic assays. Lancet Infect Dis. 28 de mayo de 2020;
+77
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 146.
+
 12 de noviembre 2020
+
 Nextstrain [Internet]. [citado 25 de agosto de 2020]. Disponible en: https://nextstrain.org/
+
 147. Comas I. Proyecto COV20/00140 Una perspectiva genómica de la pandemia: lecciones en
 salud pública [Internet]. Centro Superior de Investigaciones Científicas; [citado 27 de octubre
 de 2020]. Disponible en: https://digital.csic.es/handle/10261/221802
@@ -3188,8 +3905,7 @@ infarction. Circ Heart Fail. septiembre de 2009;2(5):446-55.
 152. Imai Y, Kuba K, Rao S, Huan Y, Guo F, Guan B, et al. Angiotensin-converting enzyme 2
 protects from severe acute lung failure. Nature. 7 de julio de 2005;436(7047):112-6.
 153. KEEG. Renin-angiotensin system - Homo sapiens (human) [Internet]. Disponible en:
-https://www.genome.jp/kegg-
-bin/show_pathway?select_scale=0.82&query=&map=hsa04614&scale=0.82&orgs=&auto_im
+https://www.genome.jp/keggbin/show_pathway?select_scale=0.82&query=&map=hsa04614&scale=0.82&orgs=&auto_im
 age=&show_description=hide&multi_query=
 154. Liu Y, Yang Y, Zhang C, Huang F, Wang F, Yuan J, et al. Clinical and biochemical indexes
 from 2019-nCoV infected patients linked to viral loads and lung injury. Sci China Life Sci.
@@ -3208,8 +3924,12 @@ review of immune changes in patients with viral pneumonia. Emerg Microbes Infect
 diciembre de 2020;9(1):727-32.
 159. Li G, Fan Y, Lai Y, Han T, Li Z, Zhou P, et al. Coronavirus infections and immune responses. J
 Med Virol. 2020;92(4):424-32.
-78Información científica-técnica. Enfermedad por coronavirus, COVID-19
+78
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 160. Zhou Y, Fu B, Zheng X, Wang D, Zhao C, Qi Y, et al. Aberrant pathogenic GM-CSF+ T cells
 and inflammatory CD14+CD16+ monocytes in severe pulmonary syndrome patients of a new
 coronavirus. bioRxiv [Internet]. 20 de febrero de 2020 [citado 17 de abril de
@@ -3220,8 +3940,7 @@ https://www.biorxiv.org/content/10.1101/2020.02.12.945576v1
 162. Chen L, Liu HG, Liu W, Liu J, Liu K, Shang J, et al. [Analysis of clinical features of 29 patients
 with 2019 novel coronavirus pneumonia]. Zhonghua Jie He He Hu Xi Za Zhi Zhonghua Jiehe He
 Huxi Zazhi Chin J Tuberc Respir Dis. 12 de marzo de 2020;43(3):203-8.
-163. Conti P, Ronconi G, Caraffa A, Gallenga C, Ross R, Frydas I, et al. Induction of pro-
-inflammatory cytokines (IL-1 and IL-6) and lung inflammation by Coronavirus-19 (COVI-19 or
+163. Conti P, Ronconi G, Caraffa A, Gallenga C, Ross R, Frydas I, et al. Induction of proinflammatory cytokines (IL-1 and IL-6) and lung inflammation by Coronavirus-19 (COVI-19 or
 SARS-CoV-2): anti-inflammatory strategies. J Biol Regul Homeost Agents. 14 de 2020;34(2).
 164. van der Poll T, van de Veerdonk FL, Scicluna BP, Netea MG. The immunopathology of
 sepsis and potential therapeutic targets. Nat Rev Immunol. julio de 2017;17(7):407-20.
@@ -3248,8 +3967,12 @@ pneumonia induced by SARS-CoV2 and non-SARS-CoV2. J Thromb Thrombolysis. 3 de ab
 cytokine storm. Immunotherapy. 2016;8(8):959-70.
 173. Jiang H, Liu L, Guo T, Wu Y, Ai L, Deng J, et al. Improving the safety of CAR-T cell therapy
 by controlling CRS-related coagulopathy. Ann Hematol. julio de 2019;98(7):1721-32.
-79Información científica-técnica. Enfermedad por coronavirus, COVID-19
+79
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 174. Han H, Yang L, Liu R, Liu F, Wu K-L, Li J, et al. Prominent changes in blood coagulation of
 patients with SARS-CoV-2 infection. Clin Chem Lab Med. 16 de marzo de 2020;
 175. Wang J, Tang K, Feng K, Lv W. High Temperature and High Humidity Reduce the
@@ -3267,8 +3990,7 @@ COVID-19, for cases reported globally up to 29th February 2020 | medRxiv [Intern
 https://www.medrxiv.org/content/10.1101/2020.03.18.20036731v1.article-info
 178. Seasonality of SARS-CoV-2: Will COVID-19 go away on its own in warmer weather? –
 Center for Communicable Disease Dynamics [Internet]. [citado 25 de marzo de 2020].
-Disponible en: https://ccdd.hsph.harvard.edu/will-covid-19-go-away-on-its-own-in-warmer-
-weather/
+Disponible en: https://ccdd.hsph.harvard.edu/will-covid-19-go-away-on-its-own-in-warmerweather/
 179. The Novel Coronavirus Pneumonia Emergency Response Epidemiology Team. Vital
 Surveillances: The Epidemiological Characteristics of an Outbreak of 2019 Novel Coronavirus
 Diseases (COVID-19). China CDC Wkly [Internet]. febrero de 2020; Disponible en:
@@ -3276,8 +3998,7 @@ http://weekly.chinacdc.cn/en/article/id/e53946e2-c6c4-41e9-9a9b-fea8db1a8f51
 180. Pan X, Chen D, Xia Y, Wu X, Li T, Ou X, et al. Asymptomatic cases in a family cluster with
 SARS-CoV-2 infection. Lancet Infect Dis. 19 de febrero de 2020;
 181. Field Briefing: Diamond Princess COVID-19 Cases, 20 Feb Update [Internet]. [citado 4 de
-marzo de 2020]. Disponible en: https://www.niid.go.jp/niid/en/2019-ncov-e/9417-covid-dp-
-fe-02.html
+marzo de 2020]. Disponible en: https://www.niid.go.jp/niid/en/2019-ncov-e/9417-covid-dpfe-02.html
 182. Mizumoto K, Kagaya K, Zarebski A, Chowell G. Estimating the asymptomatic proportion of
 coronavirus disease 2019 (COVID-19) cases on board the Diamond Princess cruise ship,
 Yokohama, Japan, 2020. Eurosurveillance [Internet]. 12 de marzo de 2020 [citado 16 de
@@ -3285,24 +4006,24 @@ marzo de 2020];25(10):2000180. Disponible en:
 https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2020.25.10.2000180
 183. Estudio ENE-COVID19: segunda ronda estudio nacional de sero-epidemiología de la
 infección por SARS-CoV-2 en España. Informe preliminar. [Internet]. 2020 jun. Disponible en:
-https://www.mscbs.gob.es/ciudadanos/ene-covid/docs/ESTUDIO_ENE-
-COVID19_SEGUNDA_RONDA_INFORME_PRELIMINAR.pdf
+https://www.mscbs.gob.es/ciudadanos/ene-covid/docs/ESTUDIO_ENECOVID19_SEGUNDA_RONDA_INFORME_PRELIMINAR.pdf
 184. Hu Z, Song C, Xu C, Jin G, Chen Y, Xu X, et al. Clinical characteristics of 24 asymptomatic
 infections with COVID-19 screened among close contacts in Nanjing, China. Sci China Life Sci.
 4 de marzo de 2020;
-80Información científica-técnica. Enfermedad por coronavirus, COVID-19
+80
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 185. Coronavirus disease 2019 (COVID-19) pandemic: increased transmission in the EU/EEA
 and the UK – seventh update [Internet]. European Center for Disease Control and Prevention;
-2020 mar. Disponible en: https://www.ecdc.europa.eu/sites/default/files/documents/RRA-
-seventh-update-Outbreak-of-coronavirus-disease-COVID-19.pdf
+2020 mar. Disponible en: https://www.ecdc.europa.eu/sites/default/files/documents/RRAseventh-update-Outbreak-of-coronavirus-disease-COVID-19.pdf
 186. Mao L, Jin H, Wang M, Hu Y, Chen S, He Q, et al. Neurologic Manifestations of Hospitalized
 Patients With Coronavirus Disease 2019 in Wuhan, China. JAMA Neurol [Internet]. junio de
 2020 [citado 1 de julio de 2020];77(6):1-9. Disponible en:
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7149362/
-187. Cao-Lormeau V-M, Blake A, Mons S, Lastere S, Roche C, Vanhomwegen J, et al. Guillain-
-Barre Syndrome outbreak associated with Zika virus infection in French Polynesia: a case-
-control study. Lancet Lond Engl. 29 de febrero de 2016;
+187. Cao-Lormeau V-M, Blake A, Mons S, Lastere S, Roche C, Vanhomwegen J, et al. GuillainBarre Syndrome outbreak associated with Zika virus infection in French Polynesia: a casecontrol study. Lancet Lond Engl. 29 de febrero de 2016;
 188. Zheng Y-Y, Ma Y-T, Zhang J-Y, Xie X. COVID-19 and the cardiovascular system. Nat Rev
 Cardiol [Internet]. 5 de marzo de 2020 [citado 16 de marzo de 2020];1-2. Disponible en:
 https://www.nature.com/articles/s41569-020-0360-5
@@ -3311,8 +4032,7 @@ cross-sectional study | medRxiv [Internet]. [citado 25 de marzo de 2020]. Dispon
 https://www.medrxiv.org/content/10.1101/2020.03.12.20034678v1
 190. Lechien JR, Chiesa-Estomba CM, De Siati DR, Horoi M, Le Bon SD, Rodriguez A, et al.
 Olfactory and gustatory dysfunctions as a clinical presentation of mild-to-moderate forms of
-the coronavirus disease (COVID-19): a multicenter European study. Eur Arch Oto-Rhino-
-Laryngol Off J Eur Fed Oto-Rhino-Laryngol Soc EUFOS Affil Ger Soc Oto-Rhino-Laryngol - Head
+the coronavirus disease (COVID-19): a multicenter European study. Eur Arch Oto-RhinoLaryngol Off J Eur Fed Oto-Rhino-Laryngol Soc EUFOS Affil Ger Soc Oto-Rhino-Laryngol - Head
 Neck Surg. 6 de abril de 2020;
 191. Menni C, Valdes AM, Freidin MB, Sudre CH, Nguyen LH, Drew DA, et al. Real-time tracking
 of self-reported symptoms to predict potential COVID-19. Nat Med. 11 de mayo de 2020;
@@ -3325,15 +4045,19 @@ https://www.medrxiv.org/content/10.1101/2020.04.27.20076778v1
 194. Yang X, Yu Y, Xu J, Shu H, Xia J, Liu H, et al. Clinical course and outcomes of critically ill
 patients with SARS-CoV-2 pneumonia in Wuhan, China: a single-centered, retrospective,
 observational study. Lancet Respir Med [Internet]. 24 de febrero de 2020 [citado 6 de marzo
-de 2020];0(0). Disponible en: https://www.thelancet.com/journals/lanres/article/PIIS2213-
-2600(20)30079-5/abstract
+de 2020];0(0). Disponible en: https://www.thelancet.com/journals/lanres/article/PIIS22132600(20)30079-5/abstract
 195. Chan JF-W, Yuan S, Kok K-H, To KK-W, Chu H, Yang J, et al. A familial cluster of pneumonia
 associated with the 2019 novel coronavirus indicating person-to-person transmission: a study
 of a family cluster. Lancet Lond Engl. 24 de enero de 2020;
 196.
+
 Informe sobre la situación de COVID-19 en España. CNE. SiVies. CNM (ISCIII); 2020 mar.
-81Información científica-técnica. Enfermedad por coronavirus, COVID-19
+81
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 197. Clinical characteristics of patients hospitalized with COVID-19 in Spain: results from the
 SEMI-COVID-19 Network. | medRxiv [Internet]. [citado 29 de mayo de 2020]. Disponible en:
 https://www.medrxiv.org/content/10.1101/2020.05.24.20111971v1.article-metrics
@@ -3359,11 +4083,10 @@ Haemost JTH. 27 de marzo de 2020;
 http://ghdx.healthdata.org/gbd-results-tool
 205. Banegas JR, Graciani A, de la Cruz-Troca JJ, León-Muñoz LM, Guallar-Castillón P, Coca A,
 et al. Achievement of cardiometabolic goals in aware hypertensive patients in Spain: a
-nationwide population-based study. Hypertens Dallas Tex 1979. octubre de 2012;60(4):898-
-905.
+nationwide population-based study. Hypertens Dallas Tex 1979. octubre de 2012;60(4):898905.
 206. Instituto Nacional de Estadística. Demografía y Población [Internet]. Disponible en:
 https://www.ine.es/dyngs/INEbase/es/categoria.htm?c=Estadistica_P&cid=1254734710990
-207. Morales Suárez-Varela M, Mohino Chocano M a C, Soler Quiles C, Llopis-Morales A,
+207. Morales Suárez-Varela M, Mohino Chocano Ma C, Soler Quiles C, Llopis-Morales A,
 Peraita-Costa I, Llopis-González A. [Prevalence of arterial hypertension and its association
 with anthropometry and diet in children (6 to 9 years old): ANIVA study]. Nutr Hosp. 7 de
 marzo de 2019;36(1):133-41.
@@ -3372,8 +4095,12 @@ Vidal Pérez R, et al. [Prevalence of obesity and cardiovascular comorbidity ass
 patients included in the IBERICAN study]. Semergen. agosto de 2019;45(5):311-22.
 209. Red Nacional de Vigilancia Epidemiológica. Situación de COVID-19 en España Informe 21
 [Internet]. 2020 abr. Disponible en:
-82Información científica-técnica. Enfermedad por coronavirus, COVID-19
+82
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 https://www.isciii.es/QueHacemos/Servicios/VigilanciaSaludPublicaRENAVE/EnfermedadesTr
 ansmisibles/Paginas/InformesCOVID-19.aspx
 210. Red Nacional de Vigilancia Epidemiológica. Situación de COVID-19 en España. Informe 13
@@ -3383,9 +4110,7 @@ ansmisibles/Paginas/InformesCOVID-19.aspx
 211. Red Nacional de Vigilancia Epidemiológica. Situación de COVID-19 en España. Informe 33
 [Internet]. 2020 may. Disponible en:
 https://www.isciii.es/QueHacemos/Servicios/VigilanciaSaludPublicaRENAVE/EnfermedadesTr
-ansmisibles/Documents/INFORMES/Informes%20COVID-
-19/Informe%20n%C2%BA%2033.%20An%C3%A1lisis%20de%20los%20casos%20de%20COVID
--
+ansmisibles/Documents/INFORMES/Informes%20COVID19/Informe%20n%C2%BA%2033.%20An%C3%A1lisis%20de%20los%20casos%20de%20COVID
 19%20hasta%20el%2010%20de%20mayo%20en%20Espa%C3%B1a%20a%2029%20de%20ma
 yo%20de%202020.pdf
 212. Karagiannidis C, Mostert C, Hentschker C, Voshaar T, Malzahn J, Schillinger G, et al. Case
@@ -3403,7 +4128,7 @@ in Japan. medRxiv [Internet]. 20 de marzo de 2020 [citado 4 de abril de
 2020];2020.03.18.20038125. Disponible en:
 https://www.medrxiv.org/content/10.1101/2020.03.18.20038125v1
 216. Ma K-L, Liu Z-H, Cao C, Liu M-K, Liao J, Zou J-B, et al. COVID-19 Myocarditis and Severity
-Factors: An Adult Cohort Study. medRxiv [Internet]. 23 de marzo de 2020 [citado 4 de abril
+Factors： An Adult Cohort Study. medRxiv [Internet]. 23 de marzo de 2020 [citado 4 de abril
 de 2020];2020.03.19.20034124. Disponible en:
 https://www.medrxiv.org/content/10.1101/2020.03.19.20034124v1
 217. Ruan Q, Yang K, Wang W, Jiang L, Song J. Clinical predictors of mortality due to COVID-19
@@ -3413,8 +4138,13 @@ marzo de 2020;
 prognostic factor of patients with COVID-19: a systematic review and meta-analysis. medRxiv
 [Internet]. 20 de marzo de 2020 [citado 4 de abril de 2020];2020.03.17.20037572. Disponible
 en: https://www.medrxiv.org/content/10.1101/2020.03.17.20037572v1
-83Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
+83
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 219. Arentz. Characteristics and Outcomes of 21 Critically Ill Patients With COVID-19 in
 Washington State [Internet]. JAMA. 2020 [citado 1 de julio de 2020]. Disponible en:
 https://pubmed.ncbi.nlm.nih.gov/32191259/
@@ -3451,19 +4181,19 @@ en: https://www.ecdc.europa.eu/en/covid-19-pandemic
 Review to Support COVID-19 Antimicrobial Prescribing [Internet]. Clinical infectious diseases :
 an official publication of the Infectious Diseases Society of America. 2020 [citado 1 de julio de
 2020]. Disponible en:
-https://pubmed.ncbi.nlm.nih.gov/32358954/?from_single_result=Bacterial+and+fungal+co-
-infection+in+individuals+with+coronavirus%3A+A+rapid+review+to+support+COVID-
-19+antimicrobial+prescribing.
-84Información científica-técnica. Enfermedad por coronavirus, COVID-19
+https://pubmed.ncbi.nlm.nih.gov/32358954/?from_single_result=Bacterial+and+fungal+coinfection+in+individuals+with+coronavirus%3A+A+rapid+review+to+support+COVID19+antimicrobial+prescribing.
+
+84
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
-229. Koehler. COVID-19 Associated Pulmonary Aspergillosis. Mycoses. junio de 2020;63(6):528-
-34.
+
+229. Koehler. COVID-19 Associated Pulmonary Aspergillosis. Mycoses. junio de 2020;63(6):52834.
 230. Red Nacional de Vigilancia Epidemiológica. Informe sobre la situación de COVID-19 en
 España. Informe 14 [Internet]. Centro Nacional de Epidemiología; 2020 mar. Disponible en:
 https://www.isciii.es/QueHacemos/Servicios/VigilanciaSaludPublicaRENAVE/EnfermedadesTr
-ansmisibles/Documents/INFORMES/Informes%20COVID-
-19/Informe%20n%C2%BA%2014.%20Situaci%C3%B3n%20de%20COVID-
-19%20en%20Espa%C3%B1a%20a%2024%20marzo%20de%202020.pdf
+ansmisibles/Documents/INFORMES/Informes%20COVID19/Informe%20n%C2%BA%2014.%20Situaci%C3%B3n%20de%20COVID19%20en%20Espa%C3%B1a%20a%2024%20marzo%20de%202020.pdf
 231. Richardson S, Hirsch JS, Narasimhan M, Crawford JM, McGinn T, Davidson KW, et al.
 Presenting Characteristics, Comorbidities, and Outcomes Among 5700 Patients Hospitalized
 With COVID-19 in the New York City Area. JAMA. 22 de abril de 2020;323(20):2052-9.
@@ -3486,8 +4216,7 @@ Event in South America. [Internet]. Rochester, NY: Social Science Research Netwo
 https://papers.ssrn.com/abstract=3686174
 236. Threat Assessment Brief: Reinfection with SARS-CoV-2: considerations for public health
 response [Internet]. European Centre for Disease Prevention and Control. 2020 [citado 5 de
-noviembre de 2020]. Disponible en: https://www.ecdc.europa.eu/en/publications-
-data/threat-assessment-brief-reinfection-sars-cov-2
+noviembre de 2020]. Disponible en: https://www.ecdc.europa.eu/en/publicationsdata/threat-assessment-brief-reinfection-sars-cov-2
 237. What reinfections mean for COVID-19? [citado 5 de noviembre de 2020]; Disponible en:
 https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(20)30783-0/fulltext
 238. Lansbury L, Lim B, Baskaran V, Lim WS. Co-infections in people with COVID-19: a
@@ -3495,8 +4224,12 @@ systematic review and meta-analysis. J Infect [Internet]. 2020 [citado 26 de oct
 2020];266-75. Disponible en: https://dx.doi.org/10.1016/j.jinf.2020.05.046
 239. Davis B, Rothrock AN, Swetland S, Andris H, Davis P, Rothrock SG. Viral and atypical
 respiratory co‐infections in COVID‐19: a systematic review and meta‐analysis. J Am Coll Emerg
-85Información científica-técnica. Enfermedad por coronavirus, COVID-19
+85
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 Physicians Open [Internet]. 19 de junio de 2020 [citado 26 de octubre de 2020]; Disponible
 en: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7323310/
 240. Olsen SJ. Decreased Influenza Activity During the COVID-19 Pandemic — United States,
@@ -3508,8 +4241,7 @@ with SARS-CoV-2 and the influenza virus in Wuhan, China. Int J Infect Dis [Inter
 de 2020 [citado 27 de octubre de 2020];96:683-7. Disponible en:
 https://www.ijidonline.com/article/S1201-9712(20)30375-1/abstract
 242. Yue H, Zhang M, Xing L, Wang K, Rao X, Liu H, et al. The epidemiology and clinical
-characteristics of co-infection of SARS-CoV-2 and influenza viruses in patients during COVID-
-19 outbreak. J Med Virol [Internet]. 2020 [citado 27 de octubre de 2020];92(11):2870-3.
+characteristics of co-infection of SARS-CoV-2 and influenza viruses in patients during COVID19 outbreak. J Med Virol [Internet]. 2020 [citado 27 de octubre de 2020];92(11):2870-3.
 Disponible en: https://onlinelibrary.wiley.com/doi/abs/10.1002/jmv.26163
 243. Yelin D, Wirtheim E, Vetter P, Kalil AC, Bruchfeld J, Runold M, et al. Long-term
 consequences of COVID-19: research needs. Lancet Infect Dis [Internet]. octubre de
@@ -3534,8 +4266,13 @@ coronavirus disease (COVID-19) after hospital discharge. J X-Ray Sci Technol [In
 249. Yu M, Liu Y, Xu D, Zhang R, Lan L, Xu H. Prediction of the Development of Pulmonary
 Fibrosis Using Serial Thin-Section CT and Clinical Features in Patients Discharged after
 Treatment for COVID-19 Pneumonia. Korean J Radiol. junio de 2020;21(6):746-55.
-86Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
+86
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 250. Mo X, Jian W, Su Z, Chen M, Peng H, Peng P, et al. Abnormal pulmonary function in
 COVID-19 patients at time of hospital discharge. Eur Respir J [Internet]. 18 de junio de
 2020;55(6):2001217. Disponible en: https://pubmed.ncbi.nlm.nih.gov/32381497
@@ -3554,11 +4291,9 @@ http://europepmc.org/abstract/MED/32592702
 255. Lu Y, Li X, Geng D, Mei N, Wu P-Y, Huang C-C, et al. Cerebral Micro-Structural Changes in
 COVID-19 Patients - An MRI-based 3-month Follow-up Study. EClinicalMedicine [Internet]. 3
 de agosto de 2020;25:100484-100484. Disponible en:
-https://www.unboundmedicine.com/medline/citation/32838240/Cerebral_Micro-
-Structural_Changes_in_COVID-19_Patients_-_An_MRI-based_3-month_Follow-up_Study.
+https://www.unboundmedicine.com/medline/citation/32838240/Cerebral_MicroStructural_Changes_in_COVID-19_Patients_-_An_MRI-based_3-month_Follow-up_Study.
 256. Mitrani RD, Dabas N, Goldberger JJ. COVID-19 cardiac injury: Implications for long-term
-surveillance and outcomes in survivors. Heart Rhythm [Internet]. 26 de junio de 2020;S1547-
-5271(20)30625-1. Disponible en: https://pubmed.ncbi.nlm.nih.gov/32599178
+surveillance and outcomes in survivors. Heart Rhythm [Internet]. 26 de junio de 2020;S15475271(20)30625-1. Disponible en: https://pubmed.ncbi.nlm.nih.gov/32599178
 257. Xiong Q, Xu M, Li J, Liu Y, Zhang J, Xu Y, et al. Clinical sequelae of COVID-19 survivors in
 Wuhan, China: a single-centre longitudinal study. Clin Microbiol Infect [Internet]. 23 de
 septiembre de 2020; Disponible en:
@@ -3574,8 +4309,13 @@ de octubre de 2020]; Disponible en: https://doi.org/10.1001/jamacardio.2020.3557
 health: From biological mechanisms to social consequences. Prog Neuropsychopharmacol
 Biol Psychiatry [Internet]. 10 de enero de 2021;104:110046-110046. Disponible en:
 https://pubmed.ncbi.nlm.nih.gov/32730915
-87Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
+87
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 261. Zhou F, Yu T, Du R, Fan G, Liu Y, Liu Z, et al. Clinical course and risk factors for mortality of
 adult inpatients with COVID-19 in Wuhan, China: a retrospective cohort study. Lancet Lond
 Engl. 11 de marzo de 2020;
@@ -3586,16 +4326,14 @@ mayo de 2005 [citado 17 de marzo de 2020];111(20):2605-10. Disponible en:
 https://www.ahajournals.org/doi/full/10.1161/CIRCULATIONAHA.104.510461
 263. Moskowitz DW, Johnson FE. The central role of angiotensin I-converting enzyme in
 vertebrate pathophysiology. [Internet]. undefined. 2004 [citado 16 de marzo de 2020].
-Disponible en: /paper/The-central-role-of-angiotensin-I-converting-enzyme-Moskowitz-
-Johnson/11ad6b23adfb8f141983dccc9883ff6de060b2cd
+Disponible en: /paper/The-central-role-of-angiotensin-I-converting-enzyme-MoskowitzJohnson/11ad6b23adfb8f141983dccc9883ff6de060b2cd
 264. WONG CK, LAM CWK, WU AKL, IP WK, LEE NLS, CHAN IHS, et al. Plasma inflammatory
 cytokines and chemokines in severe acute respiratory syndrome. Clin Exp Immunol [Internet].
 abril de 2004;136(1):95-103. Disponible en:
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1808997/
 265. Wu Q, Zhou L, Sun X, Yan Z, Hu C, Wu J, et al. Altered Lipid Metabolism in Recovered SARS
 Patients Twelve Years after Infection. Sci Rep [Internet]. 22 de agosto de 2017 [citado 16 de
-marzo de 2020];7(1):1-12. Disponible en: https://www.nature.com/articles/s41598-017-
-09536-z
+marzo de 2020];7(1):1-12. Disponible en: https://www.nature.com/articles/s41598-01709536-z
 266. Fang L, Karakiulakis G, Roth M. Are patients with hypertension and diabetes mellitus at
 increased risk for COVID-19 infection? Lancet Respir Med. 11 de marzo de 2020;
 267. Patel VB, Parajuli N, Oudit GY. Role of angiotensin-converting enzyme 2 (ACE2) in diabetic
@@ -3615,8 +4353,12 @@ coronavirus (2019-nCoV) outbreak: A new challenge. J Glob Antimicrob Resist. 7 d
 272. Systematic review and meta-analysis of predictive symptoms and comorbidities for severe
 COVID-19 infection | medRxiv [Internet]. [citado 7 de abril de 2020]. Disponible en:
 https://www.medrxiv.org/content/10.1101/2020.03.15.20035360v1
-88Información científica-técnica. Enfermedad por coronavirus, COVID-19
+88
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 273. Guan W, Liang W, Zhao Y, Liang H, Chen Z, Li Y, et al. Comorbidity and its impact on 1590
 patients with Covid-19 in China: A Nationwide Analysis. Eur Respir J [Internet]. 26 de marzo
 de 2020 [citado 7 de abril de 2020]; Disponible en:
@@ -3655,16 +4397,19 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7102646/
 of COVID-19 in HIV-infected individuals: a single-centre, prospective cohort. Lancet HIV
 [Internet]. 28 de mayo de 2020 [citado 1 de julio de 2020];0(0). Disponible en:
 https://www.thelancet.com/journals/lanhiv/article/PIIS2352-3018(20)30164-8/abstract
-89Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
+89
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 285. Royal College of Obstetricians and Gynaecologist. Coronavirus COVID-19 infection in
 pregnacy. Information for healthcare professionals. Version 7 [Internet]. 2020. Disponible en:
-https://www.rcog.org.uk/globalassets/documents/guidelines/2020-04-09-coronavirus-covid-
-19-infection-in-pregnancy.pdf
+https://www.rcog.org.uk/globalassets/documents/guidelines/2020-04-09-coronavirus-covid19-infection-in-pregnancy.pdf
 286. Chen Y, Peng H, Wang L, Zhao Y, Zeng L, Gao H, et al. Infants Born to Mothers With a New
 Coronavirus (COVID-19). Front Pediatr. 2020;8:104.
-287. Breslin N, Baptiste C, Gyamfi-Bannerman C, Miller R, Martinez R, Bernstein K, et al. COVID-
-19 infection among asymptomatic and symptomatic pregnant women: Two weeks of
+287. Breslin N, Baptiste C, Gyamfi-Bannerman C, Miller R, Martinez R, Bernstein K, et al. COVID19 infection among asymptomatic and symptomatic pregnant women: Two weeks of
 confirmed presentations to an affiliated pair of New York City hospitals. Am J Obstet Gynecol
 MFM. 9 de abril de 2020;100118.
 288. Sutton D, Fuchs K, D’Alton M, Goffman D. Universal Screening for SARS-CoV-2 in Women
@@ -3695,8 +4440,13 @@ expression of ACE2, the receptor of 2019-nCov. medRxiv [Internet]. 28 de febrero
 https://www.medrxiv.org/content/10.1101/2020.02.05.20020107v3
 295. Vardavas CI, Nikitara K. COVID-19 and smoking: A systematic review of the evidence. Tob
 Induc Dis. 2020;18:20.
-90Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
+90
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 296. Liu W, Tao Z-W, Lei W, Ming-Li Y, Kui L, Ling Z, et al. Analysis of factors associated with
 disease outcomes in hospitalized patients with 2019 novel coronavirus disease. Chin Med J
 (Engl). 28 de febrero de 2020;
@@ -3721,14 +4471,11 @@ Infect Dis Soc Am. 9 de abril de 2020;
 prevalence of obesity in severe acute respiratory syndrome coronavirus-2 (SARS-CoV-2)
 requiring invasive mechanical ventilation. Obes Silver Spring Md. 9 de abril de 2020;
 304. INARC. Report on 2249 patients critically ill with COVID-19 [Internet]. [citado 14 de abril
-de 2020]. Disponible en: https://www.icnarc.org/About/Latest-News/2020/04/04/Report-On-
-2249-Patients-Critically-Ill-With-Covid-19
+de 2020]. Disponible en: https://www.icnarc.org/About/Latest-News/2020/04/04/Report-On2249-Patients-Critically-Ill-With-Covid-19
 305. Red Nacional de Vigilancia Epidemiológica. Situación de COVID-19 en España. Informe 22
 [Internet]. 2020 abr. Disponible en:
 https://www.isciii.es/QueHacemos/Servicios/VigilanciaSaludPublicaRENAVE/EnfermedadesTr
-ansmisibles/Documents/INFORMES/Informes%20COVID-
-19/Informe%20n%C2%BA%2022.%20Situaci%C3%B3n%20de%20COVID-
-19%20en%20Espa%C3%B1a%20a%2013%20de%20abril%20de%202020.pdf
+ansmisibles/Documents/INFORMES/Informes%20COVID19/Informe%20n%C2%BA%2022.%20Situaci%C3%B3n%20de%20COVID19%20en%20Espa%C3%B1a%20a%2013%20de%20abril%20de%202020.pdf
 306. Zimmermann P, Curtis N. Coronavirus Infections in Children Including COVID-19: An
 Overview of the Epidemiology, Clinical Features, Diagnosis, Treatment and Prevention
 Options in Children. Pediatr Infect Dis J. 2020;39(5):355-68.
@@ -3736,11 +4483,14 @@ Options in Children. Pediatr Infect Dis J. 2020;39(5):355-68.
 transmission of COVID-19. Clin Infect Dis Off Publ Infect Dis Soc Am. 17 de abril de 2020;
 308. Jing Q-L, Liu M-J, Zhang Z-B, Fang L-Q, Yuan J, Zhang A-R, et al. Household secondary
 attack rate of COVID-19 and associated determinants in Guangzhou, China: a retrospective
-91Información científica-técnica. Enfermedad por coronavirus, COVID-19
+91
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 cohort study. Lancet Infect Dis [Internet]. 17 de junio de 2020 [citado 3 de agosto de
-2020];0(0). Disponible en: https://www.thelancet.com/journals/laninf/article/PIIS1473-
-3099(20)30471-0/abstract
+2020];0(0). Disponible en: https://www.thelancet.com/journals/laninf/article/PIIS14733099(20)30471-0/abstract
 309. Gudbjartsson DF, Helgason A, Jonsson H, Magnusson OT, Melsted P, Norddahl GL, et al.
 Spread of SARS-CoV-2 in the Icelandic Population. N Engl J Med. 14 de abril de 2020;
 310. Bi Q, Wu Y, Mei S, Ye C, Zou X, Zhang Z, et al. Epidemiology and Transmission of COVID-19
@@ -3775,11 +4525,16 @@ de 2020;
 Lancet Psychiatry. 2020;7(4):e21.
 320. Seminog OO, Goldacre MJ. Risk of pneumonia and pneumococcal disease in people with
 severe mental illness: English record linkage studies. Thorax. febrero de 2013;68(2):171-6.
-92Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
+92
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 321. Collective infections of coronavirus among 50 patients and 30 health workers in one
 psychiatric hospital in Wuhan (título original en chino:
-武汉精神卫生中心院内感染,约80名医患确诊新冠肺炎--上观) [Internet]. [citado 12 de
+武汉精神卫生中心院内感染，约80名医患确诊新冠肺炎--上观) [Internet]. [citado 12 de
 mayo de 2020]. Disponible en: https://www.jfdaily.com/news/detail?id=208584
 322. Stuckler D, Basu S, Suhrcke M, Coutts A, McKee M. The public health effect of economic
 crises and alternative policy responses in Europe: an empirical analysis. Lancet Lond Engl. 25
@@ -3790,8 +4545,7 @@ longitudinal analysis covering 63 countries, 2000-11. Lancet Psychiatry. marzo d
 324. Wasserman IM. The impact of epidemic, war, prohibition and media on suicide: United
 States, 1910-1920. Suicide Life Threat Behav. 1992;22(2):240-54.
 325. Chu C, Buchman-Schmitt JM, Stanley IH, Hom MA, Tucker RP, Hagan CR, et al. The
-interpersonal theory of suicide: A systematic review and meta-analysis of a decade of cross-
-national research. Psychol Bull. diciembre de 2017;143(12):1313-45.
+interpersonal theory of suicide: A systematic review and meta-analysis of a decade of crossnational research. Psychol Bull. diciembre de 2017;143(12):1313-45.
 326. Chan SMS, Chiu FKH, Lam CWL, Leung PYV, Conwell Y. Elderly suicide and the 2003 SARS
 epidemic in Hong Kong. Int J Geriatr Psychiatry. febrero de 2006;21(2):113-8.
 327. Cheung YT, Chau PH, Yip PSF. A revisit on older adults suicides and Severe Acute
@@ -3815,11 +4569,14 @@ Epidemic among the General Population in China. Int J Environ Res Public Health.
 Psychological Distress among Italian People during the COVID-19 Pandemic: Immediate
 Psychological Responses and Associated Factors. Int J Environ Res Public Health. 02 de
 2020;17(9).
-93Información científica-técnica. Enfermedad por coronavirus, COVID-19
+93
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 333. Bo H-X, Li W, Yang Y, Wang Y, Zhang Q, Cheung T, et al. Posttraumatic stress symptoms
-and attitude toward crisis mental health services among clinically stable patients with COVID-
-19 in China. Psychol Med [Internet]. [citado 6 de noviembre de 2020];1-2. Disponible en:
+and attitude toward crisis mental health services among clinically stable patients with COVID19 in China. Psychol Med [Internet]. [citado 6 de noviembre de 2020];1-2. Disponible en:
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7200846/
 334. González-Sanguino C, Ausín B, Castellanos MÁ, Saiz J, López-Gómez A, Ugidos C, et al.
 Mental health consequences during the initial stage of the 2020 Coronavirus pandemic
@@ -3842,22 +4599,23 @@ Self-Reported Alcohol, Tobacco, and Cannabis Use during COVID-19 Lockdown Measur
 Results from a Web-Based Survey. Eur Addict Res [Internet]. 2020 [citado 6 de noviembre de
 2020];26(6):309-15. Disponible en: https://www.karger.com/Article/FullText/510822
 339. Adelinacohe. Mortality associated with COVID-19 outbreaks in care homes: early
-international evidence [Internet]. Resources to support community and institutional Long-
-Term Care responses to COVID-19. 2020 [citado 12 de mayo de 2020]. Disponible en:
-https://ltccovid.org/2020/04/12/mortality-associated-with-covid-19-outbreaks-in-care-
-homes-early-international-evidence/
-340. European Centre for Disease Prevention and Control. Coronavirus disease 2019 (COVID-
-19) in the EU/EEA and the UK – ninth update [Internet]. Disponible en:
-https://www.ecdc.europa.eu/en/publications-data/rapid-risk-assessment-coronavirus-
-disease-2019-covid-19-pandemic-ninth-update
+international evidence [Internet]. Resources to support community and institutional LongTerm Care responses to COVID-19. 2020 [citado 12 de mayo de 2020]. Disponible en:
+https://ltccovid.org/2020/04/12/mortality-associated-with-covid-19-outbreaks-in-carehomes-early-international-evidence/
+340. European Centre for Disease Prevention and Control. Coronavirus disease 2019 (COVID19) in the EU/EEA and the UK – ninth update [Internet]. Disponible en:
+https://www.ecdc.europa.eu/en/publications-data/rapid-risk-assessment-coronavirusdisease-2019-covid-19-pandemic-ninth-update
 341. McMichael TM, Currie DW, Clark S, Pogosjans S, Kay M, Schwartz NG, et al. Epidemiology
 of Covid-19 in a Long-Term Care Facility in King County, Washington. N Engl J Med. 27 de
 marzo de 2020;
 342. Arons MM, Hatfield KM, Reddy SC, Kimball A, James A, Jacobs JR, et al. Presymptomatic
 SARS-CoV-2 Infections and Transmission in a Skilled Nursing Facility. N Engl J Med. 24 de abril
 de 2020;
-94Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
+94
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 343. Kimball A. Asymptomatic and Presymptomatic SARS-CoV-2 Infections in Residents of a
 Long-Term Care Skilled Nursing Facility — King County, Washington, March 2020. MMWR
 Morb Mortal Wkly Rep [Internet]. 2020 [citado 4 de abril de 2020];69. Disponible en:
@@ -3868,8 +4626,7 @@ Strategies to Control Covid-19. N Engl J Med. 24 de abril de 2020;
 Care. J Aging Soc Policy. 3 de abril de 2020;1-6.
 346. Ontario Takes Immediate Steps to Further Protect Long-Term Care Residents and Staff
 During COVID-19 Outbreak [Internet]. news.ontario.ca. [citado 12 de mayo de 2020].
-Disponible en: https://news.ontario.ca/opo/en/2020/04/ontario-takes-immediate-steps-to-
-further-protect-long-term-care-residents-and-staff-during-covid-19.html
+Disponible en: https://news.ontario.ca/opo/en/2020/04/ontario-takes-immediate-steps-tofurther-protect-long-term-care-residents-and-staff-during-covid-19.html
 347. Schweizer C, Edwards RD, Bayer-Oglesby L, Gauderman WJ, Ilacqua V, Juhani Jantunen M,
 et al. Indoor time–microenvironment–activity patterns in seven regions of Europe. J Expo Sci
 Environ Epidemiol [Internet]. marzo de 2007 [citado 25 de agosto de 2020];17(2):170-81.
@@ -3890,24 +4647,24 @@ States, 2018. Am J Public Health [Internet]. agosto de 2020 [citado 25 de agosto
 2020];110(8):1126-32. Disponible en:
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7349441/
 352. Förekomst av covid-19 i olika yrkesgrupper — Folkhälsomyndigheten [Internet]. [citado 25
-de agosto de 2020]. Disponible en: http://www.folkhalsomyndigheten.se/publicerat-
-material/publikationsarkiv/f/forekomst-av-covid-19-i-olika-yrkesgrupper/
+de agosto de 2020]. Disponible en: http://www.folkhalsomyndigheten.se/publiceratmaterial/publikationsarkiv/f/forekomst-av-covid-19-i-olika-yrkesgrupper/
 353. The Lancet null. COVID-19: protecting health-care workers. Lancet Lond Engl. 21 de
 2020;395(10228):922.
 354. Red Nacional de Vigilancia Epidemiológica. Análisis de los casos de COVID-19 en personal
 sanitario notificados a la RENAVE hasta el 10 de mayo en España [Internet]. 2020 may.
 Disponible en:
-95Información científica-técnica. Enfermedad por coronavirus, COVID-19
+95
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 https://www.isciii.es/QueHacemos/Servicios/VigilanciaSaludPublicaRENAVE/EnfermedadesTr
-ansmisibles/Documents/INFORMES/Informes%20COVID-19/COVID-
-19%20en%20personal%20sanitario%2029%20de%20mayo%20de%202020.pdf
+ansmisibles/Documents/INFORMES/Informes%20COVID-19/COVID19%20en%20personal%20sanitario%2029%20de%20mayo%20de%202020.pdf
 355. Red Nacional de Vigilancia Epidemiológica. Análisis de los casos de COVID-19 notificados a
 la RENAVE hasta el 10 de mayo en España: informe 33 [Internet]. 2020 may. Disponible en:
 https://www.isciii.es/QueHacemos/Servicios/VigilanciaSaludPublicaRENAVE/EnfermedadesTr
-ansmisibles/Documents/INFORMES/Informes%20COVID-
-19/Informe%20n%C2%BA%2033.%20An%C3%A1lisis%20de%20los%20casos%20de%20COVID
--
+ansmisibles/Documents/INFORMES/Informes%20COVID19/Informe%20n%C2%BA%2033.%20An%C3%A1lisis%20de%20los%20casos%20de%20COVID
 19%20hasta%20el%2010%20de%20mayo%20en%20Espa%C3%B1a%20a%2029%20de%20ma
 yo%20de%202020.pdf
 356. SARS-CoV-2 infection in Health Care Workers in a large public hospital in Madrid, Spain,
@@ -3920,8 +4677,7 @@ https://pubmed.ncbi.nlm.nih.gov/32641730/
 358. Red Nacional de Vigilancia Epidemiológica. Informe sobre la situación de COVID-19 en
 personal sanitario en España [Internet]. 2020 may. Disponible en:
 https://www.isciii.es/QueHacemos/Servicios/VigilanciaSaludPublicaRENAVE/EnfermedadesTr
-ansmisibles/Documents/INFORMES/Informes%20COVID-19/COVID-
-19%20en%20Espa%C3%B1a.%20Situaci%C3%B3n%20en%20Sanitarios%20a%2007%20de%20
+ansmisibles/Documents/INFORMES/Informes%20COVID-19/COVID19%20en%20Espa%C3%B1a.%20Situaci%C3%B3n%20en%20Sanitarios%20a%2007%20de%20
 mayo%20de%202020.pdf
 359. Viner RM, Russell SJ, Croker H, Packer J, Ward J, Stansfield C, et al. School closure and
 management practices during coronavirus outbreaks including COVID-19: a rapid systematic
@@ -3940,8 +4696,12 @@ Publ Infect Dis Soc Am. 28 de julio de 2020;71(15):825-32.
 363. Yung CF, Kam K-Q, Nadua KD, Chong CY, Tan NWH, Li J, et al. Novel coronavirus 2019
 transmission risk in educational settings. Clin Infect Dis Off Publ Infect Dis Soc Am. 25 de junio
 de 2020;
-96Información científica-técnica. Enfermedad por coronavirus, COVID-19
+96
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 364. Stein-Zamir C, Abramson N, Shoob H, Libal E, Bitan M, Cardash T, et al. A large COVID-19
 outbreak in a high school 10 days after schools’ reopening, Israel, May 2020. Euro Surveill
 Bull Eur Sur Mal Transm Eur Commun Dis Bull. julio de 2020;25(29).
@@ -3959,8 +4719,7 @@ Epidemiol. 8 de junio de 2020;
 369. Guidance on the provision of support for medically and socially vulnerable populations in
 EU/EEA countries and the United Kingdom during the COVID-19 pandemic [Internet].
 European Centre for Disease Prevention and Control. 2020 [citado 28 de agosto de 2020].
-Disponible en: https://www.ecdc.europa.eu/en/publications-data/guidance-medically-and-
-socially-vulnerable-populations-covid-19
+Disponible en: https://www.ecdc.europa.eu/en/publications-data/guidance-medically-andsocially-vulnerable-populations-covid-19
 370. Patel JA, Nielsen FBH, Badiani AA, Assi S, Unadkat VA, Patel B, et al. Poverty, inequality
 and COVID-19: the forgotten vulnerable. Public Health. junio de 2020;183:110-1.
 371. Actions for consideration in the care and protection of vulnerable population groups for
@@ -3980,26 +4739,27 @@ data on socioeconomic determinants from the early stage of the COVID-19 outbreak
 onwards. J Epidemiol Community Health. agosto de 2020;74(8):620-3.
 376. Jonay. Posicionamiento SESPAS sobre el impacto de la COVID-19 en los colectivos más
 vulnerables [Internet]. Sespas. [citado 28 de agosto de 2020]. Disponible en:
-97Información científica-técnica. Enfermedad por coronavirus, COVID-19
+97
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
-https://sespas.es/2020/04/06/posicionamiento-sespas-sobre-el-impacto-de-la-covid-19-en-
-los-colectivos-mas-vulnerables/
+
+https://sespas.es/2020/04/06/posicionamiento-sespas-sobre-el-impacto-de-la-covid-19-enlos-colectivos-mas-vulnerables/
 377. Harlem G, Lynn M. Descriptive analysis of social determinant factors in urban
 communities affected by. J Public Health Oxf Engl. 18 de agosto de 2020;42(3):466-9.
 378. Beaunoyer E, Dupéré S, Guitton MJ. COVID-19 and digital inequalities: Reciprocal impacts
 and mitigation strategies. Comput Hum Behav. octubre de 2020;111:106424.
 379. Bouza E, Pérez-Granda MJ, Escribano P, Fernández-Del-Rey R, Pastor I, Moure Z, et al.
 Outbreak of COVID-19 in a nursing home in Madrid. J Infect. 25 de junio de 2020;
-380. Giesen C, Diez-Izquierdo L, Saa-Requejo CM, Lopez-Carrillo I, Lopez-Vilela CA, Seco-
-Martinez A, et al. Epidemiological characteristics of the COVID-19 outbreak in a secondary
+380. Giesen C, Diez-Izquierdo L, Saa-Requejo CM, Lopez-Carrillo I, Lopez-Vilela CA, SecoMartinez A, et al. Epidemiological characteristics of the COVID-19 outbreak in a secondary
 hospital in Spain. Am J Infect Control. 11 de julio de 2020;
 381. 3design.es. Trabajando en Positivo publica un Informe sobre el impacto de la Covid-19 en
 colectivos en exclusión social [Internet]. [citado 28 de agosto de 2020]. Disponible en:
 http://www.trabajandoenpositivo.org/noticias/Informe_exclusion_social
 382. ¿Qué pasa con quienes no tienen casa ni acceso a la sanidad? [Internet]. Médicos del
 Mundo. 2020 [citado 28 de agosto de 2020]. Disponible en:
-https://www.medicosdelmundo.org/actualidad-y-publicaciones/noticias/que-pasa-con-
-quienes-no-tienen-casa-ni-acceso-la-sanidad
+https://www.medicosdelmundo.org/actualidad-y-publicaciones/noticias/que-pasa-conquienes-no-tienen-casa-ni-acceso-la-sanidad
 383. Serrano Gallardo P. COVID-19: vulnerability in the eye of the hurricane. Enfermeria Clin.
 23 de mayo de 2020;
 384. Koh D. Migrant workers and COVID-19. Occup Environ Med. septiembre de
@@ -4007,8 +4767,7 @@ quienes-no-tienen-casa-ni-acceso-la-sanidad
 385. coronavirusysaludpublica. Repercusiones del coronavirus en poblaciones en situación de
 vulnerabilidad social: personas migrantes y minorías étnicas | Comprender el COVID-19 desde
 una perspectiva de salud pública [Internet]. 2020 [citado 28 de agosto de 2020]. Disponible
-en: https://www.easp.es/web/coronavirusysaludpublica/repercusiones-del-coronavirus-en-
-poblaciones-en-situacion-de-vulnerabilidad-social-personas-migrantes-y-minorias-etnicas/
+en: https://www.easp.es/web/coronavirusysaludpublica/repercusiones-del-coronavirus-enpoblaciones-en-situacion-de-vulnerabilidad-social-personas-migrantes-y-minorias-etnicas/
 386. Kluge HHP, Jakab Z, Bartovic J, D’Anna V, Severoni S. Refugee and migrant health in the
 COVID-19 response. Lancet Lond Engl. 18 de abril de 2020;395(10232):1237-9.
 387. Gálvez AMP, Romero BB, Trigo SB, Serrano ML. [ELDERLY PEOPLE, DEPENDENCY AND
@@ -4016,12 +4775,15 @@ VULNERABILITY IN THE CORONAVIRUS PANDEMIC: AN EMERGENCY FOR A SOCIAL AND
 HEALTH INTEGRATION.]. Enfermeria Clin. 16 de mayo de 2020;
 388. Nuevas necesidades observadas por las entidades sociales ante el Coronavirus [Internet].
 EAPN-España | Información actualizada sobre el COVID19. [citado 28 de agosto de 2020].
-Disponible en: https://www.eapn.es/covid19/publicaciones/10/nuevas-necesidades-
-observadas-por-las-entidades-sociales-ante-el-coronavirus
+Disponible en: https://www.eapn.es/covid19/publicaciones/10/nuevas-necesidadesobservadas-por-las-entidades-sociales-ante-el-coronavirus
 389. Mesa Vieira C, Franco OH, Gómez Restrepo C, Abel T. COVID-19: The forgotten priorities
 of the pandemic. Maturitas. junio de 2020;136:38-41.
-98Información científica-técnica. Enfermedad por coronavirus, COVID-19
+98
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 390. Devakumar D, Shannon G, Bhopal SS, Abubakar I. Racism and discrimination in COVID-19
 responses. Lancet Lond Engl. 11 de abril de 2020;395(10231):1194.
 391. Turner-Musa J, Ajayi O, Kemp L. Examining Social Determinants of Health, Stigma, and
@@ -4049,8 +4811,7 @@ https://www.nytimes.com/interactive/2020/science/coronavirus-vaccine-tracker.htm
 [citado 6 de noviembre de 2020];586(7830):516-27. Disponible en:
 https://www.nature.com/articles/s41586-020-2798-3
 400. Draft landscape of COVID-19 candidate vaccines_3nov2020 [Internet]. [citado 6 de
-noviembre de 2020]. Disponible en: https://www.who.int/publications/m/item/draft-
-landscape-of-covid-19-candidate-vaccines
+noviembre de 2020]. Disponible en: https://www.who.int/publications/m/item/draftlandscape-of-covid-19-candidate-vaccines
 401. Mullard A. COVID-19 vaccine development pipeline gears up. The Lancet [Internet]. 6 de
 junio de 2020 [citado 6 de noviembre de 2020];395(10239):1751-2. Disponible en:
 https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)31252-6/abstract
@@ -4059,15 +4820,17 @@ abril de 2020 [citado 6 de noviembre de 2020];52(4):583-9. Disponible en:
 http://www.sciencedirect.com/science/article/pii/S1074761320301205
 403. Sekine T, Perez-Potti A, Rivera-Ballesteros O, Strålin K, Gorin J-B, Olsson A, et al. Robust T
 Cell Immunity in Convalescent Individuals with Asymptomatic or Mild COVID-19. Cell
-99Información científica-técnica. Enfermedad por coronavirus, COVID-19
+99
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 [Internet]. 1 de octubre de 2020 [citado 6 de noviembre de 2020];183(1):158-168.e14.
 Disponible en: http://www.sciencedirect.com/science/article/pii/S0092867420310084
 404. Coronavirus: the Commission approves third contract to ensure access to a potential
 vaccine [Internet]. European Commission. 2020 [citado 6 de noviembre de 2020]. Disponible
-en: https://ec.europa.eu/commission/commissioners/2019-
-2024/president/announcements/coronavirus-commission-approves-third-contract-ensure-
-access-potential-vaccine_en
+en: https://ec.europa.eu/commission/commissioners/20192024/president/announcements/coronavirus-commission-approves-third-contract-ensureaccess-potential-vaccine_en
 405. Jackson LA, Anderson EJ, Rouphael NG, Roberts PC, Makhene M, Coler RN, et al. An mRNA
 Vaccine against SARS-CoV-2 - Preliminary Report. N Engl J Med. 14 de julio de 2020;
 406. Anderson EJ, Rouphael NG, Widge AT, Jackson LA, Roberts PC, Makhene M, et al. Safety
@@ -4083,8 +4846,7 @@ Disponible en: https://doi.org/10.1056/NEJMoa2024671
 https://www.cdc.gov/vaccines/acip/meetings/slides-2020-08.html
 409. Mulligan MJ, Lyke KE, Kitchin N, Absalon J, Gurtman A, Lockhart S, et al. Phase 1/2 study
 of COVID-19 RNA vaccine BNT162b1 in adults. Nature [Internet]. 12 de agosto de 2020 [citado
-25 de agosto de 2020];1-8. Disponible en: https://www.nature.com/articles/s41586-020-
-2639-4
+25 de agosto de 2020];1-8. Disponible en: https://www.nature.com/articles/s41586-0202639-4
 410. Walsh EE, Frenck RW, Falsey AR, Kitchin N, Absalon J, Gurtman A, et al. Safety and
 Immunogenicity of Two RNA-Based Covid-19 Vaccine Candidates. N Engl J Med [Internet]. 14
 de octubre de 2020 [citado 6 de noviembre de 2020];0(0):null. Disponible en:
@@ -4092,20 +4854,21 @@ https://doi.org/10.1056/NEJMoa2027906
 411. Concurrent human antibody and TH1 type T-cell responses elicited by a COVID-19 RNA
 vaccine | medRxiv [Internet]. [citado 6 de noviembre de 2020]. Disponible en:
 https://www.medrxiv.org/content/10.1101/2020.07.17.20140533v1
-412. Vogel AB, Kanevsky I, Che Y, Swanson KA, Muik A, Vormehr M, et al. A prefusion SARS-
-CoV-2 spike RNA vaccine is highly immunogenic and prevents lung infection in non-human
+412. Vogel AB, Kanevsky I, Che Y, Swanson KA, Muik A, Vormehr M, et al. A prefusion SARSCoV-2 spike RNA vaccine is highly immunogenic and prevents lung infection in non-human
 primates. bioRxiv [Internet]. 8 de septiembre de 2020 [citado 6 de noviembre de
 2020];2020.09.08.280818. Disponible en:
 https://www.biorxiv.org/content/10.1101/2020.09.08.280818v1
 413. WEBINAR: Making a COVID-19 Vaccine at Warp Speed (2020-09-23) [Internet]. [citado 6
-de noviembre de 2020]. Disponible en: https://www.immunizepa.org/event/webinar-making-
-a-covid-19-vaccine-at-warp-speed/
-100Información científica-técnica. Enfermedad por coronavirus, COVID-19
+de noviembre de 2020]. Disponible en: https://www.immunizepa.org/event/webinar-makinga-covid-19-vaccine-at-warp-speed/
+100
+
+Información científica-técnica. Enfermedad por coronavirus, COVID-19
+
 12 de noviembre 2020
+
 414. Gelles D. How to Ship a Vaccine at –80°C, and Other Obstacles in the Covid Fight. The New
 York Times [Internet]. 19 de septiembre de 2020 [citado 6 de noviembre de 2020]; Disponible
-en: https://www.nytimes.com/2020/09/18/business/coronavirus-covid-vaccine-cold-frozen-
-logistics.html
+en: https://www.nytimes.com/2020/09/18/business/coronavirus-covid-vaccine-cold-frozenlogistics.html
 415. van Doremalen N, Lambe T, Spencer A, Belij-Rammerstorfer S, Purushotham JN, Port JR,
 et al. ChAdOx1 nCoV-19 vaccine prevents SARS-CoV-2 pneumonia in rhesus macaques. Nature
 [Internet]. 30 de julio de 2020 [citado 3 de agosto de 2020];1-8. Disponible en:
@@ -4118,8 +4881,7 @@ https://www.medrxiv.org/content/10.1101/2020.09.23.20199604v1
 417. Mercado N. Single-shot Ad26 vaccine protects against SARS-CoV-2 in rhesus macaques
 [Internet]. Nature. 2020 [citado 6 de noviembre de 2020]. Disponible en:
 https://pubmed.ncbi.nlm.nih.gov/32731257/
-418. Keech C, Albert G, Cho I, Robertson A, Reed P, Neal S, et al. Phase 1–2 Trial of a SARS-CoV-
-2 Recombinant Spike Protein Nanoparticle Vaccine. N Engl J Med [Internet]. 2 de septiembre
+418. Keech C, Albert G, Cho I, Robertson A, Reed P, Neal S, et al. Phase 1–2 Trial of a SARS-CoV2 Recombinant Spike Protein Nanoparticle Vaccine. N Engl J Med [Internet]. 2 de septiembre
 de 2020 [citado 6 de noviembre de 2020];0(0):null. Disponible en:
 https://doi.org/10.1056/NEJMoa2026920
 419. Bangaru S, Ozorowski G, Turner HL, Antanasijevic A, Huang D, Wang X, et al. Structural
@@ -4131,4 +4893,7 @@ vaccine protects cynomolgus macaque upper and lower airways against SARS-CoV-2
 challenge. bioRxiv [Internet]. 19 de agosto de 2020 [citado 6 de noviembre de
 2020];2020.08.18.256578. Disponible en:
 https://www.biorxiv.org/content/10.1101/2020.08.18.256578v1
+
 101
+
+

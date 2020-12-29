@@ -1,0 +1,2013 @@
+Centro de Coordinación de Alertas
+y Emergencias Sanitarias
+
+SECRETARÍA DE ESTADO
+DE SANIDAD
+DIRECCIÓN GENERAL DE
+SALUD PÚBLICA
+
+Actualización nº 278. Enfermedad por el coronavirus (COVID-19). 24.12.2020 (datos consolidados a las 14:00 horas del 24.12.2020)
+SITUACIÓN EN ESPAÑA
+El presente informe se ha realizado con los datos individualizados notificados por las CCAA a la Red Nacional de Vigilancia Epidemiológica (al sistema SiViEs). Se incluyen los casos
+notificados confirmados con una prueba diagnóstica positiva de infección activa (PDIA) tal como se establece en la Estrategia de detección precoz, vigilancia y control de COVID-19 y
+además los casos notificados antes del 11 de mayo que requirieron hospitalización, ingreso en UCI o fallecieron con diagnóstico clínico de COVID-19, de acuerdo a las definiciones de
+caso vigentes en cada momento. Cualquier futura actualización que realicen las CCAA quedarán reflejadas en los informes diarios. En España hasta el momento se han notificado un
+total de 1.854.951 casos confirmados de COVID-19 y 49.824 fallecidos. Los datos utilizados para realizar este informe se pueden obtener aquí.
+Tabla 1. Casos de COVID-19 confirmados totales, diagnosticados el día previo y diagnosticados o con fecha de inicio de síntomas en los últimos 14 y 7 días a 24.12.2020
+CCAA
+Andalucía
+Aragón
+Asturias
+Baleares
+Canarias**
+Cantabria
+Castilla La Mancha
+Castilla y León
+Cataluña
+Ceuta
+C. Valenciana
+Extremadura
+Galicia
+Madrid
+Melilla**
+Murcia**
+Navarra
+País Vasco
+La Rioja
+ESPAÑA
+
+Casos
+totales
+
+Casos
+diagnosticados
+el día previo
+
+257.755
+78.124
+26.565
+32.320
+25.532
+17.398
+97.015
+130.570
+340.993
+2.991
+136.908
+34.071
+58.470
+385.625
+4.411
+58.232
+41.776
+108.287
+17.908
+1.854.951
+
+296
+140
+95
+117
+1
+74
+223
+276
+1.595
+5
+291
+490
+486
+2.070
+124
+367
+83
+6.733
+
+Casos diagnosticados en los
+últimos 14 días
+Nº
+IA*
+
+12.615
+2.830
+1.472
+5.453
+2.809
+973
+6.516
+4.045
+23.963
+95
+18.826
+3.969
+5.110
+25.102
+193
+2.183
+1.280
+5.373
+775
+123.582
+
+149,92
+214,51
+143,92
+474,40
+130,45
+167,45
+320,53
+168,57
+312,21
+112,06
+376,24
+371,73
+189,29
+376,71
+223,15
+146,13
+195,65
+243,37
+244,64
+262,79
+
+Casos diagnosticados en los
+últimos 7 días
+Nº
+IA*
+
+5.351
+1.200
+588
+2.746
+1.247
+425
+3.043
+1.695
+12.625
+31
+8.379
+2.333
+2.464
+12.550
+67
+859
+568
+2.349
+422
+58.942
+
+63,59
+90,96
+57,49
+238,89
+57,91
+73,14
+149,69
+70,64
+164,49
+36,57
+167,45
+218,51
+91,28
+188,34
+77,47
+57,50
+86,82
+106,40
+133,21
+125,34
+
+Casos diagnosticados con fecha de
+inicio de síntomas en los últimos 14d.
+Nº
+IA*
+
+4.220
+1.435
+83
+3.579
+1.204
+249
+3.135
+2.047
+9.594
+43
+8.368
+1.569
+1.769
+9.679
+80
+1.113
+648
+71
+374
+49.260
+
+50,15
+108,77
+8,11
+311,36
+55,91
+42,85
+154,22
+85,31
+125,00
+50,72
+167,23
+146,95
+65,53
+145,26
+92,50
+74,50
+99,05
+3,22
+118,06
+104,75
+
+Casos diagnosticados con fecha de
+inicio de síntomas en los últimos 7d.
+Nº
+IA*
+
+941
+527
+31
+1.234
+302
+103
+993
+727
+3.664
+11
+2.159
+474
+565
+2.945
+21
+305
+261
+8
+143
+15.414
+
+11,18
+39,95
+3,03
+107,35
+14,02
+17,73
+48,85
+30,30
+47,74
+12,98
+43,15
+44,39
+20,93
+44,20
+24,28
+20,42
+39,90
+0,36
+45,14
+32,78
+
+* IA: Incidencia acumulada (casos diagnosticados/100.000 habitantes)
+** Canarias, Melilla y Murcia no han actualizado sus casos
+
+Página 1 de 19
+
+SECRETARÍA DE ESTADO
+DE SANIDAD
+
+Centro de Coordinación de Alertas
+y Emergencias Sanitarias
+
+DIRECCIÓN GENERAL DE
+SALUD PÚBLICA
+
+Figura 1. Casos diarios confirmados y sospechosos de COVID-19 en España a 21.12.2020 (datos consolidados a las 14:00 horas del 24.12.2020).
+
+Página 2 de 19
+
+SECRETARÍA DE ESTADO
+DE SANIDAD
+
+Centro de Coordinación de Alertas
+y Emergencias Sanitarias
+
+DIRECCIÓN GENERAL DE
+SALUD PÚBLICA
+
+Tabla 2. Casos de COVID-19 que han precisado hospitalización e ingreso en UCI.
+Casos que han precisado
+Casos que han ingresado en UCI
+hospitalización
+Con fecha de
+Con fecha de ingreso
+CCAA
+Total
+Total
+ingreso en UCI en
+en los últimos 7 días
+los últimos 7 días
+Andalucía
+22.972
+292
+2.233
+15
+Aragón
+9.503
+139
+860
+8
+Asturias
+4.906
+70
+361
+4
+Baleares
+2.873
+121
+405
+9
+Canarias
+2.971
+70
+541
+6
+Cantabria
+1.378
+38
+155
+8
+Castilla La Mancha
+13.919
+72
+887
+7
+Castilla y León
+17.851
+179
+1.320
+12
+Cataluña
+29.303
+160
+2.396
+6
+Ceuta
+196
+3
+23
+1
+C. Valenciana
+15.426
+485
+1.625
+37
+Extremadura
+3.492
+96
+305
+4
+Galicia
+7.088
+184
+822
+24
+Madrid
+54.113
+189
+3.840
+8
+Melilla
+329
+4
+45
+0
+Murcia
+5.083
+74
+684
+6
+Navarra
+4.489
+37
+372
+7
+País Vasco
+8.997
+0
+682
+0
+La Rioja
+2.319
+22
+220
+0
+ESPAÑA
+207.208
+2.235
+17.776
+162
+Fuente: Notificación de las comunidades autónomas a la Red Nacional de Vigilancia Epidemiológica.
+Los pacientes que han precisado UCI también computan en los pacientes que han requerido hospitalización.
+Información actualizada a 23.12.2020 (datos consolidados a las 14:00 horas del 24.12.2020).
+
+Tabla 3. Situación capacidad asistencial y actividad Covid-19 en hospitales
+
+CCAA
+
+Andalucía
+Aragón
+Asturias
+Baleares
+Canarias
+Cantabria
+Castilla La Mancha
+Castilla y León
+Cataluña
+Ceuta
+C. Valenciana
+Extremadura
+Galicia
+Madrid
+Melilla
+Murcia
+Navarra
+País Vasco
+La Rioja
+Total general
+
+Total Pacientes
+COVID
+hospitalizados
+
+% Camas
+Ocupadas
+COVID
+
+Número
+Pacientes
+COVID en
+UCI
+
+% Camas
+Ocupadas
+UCI COVID
+
+Ingresos
+COVID
+últimas
+24h
+
+Altas
+COVID
+últimas
+24h
+
+1.016
+321
+301
+353
+284
+88
+465
+589
+2.666
+5
+1.526
+193
+308
+1.759
+11
+210
+98
+492
+59
+10.744
+
+5,98%
+7,70%
+8,70%
+10,72%
+5,31%
+5,47%
+9,64%
+8,56%
+10,84%
+2,54%
+13,36%
+6,09%
+3,74%
+10,69%
+6,15%
+5,34%
+5,24%
+10,60%
+7,28%
+8,80%
+
+230
+46
+68
+62
+45
+22
+85
+147
+373
+1
+259
+25
+55
+305
+4
+65
+18
+79
+18
+1.907
+
+13,84%
+19,83%
+21,12%
+21,45%
+10,18%
+18,03%
+22,37%
+26,73%
+29,30%
+5,88%
+25,05%
+11,63%
+7,60%
+25,54%
+28,57%
+13,95%
+14,40%
+18,72%
+30,00%
+19,98%
+
+110
+40
+22
+38
+28
+8
+56
+54
+280
+0
+248
+26
+46
+215
+2
+30
+6
+50
+5
+1.264
+
+209
+72
+51
+39
+26
+13
+120
+76
+339
+2
+229
+23
+43
+264
+2
+24
+17
+87
+6
+1.642
+
+Fuente: Notificación de los hospitales al Ministerio de Sanidad
+(1) Información referida al día 23/12/2020, con los últimos datos disponibles a las 15:00 del día 24 de Diciembre de 2020
+Nota: El criterio de cómputo incluye a pacientes que presentan clínica Covid que debe ser tratada en régimen de
+hospitalización, bien con infección confirmada bien pendiente de confirmar.
+
+Página 3 de 19
+
+SECRETARÍA DE ESTADO
+DE SANIDAD
+
+Centro de Coordinación de Alertas
+y Emergencias Sanitarias
+
+DIRECCIÓN GENERAL DE
+SALUD PÚBLICA
+
+Tabla 4. Total de Pruebas diagnósticas realizadas (Datos provisionales)
+Del 14.12.2020 al 20.12.2020
+CCAA
+PCR
+Test de antígeno
+Total de pruebas
+Tasa x 100.000
+Andalucía
+57.790
+38.955
+96.745
+1.149,78
+Aragón
+10.774
+4.751
+15.525
+1.176,77
+Asturias
+24.266
+1.397
+25.663
+2.509,09
+Baleares
+28.693
+10.912
+39.605
+3.445,53
+Canarias
+26.136
+5.604
+31.740
+1.473,96
+Cantabria
+11.980
+379
+12.359
+2.126,91
+Castilla La Mancha
+20.756
+5.285
+26.041
+1.281,00
+Castilla y León
+20.664
+10.835
+31.499
+1.312,71
+Cataluña
+142.855
+113.074
+255.929
+3.334,49
+Ceuta
+226
+1.142
+1.368
+1.613,65
+C. Valenciana
+79.805
+19.877
+99.682
+1.992,14
+Extremadura
+12.773
+5.414
+18.187
+1.703,37
+Galicia
+53.751
+4.369
+58.120
+2.152,99
+Madrid
+76.498
+73.957
+150.455
+2.257,93
+Melilla
+323
+609
+932
+1.077,62
+Murcia
+11.481
+5.255
+16.736
+1.120,29
+Navarra
+9.556
+4.602
+14.158
+2.164,12
+País Vasco
+51.676
+14.449
+66.125
+2.995,10
+La Rioja
+4.967
+1.841
+6.808
+2.149,00
+ESPAÑA
+644.970
+322.707
+967.677
+2.057,74
+
+Positividad
+8,12%
+11,07%
+3,86%
+9,41%
+6,24%
+6,50%
+13,81%
+8,17%
+5,95%
+4,09%
+16,35%
+12,37%
+5,15%
+9,95%
+9,33%
+8,63%
+5,52%
+5,01%
+7,24%
+8,39%
+
+PCR
+8.332
+1.916
+3.927
+4.118
+4.106
+2.104
+3.023
+3.315
+21.615
+53
+10.930
+2.247
+8.056
+7.315
+28
+1.556
+1.656
+4.146
+586
+89.029
+
+Procesadas el 21.12.2020
+Test de antígeno
+Total de pruebas
+7.406
+15.738
+743
+2.659
+270
+4.197
+1.367
+5.485
+1.132
+5.238
+82
+2.186
+945
+3.968
+2.196
+5.511
+22.086
+43.701
+194
+247
+3.581
+14.511
+914
+3.161
+737
+8.793
+10.304
+17.619
+89
+117
+1.103
+2.659
+809
+2.465
+2.093
+6.239
+212
+798
+56.263
+145.292
+
+Tasa x 100.000 Positividad
+187,04
+7,14%
+201,55
+10,87%
+410,34
+2,91%
+477,18
+10,25%
+243,24
+4,14%
+376,20
+4,71%
+195,19
+13,71%
+229,67
+5,08%
+569,38
+7,15%
+291,35
+2,02%
+290,00
+16,83%
+296,05
+13,38%
+325,73
+3,25%
+264,41
+11,98%
+135,28
+6,84%
+177,99
+9,14%
+376,79
+4,87%
+282,59
+6,19%
+251,90
+6,14%
+308,96
+8,56%
+
+Información actualizada a 24.12.2020
+
+Página 4 de 19
+
+SECRETARÍA DE ESTADO
+DE SANIDAD
+DIRECCIÓN GENERAL DE
+SALUD PÚBLICA
+
+Centro de Coordinación de
+Alertas y Emergencias
+Sanitarias
+
+Figura 2. Número de fallecidos diarios por COVID-19 por fecha de defunción en España a 23.12.2020 (datos
+consolidados a las 14:00 horas del 24.12.2020).
+
+Tabla 5. Casos de COVID-19 que han fallecido (total y con fecha de
+fallecimiento en los últimos 7 días) por Comunidades Autónomas
+en España a 23.12.2020 (datos consolidados a las 14:00 horas del
+24.12.2020).
+
+CCAA
+
+La Rioja
+
+4.950
+2.584
+1.313
+452
+398
+365
+4.059
+5.021
+8.608
+59
+2.778
+1.044
+1.335
+11.687
+43
+716
+950
+2.881
+581
+
+99
+54
+43
+12
+22
+6
+46
+58
+39
+2
+92
+15
+22
+36
+0
+14
+22
+46
+6
+
+ESPAÑA
+
+49.824
+
+634
+
+Andalucía
+Aragón
+Asturias
+Baleares
+Canarias
+Cantabria
+
+* En dos fallecidos diagnosticados en los últimos 7 días no consta la fecha de defunción en la ficha de notificación
+
+Total
+
+Fallecidos
+Con fecha de defunción
+en los últimos 7 días
+
+Castilla La Mancha
+Castilla y León
+Cataluña
+Ceuta
+C. Valenciana
+Extremadura
+Galicia
+Madrid
+Melilla
+Murcia
+Navarra
+País Vasco
+
+Página 5 de 19
+
+SECRETARÍA DE ESTADO
+DE SANIDAD
+DIRECCIÓN GENERAL DE
+SALUD PÚBLICA
+
+Centro de Coordinación de
+Alertas y Emergencias
+Sanitarias
+
+Figura 3. Casos diarios confirmados de COVID-19 por fecha de diagnóstico desde el 11.05.2020 por Comunidades Autónomas, a 23.12.2020 (datos consolidados a las 14:00 horas
+del 24.12.2020).
+
+Página 6 de 19
+
+SECRETARÍA DE ESTADO
+DE SANIDAD
+DIRECCIÓN GENERAL DE
+SALUD PÚBLICA
+
+Centro de Coordinación de
+Alertas y Emergencias
+Sanitarias
+
+Página 7 de 19
+
+SECRETARÍA DE ESTADO
+DE SANIDAD
+DIRECCIÓN GENERAL DE
+SALUD PÚBLICA
+
+Centro de Coordinación de
+Alertas y Emergencias
+Sanitarias
+
+Figura 4. Casos diarios confirmados de COVID-19 por fecha de inicio de síntomas desde el 11.05.2020 por Comunidades Autónomas, a 23.12.2020 (datos consolidados a las 14:00
+horas del 24.12.2020).
+
+Página 8 de 19
+
+SECRETARÍA DE ESTADO
+DE SANIDAD
+DIRECCIÓN GENERAL DE
+SALUD PÚBLICA
+
+Centro de Coordinación de
+Alertas y Emergencias
+Sanitarias
+
+Página 9 de 19
+
+SECRETARÍA DE ESTADO
+DE SANIDAD
+DIRECCIÓN GENERAL DE
+SALUD PÚBLICA
+
+Centro de Coordinación de
+Alertas y Emergencias
+Sanitarias
+
+Figura 5. Incidencia acumulada en 14 días por fecha de diagnóstico por Comunidades Autónomas, a 23.12.2020 (datos consolidados a las 14:00 horas del 24.12.2020).
+
+Página 10 de 19
+
+SECRETARÍA DE ESTADO
+DE SANIDAD
+DIRECCIÓN GENERAL DE
+SALUD PÚBLICA
+
+Centro de Coordinación de
+Alertas y Emergencias
+Sanitarias
+
+Figura 6. Incidencia acumulada en 14 días en mayores de 64 años por fecha de diagnóstico desde el 11.05.2020 por Comunidades Autónomas, a 23.12.2020 (datos consolidados a
+las 14:00 horas del 24.12.2020).
+
+Página 11 de 19
+
+SECRETARÍA DE ESTADO
+DE SANIDAD
+DIRECCIÓN GENERAL DE
+SALUD PÚBLICA
+
+Tabla 6. Nº de casos COVID-19 importados de otro país
+Diagnósticos desde
+el 11 de mayo
+
+Diagnósticos del 17 al 23
+de diciembre
+
+Andalucía
+
+835
+
+30
+
+Aragón
+
+206
+
+5
+
+Asturias
+
+13
+
+2
+
+Baleares
+
+147
+
+1
+
+Canarias
+
+825
+
+19
+
+Cantabria
+
+49
+
+4
+
+Castilla La Mancha
+
+188
+
+8
+
+Castilla y León
+
+187
+
+8
+
+Cataluña
+
+481
+
+10
+
+Ceuta
+
+14
+
+0
+
+C. Valenciana
+
+432
+
+8
+
+Extremadura
+
+129
+
+1
+
+Galicia
+
+226
+
+1
+
+Madrid
+
+264
+
+23
+
+Melilla
+
+3
+
+0
+
+Murcia
+
+270
+
+3
+
+Navarra
+
+76
+
+3
+
+País Vasco
+
+51
+
+0
+
+La Rioja
+
+39
+
+8
+
+ESPAÑA
+
+4.435
+
+134
+
+Centro de Coordinación de
+Alertas y Emergencias
+Sanitarias
+
+Figura 7. Número de casos importados en los últimos 14 días por fecha de diagnóstico y Comunidad Autónoma
+
+Fuente: Casos notificados a la Red Nacional de Vigilancia Epidemiológica por las comunidades autónomas clasificados como importados de otro país. Las pesonas han podido llegar a través de diferentes
+medios de transporte, incluyendo pateras.
+
+Página 12 de 19
+
+SECRETARÍA DE ESTADO
+DE SANIDAD
+DIRECCIÓN GENERAL DE
+SALUD PÚBLICA
+
+Centro de Coordinación de
+Alertas y Emergencias
+Sanitarias
+
+Informe de situación brotes1 COVID-19 – 24 de diciembre 2020
+Los datos presentados en este informe no hacen referencia al total de casos confirmados, sino a los casos que se han podido trazar y asociar a un brote, y en los que se puede especificar que se han
+producido en un determinado ámbito. Se excluyen en esta notificación aquellos brotes que afectan únicamente a los convivientes de un mismo domicilio.
+Desde que finalizó la desescalada se han comunicado 22.752 brotes con alrededor de 198.250 casos, afectando a todas las comunidades y ciudades autónomas. Desde la última actualización
+(17.12.2020) se han notificado 1.020 brotes nuevos con 7.445 casos. En el conjunto nacional, los casos asociados a brotes suponen alrededor del 10% de todos los casos notificados, con gran
+variabilidad entre comunidades y ciudades autónomas (1,7%-45,7%). El 82,5% de los brotes son de pequeña magnitud, con menos de 10 casos. Los brotes de mayor tamaño continúan ocurriendo en
+residencias de mayores, con una media de 17,5 casos por brote. Desde la última actualización se han notificado 336 brotes con 2.158 casos asociados en el ámbito social. El 81,5% de los brotes en
+este ámbito corresponden a reuniones familiares y de amigos en los que se desconoce si se han producido en el ámbito público o privado, seguido de aquellos brotes que se originan en
+establecimientos de restauración, en actividades deportivas y en espacios cerrados de uso público. Además, se han declarado 145 brotes con 904 casos en el ámbito familiar, afectando a miembros
+de la misma familia no convivientes. También se han notificado 147 brotes de componente mixto, donde la transmisión se desplaza por ejemplo del ámbito familiar a otros ámbitos, como el laboral,
+social o educativo y en diferentes sentidos, con 1.070 casos asociados. Esta semana se han notificado 80 brotes en centros sociosanitarios con 1.212 casos; de éstos, 65 brotes con 1.137 casos se han
+producido en residencias de mayores. En centros educativos se han notificado 109 brotes con 596 casos; estos brotes son en general de pequeña magnitud (media de 5,5 casos por brote) y suponen
+alrededor del 1% de los casos notificados en este periodo. En el ámbito laboral se han notificado 134 brotes nuevos con 945 casos, donde destacan trabajadores y trabajadoras temporeros, las
+personas que trabajan en cuidados a domicilio, en el sector empresarial y de la construcción y en establecimientos de restauración. También se han producido 33 brotes en hospitales con 267 casos.
+Con lo expuesto anteriormente, no se puede afirmar que no se estén produciendo infecciones en determinados ámbitos en los que suele ser complicado identificar la fuente de infección, como
+pueden ser, por ejemplo, aquellos espacios de uso público u otro tipo de eventos y lugares donde se reúnen personas desconocidas, como puede ser los establecimientos de restauración o el
+transporte público. Otra limitación de esta información es que sobredimensiona aquellos ámbitos que están mejor vigilados, como pueden ser las residencias de mayores o los centros
+educativos, así como aquellos brotes que se producen entre familiares y amigos, personas que se conocen y en las que se puede hacer una correcta trazabilidad de los casos. Además, los ámbitos
+de ocurrencia de los brotes varían entre las distintas comunidades y ciudades autónomas.
+Tabla 7. Distribución del nº de brotes y casos por ámbito (acumulados y notificados en la última semana)
+Ámbito
+Centro educativo
+Centro sanitario
+Centro sociosanitario
+Colectivos socialmente vulnerables
+Familiar (varios domicilios)
+Mixto
+Laboral
+Social
+Otros
+Total
+
+Brotes
+N
+2.288
+604
+2.040
+297
+4.006
+3.746
+2.818
+6.477
+476
+22.752
+
+Acumulados
+Casos
+N
+14.293
+6.500
+34.620
+3.065
+24.463
+35.388
+28.542
+46.097
+5.277
+198.245
+
+Casos/brote
+6,2
+10,8
+17,0
+10,3
+6,1
+9,4
+10,1
+7,1
+11,1
+871%
+
+Brotes
+N
+109
+39
+80
+9
+145
+147
+134
+336
+21
+1.020
+
+Nuevos
+Casos
+N
+596
+289
+1.212
+56
+904
+1.070
+945
+2.158
+215
+7.445
+
+Casos/brote
+5,5
+7,4
+15,2
+6,2
+6,2
+7,3
+7,1
+6,4
+10,2
+7,3
+
+*Los nuevos brotes notificados pueden corresponder a brotes declarados en semanas anteriores.
+
+1
+
+A efectos de notificación al CCAES se define brote como cualquier agrupación de 3 o más casos con infección activa en los que se ha establecido un vínculo epidemiológico. Se excluyen en la notificación aquellos que afectan únicamente a los convivientes
+de un mismo domicilio.
+
+Página 13 de 19
+
+SECRETARÍA DE ESTADO
+DE SANIDAD
+DIRECCIÓN GENERAL DE
+SALUD PÚBLICA
+
+Centro de Coordinación de
+Alertas y Emergencias
+Sanitarias
+
+Figura 8. Distribución de brotes por ámbito y semana de notificación
+
+Página 14 de 19
+
+SECRETARÍA DE ESTADO
+DE SANIDAD
+DIRECCIÓN GENERAL DE
+SALUD PÚBLICA
+
+Centro de Coordinación de
+Alertas y Emergencias
+Sanitarias
+
+Figura 9. Distribución de los casos asociados a brotes por ámbito y semana de notificación*
+
+*Los casos se vinculan a la semana de notificación del brote. En algunos ámbitos, el aumento del número de casos en la misma semana epidemiológica respecto a informes anteriores se debe a
+actualizaciones posteriores de los brotes más relevantes.
+
+Página 15 de 19
+
+SECRETARÍA DE ESTADO
+DE SANIDAD
+DIRECCIÓN GENERAL DE
+SALUD PÚBLICA
+
+Centro de Coordinación de
+Alertas y Emergencias
+Sanitarias
+
+SITUACIÓN INTERNACIONAL (datos consultados hasta las 10:00 horas del 24.12.2020)
+Situación en Europa: Hasta el día de hoy se han notificado al menos 23.805.728 casos confirmados (Tabla 8). En la tabla 9 se presentan los datos epidemiológicos detallados de los
+15 países de Europa con más casos confirmados.
+Tabla 8. Casos confirmados de COVID-19 en Europa
+
+2,3
+
+Casos
+Rusia
+Francia
+Reino Unido
+Italia
+España
+Alemania
+Turquía
+Polonia
+Ucrania
+Países Bajos
+Chequia
+Bélgica
+Rumanía
+Suiza
+Suecia
+Portugal
+Austria
+
+2.933.753
+2.505.875
+2.149.551
+1.991.278
+1.854.951
+1.587.115
+1.248.622
+1.226.883
+989.642
+710.739
+646.312
+629.109
+598.792
+416.394
+389.439
+383.258
+339.933
+
+Casos
+Hungría
+Serbia
+Georgia
+Azerbaiyán
+Croacia
+Bulgaria
+Bielorrusia
+Eslovaquia
+Armenia
+Dinamarca
+Moldavia
+Grecia
+Lituania
+Eslovenia
+Bosnia y Herzegovina
+Irlanda
+Macedonia Norte
+
+308.262
+307.827
+214.871
+205.877
+200.086
+194.271
+177.274
+158.905
+155.440
+140.175
+136.931
+132.430
+120.094
+107.805
+106.986
+81.228
+79.190
+
+Casos
+Albania
+Luxemburgo
+Montenegro
+Noruega
+Finlandia
+Letonia
+Estonia
+Chipre
+Malta
+Andorra
+Islandia
+San Marino
+Liechtenstein
+Gibraltar
+Mónaco
+Islas Feroe
+
+53.814
+44.809
+44.632
+44.336
+33.717
+32.339
+23.309
+18.406
+11.910
+7.633
+5.667
+2.135
+1.872
+1.282
+756
+550
+
+2
+
+Datos consultados (orden alfabético): Alemania (Robert Koch Institut), Francia (Santé Publique France), Italia (Ministerio de Sanidad), Portugal (Dirección General de Salud), Reino Unido (Public
+Health England). Resto de países y territorios: Página web de la Oficina Regional para Europa de la Organización Mundial de la Salud (OMS).
+3
+Kosovo notifica además 49.263 casos.
+Página 16 de 19
+
+SECRETARÍA DE ESTADO
+DE SANIDAD
+
+Centro de Coordinación de
+Alertas y Emergencias
+Sanitarias
+
+DIRECCIÓN GENERAL DE
+SALUD PÚBLICA
+
+Tabla 9. Detalles de los quince países con más casos confirmados de Europa
+
+Nuevos
+notificados
+diarios*
+
+Incremento
+promedio en
+los últimos 7
+días
+
+Incidencia
+Acumulada
+100.000 hab.
+14 días
+
+Fallecidos
+
+2.933.753
+2.505.875
+2.149.551
+1.991.278
+1.854.951
+1.587.115
+1.248.622
+1.226.883
+989.642
+710.739
+646.312
+629.109
+598.792
+416.394
+389.439
+
+27.250
+14.929
+39.237
+14.522
+
+1,01%
+0,56%
+1,68%
+0,77%
+
+32.195
+19.256
+12.358
+10.136
+9.872
+10.898
+2.198
+5.009
+14.130
+22.319
+
+1,75%
+2,04%
+0,81%
+1,05%
+1,78%
+1,21%
+0,32%
+0,81%
+1,05%
+1,91%
+
+271,7
+271,1
+574,3
+366,4
+262,8
+415,5
+459,2
+396,9
+343,7
+815,8
+848,4
+301,5
+347,2
+691,6
+896,4
+
+52.461
+61.978
+69.051
+70.395
+49.824
+28.770
+18.602
+26.255
+17.172
+10.633
+10.664
+18.821
+14.636
+6.308
+8.167
+
+383.258
+
+4.602
+
+0,97%
+
+498,1
+
+339.933
+
+2.493
+
+0,62%
+
+386,6
+
+81.228
+
+961
+
+0,81%
+
+133,5
+
+Casos
+confirmados
+Rusia
+Francia
+Reino Unido
+Italia
+España
+Alemania
+Turquía
+Polonia
+Ucrania
+Países Bajos
+Chequia
+Bélgica
+Rumanía
+Suiza
+Suecia
+Portugal
+Austria
+Irlanda
+
+4,5,6,7
+
+Nuevos
+notificados
+diarios*
+549
+278
+744
+553
+
+Letalidad
+
+802
+251
+472
+275
+116
+102
+124
+155
+327
+174
+
+1,8%
+2,5%
+3,2%
+3,5%
+2,7%
+1,8%
+1,5%
+2,1%
+1,7%
+1,5%
+1,6%
+3,0%
+2,4%
+1,5%
+2,1%
+
+6.343
+
+89
+
+1,7%
+
+5.470
+
+114
+
+1,6%
+
+2.171
+
+13
+
+2,7%
+
+4
+
+Las cifras de fallecidos por COVID-19 notificadas por cada país varían en su definición por lo que dichas cifras, y la letalidad resultante en cada país, no son directamente comparables entre sí.
+Portugal, Austria e Irlanda no se encuentra entre los quince países con más casos confirmados de Europa. Se sigue incluyendo en la tabla por su histórico
+6
+Ver primera parte del informe para el resto de información sobre España
+7
+(-) sin actualizar
+* Los casos y fallecidos nuevos notificados diariamente pueden corresponder a casos diagnosticados y fallecidos de días previos
+5
+
+Página 17 de 19
+
+SECRETARÍA DE ESTADO
+DE SANIDAD
+DIRECCIÓN GENERAL DE
+SALUD PÚBLICA
+
+Centro de Coordinación de
+Alertas y Emergencias
+Sanitarias
+
+Situación a nivel global y otros países fuera de Europa: Según la OMS, a nivel global hasta el día de hoy se han notificado al menos 77.228.903 casos y 1.718.470 fallecidos. En las
+tablas 10 y 11 se presenta información general y detallada de los países con más casos acumulados fuera de Europa.
+
+Tabla 10. Casos confirmados de COVID-19 fuera de Europa. Se incluyen los diez países con más casos confirmados en cada continente.
+
+América
+Estados Unidos
+Brasil
+Argentina
+Colombia
+México
+Perú
+Chile
+Canadá
+Panamá
+Ecuador
+
+Casos
+18.170.062
+7.263.619
+1.547.138
+1.518.067
+1.325.915
+998.475
+589.189
+515.314
+214.038
+206.364
+
+África
+Sudáfrica
+Marruecos
+Egipto
+Túnez
+Etiopia
+Argelia
+Libia
+Kenia
+Nigeria
+Ghana
+
+Casos
+940.212
+420.648
+127.061
+123.323
+120.638
+96.069
+95.706
+94.768
+79.789
+53.954
+
+Asia-Oceanía
+India
+Irán
+Indonesia
+Iraq
+Bangladesh
+Filipinas
+Pakistán
+Israel
+Arabia Saudí
+Jordania
+
+8
+
+Casos
+10.099.066
+1.170.743
+678.125
+586.503
+503.501
+462.815
+460.672
+380.152
+361.359
+279.892
+
+Casos confirmados a nivel global: 77.228.903
+Fallecidos: 1.718.470
+
+8
+
+Datos consultados en la página web oficial de la OMS y Estados Unidos consultado en el Centers for Disease Control and Prevention.
+Página 18 de 19
+
+SECRETARÍA DE ESTADO
+DE SANIDAD
+
+Centro de Coordinación de
+Alertas y Emergencias
+Sanitarias
+
+DIRECCIÓN GENERAL DE
+SALUD PÚBLICA
+
+Tabla 11. Detalles de los quince países con más casos confirmados fuera de Europa
+
+Nuevos
+Casos
+notificados
+confirmados
+diarios*
+Estados Unidos
+India
+Brasil
+Argentina
+Colombia
+México
+Irán
+Perú
+Sudáfrica
+Indonesia
+Chile
+Iraq
+Canadá
+Bangladesh
+Filipinas
+Japón
+China
+Singapur
+Corea del Sur
+
+9,10,11
+
+Incremento
+Incidencia
+promedio
+Nuevos
+Acumulada
+Fallecidos
+notificados
+en los
+100.000 hab.
+diarios*
+últimos 7
+14 días
+días
+
+Letalidad
+
+18.170.062
+10.099.066
+7.263.619
+1.547.138
+1.518.067
+1.325.915
+1.170.743
+998.475
+940.212
+678.125
+589.189
+586.503
+515.314
+503.501
+462.815
+
+195.759
+23.950
+25.019
+5.853
+10.845
+5.370
+6.208
+958
+9.501
+6.347
+1.701
+1.158
+7.519
+1.318
+1.310
+
+1,37%
+0,24%
+0,68%
+0,41%
+0,81%
+0,78%
+0,59%
+0,18%
+1,05%
+1,07%
+0,34%
+0,22%
+1,36%
+0,27%
+0,34%
+
+953,7
+26,8
+305,3
+181,7
+283,9
+113,8
+133,5
+73,0
+204,8
+34,1
+137,0
+47,8
+245,4
+13,4
+18,8
+
+321.374
+146.444
+187.291
+41.997
+40.680
+118.598
+54.003
+37.173
+25.246
+20.257
+16.217
+12.725
+14.332
+7.329
+9.021
+
+3.165
+333
+527
+184
+205
+396
+187
+70
+339
+172
+20
+15
+104
+17
+64
+
+1,8%
+1,5%
+2,6%
+2,7%
+2,7%
+8,9%
+4,6%
+3,7%
+2,7%
+3,0%
+2,8%
+2,2%
+2,8%
+1,5%
+1,9%
+
+203.113
+
+2.455
+
+1,42%
+
+29,6
+
+2.994
+
+50
+
+1,5%
+
+95.998
+
+82
+
+0,11%
+
+0,1
+
+4.773
+
+1
+
+5,0%
+
+58.461
+
+29
+
+0,03%
+
+3,1
+
+29
+
+0
+
+0,0%
+
+52.550
+
+1.090
+
+2,10%
+
+25,5
+
+739
+
+17
+
+1,4%
+
+9
+
+China, Singapur, Japón y Corea del Sur ya no se encuentran entre los quince países con más casos confirmados fuera de Europa. Se siguen incluyendo en la tabla por su histórico.
+Las cifras de fallecidos por COVID-19 notificadas por cada país varían en su definición por lo que dichas cifras, y la letalidad resultante en cada país, no son directamente comparables entre sí.
+11
+(-) sin actualizar
+* Los casos y fallecidos nuevos notificados diariamente pueden corresponder a casos diagnosticados y fallecidos de días previos
+10
+
+Página 19 de 19
+
+

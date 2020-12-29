@@ -41,10 +41,6 @@ public class ProgramaInteractivo {
 	 */
 	private Collection <String> ficherosAIndexar = new ArrayList<String>();
 	/**
-	 * Relación de palabras clave a buscar
-	 */
-	private Collection <String> queries = new ArrayList <String>();
-	/**
 	 * Analizar utilizado por el indexador / buscador 
 	 */
 	private static Analyzer analizador =  new SpanishAnalyzer();
@@ -52,14 +48,85 @@ public class ProgramaInteractivo {
 	private final static  String INDEXDIR = "./indice";
 	
 	
-	private static Directory directorioDelIndice;
-	
 	public ProgramaInteractivo(Collection<String> ficherosAIndexar) {
 		this.ficherosAIndexar = ficherosAIndexar;
 	}
+	
+	private static void parseDir(File directorio, Collection<String> ficherosIndexar) {
+		boolean repetidos = false;
+		for (File fichero : directorio.listFiles()) {
+			if(fichero.isDirectory()) {
+				parseDir(fichero,ficherosIndexar);
+			}
+			else {
+				if (!ficherosIndexar.contains(fichero.getAbsolutePath())){
+					ficherosIndexar.add(fichero.getAbsolutePath());
+				} else {
+					repetidos = true;
+				}
+				
+			}
+		}
+		if(repetidos) {
+			System.out.println("El directorio " + directorio.getAbsolutePath() + " incluye ficheros ya indexados.");
+		}
+	}
 
-			
+	private Directory crearIndiceEnUnDirectorio() throws IOException{
+		Directory directorioAlmacenarIndice = new MMapDirectory(Paths.get(INDEXDIR));
 
+		IndexWriterConfig configuracionIndice = new IndexWriterConfig(analizador);
+
+		IndexWriter indice = new IndexWriter(directorioAlmacenarIndice, configuracionIndice);
+		
+		for (String fichero : ficherosAIndexar) {
+			anhadirFichero(indice, fichero);
+		}
+		
+		indice.close();
+		return directorioAlmacenarIndice;
+	}
+	
+	private void anhadirFichero(IndexWriter indice, String path) 
+			throws IOException {
+				InputStream inputStream = new FileInputStream(path);
+				BufferedReader inputStreamReader = new BufferedReader(
+						new InputStreamReader(inputStream,"UTF-8"));
+				
+				Document doc = new Document();   
+				doc.add(new TextField("contenido", inputStreamReader));
+				doc.add(new StringField("path", path, Field.Store.YES));
+				indice.addDocument(doc);
+	}
+
+
+	private void executeQuery(Directory directorioDelIndice, int hitsPorPagina, 
+			String peticion) throws IOException {		
+		DirectoryReader directoryReader = DirectoryReader.open(directorioDelIndice);
+		IndexSearcher buscador = new IndexSearcher(directoryReader);
+		
+		QueryParser queryParser = new QueryParser("contenido", analizador); 
+		Query query = null;
+		try{
+			query = queryParser.parse(peticion);
+			TopDocs resultado = buscador.search(query, ficherosAIndexar.size() * hitsPorPagina);
+			ScoreDoc[] hits = resultado.scoreDocs;
+		      
+			System.out.println("\nBuscando " + peticion + ": Encontrados " + hits.length + " hits.");
+			int i = 0;
+			for (ScoreDoc hit: hits) {
+				int docId = hit.doc;
+				
+				Document doc = buscador.doc(docId);
+				System.out.println((++i) + ". " + doc.get("path") + "\t" + hit.score);
+			}
+	
+		}catch (ParseException e){
+			System.out.println();
+		}		
+	}
+	
+	
 	public static void main(String[] args) {
 		Collection <String> ficheros = new ArrayList <String>();
 		System.out.println(menu);
@@ -88,7 +155,11 @@ public class ProgramaInteractivo {
 					File archivo = new File(peticion);
 					
 					if(archivo.exists() && !archivo.isDirectory()) {
-						ficheros.add(peticion);
+						if(!ficheros.contains(archivo.getAbsolutePath())) {
+							ficheros.add(archivo.getAbsolutePath());
+						} else {
+							System.out.println(peticion + " ya está indexado.");
+						}
 					}
 					else {
 						System.out.println(peticion + " es un directorio, por favor introduce un documento");
@@ -97,11 +168,22 @@ public class ProgramaInteractivo {
 				case 3:
 					System.out.println("Introduzca una búsqueda: ");
 					peticion = inputText.nextLine();
+					
 					ProgramaInteractivo ejecutar = new ProgramaInteractivo(ficheros);
 					Directory directorioDelIndiceCreado = ejecutar.crearIndiceEnUnDirectorio();
-					ejecutar.executeQuery(directorioDelIndiceCreado, ficheros.size(), 1, peticion);
+					ejecutar.executeQuery(directorioDelIndiceCreado, 1, peticion);
+
+					File index = new File(INDEXDIR);
+					String[] entries = index.list();
+					for(String s: entries) {
+						File f = new File(index.getPath(), s);
+						f.delete();
+					}
+					index.delete();
+					
 					break;
 				case 4:
+					System.out.println("Fin del programa");
 					break;
 				default:
 					System.out.println("Introduzca un número entre 1 y 4.");	
@@ -109,74 +191,11 @@ public class ProgramaInteractivo {
 			}catch(Exception e){
 				System.out.println("Introduzca un número por favor.");
 			}
-			System.out.println(menu);
-		}
-	}
-	
-	private static void parseDir(File directorio, Collection<String> ficherosIndexar) {
-		for (File fichero : directorio.listFiles()) {
-			if(fichero.isDirectory()) {
-				parseDir(fichero,ficherosIndexar);
-			}
-			else {
-				ficherosIndexar.add(fichero.getAbsolutePath());
+			if(action != 4) {
+				System.out.println(menu);
 			}
 		}
-	}
-
-	private Directory crearIndiceEnUnDirectorio() throws IOException{
-		IndexWriter indice = null;
-		Directory directorioAlmacenarIndice = new MMapDirectory(Paths.get(INDEXDIR));
-
-		IndexWriterConfig configuracionIndice = new IndexWriterConfig(analizador);
-
-		indice = new IndexWriter(directorioAlmacenarIndice, configuracionIndice);
-		
-		for (String fichero : ficherosAIndexar) {
-			anhadirFichero(indice, fichero);
-		}
-		
-		indice.close();
-		return directorioAlmacenarIndice;
-	}
-	
-	private void anhadirFichero(IndexWriter indice, String path) 
-			throws IOException {
-				InputStream inputStream = new FileInputStream(path);
-				BufferedReader inputStreamReader = new BufferedReader(
-						new InputStreamReader(inputStream,"UTF-8"));
-				
-				Document doc = new Document();   
-				doc.add(new TextField("contenido", inputStreamReader));
-				doc.add(new StringField("path", path, Field.Store.YES));
-				indice.addDocument(doc);
-	}
-
-
-	private static void executeQuery(Directory directorioDelIndice, int paginas, int hitsPorPagina, 
-			String peticion) throws IOException {		
-		DirectoryReader directoryReader = DirectoryReader.open(directorioDelIndice);
-		IndexSearcher buscador = new IndexSearcher(directoryReader);
-		
-		QueryParser queryParser = new QueryParser("contenido", analizador); 
-		Query query = null;
-		try{
-			query = queryParser.parse(peticion);
-			TopDocs resultado = buscador.search(query, paginas * hitsPorPagina);
-			ScoreDoc[] hits = resultado.scoreDocs;
-		      
-			System.out.println("\nBuscando " + peticion + ": Encontrados " + hits.length + " hits.");
-			int i = 0;
-			for (ScoreDoc hit: hits) {
-				int docId = hit.doc;
-				
-				Document doc = buscador.doc(docId);
-				System.out.println((++i) + ". " + doc.get("path") + "\t" + hit.score);
-			}
-	
-		}catch (ParseException e){
-			System.out.println();
-		}		
+		inputText.close();
 	}
 
 }

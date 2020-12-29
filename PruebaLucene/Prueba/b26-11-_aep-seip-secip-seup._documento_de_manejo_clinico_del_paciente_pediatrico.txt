@@ -1,0 +1,1155 @@
+DOCUMENTO DE MANEJO CLINICO DEL PACIENTE PEDIÁTRICO CON INFECCION POR
+SARS-CoV-2
+Extracto del Documento de Manejo Clínico del Ministerio de Sanidad
+Actualización: 26 de noviembre de 2020
+Redactores pertenecientes a la Asociación Española de Pediatría (AEP):
+Sociedad Española de Infectología Pediátrica (SEIP). Cristina Calvo Rey, Milagros García-López
+Hortelano, José Tomás Ramos, Fernando Baquero, Marisa Navarro, Carlos Rodrigo, Olaf Neth,
+Victoria Fumadó, David Aguilera Alonso, Cristina Epalza, Cinta Moraleda, Luis Escosa, Ana
+Méndez, Talía Sainz, Teresa del Rosal, Mª José Mellado.
+Sociedad Española de Urgencias de Pediatría (SEUP). Javier Benito, María de Ceano-Vivas,
+Mercedes de la Torre, Borja Gómez, Susanna Hernández, Itziar Iturralde, Esther Lera, Sandra
+Moya, Jorge V. Sotoca; en representación del Grupo de Trabajo de Enfermedades Infecciosas
+de la SEUP.
+Sociedad Española de Cuidados Intensivos Pediátricos (SECIP). Juan Carlos de Carlos Vicente,
+José Luis Vázquez Martínez, María Slocker Barrio, Amaya Bustinza Arriortua, Iolanda Jordán
+Garcia, Juan José Menéndez Suso, Javier Pilar Orive.
+Otros colaboradores: Esmeralda Nuñez, Maria Isabel Barrio, Antonio Pérez, Javier PérezLescure, Laura Espinosa.
+Asesoría técnica de:
+Sociedad Española de Farmacia Hospitalaria (SEFH). Cecilia Martínez Fernández-Llamazares,
+María Goretti López Ramos.
+Sociedad Española de Farmacología Clínica (SEFC). Lourdes Cabrera García, Alberto Borobia.
+ÚLTIMAS MODIFICACIONES
+Fecha
+26/11/2020
+
+Procedencia
+SEIP-AEP
+
+6/10/2020
+
+SEIP-AEP
+
+18/08/2020
+
+SEIP-AEP, SECIP, SEUP
+
+Descripción de la modificación
+- Modificaciones en el uso de remdesivir y
+tocilizumab.
+- Diagnóstico microbiológico mediante test
+antigénicos.
+- Antibioterapia empírica.
+- Días de aislamiento domiciliario.
+- Indicaciones de remdesivir.
+- Actualización de los criterios de realización de
+pruebas diagnósticas.
+- Actualización terapéutica en general. Retirada
+de los fármacos que no han demostrado
+eficacia.
+1
+
+24/05/2020
+
+SEIP
+
+-
+
+Actualizada la indicación de
+hidroxicloroquina.
+
+16/05/2020
+
+SEIP
+
+-
+
+Actualizadas las indicaciones de remdesivir,
+corticoides e inmunoglobulinas.
+Modificadas las indicaciones de realización de
+PCR de SARS-CoV-2.
+Añadido un apartado sobre anticoagulación.
+Criterios de alta hospitalaria.
+Revisión de indicaciones de tratamiento y
+dosis de tocilizumab.
+Información sobre ensayos clínicos.
+Recomendación de ceftriaxona como
+antibiótico iv.
+Efectos secundarios de remdesivir.
+Se incluye dosis de carga de
+hidroxicloroquina.
+Se matizan indicaciones Rx y analítica en
+urgencias.
+Se recomienda seguimiento ambulatorio de
+casos leves.
+Se modifica la duración del tratamiento con
+hidroxicloroquina.
+Se modifica el número de dosis de
+tocilizumab.
+Se elimina la indicación de interferón.
+
+-
+
+15/04/2020
+
+SEIP, Ministerio de Sanidad
+documento sobre
+tratamiento.
+
+-
+
+29/03/2020
+
+27/03/2020
+
+Acuerdo con SEFH, SEFC,
+SEIP, Ministerio de Sanidad.
+Acuerdo con SEUP
+
+-
+
+OMS
+
+-
+
+Acuerdo con el Ministerio de
+Sanidad.
+
+-
+
+CONTENIDO
+1. Justificación ....................................................................................................................... 3
+2. Definiciones y criterios....................................................................................................... 3
+3. Medidas de prevención y control de la infección ................................................................ 3
+4. Manejo clínico en pediatría y cuidados intensivos pediátricos ........................................... 3
+4.1. Valoración inicial y consideraciones al ingreso hospitalario ..........................................3
+4.2. Criterios de ingreso en planta de hospitalización...........................................................4
+4.3. Criterios de valoración por UCIP:....................................................................................5
+4.4. Diagnóstico microbiológico ............................................................................................5
+4.5. Actuaciones en función de la gravedad ..........................................................................6
+4.5.1. Infección no complicada .........................................................................................6
+4.5.2 Infección leve de vías respiratorias bajas que precisa ingreso hospitalario ............9
+4.5.3. Infección grave de vías respiratorias bajas .............................................................9
+4.5.4. SIM-PedS ..............................................................................................................10
+4.6. Manejo en la Unidad de Cuidados Intensivos Pediátricos ............................................10
+4.7. Seguimiento y monitorización de la respuesta clínica..................................................13
+5. Tratamiento farmacológico .............................................................................................. 14
+5.1. Tratamiento antiviral ....................................................................................................16
+2
+
+5.1.1. Lopinavir/ritonavir (Kaletra®) ...............................................................................16
+5.1.2. Hidroxicloroquina .................................................................................................16
+5.1.3. Remdesivir ............................................................................................................16
+5.2. Antiinflamatorios ..........................................................................................................17
+5.2.1. Tocilizumab ..........................................................................................................17
+5.2.2. Corticoides sistémicos ..........................................................................................18
+5.3. Inmunoglobulinas intravenosas....................................................................................19
+5.4. Anticoagulación ............................................................................................................19
+6. Bibliografía ...................................................................................................................... 19
+1. JUSTIFICACIÓN
+Las indicaciones de un protocolo de actuación deben interpretarse de forma individualizada para
+cada paciente y debe prevalecer el juicio clínico.
+Estas recomendaciones pueden variar según evolucione nuestro conocimiento acerca de la
+enfermedad y la situación epidemiológica en España y por tanto pueden ser actualizadas. En
+estas recomendaciones de manejo clínico no se recoge el manejo de los contactos.
+El presente documento técnico tiene la finalidad de guiar el manejo de los pacientes que sean
+casos en investigación, probables o confirmados de COVID-19 con un doble objetivo: lograr el
+mejor tratamiento del paciente que contribuya a su buena evolución clínica; y garantizar los
+niveles adecuados de prevención y control de la infección para la protección de los trabajadores
+sanitarios y de la población en su conjunto.
+2. DEFINICIONES Y CRITERIOS
+La definición de caso puede ser modificada, por lo que se recomienda siempre revisar la última
+versión disponible en la web del Ministerio de Sanidad:
+https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov-China/
+3. MEDIDAS DE PREVENCIÓN Y CONTROL DE LA INFECCIÓN
+Se recomienda consultar los documentos del Ministerio de Sanidad que detallan la actuación en
+cada caso, así como las recomendaciones del Servicio de Prevención de Riesgos Laborales en los
+diferentes centros.
+4. MANEJO CLÍNICO EN PEDIATRÍA Y CUIDADOS INTENSIVOS PEDIÁTRICOS
+4.1. Valoración inicial y consideraciones al ingreso hospitalario
+•
+•
+
+Los casos pediátricos son menos frecuentes que en adultos y con sintomatología más
+leve.
+El cuadro clínico varía desde un cuadro leve y de vías respiratorias altas con uno o más
+de los siguientes síntomas: disnea, tos o dolor de garganta y/o fiebre hasta un cuadro
+de neumonía grave con sepsis (tabla 1). También se ha descrito un síndrome
+inflamatorio multisistémico pediátrico vinculado a SARS-CoV-2 (conocido con las siglas
+3
+
+•
+
+•
+
+•
+•
+•
+
+•
+
+SIM-PedS o PIMS) que podría ser una respuesta inflamatoria tardía a la infección por
+SARS-CoV-2. El abordaje diagnóstico y terapéutico de este síndrome se establece en otro
+documento disponible en la página web. Por otra parte, un porcentaje no precisado
+pero significativo de infecciones son asintomáticas.
+En el momento actual el Ministerio de Sanidad recomienda realizar PCR a todo
+paciente sospechoso con independencia de la gravedad, tanto en Atención Primaria
+como Hospitalaria, para realizar la identificación y correcto aislamiento de todos los
+casos. Los casos sospechosos son aquellos con un cuadro clínico de infección
+respiratoria aguda de aparición súbita de cualquier gravedad que cursa, entre otros, con
+fiebre, tos o sensación de falta de aire. Otros síntomas como la odinofagia, alteración
+del olfato o gusto, dolores musculares, diarrea, dolor abdominal, dolor torácico o
+cefalea, así como la fiebre sin foco especialmente en menores de 3 meses, pueden ser
+considerados también síntomas de sospecha de infección por SARSCoV-2 según criterio
+clínico.
+Es especialmente relevante considerar que en la población pediátrica los síntomas
+atribuibles a la COVID-19 son motivo de consulta muy común y que la búsqueda de
+infección por SARS-CoV-2, atendiendo únicamente al criterio clínico, podría resultar
+compleja. En este contexto, seria prioritario investigar la COVID-19 cuando además de
+los síntomas, exista una circunstancia epidemiológica que lo aconseje, como son:
+población pediátrica que conviva con una persona con riesgo alto de presentar una
+enfermedad COVID-19 grave; población pediátrica institucionalizada; población
+pediátrica con enfermedades previas que predispongan a padecer una enfermedad
+COVID-19 grave; población pediátrica que precise hospitalización y población pediátrica
+conviviente con caso sospechoso de COVID-19. Asimismo, en fases de contención,
+deberían ser testados todos aquellos niños con o sin síntomas que sean convivientes o
+tenga un contacto epidemiológico claro con un caso confirmado de COVID-19.
+En cualquier caso, los criterios para el cribado deberán seguir las recomendaciones de
+las autoridades sanitarias en cada momento.
+La existencia de otro virus en las muestras respiratorias no descarta la posible infección
+por SARS-CoV-2.
+No se han descrito alteraciones analíticas o radiográficas específicas en población
+infantil afectada por COVID-19, si bien la linfopenia es bastante frecuente y
+característica.
+Se recomienda la atención domiciliaria de todos los pacientes con infección no
+complicada. Hay que asegurarse de que las condiciones familiares lo permiten,
+proporcionar instrucciones claras por escrito de los cuidados y sobre la actuación en
+caso de empeoramiento.
+
+4.2. Criterios de ingreso en planta de hospitalización
+-
+
+Edad menor de 1 mes con fiebre (descartar otras posibles causas).
+
+4
+
+-
+
+-
+
+-
+
+Edad 1-3 meses: se valorará según criterios clínicos. La fiebre sin foco se evaluará
+como habitualmente en este grupo de edad. Valorar cuidadosamente a los menores
+de 1 año, que pueden tener más complicaciones.
+Cualquier factor de riesgo de la tabla 2 (comentar con su especialista y con
+Enfermedades Infecciosas). Se valorará de forma individualizada la posibilidad de
+manejo ambulatorio en aquellos pacientes que cumplan criterios de infección no
+complicada (tabla 1).
+Hipoxemia (satO2 < 92%) o dificultad respiratoria moderada/grave.
+Valorar ingreso en neumonías de aspecto viral, sobre todo bilaterales y con fiebre
+persistente, especialmente con linfopenia.
+Mal estado general, letargia.
+Rechazo de la alimentación.
+Episodios de apnea.
+Sospecha de SIM-PedS que no precise ingreso en UCI.
+
+Se recomienda realización de analítica sanguínea (hemograma, coagulación, gasometría venosa,
+bioquímica con LDH, PCR y PCT) y radiografía de tórax en caso de síntomas respiratorios, en
+aquellos pacientes que precisen ingreso por COVID-19. Considerar la utilidad de la ecografía
+torácica si está disponible y hay personal entrenado.
+Un único familiar u otro acompañante autorizado por los padres deberá permanecer en todo el
+momento junto con el paciente cumpliendo con las medidas de aislamiento recomendadas
+(mascarilla quirúrgica, bata y lavado de manos frecuente). Se recomienda que el acompañante
+sea siempre el mismo.
+4.3. Criterios de valoración por UCIP:
+Polipnea/Dificultad respiratoria grave mantenida a pesar de optimizar tratamiento.
+- SatO2 < 92% con FiO2 ≥ 0,5 (con mascarilla con reservorio).
+- Acidosis respiratoria aguda (hipercapnia >55 mmHg y/o pH<7,30). La hipercapnia es
+rara. Es más frecuente la hipoxemia.
+- Apneas recurrentes.
+- Aspecto séptico, signos de shock, fallo multiorgánico.
+- Alteración del nivel de conciencia y/o sospecha de fallo de centro respiratorio
+(hipoventilación central).
+En pacientes graves se recomienda realizar, además, CPK, troponinas y péptido natriurético (NTproBNP), fibrinógeno, dímero D, ferritina, triglicéridos, IL-6 y otros datos de linfohistiocitosis
+hemofagocítica (HLH). Se valorará punción lumbar si existe clínica neurológica.
+-
+
+4.4. Diagnóstico microbiológico
+Las pruebas de detección de ácidos nucleicos (reverse transcription polymerase chain
+reaction o RT-PCR) son las técnicas de elección para el diagnóstico en la fase aguda de la
+infección, en el momento de sospechar una infección por SARS-CoV-2. Las muestras que
+ofrecen más rendimiento diagnóstico son las de vías respiratorias bajas, especialmente el lavado
+5
+
+broncoalveolar o el aspirado bronquial. Sin embargo, la más utilizada es la nasofaríngea, que es
+de elección en la mayoría de casos. Existen datos de una mayor sensibilidad del aspirado frente
+al exudado nasofaríngeo. Aún está por definir el potencial mayor riesgo de generación de
+aerosoles con el primero. Otras muestras de más fácil extracción, como la saliva, están siendo
+actualmente estudiadas. Al extraer una muestra nasofaríngea, el hisopo debe alcanzar una
+profundidad igual a la distancia desde las fosas nasales hasta la abertura externa de la oreja. Se
+hacen 2 o 3 rotaciones de 180 grados del hisopo y se mantiene 5 segundos en contacto con la
+mucosa. Tras la recogida, los hisopos deben introducirse en un medio de transporte para virus,
+y procesarse con rapidez. En aquellos casos con alta sospecha de COVID-19 y PCR negativa, se
+recomienda repetir la muestra a las 24-48 horas, priorizando las muestras de la vía aérea
+inferior, y asegurando su correcta extracción. Los inmunodeprimidos pueden tener excreción
+prolongada del virus. También es posible la realización de PCR en heces donde la duración de la
+excreción es más prolongada.
+Más recientemente se han aprobado distintas pruebas rápidas basadas en la detección de
+antigénos virales en muestras respiratorias (p.ej., exudado nasofaríngeo), que presentan una
+sensibilidad y especificidad adecuadas en pacientes sintomáticos durante los primeros 5 días del
+inicio de los síntomas, siendo mayor en aquellos con una carga viral elevada. Por tanto, pueden
+utilizarse como alternativa a la PCR en el diagnóstico de la infección aguda.
+Las técnicas de detección de anticuerpos (serología), realizadas en muestras de suero o plasma,
+pueden permitir el diagnóstico tardío de la infección (a partir de los 7-10 del inicio de los
+síntomas para IgG), cuando existe sospecha clínica y la RT-PCR es negativa. La fiabilidad de la
+IgM en este momento está cuestionada.
+4.5. Actuaciones en función de la gravedad
+4.5.1. Infección no complicada
+•
+
+•
+•
+•
+
+Observar las medidas generales de protección. Colocar si es posible al paciente y sus
+familiares mascarilla quirúrgica. Mantener idealmente 2 metros (mínimo 1 metro de
+separación con otros pacientes en todo momento).
+El personal que atiende al paciente debe seguir las medidas preventivas recomendadas
+en todo momento.
+Antitérmicos. En el momento actual no existe evidencia para recomendar el uso del
+paracetamol frente al ibuprofeno como antitérmico.
+Si el paciente presenta fiebre y síntomas respiratorios, valorar realizar Rx tórax y
+analítica sanguínea (hemograma, proteína C reactiva, procalcitonina, hemocultivo,
+transaminasas, iones y coagulación), fundamentalmente si la Rx tórax es patológica.
+
+Ante la situación epidemiológica actual, si las condiciones familiares lo permiten, se
+recomienda su atención domiciliaria con instrucciones claras sobre la actuación en caso de
+empeoramiento. (Importante coordinación Salud Pública – Atención Primaria)
+
+6
+
+Tabla 1. Síndromes clínicos asociados con la infección respiratoria por SARS-CoV-2
+Infección no
+complicada
+
+Infección leve de
+vías bajas1
+Infección grave de
+vías bajas2
+
+Otras
+manifestaciones
+asociadas a
+cuadros graves
+Síndrome de
+distrés
+respiratorio agudo
+(SDRA)3
+
+Sepsis4
+Shock séptico5
+
+Los pacientes con infección viral no complicada del tracto respiratorio
+superior pueden presentar síntomas inespecíficos, como fiebre, tos,
+dolor de garganta, congestión nasal, malestar general, dolor de
+cabeza, dolor muscular o malestar general. No existen signos de
+deshidratación, sepsis o dificultad respiratoria.
+Tos, dificultad respiratoria con polipnea (en respiraciones / min): <2
+meses, ≥60; 2–11 meses, ≥50; 1–5 años, ≥40 y sin signos de neumonía
+grave.
+Saturación ambiental >92%. Pueden o no tener fiebre.
+Tos o dificultad respiratoria y al menos uno de los siguientes: cianosis
+central o SatO2 <92% (<90% en prematuros); dificultad respiratoria
+grave (por ejemplo, quejido, retracción torácica muy intensa);
+incapacidad o dificultad para alimentación, letargo o pérdida de
+conocimiento o convulsiones. Pueden presentarse otros signos como:
+retracciones torácicas, polipnea (en respiraciones / min): ≥70 en
+menores de 1 año; ≥50 en mayores de 1 año. Gasometría arterial:
+PaO2< 60 mmHg, PaCO2 > 50 mmHg. El diagnóstico es clínico; las
+imágenes de tórax pueden excluir complicaciones (atelectasias,
+infiltrados, derrame).
+Trastornos de la coagulación (tiempo prolongado de protrombina y
+elevación de dímero-D), daño miocárdico (aumento de biomarcadores
+cardiacos, cambios de ST-T en el electrocardiograma, cardiomegalia e
+insuficiencia cardíaca), disfunción gastrointestinal, elevación de
+enzimas hepática y rabdomiolisis.
+Inicio: nuevo o empeoramiento del cuadro en los 10 días previos.
+Rx tórax, TC o ECO: Nuevo(s) infiltrado(s) uni/bilaterales compatibles
+con afectación aguda del parénquima pulmonarinfiltrados bilaterales,
+atelectasia lobar lobular o pulmonar, o consolidaciones.
+Edema pulmonar: ausencia de otra etiología como fallo cardiaco o
+sobrecarga de volumen.
+Oxigenación (OI = Índice de oxigenación y OSI = Índice de oxigenación
+usando SpO2):
+• VNI bilevel o CPAP ≥5 cmH2O a través de una máscara facial
+completa: PaO2 / FiO2 ≤ 300 mmHg o SpO2 / FiO2 ≤264
+• SDRA leve (ventilación invasiva): 4 ≤ OI <8 o 5 ≤ OSI <7.5
+• SDRA moderado (ventilación invasiva): 8 ≤ OI <16 o 7.5 ≤ OSI <12.3
+• SDRA grave (ventilación invasiva): OI ≥ 16 u OSI ≥ 12.3
+Infección sospechada o comprobada y ≥ 2 criterios de SIRS, de los
+cuales uno debe ser temperatura anormal o recuento leucocitario
+anormal.
+Cualquier hipotensión (PAS < percentil 5 o > 2 DE por debajo de lo
+normal para la edad) o 2-3 de los siguientes: estado mental alterado;
+taquicardia o bradicardia (FC <90 lpm o> 160 lpm en lactantes y FC <70
+lpm o > 150 lpm en niños); relleno capilar lento (> 2 segundos) o
+vasodilatación caliente con pulsos conservados; taquipnea; piel
+7
+
+Síndrome
+inflamatorio
+multisistémico
+pediátrico
+vinculado a SARSCoV-2 (SIM-PedS)6
+
+moteada o erupción petequial o purpúrica; lactato aumentado,
+oliguria, hipertermia o hipotermia.
+Las siguientes características son de especial interés en la sospecha de
+SIM-PedS: paciente con criterios de EK completa o incompleta de
+cualquier edad, presencia de síntomas gastrointestinales (vómitos,
+náuseas, dolor abdominal, diarrea), reactantes de fase aguda
+elevados, shock, hipotensión, disfunción miocárdica, linfopenia,
+anemia, plaquetopenia, shock, hipotensión y disfunción miocárdica.
+Los cuadros clínicos que podrían ser compatibles son los siguientes:
+1.- Cuadro clínico compatible con miocarditis, shock séptico o
+shock tóxico.
+2.- Cuadro clínico compatible con enfermedad de Kawasaki
+completa/incompleta.
+3.- Fiebre y dolor abdominal o exantema cutáneo o
+conjuntivitis, con alteración analítica compatible
+(especialmente reactantes de fase aguda muy elevados y/o
+alteración de enzimas cardíacas).
+
+1Equivalente
+
+a neumonía leve de la OMS. 2Equivalente a neumonía grave de la OMS. SIRS: Síndrome de respuesta
+inflamatoria sistémica. VNI: ventilación no invasiva, PAS: presión arterial sistólica, DE: desviación estándar. FC:
+frecuencia cardiaca. 3Khemani RG, Smith LS, Zimmerman JJ; et al. Pediatric Acute Respiratory Distress Syndrome:
+Definition, Incidence, Epidemiology: Proceedings from Pediatric Acute Lung Injury Consensus Conference. Pediatr Crit
+Care Med 201;16(Suppl 5);523-40. 4Goldstein B, Giroir B, Randolph A, International Consensus Conference on
+Pediatric Sepsis. International pediatric sepsis consensus conference: definitions for sepsis and organ dysfunction in
+pediatrics. Pediatr Crit Care Med 2005;6:2-8. 5Davis AL, Carcillo JA, Aneja RK, et al. American College of Critical Care
+Medicine Clinical Practice Parameters for Hemodynamic Support of Pediatric and Neonatal Septic Shock. Crit Care
+Med 2017; 45:1061-93. 6Consenso nacional sobre diagnóstico, estabilización y tratamiento del Síndrome Inflamatorio
+Multisistémico Pediátrico vinculado a SARS-CoV-2 (SIM-PedS).
+
+Tabla 2. Grupos de riesgo de mala evolución
+Inmunodeprimidos*
+
+Cardiopatías
+
+Patología respiratoria crónica
+(neumopatías crónicas)
+
+-Inmunodeficiencias primarias (1).
+-Trasplante órgano sólido y trasplante
+progenitores hematopoyéticos.
+-Tratamiento con quimioterapia,
+inmunosupresores o fármacos biológicos.
+-VIH con CD4 < 200.
+-Con repercusión hemodinámica.
+-Precisan tratamiento médico.
+-Hipertensión pulmonar.
+-En lista de espera de trasplante.
+-Postoperatorio reciente de cirugía o
+cateterismo.
+- Insuficiencia cardiaca, enfermedad
+coronaria, miocardiopatías.
+-Fibrosis quística.
+-Displasia broncopulmonar.
+-Asma grave.
+8
+
+-Portadores de traqueostomía,
+oxigenoterapia o VM domiciliaria.
+Otros
+-Diálisis.
+-Drepanocitosis.
+-DM tipo 1 con mal control metabólico.
+-Obesidad en adolescentes.
+-Malnutrición grave, intestino corto,
+epidermólisis bullosa, encefalopatías graves,
+miopatías, errores congénitos del
+metabolismo…
+* No se ha confirmado claramente que los inmunodeprimidos tengan un riesgo elevado de
+enfermedad grave. No obstante, debe ser un grupo en el que se tendrá especial vigilancia.
+(1) Excluido déficit de IgA.
+4.5.2 Infección leve de vías respiratorias bajas que precisa ingreso hospitalario
+•
+•
+
+•
+
+Monitorización no invasiva de constantes incluyendo SatO2 con pulsioximetría.
+Realización de analítica sanguínea (hemograma, PCR, PCT, hemocultivo si fiebre,
+bioquímica con transaminasas, función renal, iones, coagulación, dímero D y
+gasometría) y canalización de vía periférica. Radiografía de tórax.
+Si se precisara la administración de broncodilatadores se recomienda utilizar cartucho
+presurizado asociado a la cámara espaciadora para evitar la generación de aerosoles. En
+caso de emplear broncodilatadores nebulizados, si hubiera disponibilidad se
+recomienda una habitación con presión negativa. De no estar disponible este tipo de
+sala se le atenderá en una habitación o box de uso individual con baño, con ventilación
+natural o climatización independiente. La puerta de la habitación deberá permanecer
+siempre cerrada.
+
+4.5.3. Infección grave de vías respiratorias bajas
+Además de las recomendaciones anteriores respecto a monitorización y pruebas
+complementarias:
+•
+
+•
+•
+•
+•
+
+Manejo conservador de fluidos, dado que el manejo agresivo puede empeorar la
+oxigenación (sueroterapia habitual a 2/3 de necesidades basales). No se recomienda
+emplear sueros hipotónicos (ni almidones o gelatinas en caso de resucitación). En caso
+de resucitación se recomienda emplear cristaloides (balanceados o suero fisiológico
+0,9%).
+Oxigenoterapia para mantener SaO2 >92%.
+Evitar y/o limitar en la medida de lo posible los procedimientos generadores de
+aerosoles (tabla 3).
+No está indicada la administración sistemática de antibióticos. Se valorará en función de
+la gravedad del cuadro clínico y de la sospecha de sobreinfección bacteriana.
+Si hay sospecha de sobreinfección bacteriana (leucocitosis y elevación de PCR o PCT),
+seleccionar la antibioterapia empírica según las distintas guías y la epidemiología local.
+9
+
+•
+
+•
+
+•
+
+Por ejemplo, en el caso de sospecha de neumonía bacteriana no complicada, iniciar
+amoxicilina vo o ampicilina iv. Se debe recoger estudio microbiológico siempre que sea
+posible antes del inicio y no olvidar suspender o ajustar según los resultados.
+Si hay sospecha de sepsis y shock séptico se empleará antibioterapia intravenosa
+empírica según la clínica, edad, características del paciente y epidemiología local, siendo
+en este caso fundamental que se administre en la primera hora o cuanto antes sea
+posible. Se valorará la situación previa del paciente (paciente sano o con
+comorbilidades, ventilación mecánica, etc.), ajustándose a las características de cada
+caso.
+Se debe valorar el ingreso en UCIP en los casos indicados en el punto 4.3. Las UCIP que
+atiendan a estos pacientes deben cumplir con los requisitos exigidos, y deben ser las
+designadas para atenderlos según establezcan los protocolos regionales o nacionales.
+Valorar el uso de corticoides (ver apartado 7 de tratamiento) en pacientes con
+hipoxemia que presentan deterioro respiratorio, aunque no cumplan criterios de
+ingreso en UCIP.
+
+4.5.4. SIM-PedS
+Ver documento de consenso específico (disponible en la web de la AEP).
+4.6. Manejo en la Unidad de Cuidados Intensivos Pediátricos
+•
+
+•
+
+•
+
+Además del riesgo ya conocido de transmisión del virus en entornos de UCI con
+pacientes más graves y con procedimientos invasivos y generadores de aerosoles (Tabla
+3), el paciente pediátrico ingresado en UCIP presenta un riesgo añadido por su
+comportamiento imprevisible y por la falta cumplimiento de las medidas de higiene
+respiratoria como corresponde a su edad. Además, podrá estar acompañado por su
+padre, madre o cuidador, conviviente y contacto estrecho que puede incrementar a su
+vez el riesgo de contaminación dentro de la estancia. Por ello, y realizando
+procedimientos generadores de aerosoles (tabla 3), se puede valorar aumentar las
+medidas de protección, evitando tener zonas expuestas a la contaminación, e incluir en
+las medidas de protección el uso de mascarilla FFP3, un mono integral o bata
+impermeable de manga larga con capucha y calzas para cubrir el calzado. En situaciones
+de alto riesgo de contaminación como la intubación se recomienda además el uso de
+doble guante. En esta situación se debe seguir de forma estricta las normas de
+colocación y retirada de los EPI establecidas, de forma supervisada y habiendo recibido
+formación y entrenamiento sobre estos procedimientos.
+En nuestros conocimientos actuales el tratamiento de soporte en UCIP en pacientes
+graves que presenten SDRA, sepsis o disfunción orgánica de causa vírica, con o sin
+sobreinfección bacteriana, no difieren de forma significativa de los recomendados
+internacionalmente por las guías de práctica para estos procesos.
+El papel de los corticoides en niños está en revisión (ver apartado 7 de tratamiento). El
+uso de corticoides en niños graves no está suficientemente demostrado, pero pueden
+10
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+ser útiles en casos de SIM-PedS grave, shock refractario a catecolaminas o SDRA (ver
+apartado 5.2.2).
+Si por la situación clínica o gasométrica la oxigenoterapia convencional no fuera
+suficiente, se valorará el uso de oxigenoterapia de alto flujo (OAF) o de ventilación no
+invasiva (VNI):
+- Si hay hipoxemia sin hipercapnia asociada, considerar iniciar OAF.
+- Si la OAF no es efectiva o como alternativa a ésta, se puede iniciar VNI con CPAP.
+Si hay hipercapnia asociada, valorar el uso de VNI con dos niveles de presión.
+Tanto la VNI, como la OAF son procedimientos que pueden generar aerosoles, por lo
+que deben hacerse cumpliendo estrictamente las medidas de aislamiento y protección
+ante los mismos.
+Si no hay una mejoría clara de los parámetros clínicos (FC, FR, dificultad respiratoria) y
+de oxigenación (PaO2/FIO2, Sat.O2/FiO2) en las primeras horas del soporte con OAF o
+VNI, se recomienda intubación precoz y ventilación mecánica invasiva (VMI). Además,
+se valorará una intubación precoz si existe un SDRA severo, deterioro del estado de
+conciencia o shock refractario a fluidos o resistente a catecolaminas.
+En caso de Ventilación Mecánica Invasiva (VMI) se recomienda inicialmente los
+parámetros recomendados de ventilación protectora (Consensos PALICC y PEMVECC):
+VT 4-8 ml/kg, PEEP óptima, Presiones Meseta <30 cm H2O y Drive Pressure <15 cm H2O.
+Si evoluciona a un Síndrome de Distrés Respiratorio Agudo (SDRA) grave se añadirá a las
+medidas anteriores el empleo de ventilación con hipercapnia permisiva, ventilación en
+prono, sedación profunda y empleo de bloqueo neuromuscular si es preciso. Se
+reservará el uso de óxido nítrico para situaciones de hipoxemia refractaria,
+especialmente si está asociada a hipertensión pulmonar.
+Se debe realizar un manejo adecuado de líquidos evitando la sobrecarga hídrica y los
+balances muy positivos, que se han asociado a una peor evolución respiratoria y a una
+mayor morbimortalidad.
+En caso de sepsis, en la fase de resucitación inicial se recomienda realizar una expansión
+de volumen cuidadosa con cristaloides isotónicos (en bolos de 10-20 ml/kg) guiada por
+la respuesta, y vigilando los signos de sobrecarga de volumen. La respuesta se valorará
+según marcadores clínicos (como tensión arterial, frecuencia cardiaca, perfusión
+periférica, diuresis o el estado neurológico), analíticos (como la evolución del lactato
+sérico o la SvO2) y de monitorización avanzada si es necesaria (como el gasto cardiaco y
+la medición de las resistencias periféricas). El uso de la ecografía a pie de cama puede
+ser una herramienta muy útil en el manejo de estos pacientes. Además de la expansión
+de volumen puede necesitar soporte con drogas vasoactivas conforme a las guías y
+recomendaciones internacionales pediátricas actuales, en las que adrenalina y
+noradrenalina se consideran los fármacos de primera línea. Pueden requerir también
+terapia continua de reemplazo renal.
+
+11
+
+•
+
+•
+
+En caso de fallo respiratorio o cardiorrespiratorio grave refractario a las medidas de
+tratamiento convencional se puede considerar la utilización de ECMO, cuyas
+indicaciones, en nuestros conocimientos actuales, no difieren de las de otros procesos.
+Se ha de valorar la realización de distintas pruebas de imagen en el caso de sospecha de
+complicaciones tromboembólicas (p.ej., angioTC torácico en caso de sospecha de
+tromboembolismo pulmonar o angioRM/angioTC cerebral en el caso sospecha de
+accidente cerebrovascular).
+
+Tabla 3. Procedimientos susceptibles de generar aerosoles y estrategias sugeridas para reducir
+su riesgo si son estrictamente necesarios1
+Procedimiento
+
+Estrategia2,3
+
+Aspiración de secreciones respiratorias
+
+Limitar a las imprescindibles.
+Aspiración cerrada si VMI.
+Emplear cámara espaciadora y dispositivo MDI.
+
+Aerosolterapia
+Toma de muestras respiratorias
+Lavado broncoalveolar
+Oxigenoterapia de alto flujo
+
+Limitar a las imprescindibles.
+Evitar si es posible.
+Emplear con las medidas de protección adecuadas3. Uso
+de mascarilla quirúrgica si se tolera. Usar el menor flujo
+eficaz.
+Ventilación no invasiva (VNI)
+Emplear con las medidas de protección adecuadas3.
+En caso necesario asegurar el sellado adecuado de la
+interfase.
+Uso de VNI con doble tubuladura. Uso preferente de
+Helmet, interfases buconasales o mascarillas faciales.
+Si se usa rama simple con fuga intencionada en la
+tubuladura y filtro de alta eficacia en la salida.
+La fuga intencionada no debe estar en la mascarilla y se
+deben usar codos de la interfase sin fuga.
+Ventilación manual con mascarilla y Si se puede, evitar la ventilación con mascarilla y bolsa
+bolsa autoinflable
+autoinflable. Si se debe utilizar, se hará con un filtro de
+alta eficiencia que impida la contaminación vírica, entre
+la bolsa autoinflable y la mascarilla, sin hiperventilar y
+evitando fugas. Puede ser útil realizar la reanimación con
+2 reanimadores para disminuir la fuga.
+Intubación
+Se utilizarán tubos endotraqueales con balón para evitar
+las fugas, con presión balón < 25 cm H2O.
+Si es necesario se pre-oxigenará con mascarilla reservorio
+de O2 en vez de ventilación con bolsa autoinflable y se
+realizará con una secuencia rápida de intubación y por
+personal experto para minimizar el tiempo y el número
+de intentos del procedimiento de intubación. Puede ser
+12
+
+más seguro el uso de videolaringoscopia si existe
+experiencia en su uso.
+Ventilación mecánica (VM)
+Se pondrán los filtros de alta eficiencia que impidan la
+contaminación vírica tanto en el asa inspiratoria como en
+la espiratoria. Si se produce una desconexión se debe
+clampar el tubo endotraqueal.
+Se usará el sistema de aspiración cerrada de secreciones.
+Uso de intercambiador de calor y humedad con filtro de
+alta eficacia que impida la contaminación vírica, en vez de
+humidificación activa.
+Evitar desconexiones.
+Resucitación cardiopulmonar
+EPI completo previo a iniciar la RCP. Intubación precoz
+por personal experto, parar las compresiones durante la
+intubación y conexión precoz al respirador.
+(1) La influencia de estos procedimientos o estrategias sobre la transmisión de la
+infección no está suficientemente demostrada, pero son razonables y se han
+recomendado en infecciones con un mecanismo de transmisión similar.
+(2) Evitar si es posible.
+(3) En casos necesarios, se puede valorar su uso en habitaciones con presión negativa,
+asegurando el uso de EPI completo con mascarilla FFP3 por parte del personal
+asistencial.
+4.7. Seguimiento y monitorización de la respuesta clínica
+En nuestros conocimientos actuales el seguimiento y la monitorización evolutiva del niño con
+infección grave no difiere del que se realiza conforme a la práctica clínica habitual en otros
+procesos con neumonía grave, insuficiencia respiratoria aguda, SDRA, sepsis o fallo
+multiorgánico. Se realizará un seguimiento evolutivo clínico, analítico y de imagen conforme a
+la práctica clínica recomendada en estos procesos.
+4.8. Criterios de alta hospitalaria
+No existen criterios estandarizados globales para dar de alta a pacientes pediátricos con COVID19. La falta de evidencia relacionada con la evolución de los pacientes, la duración de la
+excreción del virus y la deseable estancia mínima en el hospital, nos llevan a utilizar criterios de
+otras infecciones virales respiratorias y adaptarlos a esta situación:
+-
+
+Sin fiebre ≥24-36 horas.
+Sin necesidad de oxígeno ≥12-24 horas (SatO2 ≥90-92% a aire ambiente y sin signos
+de dificultad respiratoria).
+Mejoría de las pruebas de imagen (Rx tórax o ecografía torácica) en el caso de haber
+precisado control radiológico. Se puede considerar no repetir si no ha empeorado
+durante el ingreso o si es normal al ingreso.
+13
+
+-
+
+-
+
+Mejoría analítica. Considerar monitorizar en caso de linfopenia, elevación
+significativa de reactantes de fase aguda, dímero D, o IL-6, lo que podría sugerir un
+empeoramiento. Se puede considerar no repetir si es normal al ingreso y/o existe
+una clara mejoría clínica durante el ingreso.
+Ingesta oral adecuada.
+Posibilidad de atención médica urgente en el caso de empeoramiento.
+Capaz de completar el tratamiento en casa, si es necesario.
+
+En cualquier caso, es necesario individualizar, dado que deben ser tenidos en cuenta otros
+factores. En todos los pacientes es esencial asegurar el seguimiento: vigilancia adecuada en el
+hogar por parte de los padres/cuidadores y facilidad de acceso a las instalaciones de salud. En
+caso de posibles contactos de alto riesgo en el hogar (por ejemplo, ancianos o convivientes
+inmunodeprimidos), se debe recomendar el aislamiento siguiendo las medidas higiénicas, y se
+puede considerar un aislamiento alternativo en otros centros de atención dependiendo de las
+posibilidades locales, como en hoteles.
+Los cuidadores de estos niños infectados podrían adquirir en algún momento la infección y
+posiblemente transmitirán el virus a otros al igual que los propios niños. Para minimizar la
+exposición y la posible propagación del SARS-CoV-2 en tránsitos a entornos de atención médica,
+sería aconsejable promover el seguimiento remoto desde el hospital donde ingresó, o por los
+centros de atención primaria, mediante consultas telefónicas.
+En todos los casos, es recomendable entregar a los padres o cuidadores por escrito normas de
+actuación en el domicilio para el aislamiento.
+Los casos que han requerido ingreso hospitalario podrán recibir el alta hospitalaria si su situación
+clínica lo permite, aunque su PCR siga siendo positiva, pero se deberá mantener aislamiento
+domiciliario con monitorización de su situación clínica al menos 10 días desde el alta
+hospitalaria. A partir de estos 10 días, y siempre que hayan transcurrido tres días desde la
+resolución de la fiebre y el cuadro clínico, se podrá finalizar el aislamiento. En cualquier caso, si
+antes de transcurridos estos 10 días de aislamiento domiciliario desde el alta hospitalaria se
+realiza una PCR y se obtiene un resultado negativo, se podrá desaislar al paciente (MSC, 25
+septiembre 2020).
+5. TRATAMIENTO FARMACOLÓGICO
+•
+
+•
+
+•
+
+No existe actualmente evidencia procedente de ensayos clínicos controlados para
+recomendar un tratamiento específico para el SARS-CoV-2 en niños con sospecha o
+confirmación de COVID-19.
+Los tratamientos con medicamentos en investigación deberían ser administrados solo
+en el contexto de ensayos clínicos aprobados o en el marco del uso de medicamentos
+en situaciones especiales, con estricta monitorización clínica.
+Sin embargo, con los conocimientos actuales, se pueden hacer ciertas recomendaciones
+de tratamiento que se detallan en este documento (Tabla 4).
+14
+
+•
+
+•
+
+•
+
+En el momento actual, no hay información científica que avale la utilidad de
+lopinavir/ritonavir, azitromicina ni hidroxicloroquina en el tratamiento de la infección
+por SARS-CoV-2.
+En el momento actual hay un ensayo clínico aprobado en pediatría (PANCOVID) en
+nuestro país, que evaluará de manera adaptativa los posibles tratamientos en niños. Por
+lo que siempre que fuera posible, el uso de fármacos específicos debería realizarse en
+su contexto.
+Remdesivir ha sido evaluado en pacientes a partir de 12 años (ClinicalTrials.gov:
+NCT04292730), pero sus resultados en población pediátrica aún no han sido
+comunicados. Se está realizando actualmente un ensayo fase 2/3 en menores de 12
+años (CARAVAN study; ClinicalTrials.gov: NCT04431453).
+
+La indicación y elección del tratamiento antivírico se consensuará, a ser posible, con el equipo
+de Infectología pediátrica.
+Tabla 4. Indicaciones para valorar tratamiento específico
+Cuadro clínico
+LEVE:
+No hipoxemia, no
+dificultad respiratoria o
+leve.
+MODERADO:
+Hipoxemia y/o dificultad
+respiratoria moderada.
+
+GRAVE (UCIP):
+Hipoxemia grave,
+dificultad respiratoria
+grave, mal aspecto,
+shock, fallo
+multiorgánico.
+
+Rx tórax
+
+Tratamiento
+
+Actitud
+
+No indicada
+salvo grupos
+de riesgo.
+
+Sintomático
+(1)(2).
+
+Alta a domicilio salvo
+grupos de riesgo
+(valoración individual).
+
+Normal.
+
+Sintomático
+(1)(2).
+
+Ingreso sin tratamiento
+antiviral.
+
+Cualquier
+infiltrado.
+
+Sintomático (1)(2).
+Valorar corticoides si
+hipoxemia.
+Sintomático (1)(2).
+Valorar corticoides.
+
+Valorar uso de
+Remdesivir.
+
+Cualquier
+infiltrado.
+
+Valorar uso de
+remdesivir.
+Valorar individualmente
+otros
+inmunomoduladores
+(p.ej., tocilizumab,
+anakinra…) en caso de
+progresión clínica
+
+(1) Antibioterapia empírica si se sospecha sobreinfección bacteriana.
+(2) Valorar individualmente el uso de antimicrobianos frente a SARS-CoV-2 distintos de
+remdesivir fuera de las indicaciones establecidas en este documento en el contexto de
+ensayos clínicos.
+Rx tórax compatible con COVID-19:
+-
+
+Infiltrados bilaterales con patrón intersticial o en vidrio deslustrado o infiltrados
+pulmonares bilaterales alveolares compatibles con SDRA.
+Infiltrado unilateral multilobar compatible con infección viral.
+
+Si se realiza ecografía transtorácica: patrón B, patrón coalescente, irregularidad pleural. Patrón
+15
+
+C: derrame pleural bilateral (mínimo) asociado a derrame pericárdico no significativo.
+5.1. Tratamiento antiviral
+5.1.1. Lopinavir/ritonavir (Kaletra®)
+En el momento actual no está indicado. Dosis disponibles en versiones anteriores de este
+documento.
+5.1.2. Hidroxicloroquina
+En el momento actual no está recomendado. Dosis disponibles en versiones anteriores de este
+documento.
+5.1.3. Remdesivir
+Actualmente es el único antiviral que ha demostrado un beneficio clínico, aunque discreto. En
+el ensayo ACTT-1, remdesivir se asoció con un menor tiempo de recuperación en el grupo de
+pacientes adultos hospitalizados con oxigenoterapia convencional. En un análisis post hoc de
+mortalidad en el día 29, remdesivir sugiere un beneficio en ese mismo grupo de pacientes (HR
+de mortalidad: 0,30; IC 95%: 0,14-0,64). Sin embargo, no ha demostrado beneficio en pacientes
+que precisan mayor soporte respiratorio (oxigenoterapia de alto flujo, ventilación mecánica o
+ECMO). Los pacientes tratados 10 días no presentaron beneficio respecto a los tratados 5 días.
+Más recientemente, el ensayo SOLIDARITY coordinado por la OMS, aún no publicado en ninguna
+revista científica, no ha demostrado ningún beneficio clínico de remdesivir. Sin embargo, a la
+espera de su revisión y debido a algunas dudas metodológicas, se mantienen las mismas
+recomendaciones.
+Por tanto, remdesivir podría ser una opción terapéutica en pacientes pediátricos con una
+infección grave o moderada asociada a hipoxemia, priorizando su inclusión en ensayos clínicos.
+Las dosis propuestas para la población pediátrica son:
+-
+
+< 40 Kg de peso: dosis de carga el primer día de 5 mg/kg iv seguido de una dosis de
+mantenimiento de 2,5 mg/kg iv al día desde el día 2 al día 5.
+≥ 40 kg de peso: igual que adultos: dosis de carga el primer día de 200 mg/iv seguido de
+una dosis de mantenimiento de 100 mg/iv al día desde el día 2 al día 5.
+
+La EMA recomienda en la actualidad realizar tratamientos de 5 días, así como su uso precoz en
+pacientes hospitalizados con hipoxemia. En casos graves, en UCIP, con carga viral persistente,
+de no objetivarse mejoría clínica, podría valorar prolongarse hasta un total de 10 días.
+La principal reacción adversa es la hipotensión infusional. Otras posibles reacciones adversas
+afectan al tracto gastrointestinal (náuseas, vómitos, diarrea, estreñimiento, dolor abdominal
+etc.). Se han descrito elevación de las transaminasas e insuficiencia renal reversible.
+Los pacientes con ≥12 años y peso ≥ 40 Kg recibirán remdesivir siguiendo el protocolo y circuito
+establecido por el Ministerio de Sanidad:
+16
+
+https://www.mscbs.gob.es/gl/profesionales/farmacia/valtermed/docs/20200908_Protocolo_f
+armacoclinico_remdesivir2.pdf
+Los criterios seguidos en este documento (actualización 8/9/2020) son los siguientes:
+Indicaciones:
+•
+•
+•
+•
+
+Adultos y adolescentes de edad ≥12 años y peso ≥ a 40 Kg.
+Pacientes con necesidad de suplemento de oxígeno que revierte con oxigenoterapia de
+bajo flujo (gafas nasales o mascarilla simple, con o sin reservorio).
+Pacientes con infección por SARS-CoV-2 confirmada por PCR que lleven un máximo de 7
+días de síntomas.
+Pacientes con enfermedad definida con un mínimo de dos de los tres criterios
+siguientes:
+o Frecuencia respiratoria ≥24rpm.
+o SpO2 <94% en aire ambiente.
+o Cociente presión arterial de oxígeno / fracción inspirada de oxígeno (PaO2/FiO2) <
+300 mmHg.
+
+Criterios de exclusión:
+•
+
+•
+•
+•
+•
+•
+
+Pacientes con enfermedad grave que precisen ventilación no invasiva o
+utilización de dispositivos de oxígeno de alto flujo, ventilación mecánica invasiva
+o ECMO.
+Enfermedad hepática grave: ALT o AST ≥ 5 veces el límite superior de la
+normalidad.
+Pacientes con insuficiencia renal grave (filtrado glomerular < 30 ml/min), en
+hemodiálisis, diálisis peritoneal.
+Necesidad de dos ionotrópicos para mantener tensión arterial.
+Mujeres embarazadas, lactantes o con test positivo de embarazo.
+Evidencia de fallo multiorgánico.
+
+Los pacientes de <18 años que no cumplan los criterios establecidos con ≥12 años y peso ≥ 40
+Kg (p.ej., pacientes intubados) podrán recibir remdesivir a través de un programa específico de
+uso compasivo. En algunos centros de nuestro país está disponible un ensayo clínico para
+niños menores de 18 años que precisen ingreso por enfermedad COVID-19 significativa, sin
+limitación de días de evolución ni criterios de oxigenoterapia específicos, no necesitando en
+este caso solicitar el fármaco por uso compasivo.
+5.2. Antiinflamatorios
+5.2.1. Tocilizumab
+Aunque algunos estudios observacionales metodológicamente bien elaborados demostraron
+un beneficio clínico de tocilizumab en pacientes con un perfil de hiperinflamación, varios
+ensayos clínicos posteriores no han demostrado ningún beneficio. Por lo tanto, en el momento
+17
+
+actual se recomienda restringir su uso.
+No hay datos en menores de 2 años. Requiere determinación de IL-6 antes de la administración.
+Siempre que sea posible, debería ser empleado en el contexto de ensayos clínicos.
+Se planteará en pacientes graves (preferiblemente en UCIP), con progresión clínica y con
+elevación de IL-6 por encima de los valores del laboratorio de referencia (en general >35
+pg/mL) y/o dímero D (>400 ng/mL o en progresivo aumento, siendo este uno de los datos más
+importantes a tener en cuenta). Las dosis empleadas en síndrome de liberación de citoquinas
+por CAR-T cells son:
+-
+
+<30 kg: 12 mg/kg/iv (diluir hasta 50 cc con SSF y administrar en 1 hora).
+≥30 kg: 8 mg/kg/iv (diluir hasta 100 cc con SSF y administrar en 1 hora). Dosis máxima:
+800 mg por infusión.
+
+Se empleará en dosis única. En situaciones excepcionales con una respuesta favorable se
+podría valorar una segunda infusión 12 horas después de la primera.
+En el momento actual, se tiende a emplear la dosis de 8 mg/kg/iv, incluso si pesa menos de 30
+kg, para evitar posibles reacciones de hipersensibilidad.
+Su uso se ha asociado a un incremento en el riesgo de infecciones, incluidas infecciones
+oportunistas (p.ej., Aspergillus spp.), por lo que requiere una vigilancia estrecha.
+No se recomienda el uso de tocilizumab en caso de:
+- Valores de AST/ALT superiores a 10 veces el límite superior de la normalidad.
+- Neutrófilos < 500 células/mm3.
+- Plaquetas < 50.000 células/mm3.
+- Sepsis documentada por otros patógenos que no sean SARS-CoV-2.
+- Presencia de comorbilidad que puede llevar según juicio clínico a mal pronóstico;
+- Diverticulitis complicada o perforación intestinal.
+- Infección cutánea en curso (por ejemplo, piodermitis no controlada con tratamiento
+antibiótico).
+5.2.2. Corticoides sistémicos
+No están recomendados de forma general. En las fases iniciales (primera semana de síntomas),
+podría favorecer la replicación viral. Sin embargo, un ensayo clínico en adultos ha demostrado
+una disminución de la mortalidad por todas las causas con el empleo de dosis bajas de
+dexametasona.
+•
+
+•
+
+Se puede valorar en casos de SDRA, shock séptico, encefalitis, síndrome hemofagocítico,
+fallo respiratorio agudo con necesidad de ventilación mecánica, PIMS o SIM-PedS y
+cuando exista un broncoespasmo franco con sibilancias (en este caso se realizará
+manejo habitual de los episodios de broncoespasmo).
+Adicionalmente, se podría valorar su uso en caso de pacientes con hipoxemia que
+presentan empeoramiento respiratorio progresivo y >5-7 días desde el inicio de los
+18
+
+•
+•
+
+síntomas.
+La dosis empleada en los casos previos es metilprednisolona intravenosa (1-2
+mg/kg/día) durante 3 a 5 días.
+El papel de la dexametasona en niños y el momento de su administración están por
+dilucidar. Extrapolando la dosis utilizada en el ensayo RECOVERY, podría utilizarse
+dexametasona 0,15 mg/kg cada 24 horas (máximo 6 mg/día) hasta un máximo de 10
+días. Siempre que sea posible debería ser empleada en el contexto de ensayos clínicos.
+
+5.3. Inmunoglobulinas intravenosas
+Se han empleado en casos graves pero su indicación y eficacia debe ser evaluada.
+Las dosis recomendadas son: 2 g/kg en dosis única, 1 g/kg/día en 2 días, o 400 mg/kg/día, 5
+días. Valorar cuidadosamente por el riesgo de sobrecarga de volumen. Estarían especialmente
+indicadas en el tratamiento del SIM-PedS.
+Efectos adversos: relacionados con una alta velocidad inicial de infusión, 5-15% de los casos:
+fiebre, escalofríos, cefalea, mialgias, náuseas, vómitos. Durante o hasta 1-2 días tras la infusión.
+Seguir el ritmo de infusión indicado según cada uno de los preparados comercializados.
+5.4. Anticoagulación
+Hasta la fecha, hay pocos casos pediátricos con COVID-19 que hayan desarrollado
+complicaciones tromboembólicas, por lo que parece que el riesgo en niños es menor que el
+observado en adultos. Se podría considerar individualmente la profilaxis con heparina de bajo
+peso molecular (enoxaparina) en caso de pacientes con factores de riesgo de trombosis (p.ej.,
+enfermedad oncológica activa, antecedentes familiares o personales de eventos
+tromboembólicos, obesidad…), en pacientes con disfunción severa de ventrículo izquierdo (FE <
+30%) o en pacientes graves con imposibilidad de deambulación, especialmente en niños
+mayores de 12 años y adolescentes. En caso de enfermedad tromboembólica cambiar a dosis
+de tratamiento, con ajuste de la dosis según los niveles de anti-Xa. En pacientes con profilaxis
+anticoagulante previa al ingreso, considerar cambiar a dosis de tratamiento anticoagulante.
+
+Edad
+<2 meses
+
+Dosis de enoxaparina
+Dosis de tratamiento
+Dosis de profilaxis
+1,5 mg/kg/dosis c/12h
+0,75 mg/kg/dosis c/12h
+
+≥2 meses
+
+1 mg/kg/dosis c/12h
+
+0,5 mg/kg/dosis c/12h o 1 mg/kg/dosis c/24h
+
+6. BIBLIOGRAFÍA
+Huang C, Wang Y, Li X, et al. Clinical features of patients infected with 2019 novel coronavirus in
+Wuhan, China. Lancet. January 2020:S0140-6736(20)30183-5.
+
+19
+
+Götzinger F, Santiago-García B, Noguera-Julián A, et al. COVID-19 in children and adolescents in
+Europe: a multinational, multicentre cohort study. Lancet Child Adolesc Health. 2020;4(9):653661. doi:10.1016/S2352-4642(20)30177-2
+Moraleda C, Serna-Pascual M, Soriano-Arandes A, et al. Multi-Inflammatory Syndrome in
+Children related to SARS-CoV-2 in Spain. Clin Infect Dis. 2020;ciaa1042.
+doi:10.1093/cid/ciaa1042
+Escosa-García L, Aguilera-Alonso D, Calvo C, Mellado MJ, Baquero-Artigao F. Ten key points
+about COVID-19 in children: the shadows on the wall. Pediatr Pulmonol.
+2020;10.1002/ppul.25025. doi:10.1002/ppul.25025
+Ministerio de Sanidad. Estrategia de detección precoz, vigilancia y control de COVID-19.
+Disponible en:
+https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCovChina/documentos/COVID19_Estrategia_vigilancia_y_control_e_indicadores.pdf
+Chiotos K, Hayes M, Kimberlin DW, et al. Multicenter initial guidance on use of antivirals for
+children with COVID-19/SARS-CoV-2. J Pediatric Infect Dis Soc. 2020;piaa045.
+doi:10.1093/jpids/piaa045
+Asociación Española de Pediatría (AEP). Consenso nacional sobre diagnóstico, estabilización y
+tratamiento del Síndrome Inflamatorio Multisistémico Pediátrico vinculado a SARS-CoV-2 (SIMPedS). Disponible en: https://www.aeped.es/noticias/consenso-nacional-sobre-diagnosticoestabilizacion-y-tratamiento-sindrome-inflamatorio
+Centers for Disease Control and Prevention. Interim Infection Prevention and Control
+Recommendations for Patients with Confirmed 2019 Novel Coronavirus (2019-nCoV) or Persons
+Under
+Investigation
+for
+2019-nCoV
+in
+Healthcare
+Settings.
+Disponible
+en: https://www.cdc.gov/coronavirus/2019-nCoV/hcp/infection-control.html.
+National Institutes of Health (NIH). Coronavirus Disease 2019 (COVID-19). Treatment
+Guidelines. Disponible en: https://www.covid19treatmentguidelines.nih.gov/.
+Hanson KE, Caliendo AM, Arias CA, et al. Infectious Diseases Society of America Guidelines on
+the Diagnosis of COVID-19. Disponible en: https://www.idsociety.org/practice-guideline/covid19-guideline-diagnostics/.
+Bhimraj A, Morgan RL, Shumaker AH. Infectious Diseases Society of America Guidelines on the
+Treatment
+and
+Management
+of
+Patients
+with
+COVID-19.
+Disponible
+en: https://www.idsociety.org/practice-guideline/covid-19-guideline-treatment-andmanagement/#toc-3
+Cavalcanti AB, Zampieri FG, Rosa RG, et al. Hydroxychloroquine with or without Azithromycin in
+Mild-to-Moderate Covid-19. N Engl J Med 2020.
+
+20
+
+RECOVERY Collaborative Group, Horby P, Mafham M, et al. Effect of Hydroxychloroquine in
+Hospitalized Patients with Covid-19. N Engl J Med. 2020;383(21):2030-2040.
+doi:10.1056/NEJMoa2022926
+Beigel JH, Tomashek KM, Dodd LE, et al. Remdesivir for the Treatment of Covid-19 - Final
+Report. N Engl J Med. 2020;383(19):1813-1826. doi:10.1056/NEJMoa2007764
+Wang Y, Zhang D, Du G, et al. Remdesivir in adults with severe COVID-19: a randomised,
+double-blind, placebo-controlled, multicentre trial. Lancet 2020; 395(10236): 1569-78.
+WHO Solidarity trial consortium, Hongchao Pan, Richard Peto, et al. Repurposed antiviral drugs
+for COVID-19 –interim WHO SOLIDARITY trial results. medRxiv 2020.10.15.20209817; doi:
+https://doi.org/10.1101/2020.10.15.20209817
+Goldman JD, Lye DCB, Hui DS, et al. Remdesivir for 5 or 10 Days in Patients with Severe Covid19. N Engl J Med 2020.
+Monagle P, Chan AK, Goldenberg NA, et al. Antithrombotic therapy in neonates and children:
+Antithrombotic Therapy and Prevention of Thrombosis, 9th ed: American College of Chest
+Physicians Evidence-Based Clinical Practice Guidelines. Chest 2012; 141:e737S.
+Loi M, Branchford B, Kim J, Self C, Nuss R. COVID-19 anticoagulation recommendations in
+children. Pediatr Blood Cancer. 2020;e28485. doi:10.1002/pbc.28485
+Horby P, Lim WS, Emberson J, et al. Effect of Dexamethasone in Hospitalized Patients with
+COVID-19: Preliminary Report. medRxiv 2020: 2020.06.22.20137273.
+Fernández-Cruz A, Ruiz-Antorán B, Muñoz-Gómez A, et al. A Retrospective Controlled Cohort
+Study of the Impact of Glucocorticoid Treatment in SARS-CoV-2 Infection Mortality. Antimicrob
+Agents Chemother. 2020;64(9):e01168-20. Published 2020 Aug 20. doi:10.1128/AAC.01168-20
+Martinez-Sanz J, Muriel A, Ron R, et al. Effects of Tocilizumab on Mortality in Hospitalized
+Patients with COVID-19: A Multicenter Cohort Study. medRxiv 2020.06.08.20125245; doi:
+https://doi.org/10.1101/2020.06.08.20125245
+Stone JH, Frigault MJ, Serling-Boyd NJ, et al. Efficacy of Tocilizumab in Patients Hospitalized
+with Covid-19. N Engl J Med. 2020;NEJMoa2028836. doi:10.1056/NEJMoa2028836
+Simonovich VA, Burgos Pratx LD, Scibona P, et al. A Randomized Trial of Convalescent Plasma
+in Covid-19 Severe Pneumonia. N Engl J Med. 2020;10.1056/NEJMoa2031304.
+doi:10.1056/NEJMoa2031304
+Parr JB. Time to Reassess Tocilizumab's Role in COVID-19. JAMA Intern Med.
+2020;10.1001/jamainternmed.2020.6557. doi:10.1001/jamainternmed.2020.6557
+
+21
+
+

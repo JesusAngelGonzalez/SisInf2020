@@ -1,0 +1,606 @@
+Recomendaciones para el manejo del recién nacido en
+relación con la infección por SARS-CoV-2.
+
+Versión 6.2
+Fecha 27/05/2020
+
+Este documento está siendo revisado y actualizado de forma continua en función de
+las evidencias que vayan surgiendo y en consonancia con el Ministerio de Sanidad.
+
+Sociedad Española de Neonatología. Mayo 2020
+
+CONTROL DE REVISIONES Y MODIFICACIONES
+Nº Revisión
+Fecha
+Descripción de modificaciones
+1
+06/03/2020
+Edición inicial
+2
+08/03/2020
+Se modifica el apartado de lactancia materna (pag. 8)
+Se modifica el criterio de caso descartado para casos en investigación hijos de madre
+positiva (pag 6)
+3
+12/03/2020
+Se modifica el régimen de alojamiento en casos confirmados con madre asintomática
+(pag 6)
+Se especifica régimen de alojamientos en casos de neonato asintomático y madre
+asintomática en investigación (pag. 8)
+Se especifica que no es necesario hacer PCR en neonatos asintomáticos si la PCR
+materna resulta negativa (pag 8)
+Se incluye como anexo 1 algoritmo de manejo de recién nacido de madre con sospecha
+de COVID-19. (pag 11)
+3.1
+12/03/2020
+Se añaden recomendaciones de la SIN en el apartado de lactancia materna (pag. 8)
+4.0
+15/03/2020
+Se podría permitir piel con piel si se garantizan medidas estrictas de aislamiento madrehijo (Pag. 7)
+Se especifica el tipo de alojamiento hospitalario para casos perinatales. (pag 8).
+Se contempla la posibilidad de continuar el aislamiento en domicilio en casos leves (pag.
+8)
+Se incluyen recomendaciones OMS para lactancia materna (pag. 9)
+Nuevo anexo 1 (pag. 11)
+4.1
+16/03/2020
+Se modifican recomendaciones sobre lactancia materna (pag. 9)
+4.2
+17/03/2020
+Se adaptan criterios de caso y de contacto estrecho a la actualización 15/03 del
+Ministerio (pag 4).
+Para RN sintomáticos se considera la necesidad de dos PCRs negativas para considerar
+caso descartado y retirar aislamiento. (pag 6)
+Se modifican los criterios de alta de caso confirmado (pag 7).
+Se modifica algoritmo (pag. 11)
+5.0
+20/03/2020
+Se amplían criterios de caso en investigación. (Pag. 4)
+Se añade una nueva opción al alojamiento individual durante el ingreso (Pag. 8)
+Se añade apartado de apoyo familiar (Pag. 10)
+Se añaden anexos 2 y 3 (Pag 14 y 15)
+Otros cambios menores
+6.0
+13/04/2020
+Se modifica la estructura del documento para mejor comprensión
+Se incluye un resumen operativo (Pag. 4)
+Se actualizan datos de publicaciones recientes sobre casos peri/neonatales (Pag. 5)
+Se actualizan los criterios de Caso descartado (Pag. 6)
+Se actualizan recomendaciones para hijo de madre COVID + (Pag. 7)
+Se actualizan recomendaciones para personal sanitario (Pag. 12)
+Se actualiza el Algoritmo 1
+6.1
+02/05/2020
+Se añade un comentario sobre la RCP de los hijos de madre COVID + (Pag. 7)
+Algoritmo 1: se amplía la explicación del manejo de RN de madre sintomática (Pag. 14)
+6.2
+25/05/2020
+Se agregan en la introducción comentarios sobre casos detectados de posible
+transmisión vertical (Pag 5 y 6)
+Se agregan comentarios sobre la detección de PCR viral en leche materna (pag 12)
+
+2
+
+Indice
+1. Resumen ............................................................................................................................................. 4
+2. Premisas basadas en los conocimientos actuales de esta infección ......................... 5
+3. Glosario ............................................................................................................................................... 6
+4. Definiciones de casos .................................................................................................................... 6
+5. Muestras recomendadas para el diagnóstico ..................................................................... 7
+6. Recomendaciones para el manejo perinatal del hijo/a de madre con sospecha de
+COVID-19. (Anexo 1) ............................................................................................................................. 7
+7. Recomendaciones para el manejo de Casos en Investigación Postnatales. .......... 9
+8. Recomendaciones para el manejo de Casos Confirmados Postnatales ................ 10
+9. Lactancia materna ....................................................................................................................... 11
+10. Apoyo familiar .............................................................................................................................. 13
+11. Transporte ...................................................................................................................................... 13
+12. Personal sanitario, medidas generales y medidas de desinfección ....................... 13
+13. Bibliografía: .................................................................................................................................... 14
+14. Anexos .............................................................................................................................................. 15
+Anexo 1. Algoritmo 1: recomendaciones para el manejo perinatal del RN de madre con sospecha
+de COVID-19. ......................................................................................................................................................................... 15
+Anexo 2. Soporte respiratorio en el RN con sospecha o infección confirmada por COVID-19. ....... 16
+Anexo 3. Transporte urgente del RN con sospecha o infección confirmada por COVID-19. ............ 17
+
+3
+
+1. Resumen
+1. No hay evidencia clara de transmisión vertical (antes, durante o tras el parto por
+lactancia materna) del SARS-CoV-2 si bien a todos los hijos de madre con COVID-19
+deben realizarse test virológicos y seguimiento clínico.
+2. Existe posibilidad de transmisión postnatal (lo más frecuente) vía respiratoria y/o
+de contacto.
+3. En las madres con COVID-19, se debe evitar la separación de su recién nacido tras el
+nacimiento, si bien la decisión de mantener el alojamiento conjunto, debe ser
+individualizada, teniendo en cuenta la situación clínica de la madre y el niño y la
+logística hospitalaria y manteniendo siempre medidas de aislamiento de contacto y
+gotas entre ambos.
+4. Se recomienda la lactancia materna desde el nacimiento, siempre que las
+condiciones clínicas del neonato y su madre así lo permitan.
+5. Los neonatos sintomáticos deben ser ingresados en las Unidades Neonatales con
+estrictas medidas de aislamiento, teniendo en cuenta que si existe la posibilidad de
+formación de aerosoles el personal debe protegerse de forma especial.
+6. Aunque todavía no se dispone de muchos datos los neonatos infectados no parecen
+mostrar formas graves de la enfermedad.
+7. No existe un tratamiento neonatal específico aprobado frente al SARS-CoV-2; las
+medidas a aplicar deben ser los tratamientos/cuidados sintomáticos habituales.
+8. Los criterios de alta dependerán de la clínica neonatal y los resultados de los test
+virológicos.
+9. En niños asintomáticos (tanto negativos como positivos) hijos de madre COVID-19
+positiva, se puede valorar el alta hospitalaria a partir de las 48 horas y continuar en
+régimen de aislamiento domiciliario bajo seguimiento telefónico/presencial.
+10. Tanto durante la hospitalización como tras el alta, es importante la información y
+apoyo familiar.
+
+4
+
+2. Premisas basadas en los conocimientos actuales de esta infección
+- No hay evidencia contrastada de transmisión vertical (antes, durante o tras el parto por
+lactancia materna) del SARS-CoV-2. Hasta ahora la mayoría de los neonatos analizados de
+hijos de madres infectadas en el tercer trimestre (no hay datos de otros trimestres), han
+sido negativos al nacimiento y en los pocos casos positivos (Kirtsman et. al; Groß et al), los
+propios autores los describen como posible transmisión. Otros casos reportados también
+como posible transmisión vertical, se basan en muestras tomadas a las 36 horas de vida,
+estando asintomático. (Wang S et al) o al segundo día de vida (Zeng L et al) y otros tres
+casos están basados en estudios serológicos (Ig M positiva) pero con test virológicos
+negativos (Zeng H et al).
+Recientemente, se han descrito dos casos en la literatura científica de positividad de PCR
+para SARS-CoV-2 en leche materna (Kirtsman et. al; Groß et al), si bien es necesario seguir
+investigando esta posible vía de transmisión vertical postnatal, y por tanto la evidencia
+actual junto con las indudables ventajas de la lactancia materna siguen aconsejando su
+mantenimiento.
+En nuestra experiencia con el Registro nacional COVID- SENeo y casi 500 binomios madrehijo analizados, los pocos los casos positivos encontrados, se trataban de falsos positivos o
+posible contagios postnatales (en prensa)
+- No está claro si la clínica presentada al nacimiento por los hijos de madres infectadas está
+relacionada con infección fetal, ya que los análisis virológicos realizados a los neonatos
+fueron negativos, si no más bien con la gravedad de la infección materna. En una de las
+publicaciones sobre el brote en China, que incluye 9 neonatos, 4 fueron prematuros tardíos,
+pero la prematuridad no fue achacable a la infección y todos los niños se mantuvieron
+asintomáticos. (Chen H. et al.). En el segundo estudio también de China, con 10 neonatos se
+describe prematuridad en 6 casos (5 de ellos con dificultad respiratoria al nacimiento y 2
+con trombopenia) y 4 casos a término uno asintomático y 3 con clínica leve y sin
+complicaciones. Falleció uno de los prematuros, 5 niños se fueron de alta sin problemas y 4
+seguían ingresados pero estables al momento de la publicación. (Zhu H et. al).
+
+5
+
+Por tanto, el conocimiento actual no apoya de forma concluyente la transmisión
+intrauterina del SARS-CoV-2, y los casos neonatales diagnosticados parecen más bien
+adquiridos postnatalmente vía respiratoria o de contacto.
+- El riesgo de transmisión horizontal (por gotas, de contacto o fecal-oral), a través
+habitualmente de un familiar próximo infectado, es igual que en la población general. Hasta
+ahora se han descrito varios casos cuyo síntoma principal fue fiebre en dos casos,
+acompañada en un caso de vómitos y en otro de tos. Fueron casos leves (unos de ellos
+asintomático). En una serie pediátrica de 2.143 casos (90% síntomas leves/moderados)
+comentan que los lactantes tuvieron más riesgo de presentar formas respiratorias mas
+graves (hipoxemia) y síntomas digestivos. (Dong Y et al.). En nuestra experiencia con el
+Registro Nacional COVID-SENeo que recoge 40 casos de adquisición postnatal, en general se
+trata de formas clínicas leves, los pocos casos más graves ocurrieron en niños con
+antecedentes de prematuridad o patologías de base. (en prensa)
+3. Glosario
+- SARS-CoV-2: nuevo coronavirus identificado en 2019 en Wuham (China).
+- COVID-19: enfermedad causada por el virus SARS-CoV-2
+4. Definiciones de casos
+•
+
+Caso en investigación:
+-
+
+Neonato hijo de una madre con infección confirmada por SARS-CoV-2.
+
+-
+
+Neonato con historia de contacto estrecho* con un caso probable o confirmado.
+
+-
+
+Neonato con fiebre y/o clínica respiratoria/digestiva aguda (caso en
+investigación sintomático).
+
+A efectos de la definición de caso, se clasifica como contacto estrecho*:
+- Cualquier persona que haya proporcionado cuidados mientras el caso presentaba síntomas: trabajadores
+sanitarios que no han utilizado las medidas de protección adecuadas, miembros familiares o personas que tengan
+otro tipo de contacto físico similar
+- Convivientes, familiares y personas que hayan estado en el mismo lugar que un caso mientras el caso presentaba
+síntomas a una distancia menor de 2 metros durante un tiempo de al menos 15 minutos.
+
+•
+
+Caso confirmado: caso que cumple criterio de laboratorio (PCR de screening positiva y
+PCR de confirmación en un gen alternativo al de screening también positiva). Se
+6
+
+enviarán al Centro Nacional de Microbiología (CNM) al menos las muestras de los
+pacientes confirmados con curso atípico de la enfermedad o de especial gravedad.
+•
+
+Caso probable: caso en investigación cuyos resultados de laboratorio para SARS-CoV-2
+no son concluyentes. Estos casos se enviarán al CNM para confirmación.
+
+•
+
+Caso descartado: caso en investigación cuyos resultados de laboratorio para SARS-CoV2 son negativos. En los casos en investigación hijos de madre con infección confirmada
+(alta sospecha) que son sintomáticos y precisan ingreso, para considerar un caso
+descartado y retirar las medidas de aislamiento se recomienda tener dos controles de
+PCR negativos (Primeras 24 horas y ≥48 h.). En el resto de casos en investigación, con
+una PCR negativa podría ser suficiente, si bien se han descrito en nuestro país hijos de
+madre COVID-19 asintomáticos, con una PCR inicial negativa y que en un control
+posterior durante el seguimiento, resultó positiva, por lo que si hay disponibilidad, se
+debe valorar repetir el test virológico a estos niños, en la primera/segunda semana de
+vida.
+
+5. Muestras recomendadas para el diagnóstico
+Muestras del tracto respiratorio*
+•
+
+Superior: exudado nasofaríngeo y/o orofaríngeo.
+
+•
+
+Inferior: preferentemente lavado broncoalveolar, y/o aspirado endotraqueal en
+pacientes con enfermedad respiratoria grave (intubados).
+
+*con una de ellas positiva sería suficiente
+
+Otras muestras:
+•
+
+Sangre, heces/exudado rectal y orina: se recogerán muestras para confirmar o
+descartar la excreción de virus por vías alternativas a la vía respiratoria.
+
+En los casos confirmados se recogerá:
+-Sueros: dos muestras de suero, la primera en la fase aguda y la segunda transcurridos 1430 días para confirmar la presencia de anticuerpos.
+6. Recomendaciones para el manejo perinatal del hijo/a de madre con sospecha de
+COVID-19. (Anexo 1)
+- Es importante una fluida comunicación con el equipo de obstetricia para preparar de
+forma adecuada la actuación en el paritorio/quirófano y el transporte del neonato si fuera
+preciso.
+7
+
+- Las medidas de estabilización, soporte a la transición y reanimación (en caso necesario) en
+paritorio a RN hijos de madre COVID + o sospechosas, no difiere de la secuencia y normas
+establecidas por el Grupo de Reanimación neonatal de la SENeo, salvo las medidas de
+aislamiento y protección del RN y del personal sanitario que atiende al nacimiento, ya
+descritas en este documento.
+- Si la situación clínica materna es buena y se puede garantizar un adecuado aislamiento
+entre madre-hijo (mascarilla, higiene de manos), se podría valorar la realización del
+clampaje tardío de cordón y contacto piel con piel tras el nacimiento. Si bien a día de hoy y
+ante la falta de evidencia de transmisión vertical, seguimos recomendando valorar en cada
+caso los pros y contras de estas medidas.
+- En caso de madres en investigación, si se descarta COVID-19 en la madre, no es preciso
+hacer estudio virológico al neonato.
+- En madres con COVID-19 confirmada, se tomarán muestras virológicas al recién nacido
+(ver apartado 5) y dependiendo de este resultado el neonato, se clasificará como caso
+confirmado o caso descartado (ver apartado 4).
+Régimen de alojamiento y alta hospitalaria
+A. Recién nacido asintomático:
+- En madres pauci o asintomáticas con infección confirmada o en investigación
+recomendamos, siempre que sea posible, el alojamiento conjunto en régimen de
+aislamiento de contacto y gotas entre madre e hijo (higiene de manos, mascarilla facial y
+cuna separada a 2 m. de la cama de la madre) y evitar la separación de la madre de su recién
+nacido.
+
+Ver
+
+díptico
+
+informativo
+
+disponible
+
+(https://www.seneo.es/images/site/noticias/home/DIPTICO_COVID19_.pdf).
+
+en
+
+nuestra
+
+web
+
+Si bien la decisión de
+
+separar o no a la madre de su hijo/a recién nacido debe ser individualizada, teniendo en
+cuenta la decisión informada de la madre, la logística hospitalaria y la situación
+epidemiológica de la pandemia.
+En estos niños en situación de alojamiento conjunto, se hará seguimiento clínico y
+monitorización básica. La duración de la estancia hospitalaria, dependerá de los resultados
+virológicos y las recomendaciones del servicio de vigilancia epidemiológica del hospital.
+Según estas premisas, tanto en los neonatos positivos como negativos, se puede valorar el
+8
+
+alta hospitalaria a partir de las 48 h. de vida y continuar en régimen de aislamiento
+domiciliario bajo seguimiento telefónico/presencial por un profesional sanitario cualificado,
+en un periodo aproximado de dos/tres semanas tras el alta.
+En aquellos centros dónde no se pueda realizar alojamiento conjunto, se ingresarán
+aislados (hasta resultado del test) y con monitorización y cuidados básicos, facilitando el
+mantenimiento de la alimentación con leche materna.
+- En madres sintomáticas con infección confirmada o en investigación el neonato tendrá
+que ser ingresado aislado y separado de su madre sólo cuando las condiciones clínicas de
+esta así lo recomienden. La duración de las medidas de aislamiento y separación madre-hijo,
+se deberán analizar de forma individual en relación con los resultados virológicos del niño y
+de la madre, las condiciones clínicas de ambos y siempre según las recomendaciones del
+equipo de vigilancia epidemiológica del hospital.
+B. Recién nacido sintomático:
+- Estos neonatos deben ser ingresados en Neonatología y manejados según se indica en el
+Algoritmo 1.
+7. Recomendaciones para el manejo de Casos en Investigación Postnatales.
+Caso asintomático
+- Ingreso en una habitación individual1 con medidas de aislamiento de contacto y por gotas
+(recomendable uso de incubadora).
+- Monitorización de constantes y vigilancia clínica.
+- En cuanto a la alimentación (ver apartado de lactancia materna).
+- Se tomarán muestras virológicas (ver muestras recomendadas para el diagnóstico). Se
+valorará hacer hemograma y Proteína C Reactiva.
+- Se limitarán las visitas a excepción de la madre/padre o cuidador principal y siempre que
+estén libres de enfermedad COVID-19. Utilizarán medidas de aislamiento por contacto y
+gotas para el acceso a la habitación.
+- Si el test para SARS-CoV-2 resulta negativo y se descarta la infección, se puede suspender
+el aislamiento (casos nosocomiales) o ser dado de alta con cuidados rutinarios (medidas de
+aislamiento en domicilio si el contacto es un conviviente).
+Caso sintomático
+9
+
+- Ingreso en una habitación individual1 con medidas de aislamiento de contacto y por gotas
+(recomendable el uso de incubadora).
+- Monitorización de constantes (FC, FR, Tª, TA y Sat. O2) y vigilancia clínica.
+- En cuanto a la alimentación (ver apartado de lactancia materna)
+- Se tomarán muestras virológicas (ver muestras recomendadas para el diagnóstico) y los
+controles analíticos que se consideren. Se valorará la realización de estudios de imagen
+especialmente radiografía y/o ecografía de tórax.
+- El manejo clínico no difiere del de cualquier neonato con la misma sintomatología,
+aplicando las medidas de soporte que precise.
+- Se limitarán las visitas a excepción de la madre/padre o cuidador principal y siempre que
+estén libres de enfermedad COVID-19. Utilizarán medidas de aislamiento por contacto y
+gotas para el acceso a la habitación.
+- Si se descarta la infección por SARS-CoV-2, el alta domiciliaria se adaptará a los criterios
+clínicos habituales.
+8. Recomendaciones para el manejo de Casos Confirmados Postnatales
+Caso asintomático:
+- Ingreso separado del contacto infeccioso en una habitación individual1 con medidas de
+aislamiento de contacto y por gotas (recomendable el uso de incubadora).
+- Monitorización de constantes y vigilancia clínica.
+- En cuanto a la alimentación (ver apartado de lactancia materna)
+- Se realizarán los controles analíticos que se consideren. Se valorará la realización de
+estudios de imagen especialmente radiografía y/o ecografía de tórax.
+- Se limitarán las visitas a excepción de la madre/padre o cuidador principal y siempre que
+estén libres de enfermedad COVID-19. Utilizarán medidas de aislamiento por contacto y
+gotas para el acceso a la habitación.
+Caso sintomático:
+- Ingreso separado del contacto infeccioso en una habitación individual1 con medidas de
+aislamiento de contacto y por gotas (recomendable el uso de incubadora).
+- Monitorización de constantes (FC, FR, Tª, TA y Sat. O2) y vigilancia clínica.
+- En cuanto a la alimentación (ver apartado de lactancia materna)
+10
+
+- Se realizarán los controles analíticos que se consideren, incluyendo siempre hemograma,
+Proteína C Reactiva, pruebas de función renal, hepática y biomarcadores cardíacos. Se
+valorará la realización de estudios de imagen especialmente radiografía y/o ecografía de
+tórax.
+- El manejo clínico no difiere del de cualquier neonato con la misma sintomatología,
+aplicando las medidas de soporte que precise. En casos de distrés respiratorio agudo grave,
+se valorará el uso de surfactante a dosis habituales, ventilación de alta frecuencia y/o óxido
+nítrico inhalado.
+- A día de hoy no existe tratamiento neonatal específico aprobado frente al SARS-CoV-2. Se
+recomienda evitar el uso inapropiado de antibioterapia, limitándose a los casos de
+sobreinfección bacteriana confirmada.
+- Se limitarán las visitas a excepción de la madre/padre o cuidador principal y siempre que
+estén libres de enfermedad COVID-19. Utilizarán medidas de aislamiento por contacto y
+gotas para el acceso a la habitación.
+1deben
+
+existir habitaciones separadas para los casos en investigación y confirmados. En los casos confirmados,
+
+especialmente si hay riesgo de producción de aerosoles se recomienda habitaciones con presión negativa.
+Estas habitaciones pueden tener equipamiento de cuidados intermedios o intensivos según las necesidades
+del paciente.
+
+Criterios de alta de un caso confirmado
+- Casos asintomáticos: PCR negativa en exudado nasofaríngeo.
+- Casos leves: ausencia de fiebre en los 3 días previos, mejoría clínica y PCR negativa en
+exudado nasofaríngeo.
+- Casos graves: ausencia de fiebre en los 3 días previos, mejoría clínica y de la radiografía
+pulmonar y PCR (vía aérea superior e inferior) negativa.
+Es muy recomendable realizar un seguimiento clínico tras el alta, de los casos
+confirmados, en un periodo de tiempo aproximado de dos semanas. Este seguimiento puede
+realizarse de forma no presencial (seguimiento telefónico).
+9. Lactancia materna
+− Aún no existiendo datos suficientes para hacer una recomendación en firme sobre el
+amamantamiento en el caso de mujeres con COVID-19, es importante insistir en que la
+lactancia materna otorga muchos beneficios además del potencial paso de anticuerpos
+madre-hijo frente al SARS-CoV-2, por ello y ante la evidencia actual la SENeo
+11
+
+recomienda el mantenimiento de la lactancia materna desde el nacimiento, siempre que
+las condiciones clínicas del neonato y su madre así lo permitan.
+− Recientemente se han descrito en dos madres con positividad de PCR para SARS-CoV-2
+en muestras de leche materna extraídas con medidas seguras que evitan el contagio de
+la leche tras su extracción. En un caso la positividad ocurrió a los 10, 12 y 13 días
+postparto y el recién nacido resultó positivo a partir del décimo día, siendo los síntomas
+leves y transitorios. Los autores no pueden confirmar que la ruta de infección fuese la
+lactancia o por otra ruta desde su madre infectada (Groß et al). El segundo caso se
+describe positividad de PCR para SARS-CoV-2 en muestras de leche materna al segundo
+día tras el nacimiento, sin embargo la clínica del recién nacido fue tras el nacimiento
+prematuro cursando también de forma leve y transitoria (Kirtsman et al). Sin embargo
+en el momento actual es prudente seguir fomentando y recomendando la lactancia
+materna ante las indudables ventajas de la misma hasta que no se demuestre una
+evidencia mejor sobre el riesgo de contagio postnatal.
+− La Sociedad Italiana de Neonatología y la UENPS para los casos de madres positivas o en
+investigación pauci o asintomáticas en alojamiento conjunto con el recién nacido,
+recomienda el amamantamiento con medidas de aislamiento de contacto y gotas.
+− La OMS, UNICEF y la Academy of Breastfeeding Medicine entre otros, recomiendan
+mantener el amamantamiento tanto para casos de madres positivas como en
+investigación, siguiendo medidas de control de la infección; en casos de madres con
+enfermedad grave recurrir a la extracción de la leche.
+− Los CDC consideran como primera opción manejar a la madre y al neonato por separado
+y alimentar al bebe con leche materna extraída. En caso de que se haga alojamiento
+conjunto y amamantamiento mantener medidas estrictas de aislamiento de contacto.
+− Para los casos de madres lactantes fuera del periodo postnatal inmediato y que se
+infectan o hay sospecha de infección por el SARS-CoV-2 recomiendan extremar las
+medidas de aislamiento (higiene de manos y mascarilla facial) y seguir amamantando o
+bien hacer una extracción de la leche tomando las máximas precauciones de aislamiento
+(higiene de manos y mascarilla) y que ésta sea administrada al neonato por un cuidador
+sano.
+− No es preciso pasteurizar la leche extraída antes de administrarla al neonato.
+12
+
+− En prematuros ingresados hijos de madre COVID-19, se debe utilizar leche de banco,
+siempre que no se pueda garantizar el uso seguro de leche de su propia madre (contagio
+de profesionales implicados en el manejo de la leche) .
+− Estas recomendaciones pueden ir variando de día en día de acuerdo con las
+instrucciones que las autoridades sanitarias vayan concretando.
+10. Apoyo familiar
+Durante la hospitalización y tras el alta además de exponer de forma detallada toda la
+normativa de aislamiento, es recomendable realizar explicación exhaustiva de las normas
+de higiene personal y del Recién Nacido expuesto y apoyo emocional a la familia. Ver díptico
+informativo en nuestra web (https://www.seneo.es/images/site/noticias/home/DIPTICO_COVID19_.pdf).
+11. Transporte
+El transporte del neonato tanto intra como interhospitalario se hará en incubadora
+de transporte y el personal sanitario encargado del mismo, seguirá les medidas de
+aislamiento recomendadas en el Documento técnico para el Manejo clínico de pacientes con
+enfermedad por el nuevo coronavirus (COVID-19).
+12. Personal sanitario, medidas generales y medidas de desinfección
+- Las medidas de aislamiento del personal sanitario son las mimas que se recomiendan en el
+Documento técnico del Ministerio, con especial énfasis en las intervenciones que pueden
+producir aerosoles (ventilación manual, intubación, ventilación no invasiva), especialmente
+en el paritorio/quirófano y en los pacientes que precisen ventilación mecánica.
+- Dada la posibilidad de necesitar practicar medidas de reanimación neonatal en el paritorio
+y la existencia de gestantes portadoras asintomáticas, sería muy recomendable conocer el
+estado de la mujer frente al COVID-19 antes del parto.
+- En general se recomienda restringir lo más posible el personal sanitario que atiende a
+estos neonatos para reducir el riesgo de transmisión.
+- Se recomienda de forma general limitar las visitas a las Unidades neonatales y a las zonas
+de maternidad, restringiéndolas a los progenitores.
+- Así mismo las medidas de desinfección de espacios y material son genéricas de acuerdo a
+los protocolos del hospital para estos casos. Insistiendo en la gran importancia de la
+desinfección de superficies (especialmente incubadoras).
+13
+
+13. Bibliografía:
+-
+
+-
+
+-
+
+-
+
+Documentos técnicos del Ministerio de Sanidad:
+https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov-China/documentos.htm
+Davanzo R, Moro G, Sandri F, et al. Breastfeeding and Coronavirus Disease-2019. Ad interim indications of the Italian Society of
+Neonatology endorsed by the Union of European Neonatal & Perinatal Societies. Maternal & Child Nutrition. doi:
+10.1111/mcn.13010
+Puopolo K, Hudak ML, Kimberlin D et al. Management of Infants Born to Mothers with COVID-19 Date of Document: April 2,
+2020. AAP.
+Wang L, Shi Y, Xiao T, et al. Chinese expert consensus on the perinatal and neonatal management for the prevention and
+control of the 2019 novel coronavirus infection (First edition) Ann Transl Med 2020;8(3):47-55
+Chen H, Guo J, Wang C, Luo F, Yu X, Zhang W, et al. Clinical characteristics and intrauterine vertical transmission potential of
+COVID-19 infection in nine pregnant women: a retrospective review of medical records. Lancet 2020; DOI: 10.1016/S01406736(20)30360-3.
+Zhu H, Wang L, FangCh et al. Clinical analysis of 10 neonates born to mothers with 2019-nCoV pneumonia. Transl Pediatr
+2020;9(1):51-60. DOI: 10.21037/tp.2020.02.06
+Zaigham, M, Andersson, Ola. Maternal and Perinatal Outcomes with COVID-19: a systematic review of 108 pregnancies. Acta
+Obstet et Gynecol Sacan 2020. DOI: 10.1111/aogs.13867
+Favre G. et al. Guidelines for pregnant women with suspected SARS-CoV-2 infection. Lancet; March 03, 2020. DOI:
+10.1016/S1473-3099(20)30157-2
+Qi Lu, Yuan Shi. Coronavirus disease (COVID-19) and neonate: What neonatologist need to know. DOI: 10.1002/jmv.25740
+Wang S, Guo L, Chen L et al. A case report of neonatal COVID-19 infection in China. Clin Infect Dis 2020. Doi:
+10.1093/cid/ciaa225
+Zeng L Xia S, Yuan W et al. Neonatal Early-Onset Infection With SARS-CoV-2 in 33 Neonates Born to Mothers With COVID-19 in
+Wuhan, China. JAMA Pediatrics 2020; 23 (77): E1-E3
+Zeng H, Xu C, Fan J, et al. Antibodies in Infants Born to Mothers With COVID-19 Pneumonia. JAMA. Published online March 26,
+2020. DOI: 10.1001/jama.2020.4861
+CaiJiehao, Xu Jing, Lin Daojiong et al. A Case Series of children with 2019 novel coronavirus infection: clinical and epidemiological
+features. Clinical Infectious Diseases, ciaa 198. DOI: 10.1093/cid/ciaa198
+Interim Guidance on Breastfeeding for a Mother Confirmed or Under Investigation For COVID-19. CDC. Consultado 06/03/2020:
+https://www.cdc.gov/coronavirus/2019-ncov/specific-groups/pregnancy-guidance-breastfeeding.html
+Sociedad Italiana de Neonatología. Allattamento e infezione da SARS-CoV-2 (Coronavirus Disease 2019 - COVID-19).
+Clinical management of severe acute respiratory infection (SARI) when COVID-19 disease is suspected Interim guidance (versión
+1.2) WHO. https://www.who.int/docs/default-source/coronaviruse/clinical-management-of-novelcov.pdf?sfvrsn=bc7da517_10&download=true
+Dong Y et al. Epidemiological Characteristics of 2143 Pediatric Patients With 2019 Coronavirus Disease in China. Pediatrics 2020.
+DOI: 10.1542/peds.2020-0702
+Van Doremalen N. Et al. Aerosol and Surface Stability of SARS-CoV-2 as Compared with SARS-CoV-1. NEJM 2020. DOI:
+10.1056/NEJMc2004973
+Kirtsman et al. Probable congenital SARS-CoV-2 infection in a neonate born to a woman with active SARS-CoV-2 infection. DOI:
+10.1503/cmaj.200821
+Groß et al. Detection of SARS-CoV-2 in human breastmilk. The Lancet. DOI: 10.1016/S0140-6736(20)31181-8
+
+Nota: Está disponible en la web de la SENeo un apartado más amplio de Bibliografía que
+mantenemos actualizado semanalmente. https://www.seneo.es/index.php/bibliografia-covid-seneo
+
+14
+
+14. Anexos
+Anexo 1. Algoritmo 1: recomendaciones para el manejo perinatal del recién nacido de madre
+con sospecha de COVID-19.
+
+15
+
+Anexo 2. Soporte respiratorio en el recién nacido con sospecha o infección confirmada por
+COVID-19.
+Normas Generales
+- Se evitará la ventilación manual con mascarilla y bolsa autoinflable, si se precisa es preferible el uso
+del respirador manual con pieza en T.
+- En ambos dispositivos se utilizará un filtro antimicrobiano de alta eficiencia entre el dispositivo y la
+mascarilla. Se ventilará con un sellado adecuado que evite fugas.
+- El transporte del RN con soporte ventilatorio se realizará en incubadora cerrada, con equipo de
+ventilación adecuado y sistemas de filtro según lo indicado anteriormente. Las normas del transporte
+y las del personal asistencial serán la indicadas por el Ministerio de Sanidad y el Protocolo propio de
+cada centro.
+- Si el RN requiere tratamiento ventilatorio en la UCIN se procederá al aislamiento según pautas del
+Ministerio aplicadas en cada centro. Preferiblemente en habitaciones con presión negativa con las
+siguientes recomendaciones:
+Ventilación no invasiva (VNI)
+- Se utilizará preferentemente VNI con doble tubuladura (sistema cerrado) con filtro
+antimicrobiano de alta eficacia en ambas ramas, evitando sistemas con tubos al aire.
+- Es importante la elección de la interfase que logre un sellado adecuado para evitar fugas.
+Ventilación invasiva
+- Si es necesaria la intubación endotraqueal, se recomienda que sea llevada a cabo por el
+profesional disponible más experimentado en el manejo de la vía aérea con las medidas de
+protección recomendadas por el Ministerio). Evitar en lo posible la ventilación manual antes de
+la intubación. Si fuera necesario, se realizará un correcto sellado de la mascarilla para evitar
+fugas. Uso de bolsa de anestesia con filtro antimicrobiano en rama espiratoria. (Figura 1)
+- Para el circuito de ventilación mecánica, se emplearán dos filtros antimicrobianos de alta
+eficiencia en ramas inspiratoria y espiratoria. (Figura 2). Vigilar posible condensación en el filtro
+espiratorio (aire húmedo y caliente) que obligará a su sustitución.
+- Se minimizará la aspiración de secreciones que se realizará con sistemas de aspiración cerrado.
+- El personal presente durante el uso de los dispositivos de ventilación realizará la asistencia con
+los equipos de protección individual recomendados, siguiendo las normas de colocación y
+retirada establecidas.
+- El personal expuesto debe ser el mínimo imprescindible.
+
+16
+
+Anexo 3. Transporte urgente del recién nacido con sospecha o infección confirmada por COVID19.
+•
+•
+•
+•
+
+•
+•
+
+•
+
+El transporte del paciente se realizará en una ambulancia con la cabina del conductor
+físicamente separada del área de transporte del paciente.
+El personal que intervenga en el transporte deberá ser informado previamente y deberá utilizar
+equipo de protección individual adecuado.
+Como norma general, se deberían evitar los procedimientos que puedan generar aerosoles
+(Aerosolterapia y nebulización, Aspiraciones de secreciones respiratorias, ventilación manual)
+En el caso de que precise soporte respiratorio se priorizará la ventilación invasiva, o en el caso de
+no invasiva se administrará con equipos de doble tubuladura y filtros de alta eficiencia, con el fin
+de evitar la aerosolización.
+Para el circuito del respirador de transporte se utilizarán filtros de alta eficiencia que se
+colocarán en las salidas de las ramas inspiratoria y espiratoria.
+Una vez finalizado el transporte se procederá inmediatamente a la desinfección del vehículo y a
+la gestión de los residuos producidos. La incubadora de transporte se limpiará con los productos
+desinfectantes habituales.
+La ropa de cama, de uso del recién nacido, así como el sistema de retención, se deberán colocar
+en una bolsa de uso exclusivo para este paciente, que se cerrará y enviará a lavar. El resto de
+residuos generados se desecharán a un contenedor de residuos tipo III.
+
+Figura 1.
+
+Figura 2.
+
+17
+
+
